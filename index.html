@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hack Tracker: Confirmed Hacks vs. Speculated Outages</title>
+<meta name="description" content="A plain-English tracker of recent hacking incidents: confirmed breaches and attacks, and big outages people suspected were hacks.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>HACK<span class="accent">TRACKER</span></div>
+    <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
+    <p class="updated">Last updated: <span id="updated">-</span></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="definition">
+    <h2>What counts as hacking</h2>
+    <blockquote>Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system.</blockquote>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="confirmed" role="tab">Confirmed Hacks <span class="count" id="c-confirmed"></span></button>
+    <button class="tab" data-tab="speculated" role="tab">Speculated / Potential Hacks <span class="count" id="c-speculated"></span></button>
+  </nav>
+
+  <p class="tabnote" id="tabnote"></p>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search company, agency, keyword..." aria-label="Search">
+    <select id="sector" aria-label="Filter by sector"><option value="">All sectors</option></select>
+    <select id="sev" aria-label="Filter by severity">
+      <option value="">All severities</option>
+      <option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+    </select>
+  </div>
+
+  <div id="list" class="list"></div>
+  <p id="empty" class="empty" hidden>No matches. Try a different search or filter.</p>
+
+  <section class="disclaimer">
+    <h2>Read this first</h2>
+    <ul>
+      <li><b>Speculated / Potential Hacks</b> are outages or incidents where the public wondered about a hack. They are <b>not confirmed hacks</b>. Each one shows what the organization or investigators officially said.</li>
+      <li><b>Confirmed Hacks</b> were confirmed by the affected organization, a government agency, or law enforcement. Numbers come from those statements, filings, or the linked reporting. Attacker claims are labeled as claims.</li>
+      <li>Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score.</li>
+      <li>Covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap foot">Hack Tracker · Updated <span id="updated2">-</span> · Sources linked on every entry</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,553 @@
+{
+  "lastUpdated": "2026-11-17",
+  "speculated": [
+    {
+      "org": "FAA: nationwide ground stop",
+      "date": "2026-11-13",
+      "sectors": ["Aviation", "Government"],
+      "severity": "Critical",
+      "summary": "The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.",
+      "speculation": "A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before.",
+      "official": "The FAA says it has \"no indication that this was a cyberattack or an outside nefarious actor.\" Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage.",
+      "impact": "Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure).",
+      "status": "No evidence of a hack. Root-cause investigation ongoing.",
+      "sources": [
+        {"name": "FAA: Nationwide Ground Stop Q&A", "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"},
+        {"name": "SecurityWeek", "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/"},
+        {"name": "AP News", "url": "https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b"}
+      ]
+    },
+    {
+      "org": "Microsoft 365 / Outlook global outage",
+      "date": "2026-11-12",
+      "sectors": ["Tech"],
+      "severity": "Critical",
+      "summary": "Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked.",
+      "speculation": "A cyberattack on Microsoft's cloud.",
+      "official": "Microsoft's preliminary post-incident report calls it \"a technical issue not related to cyber or AI/agents\": a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers.",
+      "impact": "At the worst point more than 80% of the affected gateway servers stopped responding; it took nearly 24 hours to stabilize email.",
+      "status": "Official cause published. Not a hack.",
+      "sources": [
+        {"name": "Ars Technica", "url": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/"},
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"},
+        {"name": "USA Today", "url": "https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/"}
+      ]
+    },
+    {
+      "org": "CrowdStrike / Windows global IT outage",
+      "date": "2024-07-19",
+      "sectors": ["Tech", "Aviation"],
+      "severity": "Critical",
+      "summary": "A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.",
+      "speculation": "A global cyberattack.",
+      "official": "CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash.",
+      "impact": "About 8.5 million Windows devices (Microsoft estimate).",
+      "status": "Official cause published. Not a hack. (Older event, still widely referenced.)",
+      "sources": [
+        {"name": "CrowdStrike technical details", "url": "https://www.crowdstrike.com/en-us/blog/falcon-update-for-windows-hosts-technical-details/"},
+        {"name": "Microsoft", "url": "https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/"}
+      ]
+    },
+    {
+      "org": "Amazon Web Services (US-EAST-1)",
+      "date": "2025-10-20",
+      "sectors": ["Tech"],
+      "severity": "Critical",
+      "summary": "A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.",
+      "speculation": "A cyberattack or DNS hijacking.",
+      "official": "AWS traced it to a hidden race condition in DynamoDB's automated DNS management that left a key DNS record empty. There was no sign of malicious activity.",
+      "impact": "Widespread disruption to sites and apps that rely on AWS.",
+      "status": "Official cause published. Not a hack.",
+      "sources": [
+        {"name": "BBC News", "url": "https://www.bbc.com/news/articles/cev1en9077ro"},
+        {"name": "WIRED", "url": "https://www.wired.com/story/what-that-huge-aws-outage-reveals-about-the-internet/"}
+      ]
+    },
+    {
+      "org": "Spain & Portugal blackout",
+      "date": "2025-04-28",
+      "sectors": ["Energy", "Government"],
+      "severity": "Critical",
+      "summary": "Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.",
+      "speculation": "A cyberattack on the power grid.",
+      "official": "Spain's government report (June 2025) and the European grid operators' expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections.",
+      "impact": "Power cut across the Iberian Peninsula.",
+      "status": "Official reports published. No cyberattack found. (Older event, final report in 2026.)",
+      "sources": [
+        {"name": "The Guardian", "url": "https://www.theguardian.com/world/2025/jun/17/expert-report-rules-out-cyber-attack-for-spain-and-portugal-april-blackout"},
+        {"name": "ENTSO-E final report", "url": "https://www.entsoe.eu/news/2026/03/20/entso-e-publishes-expert-panel-final-report-on-28-april-2025-blackout-in-spain-and-portugal/"}
+      ]
+    },
+    {
+      "org": "Cloudflare global outage",
+      "date": "2025-11-18",
+      "sectors": ["Tech"],
+      "severity": "High",
+      "summary": "Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack.",
+      "speculation": "A huge DDoS (traffic-flood) attack.",
+      "official": "Cloudflare's postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software.",
+      "impact": "Errors on a large share of websites using Cloudflare for several hours.",
+      "status": "Official cause published. Not a hack.",
+      "sources": [
+        {"name": "Cloudflare postmortem", "url": "https://blog.cloudflare.com/18-november-2025-outage/"},
+        {"name": "Ars Technica", "url": "https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/"}
+      ]
+    },
+    {
+      "org": "JPMorgan Chase online banking",
+      "date": "2026-11-16",
+      "sectors": ["Finance"],
+      "severity": "High",
+      "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack.",
+      "speculation": "A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.",
+      "official": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack.",
+      "impact": "Delayed transactions and online banking problems; some other banks affected when dealing with Chase.",
+      "status": "Company explanation given. No evidence of a hack.",
+      "sources": [
+        {"name": "POLITICO", "url": "https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"},
+        {"name": "AP News", "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e"}
+      ]
+    },
+    {
+      "org": "Verizon nationwide wireless outage",
+      "date": "2026-01-14",
+      "sectors": ["Telecom"],
+      "severity": "High",
+      "summary": "Verizon customers across the U.S. lost wireless service for hours.",
+      "speculation": "A cyberattack on the phone network.",
+      "official": "Verizon blamed a \"software issue\"; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit.",
+      "impact": "Hours-long loss of service for customers nationwide.",
+      "status": "Company explanation given. No evidence of a hack.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/"},
+        {"name": "Reuters", "url": "https://www.reuters.com/business/media-telecom/verizon-offers-20-credit-customers-affected-by-massive-wireless-outage-2026-01-15/"}
+      ]
+    },
+    {
+      "org": "NSA classified network (NSANet)",
+      "date": "2026-11-17",
+      "sectors": ["Government"],
+      "severity": "High",
+      "summary": "The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages.",
+      "speculation": "An attack on a U.S. intelligence network.",
+      "official": "The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack.",
+      "impact": "Temporary loss of the agency's internal classified communications network.",
+      "status": "Official explanation given. No evidence of a hack.",
+      "sources": [
+        {"name": "NSA statement", "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"},
+        {"name": "CBS News", "url": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/"},
+        {"name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"}
+      ]
+    },
+    {
+      "org": "Starlink global outage",
+      "date": "2025-07-24",
+      "sectors": ["Telecom", "Tech"],
+      "severity": "High",
+      "summary": "SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack.",
+      "speculation": "A cyberattack on the satellite network.",
+      "official": "SpaceX said a failed software upgrade to its ground-based network systems caused the outage.",
+      "impact": "Global loss of Starlink service for hours.",
+      "status": "Company explanation given. Not a hack.",
+      "sources": [
+        {"name": "Reuters", "url": "https://www.reuters.com/technology/spacex-probes-cause-starlinks-global-satellite-network-outage-2025-07-25/"},
+        {"name": "PCMag", "url": "https://me.pcmag.com/en/networking/31409/spacex-traces-starlink-outage-to-network-upgrade"}
+      ]
+    },
+    {
+      "org": "United Airlines system outage",
+      "date": "2026-11-16",
+      "sectors": ["Aviation"],
+      "severity": "Medium",
+      "summary": "Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff.",
+      "speculation": "Another attack on U.S. aviation, linked to the FAA ground stop.",
+      "official": "United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop.",
+      "impact": "Delays to hundreds of departures.",
+      "status": "No root cause published. No evidence of a hack.",
+      "sources": [
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"},
+        {"name": "AP News", "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff"},
+        {"name": "CNA", "url": "https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946"}
+      ]
+    },
+    {
+      "org": "American Airlines nationwide ground stop",
+      "date": "2026-07-28",
+      "sectors": ["Aviation"],
+      "severity": "Medium",
+      "summary": "The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.",
+      "speculation": "A cyberattack, possibly part of a wider campaign that week.",
+      "official": "American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack.",
+      "impact": "Nationwide departure halt of roughly 45 minutes, with delays after.",
+      "status": "No root cause published. No evidence of a hack.",
+      "sources": [
+        {"name": "Reuters", "url": "https://www.reuters.com/world/faa-issues-american-airlines-nationwide-ground-stop-over-it-outage-2026-07-28/"},
+        {"name": "RVA Cyber analysis", "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"}
+      ]
+    },
+    {
+      "org": "Xbox sign-in and game library outage",
+      "date": "2026-07-26",
+      "sectors": ["Gaming", "Tech"],
+      "severity": "Medium",
+      "summary": "Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks.",
+      "speculation": "An attack on Microsoft's gaming network during a cluster of outages.",
+      "official": "Microsoft's Xbox CTO said a licensing service that Xbox depends on began failing.",
+      "impact": "Sign-in, purchase and game launch failures from late July 26 into July 27.",
+      "status": "Company explanation given. Not attributed to a hack.",
+      "sources": [
+        {"name": "RVA Cyber analysis", "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"}
+      ]
+    },
+    {
+      "org": "PlayStation Network outage",
+      "date": "2026-07-24",
+      "sectors": ["Gaming"],
+      "severity": "Low",
+      "summary": "PlayStation Network accounts, gaming, the store and other features were down for about five hours.",
+      "speculation": "A hack of Sony's network.",
+      "official": "Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm.",
+      "impact": "About five hours of disruption across PSN services.",
+      "status": "Cause not disclosed. No public evidence of a hack.",
+      "sources": [
+        {"name": "RVA Cyber analysis", "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"}
+      ]
+    }
+  ],
+  "confirmed": [
+    {
+      "org": "Binance (crypto exchange)",
+      "date": "2026-10-29",
+      "sectors": ["Finance", "Crypto"],
+      "severity": "Critical",
+      "summary": "Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group.",
+      "impact": "About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals.",
+      "status": "Confirmed by Binance. Losses covered.",
+      "sources": [
+        {"name": "Binance announcement", "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"},
+        {"name": "Chainalysis", "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"}
+      ]
+    },
+    {
+      "org": "Instructure (Canvas learning platform)",
+      "date": "2026-05-01",
+      "dateLabel": "May 2026",
+      "sectors": ["Education", "Tech"],
+      "severity": "Critical",
+      "summary": "The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.",
+      "impact": "Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff.",
+      "status": "Confirmed by Instructure.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/"},
+        {"name": "Reuters", "url": "https://www.reuters.com/legal/litigation/canvas-parent-company-reaches-agreement-with-hacking-group-behind-recent-breach-2026-05-12/"}
+      ]
+    },
+    {
+      "org": "FBI surveillance system",
+      "date": "2026-04-01",
+      "dateLabel": "April 2026",
+      "sectors": ["Government"],
+      "severity": "Critical",
+      "summary": "The FBI declared a \"major cyber incident\" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.",
+      "impact": "Possible exposure of surveillance-target information; full scope not disclosed.",
+      "status": "Confirmed by the FBI. Investigation ongoing.",
+      "sources": [
+        {"name": "POLITICO", "url": "https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237"},
+        {"name": "NBC News", "url": "https://www.nbcnews.com/news/us-news/fbi-labels-suspected-china-hack-law-enforcement-data-major-cyber-incid-rcna266495"}
+      ]
+    },
+    {
+      "org": "Stryker (medical technology)",
+      "date": "2026-03-11",
+      "sectors": ["Healthcare", "Manufacturing"],
+      "severity": "Critical",
+      "summary": "Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.",
+      "impact": "Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later.",
+      "status": "Confirmed by Stryker. Recovered.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/"},
+        {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/"}
+      ]
+    },
+    {
+      "org": "ConnectWise (IT management software)",
+      "date": "2026-10-17",
+      "dateLabel": "October 2026",
+      "sectors": ["Tech"],
+      "severity": "Critical",
+      "summary": "Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies.",
+      "impact": "Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline.",
+      "status": "Confirmed by ConnectWise and Microsoft.",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"},
+        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"}
+      ]
+    },
+    {
+      "org": "DentaQuest (dental benefits)",
+      "date": "2026-05-17",
+      "sectors": ["Healthcare"],
+      "severity": "Critical",
+      "summary": "Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.",
+      "impact": "15 million people (HHS filing).",
+      "status": "Confirmed. Notices sent.",
+      "sources": [
+        {"name": "Healthcare Dive", "url": "https://www.healthcaredive.com/news/Dental-benefits-administrator-discloses-breach/827533/"},
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/15/the-worst-hacks-and-breaches-of-2026-so-far/"}
+      ]
+    },
+    {
+      "org": "ARARA (email delivery service, Japan)",
+      "date": "2026-10-28",
+      "sectors": ["Tech", "Consumer"],
+      "severity": "Critical",
+      "summary": "Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.",
+      "impact": "81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people).",
+      "status": "Confirmed by ARARA. Investigation ongoing.",
+      "sources": [
+        {"name": "ARARA report (Japanese)", "url": "https://www.arara.com/dcms_media/other/arara_20261106.pdf"},
+        {"name": "BleepingComputer (SEGA)", "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"}
+      ]
+    },
+    {
+      "org": "DriveWealth (brokerage tech)",
+      "date": "2026-09-04",
+      "sectors": ["Finance"],
+      "severity": "Critical",
+      "summary": "An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.",
+      "impact": "30 million people (state attorney general filings).",
+      "status": "Confirmed. Notices sent.",
+      "sources": [
+        {"name": "California AG notice", "url": "https://oag.ca.gov/system/files/DriveWealth%20-%20Redacted%20Notice.pdf"},
+        {"name": "Washington AG", "url": "https://www.atg.wa.gov/drivewealth-llc"}
+      ]
+    },
+    {
+      "org": "IDScan.net (ID verification)",
+      "date": "2026-09-01",
+      "dateLabel": "Sept 2026",
+      "sectors": ["Tech", "Consumer"],
+      "severity": "Critical",
+      "summary": "A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.",
+      "impact": "13 million people per a state filing; hackers claimed about 153 million records.",
+      "status": "Confirmed by IDScan.net.",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/"},
+        {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/"}
+      ]
+    },
+    {
+      "org": "European Commission cloud",
+      "date": "2026-03-01",
+      "dateLabel": "2026",
+      "sectors": ["Government"],
+      "severity": "High",
+      "summary": "Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.",
+      "impact": "About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU).",
+      "status": "Confirmed by CERT-EU and the Commission.",
+      "sources": [
+        {"name": "CERT-EU", "url": "https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain"},
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/"}
+      ]
+    },
+    {
+      "org": "Poland's energy sector",
+      "date": "2025-12-29",
+      "sectors": ["Energy", "Government"],
+      "severity": "High",
+      "summary": "A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.",
+      "impact": "Communications disrupted at some grid connection points; power and heat generation did not stop.",
+      "status": "Confirmed by CERT Polska and the Polish government.",
+      "sources": [
+        {"name": "CERT Polska report", "url": "https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/"},
+        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html"}
+      ]
+    },
+    {
+      "org": "U.S. water systems (Iran-linked)",
+      "date": "2026-04-07",
+      "dateLabel": "2026",
+      "sectors": ["Utilities", "Government"],
+      "severity": "High",
+      "summary": "U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.",
+      "impact": "Operational disruption at affected utilities; no single total published.",
+      "status": "Confirmed by CISA, FBI, EPA and NSA advisories.",
+      "sources": [
+        {"name": "CISA advisory AA26-097A", "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a"},
+        {"name": "EPA", "url": "https://www.epa.gov/newsreleases/epa-fbi-cisa-nsa-issue-joint-cybersecurity-advisory-water-system-regarding-iranian"}
+      ]
+    },
+    {
+      "org": "Nitori (furniture retailer, Japan)",
+      "date": "2026-11-06",
+      "sectors": ["Retail", "Consumer"],
+      "severity": "High",
+      "summary": "Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.",
+      "impact": "Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers.",
+      "status": "Confirmed by Nitori. Investigation ongoing.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"},
+        {"name": "SC Media", "url": "https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records"}
+      ]
+    },
+    {
+      "org": "Cisco SD-WAN zero-day attacks",
+      "date": "2026-02-25",
+      "sectors": ["Tech", "Government"],
+      "severity": "High",
+      "summary": "Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.",
+      "impact": "Unknown number of networks; Cisco Talos said the campaign went back to at least 2023.",
+      "status": "Confirmed by Cisco and CISA (Emergency Directive 26-03).",
+      "sources": [
+        {"name": "CISA ED 26-03", "url": "https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems"},
+        {"name": "Cybersecurity Dive", "url": "https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/"}
+      ]
+    },
+    {
+      "org": "Boston Scientific (medical devices)",
+      "date": "2026-08-25",
+      "sectors": ["Healthcare", "Manufacturing"],
+      "severity": "High",
+      "summary": "A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.",
+      "impact": "Global operations disrupted until about September 9; expected material hit to 2026 results.",
+      "status": "Confirmed by Boston Scientific. Recovered.",
+      "sources": [
+        {"name": "Reuters", "url": "https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/"},
+        {"name": "Boston Scientific update", "url": "https://news.bostonscientific.com/update-on-recent-cybersecurity-incident"}
+      ]
+    },
+    {
+      "org": "Carnival Corporation (cruises)",
+      "date": "2026-04-10",
+      "sectors": ["Travel", "Consumer"],
+      "severity": "High",
+      "summary": "Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group.",
+      "impact": "5,995,277 people; data may include government ID numbers.",
+      "status": "Confirmed by Carnival.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"},
+        {"name": "The Record", "url": "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million"}
+      ]
+    },
+    {
+      "org": "Jaguar Land Rover",
+      "date": "2025-09-01",
+      "dateLabel": "Sept 2025",
+      "sectors": ["Manufacturing"],
+      "severity": "High",
+      "summary": "A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.",
+      "impact": "£196 million in costs reported for the quarter; production halted for weeks.",
+      "status": "Confirmed by JLR. Recovered. (Older event, still in the news.)",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/"},
+        {"name": "BBC News", "url": "https://www.bbc.com/news/articles/ckg1w255gy1o"}
+      ]
+    },
+    {
+      "org": "fairlife / Coca-Cola",
+      "date": "2026-07-16",
+      "sectors": ["Food", "Manufacturing"],
+      "severity": "High",
+      "summary": "A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.",
+      "impact": "U.S. production suspended; most production resumed by July 27.",
+      "status": "Confirmed by Coca-Cola (SEC filing).",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/"},
+        {"name": "AP News", "url": "https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6"}
+      ]
+    },
+    {
+      "org": "IDC Frontier cloud (Japan)",
+      "date": "2026-10-07",
+      "sectors": ["Tech", "Government"],
+      "severity": "High",
+      "summary": "Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.",
+      "impact": "495 companies and local governments disrupted.",
+      "status": "Confirmed by IDC Frontier. No ransom paid.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"},
+        {"name": "IDC Frontier update", "url": "https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf"}
+      ]
+    },
+    {
+      "org": "ATF (U.S. firearms agency)",
+      "date": "2026-08-27",
+      "sectors": ["Government"],
+      "severity": "Medium",
+      "summary": "The ATF declared a \"major incident\" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.",
+      "impact": "One standalone system; data taken not disclosed.",
+      "status": "Confirmed by ATF. Investigation ongoing.",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/"},
+        {"name": "The Record", "url": "https://therecord.media/doj-atf-cyberattack-qilin-ransomware"}
+      ]
+    },
+    {
+      "org": "Klue (market research software)",
+      "date": "2026-06-01",
+      "dateLabel": "June 2026",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.",
+      "impact": "Close to 200 customer companies affected (TechCrunch); business contact and sales data.",
+      "status": "Confirmed by Klue and affected companies.",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/"},
+        {"name": "HackerOne advisory", "url": "https://www.hackerone.com/security-updates/klue-2026-06"}
+      ]
+    },
+    {
+      "org": "Uber drivers (via Fireworks AI)",
+      "date": "2026-10-09",
+      "sectors": ["Tech", "Consumer"],
+      "severity": "Medium",
+      "summary": "Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.",
+      "impact": "149,346 Uber drivers notified (names, addresses, birth dates, license numbers).",
+      "status": "Confirmed by Uber, Fireworks AI and Notion.",
+      "sources": [
+        {"name": "TechCrunch (Uber)", "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"},
+        {"name": "TechCrunch (Fireworks/Notion)", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"}
+      ]
+    },
+    {
+      "org": "Ukraine air raid alert app",
+      "date": "2026-11-01",
+      "sectors": ["Government"],
+      "severity": "Medium",
+      "summary": "Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.",
+      "impact": "Several fake alerts sent to users' phones before being cleared about an hour later.",
+      "status": "Confirmed by Ukraine's government.",
+      "sources": [
+        {"name": "The Kyiv Independent", "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/"}
+      ]
+    },
+    {
+      "org": "The Kyiv Independent (news outlet)",
+      "date": "2026-11-04",
+      "sectors": ["Media"],
+      "severity": "Medium",
+      "summary": "Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.",
+      "impact": "Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk.",
+      "status": "Confirmed by The Kyiv Independent.",
+      "sources": [
+        {"name": "The Kyiv Independent", "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/"},
+        {"name": "Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061264/"}
+      ]
+    },
+    {
+      "org": "The Japan Times (news outlet)",
+      "date": "2026-09-18",
+      "sectors": ["Media"],
+      "severity": "Low",
+      "summary": "Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.",
+      "impact": "HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate.",
+      "status": "Confirmed by The Japan Times.",
+      "sources": [
+        {"name": "The Japan Times notice", "url": "https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/"}
+      ]
+    }
+  ]
+}
