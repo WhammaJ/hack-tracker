@@ -1,62 +1,176 @@
 (function(){
-  var data=null, tab='confirmed';
-  var SEV={Critical:0,High:1,Medium:2,Low:3};
-  var notes={
-    confirmed:'Breaches and attacks confirmed by the affected organization, a government, or law enforcement. Biggest impact first.',
-    speculated:'Big outages and incidents people suspected were hacks. These are NOT confirmed hacks. Each shows the official explanation. Biggest impact first.'
-  };
-  var $=function(id){return document.getElementById(id)};
-  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-  function fmtDate(e){
-    if(e.dateLabel) return e.dateLabel;
-    var d=new Date(e.date+'T12:00:00');
-    return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  var DISQUS_SHORTNAME = 'hacktracking';
+  var tab = 'confirmed';
+  var disqusLoaded = false;
+  var openId = null;
+  var $ = function(id){ return document.getElementById(id); };
+
+  function cardsInTab(){
+    var section = document.getElementById(tab + '-section');
+    return section ? section.querySelectorAll('article.card') : [];
   }
-  function card(e,i){
-    var spec=tab==='speculated';
-    var h='<article class="card '+esc(e.severity)+'">';
-    h+='<div class="row"><h3><span class="rank">#'+(i+1)+'</span>'+esc(e.org)+'</h3><span class="date">'+esc(fmtDate(e))+'</span></div>';
-    h+='<div class="meta"><span class="badge sev-'+esc(e.severity)+'">'+esc(e.severity)+'</span>';
-    if(spec) h+='<span class="badge unconf">Unconfirmed / speculation</span>';
-    e.sectors.forEach(function(s){h+='<span class="badge sector">'+esc(s)+'</span>'});
-    h+='</div><p>'+esc(e.summary)+'</p>';
-    if(spec){
-      h+='<span class="lbl">What people speculated</span><p>'+esc(e.speculation)+'</p>';
-      h+='<div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>'+esc(e.official)+'</p></div>';
-    }
-    if(e.impact) h+='<span class="lbl">Impact</span><p>'+esc(e.impact)+'</p>';
-    h+='<span class="lbl">Status</span><p class="status">'+esc(e.status)+'</p>';
-    h+='<ul class="sources">'+e.sources.map(function(s){return '<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+' ↗</a></li>'}).join('')+'</ul>';
-    return h+'</article>';
-  }
-  function render(){
-    var q=$('search').value.trim().toLowerCase(), sec=$('sector').value, sv=$('sev').value;
-    var items=data[tab].filter(function(e){
-      if(sec && e.sectors.indexOf(sec)<0) return false;
-      if(sv && e.severity!==sv) return false;
-      if(q){var t=[e.org,e.summary,e.impact,e.status,e.speculation,e.official,e.sectors.join(' ')].join(' ').toLowerCase(); if(t.indexOf(q)<0) return false;}
-      return true;
+
+  function allSectors(){
+    var seen = {};
+    cardsInTab().forEach(function(card){
+      (card.getAttribute('data-sectors') || '').split(',').forEach(function(s){
+        s = s.trim();
+        if(s) seen[s] = true;
+      });
     });
-    $('list').innerHTML=items.map(card).join('');
-    $('empty').hidden=items.length>0;
-    $('tabnote').textContent=notes[tab];
+    return Object.keys(seen).sort();
   }
+
+  function fillSectors(){
+    var sel = $('sector');
+    var cur = sel.value;
+    var html = '<option value="">All sectors</option>';
+    allSectors().forEach(function(s){
+      var selAttr = s === cur ? ' selected' : '';
+      html += '<option' + selAttr + '>' + s + '</option>';
+    });
+    sel.innerHTML = html;
+  }
+
+  function render(){
+    var q = $('search').value.trim().toLowerCase();
+    var sec = $('sector').value;
+    var sv = $('sev').value;
+    var visible = 0;
+    cardsInTab().forEach(function(card){
+      var ok = true;
+      if(sv && card.getAttribute('data-severity') !== sv) ok = false;
+      if(ok && sec){
+        var sectors = (card.getAttribute('data-sectors') || '').split(',');
+        if(sectors.indexOf(sec) < 0) ok = false;
+      }
+      if(ok && q){
+        var blob = (card.getAttribute('data-search') || '').toLowerCase();
+        if(blob.indexOf(q) < 0) ok = false;
+      }
+      card.hidden = !ok;
+      if(ok) visible++;
+    });
+    $('empty').hidden = visible > 0;
+  }
+
   function setTab(t){
-    tab=t;
-    document.querySelectorAll('.tab').forEach(function(b){b.classList.toggle('active',b.dataset.tab===t)});
-    var secs={};data[t].forEach(function(e){e.sectors.forEach(function(s){secs[s]=1})});
-    var cur=$('sector').value;
-    $('sector').innerHTML='<option value="">All sectors</option>'+Object.keys(secs).sort().map(function(s){return '<option'+(s===cur?' selected':'')+'>'+esc(s)+'</option>'}).join('');
+    tab = t;
+    document.querySelectorAll('.tab').forEach(function(el){
+      var on = el.getAttribute('data-tab') === t;
+      el.classList.toggle('is-active', on);
+      el.classList.toggle('active', on);
+      el.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    document.querySelectorAll('.results').forEach(function(sec){
+      var on = sec.getAttribute('data-tab') === t;
+      sec.classList.toggle('is-active', on);
+    });
+    fillSectors();
     render();
   }
-  fetch('data.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
-    data=d;
-    ['speculated','confirmed'].forEach(function(k){d[k].sort(function(a,b){return SEV[a.severity]-SEV[b.severity]})});
-    var u=new Date(d.lastUpdated+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
-    $('updated').textContent=u;$('updated2').textContent=u;
-    $('c-confirmed').textContent=d.confirmed.length;$('c-speculated').textContent=d.speculated.length;
-    document.querySelectorAll('.tab').forEach(function(b){b.onclick=function(){setTab(b.dataset.tab)}});
-    $('search').oninput=render;$('sector').onchange=render;$('sev').onchange=render;
-    setTab('confirmed');
-  }).catch(function(){$('list').innerHTML='<p class="empty">Could not load data.json.</p>'});
+
+  function moveThread(host){
+    var thread = $('disqus_thread');
+    if(!thread){
+      thread = document.createElement('div');
+      thread.id = 'disqus_thread';
+    }
+    host.appendChild(thread);
+    return thread;
+  }
+
+  function closeComments(){
+    if(!openId) return;
+    var panel = $('comments-' + openId);
+    var btn = document.querySelector('.comments-toggle[data-entry-id="' + openId + '"]');
+    if(panel) panel.hidden = true;
+    if(btn) btn.setAttribute('aria-expanded', 'false');
+    openId = null;
+  }
+
+  function disqusConfig(id){
+    return function(){
+      this.page.identifier = id;
+      this.page.url = 'https://hacktracking.com/#' + id;
+    };
+  }
+
+  function loadOrResetDisqus(id){
+    if(window.DISQUS){
+      window.DISQUS.reset({ reload: true, config: disqusConfig(id) });
+      return;
+    }
+    window.disqus_config = disqusConfig(id);
+    if(disqusLoaded) return;
+    var s = document.createElement('script');
+    s.src = 'https://' + DISQUS_SHORTNAME + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', String(Date.now()));
+    s.async = true;
+    document.body.appendChild(s);
+    disqusLoaded = true;
+  }
+
+  function openComments(id){
+    if(openId === id){
+      closeComments();
+      return;
+    }
+    closeComments();
+    var panel = $('comments-' + id);
+    var btn = document.querySelector('.comments-toggle[data-entry-id="' + id + '"]');
+    if(!panel || !btn) return;
+    var host = panel.querySelector('.comments-host');
+    moveThread(host);
+    panel.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    openId = id;
+    loadOrResetDisqus(id);
+  }
+
+  function entryIdFromHash(){
+    var hash = (location.hash || '').replace(/^#/, '');
+    if(!hash) return null;
+    if(hash === 'confirmed-section' || hash === 'speculated-section' || hash === 'about' || hash === 'definition' || hash === 'main'){
+      return { section: hash };
+    }
+    var el = document.getElementById(hash);
+    if(el && el.classList.contains('card')){
+      var section = el.closest('.results');
+      return { entry: hash, tab: section ? section.getAttribute('data-tab') : 'confirmed' };
+    }
+    return null;
+  }
+
+  function applyHash(){
+    var info = entryIdFromHash();
+    if(!info) return;
+    if(info.tab) setTab(info.tab);
+    if(info.section === 'speculated-section') setTab('speculated');
+    if(info.section === 'confirmed-section') setTab('confirmed');
+    var target = document.getElementById((info.entry || info.section || ''));
+    if(target){
+      target.scrollIntoView({ block: 'start' });
+    }
+  }
+
+  document.querySelectorAll('.tab').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      ev.preventDefault();
+      setTab(el.getAttribute('data-tab'));
+    });
+  });
+  $('search').addEventListener('input', render);
+  $('sector').addEventListener('change', render);
+  $('sev').addEventListener('change', render);
+  document.addEventListener('click', function(ev){
+    var btn = ev.target.closest('.comments-toggle');
+    if(!btn) return;
+    openComments(btn.getAttribute('data-entry-id'));
+  });
+  window.addEventListener('hashchange', applyHash);
+
+  fillSectors();
+  if(location.hash) applyHash();
+  else setTab('confirmed');
 })();

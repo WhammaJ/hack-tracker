@@ -47,3 +47,25 @@ blockquote{margin:0;font-style:italic}
 .disclaimer ul{margin:0;padding-left:18px;color:#c6d2de;font-size:14px}
 .foot{color:var(--muted);font-size:13px;padding-bottom:30px}
 @media (max-width:520px){.card h3{font-size:16px}.brand{font-size:22px}}
+
+/* SEO/accessibility and comments */
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:#042015;padding:8px 12px;border-radius:6px;z-index:10;font-weight:700}
+.skip:focus{left:8px}
+.brand h1{margin:0;font:inherit;letter-spacing:inherit;display:inline}
+.tab.is-active{border-color:var(--accent);background:#0f2a22;color:#c9ffe7}
+.has-js .results:not(.is-active){display:none}
+.no-js .controls{display:none}
+.card:target{outline:2px solid var(--accent);outline-offset:2px}
+.about{margin:28px 0;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.about h3{font-size:15px;margin:16px 0 8px;color:var(--text)}
+.about h3:first-of-type{margin-top:4px}
+.about ul{margin:0;padding-left:18px;color:#c6d2de;font-size:14px}
+.about-def-ref{color:#c6d2de;font-size:14px;margin:16px 0 0}
+.comments-slot{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.comments-toggle{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font:600 14px/1.3 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;cursor:pointer}
+.comments-toggle:hover,.comments-toggle:focus{border-color:var(--accent);color:#c9ffe7}
+.comments-toggle[aria-expanded="true"]{border-color:var(--accent);background:#0f2a22}
+.disqus-comment-count:not(:empty)::before{content:"· ";color:var(--muted)}
+.comments-panel{margin-top:12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:10px}
+#disqus_thread{min-height:80px}
+.foot a{color:var(--accent)}

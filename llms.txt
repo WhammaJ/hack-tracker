@@ -1,0 +1,64 @@
+# Hack Tracker
+
+> A plain-English tracker of confirmed hacking incidents and outages people suspected were hacks. Official explanations and sources on every entry. Last updated 2026-11-17.
+
+Site: https://hacktracking.com/
+
+## Confirmed Hacks
+
+Incidents confirmed by the affected organization, a government agency, or law enforcement. Biggest impact first.
+
+- [Binance (crypto exchange)](https://hacktracking.com/#binance-2026-10) (Oct 29, 2026, Critical): Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group.
+- [Instructure (Canvas learning platform)](https://hacktracking.com/#instructure-2026-05) (May 2026, Critical): The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.
+- [FBI surveillance system](https://hacktracking.com/#fbi-surveillance-system-2026-04) (April 2026, Critical): The FBI declared a "major cyber incident" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.
+- [Stryker (medical technology)](https://hacktracking.com/#stryker-2026-03) (Mar 11, 2026, Critical): Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.
+- [ConnectWise (IT management software)](https://hacktracking.com/#connectwise-2026-10) (October 2026, Critical): Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies.
+- [DentaQuest (dental benefits)](https://hacktracking.com/#dentaquest-2026-05) (May 17, 2026, Critical): Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.
+- [ARARA (email delivery service, Japan)](https://hacktracking.com/#arara-2026-10) (Oct 28, 2026, Critical): Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.
+- [DriveWealth (brokerage tech)](https://hacktracking.com/#drivewealth-2026-09) (Sep 4, 2026, Critical): An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.
+- [IDScan.net (ID verification)](https://hacktracking.com/#idscan-net-2026-09) (Sept 2026, Critical): A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.
+- [European Commission cloud](https://hacktracking.com/#european-commission-cloud-2026-03) (2026, High): Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.
+- [Poland's energy sector](https://hacktracking.com/#poland-s-energy-sector-2025-12) (Dec 29, 2025, High): A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.
+- [U.S. water systems (Iran-linked)](https://hacktracking.com/#u-s-water-systems-2026-04) (2026, High): U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.
+- [Nitori (furniture retailer, Japan)](https://hacktracking.com/#nitori-2026-11) (Nov 6, 2026, High): Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.
+- [Cisco SD-WAN zero-day attacks](https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02) (Feb 25, 2026, High): Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.
+- [Boston Scientific (medical devices)](https://hacktracking.com/#boston-scientific-2026-08) (Aug 25, 2026, High): A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.
+- [Carnival Corporation (cruises)](https://hacktracking.com/#carnival-corporation-2026-04) (Apr 10, 2026, High): Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group.
+- [Jaguar Land Rover](https://hacktracking.com/#jaguar-land-rover-2025-09) (Sept 2025, High): A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.
+- [fairlife / Coca-Cola](https://hacktracking.com/#fairlife-coca-cola-2026-07) (Jul 16, 2026, High): A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.
+- [IDC Frontier cloud (Japan)](https://hacktracking.com/#idc-frontier-cloud-2026-10) (Oct 7, 2026, High): Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.
+- [ATF (U.S. firearms agency)](https://hacktracking.com/#atf-2026-08) (Aug 27, 2026, Medium): The ATF declared a "major incident" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.
+- [Klue (market research software)](https://hacktracking.com/#klue-2026-06) (June 2026, Medium): Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.
+- [Uber drivers (via Fireworks AI)](https://hacktracking.com/#uber-drivers-2026-10) (Oct 9, 2026, Medium): Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.
+- [Ukraine air raid alert app](https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11) (Nov 1, 2026, Medium): Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.
+- [The Kyiv Independent (news outlet)](https://hacktracking.com/#the-kyiv-independent-2026-11) (Nov 4, 2026, Medium): Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.
+- [The Japan Times (news outlet)](https://hacktracking.com/#the-japan-times-2026-09) (Sep 18, 2026, Low): Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.
+
+## Speculated / Potential Hacks
+
+Outages or incidents where the public wondered about a hack. These are not confirmed hacks. Each entry includes the official explanation. Biggest impact first.
+
+- [FAA: nationwide ground stop](https://hacktracking.com/#faa-nationwide-ground-stop-2026-11) (Nov 13, 2026, Critical): The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system. No evidence of a hack. Root-cause investigation ongoing.
+- [Microsoft 365 / Outlook global outage](https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11) (Nov 12, 2026, Critical): Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked. Official cause published. Not a hack.
+- [CrowdStrike / Windows global IT outage](https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07) (Jul 19, 2024, Critical): A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits. Official cause published. Not a hack. (Older event, still widely referenced.)
+- [Amazon Web Services (US-EAST-1)](https://hacktracking.com/#amazon-web-services-2025-10) (Oct 20, 2025, Critical): A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure. Official cause published. Not a hack.
+- [Spain & Portugal blackout](https://hacktracking.com/#spain-portugal-blackout-2025-04) (Apr 28, 2025, Critical): Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed. Official reports published. No cyberattack found. (Older event, final report in 2026.)
+- [Cloudflare global outage](https://hacktracking.com/#cloudflare-global-outage-2025-11) (Nov 18, 2025, High): Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack. Official cause published. Not a hack.
+- [JPMorgan Chase online banking](https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11) (Nov 16, 2026, High): Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. Company explanation given. No evidence of a hack.
+- [Verizon nationwide wireless outage](https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01) (Jan 14, 2026, High): Verizon customers across the U.S. lost wireless service for hours. Company explanation given. No evidence of a hack.
+- [NSA classified network (NSANet)](https://hacktracking.com/#nsa-classified-network-2026-11) (Nov 17, 2026, High): The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages. Official explanation given. No evidence of a hack.
+- [Starlink global outage](https://hacktracking.com/#starlink-global-outage-2025-07) (Jul 24, 2025, High): SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack. Company explanation given. Not a hack.
+- [United Airlines system outage](https://hacktracking.com/#united-airlines-system-outage-2026-11) (Nov 16, 2026, Medium): Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff. No root cause published. No evidence of a hack.
+- [American Airlines nationwide ground stop](https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07) (Jul 28, 2026, Medium): The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages. No root cause published. No evidence of a hack.
+- [Xbox sign-in and game library outage](https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07) (Jul 26, 2026, Medium): Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks. Company explanation given. Not attributed to a hack.
+- [PlayStation Network outage](https://hacktracking.com/#playstation-network-outage-2026-07) (Jul 24, 2026, Low): PlayStation Network accounts, gaming, the store and other features were down for about five hours. Cause not disclosed. No public evidence of a hack.
+
+## About
+
+Definition of hacking, how confirmed vs. speculated is decided, and the update cadence: https://hacktracking.com/#about
+
+## Feeds and full text
+
+- RSS: https://hacktracking.com/feed.xml
+- Full entry text: https://hacktracking.com/llms-full.txt
+- Sitemap: https://hacktracking.com/sitemap.xml

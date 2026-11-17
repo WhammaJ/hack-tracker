@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hack Tracker: Confirmed Hacks vs. Speculated Outages</title>
+<meta name="description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<link rel="canonical" href="https://hacktracking.com/">
+<meta name="theme-color" content="#0b0f14">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hack Tracker">
+<meta property="og:url" content="https://hacktracking.com/">
+<meta property="og:title" content="Hack Tracker: Confirmed Hacks vs. Speculated Outages">
+<meta property="og:description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<meta property="og:image" content="https://hacktracking.com/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hack Tracker: confirmed hacks versus speculated outages.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hack Tracker: Confirmed Hacks vs. Speculated Outages">
+<meta name="twitter:description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<meta name="twitter:image" content="https://hacktracking.com/og-image.png">
+<meta name="twitter:image:alt" content="Hack Tracker: confirmed hacks versus speculated outages.">
+<link rel="alternate" type="application/rss+xml" title="Hack Tracker feed" href="https://hacktracking.com/feed.xml">
+<link rel="sitemap" type="application/xml" href="https://hacktracking.com/sitemap.xml">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('has-js');</script>
+<script type="application/ld+json">{{JSON_LD}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <h1>HACK <span class="accent">TRACKER</span></h1>
+    </div>
+    <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
+    <p class="updated">Last updated: <time datetime="{{LAST_UPDATED}}" id="updated">{{LAST_UPDATED_DISPLAY}}</time></p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="definition" id="definition">
+    <h2>What counts as hacking</h2>
+    <blockquote>Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system.</blockquote>
+  </section>
+
+  <nav class="tabs" role="tablist" aria-label="Hack categories">
+    <a class="tab is-active" href="#confirmed-section" id="tab-confirmed" data-tab="confirmed" role="tab" aria-selected="true" aria-controls="confirmed-section">Confirmed Hacks <span class="count">{{CONFIRMED_COUNT}}</span></a>
+    <a class="tab" href="#speculated-section" id="tab-speculated" data-tab="speculated" role="tab" aria-selected="false" aria-controls="speculated-section">Speculated / Potential Hacks <span class="count">{{SPECULATED_COUNT}}</span></a>
+  </nav>
+
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search company, agency, keyword..." aria-label="Search">
+    <select id="sector" aria-label="Filter by sector"><option value="">All sectors</option></select>
+    <select id="sev" aria-label="Filter by severity">
+      <option value="">All severities</option>
+      <option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+    </select>
+  </div>
+
+  <p id="empty" class="empty" hidden>No matches. Try a different search or filter.</p>
+
+  <section id="confirmed-section" class="results is-active" data-tab="confirmed" aria-labelledby="h-confirmed" role="tabpanel">
+    <h2 id="h-confirmed">Confirmed Hacks</h2>
+    <p class="tabnote">Breaches and attacks confirmed by the affected organization, a government, or law enforcement. Biggest impact first.</p>
+    <div class="list" id="list-confirmed">
+{{CONFIRMED_CARDS}}
+    </div>
+  </section>
+
+  <section id="speculated-section" class="results" data-tab="speculated" aria-labelledby="h-speculated" role="tabpanel">
+    <h2 id="h-speculated">Speculated / Potential Hacks</h2>
+    <p class="tabnote">Big outages and incidents people suspected were hacks. These are not confirmed hacks. Each shows the official explanation. Biggest impact first.</p>
+    <div class="list" id="list-speculated">
+{{SPECULATED_CARDS}}
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About and methodology</h2>
+    <h3>How confirmed and speculated are decided</h3>
+    <ul>
+      <li><b>Confirmed Hacks</b> were confirmed by the affected organization, a government agency, or law enforcement. Numbers come from those statements, filings, or the linked reporting. Attacker claims are labeled as claims.</li>
+      <li><b>Speculated / Potential Hacks</b> are outages or incidents where the public wondered about a hack. They are <b>not confirmed hacks</b>. Each one shows what the organization or investigators officially said.</li>
+    </ul>
+    <h3>How this tracker is updated</h3>
+    <ul>
+      <li>The list is reviewed and updated about every two hours during the day, Eastern Time.</li>
+      <li>Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score.</li>
+      <li>Covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest.</li>
+    </ul>
+    <p class="about-def-ref">The definition of hacking used on this site is at the top of the page, under <a href="#definition">What counts as hacking</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Hack Tracker · Updated <time datetime="{{LAST_UPDATED}}" id="updated2">{{LAST_UPDATED_DISPLAY}}</time> · Sources linked on every entry · <a href="https://hacktracking.com/feed.xml">RSS feed</a></p>
+</footer>
+<script src="app.js"></script>
+<script id="dsq-count-scr" src="https://hacktracking.disqus.com/count.js" async></script>
+</body>
+</html>

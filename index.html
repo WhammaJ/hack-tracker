@@ -1,33 +1,1712 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hack Tracker: Confirmed Hacks vs. Speculated Outages</title>
-<meta name="description" content="A plain-English tracker of recent hacking incidents: confirmed breaches and attacks, and big outages people suspected were hacks.">
+<meta name="description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<link rel="canonical" href="https://hacktracking.com/">
+<meta name="theme-color" content="#0b0f14">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hack Tracker">
+<meta property="og:url" content="https://hacktracking.com/">
+<meta property="og:title" content="Hack Tracker: Confirmed Hacks vs. Speculated Outages">
+<meta property="og:description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<meta property="og:image" content="https://hacktracking.com/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hack Tracker: confirmed hacks versus speculated outages.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hack Tracker: Confirmed Hacks vs. Speculated Outages">
+<meta name="twitter:description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
+<meta name="twitter:image" content="https://hacktracking.com/og-image.png">
+<meta name="twitter:image:alt" content="Hack Tracker: confirmed hacks versus speculated outages.">
+<link rel="alternate" type="application/rss+xml" title="Hack Tracker feed" href="https://hacktracking.com/feed.xml">
+<link rel="sitemap" type="application/xml" href="https://hacktracking.com/sitemap.xml">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('has-js');</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://hacktracking.com/#website",
+      "name": "Hack Tracker",
+      "url": "https://hacktracking.com/",
+      "description": "A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.",
+      "inLanguage": "en",
+      "dateModified": "2026-11-17"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hacktracking.com/#confirmed-section",
+      "name": "Confirmed Hacks",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 25,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://hacktracking.com/#binance-2026-10",
+          "name": "Binance (crypto exchange)",
+          "item": {
+            "@id": "https://hacktracking.com/#binance-2026-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://hacktracking.com/#instructure-2026-05",
+          "name": "Instructure (Canvas learning platform)",
+          "item": {
+            "@id": "https://hacktracking.com/#instructure-2026-05"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://hacktracking.com/#fbi-surveillance-system-2026-04",
+          "name": "FBI surveillance system",
+          "item": {
+            "@id": "https://hacktracking.com/#fbi-surveillance-system-2026-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://hacktracking.com/#stryker-2026-03",
+          "name": "Stryker (medical technology)",
+          "item": {
+            "@id": "https://hacktracking.com/#stryker-2026-03"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://hacktracking.com/#connectwise-2026-10",
+          "name": "ConnectWise (IT management software)",
+          "item": {
+            "@id": "https://hacktracking.com/#connectwise-2026-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://hacktracking.com/#dentaquest-2026-05",
+          "name": "DentaQuest (dental benefits)",
+          "item": {
+            "@id": "https://hacktracking.com/#dentaquest-2026-05"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://hacktracking.com/#arara-2026-10",
+          "name": "ARARA (email delivery service, Japan)",
+          "item": {
+            "@id": "https://hacktracking.com/#arara-2026-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "url": "https://hacktracking.com/#drivewealth-2026-09",
+          "name": "DriveWealth (brokerage tech)",
+          "item": {
+            "@id": "https://hacktracking.com/#drivewealth-2026-09"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "url": "https://hacktracking.com/#idscan-net-2026-09",
+          "name": "IDScan.net (ID verification)",
+          "item": {
+            "@id": "https://hacktracking.com/#idscan-net-2026-09"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "url": "https://hacktracking.com/#european-commission-cloud-2026-03",
+          "name": "European Commission cloud",
+          "item": {
+            "@id": "https://hacktracking.com/#european-commission-cloud-2026-03"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "url": "https://hacktracking.com/#poland-s-energy-sector-2025-12",
+          "name": "Poland's energy sector",
+          "item": {
+            "@id": "https://hacktracking.com/#poland-s-energy-sector-2025-12"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "url": "https://hacktracking.com/#u-s-water-systems-2026-04",
+          "name": "U.S. water systems (Iran-linked)",
+          "item": {
+            "@id": "https://hacktracking.com/#u-s-water-systems-2026-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "url": "https://hacktracking.com/#nitori-2026-11",
+          "name": "Nitori (furniture retailer, Japan)",
+          "item": {
+            "@id": "https://hacktracking.com/#nitori-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "url": "https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02",
+          "name": "Cisco SD-WAN zero-day attacks",
+          "item": {
+            "@id": "https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "url": "https://hacktracking.com/#boston-scientific-2026-08",
+          "name": "Boston Scientific (medical devices)",
+          "item": {
+            "@id": "https://hacktracking.com/#boston-scientific-2026-08"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "url": "https://hacktracking.com/#carnival-corporation-2026-04",
+          "name": "Carnival Corporation (cruises)",
+          "item": {
+            "@id": "https://hacktracking.com/#carnival-corporation-2026-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "url": "https://hacktracking.com/#jaguar-land-rover-2025-09",
+          "name": "Jaguar Land Rover",
+          "item": {
+            "@id": "https://hacktracking.com/#jaguar-land-rover-2025-09"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "url": "https://hacktracking.com/#fairlife-coca-cola-2026-07",
+          "name": "fairlife / Coca-Cola",
+          "item": {
+            "@id": "https://hacktracking.com/#fairlife-coca-cola-2026-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "url": "https://hacktracking.com/#idc-frontier-cloud-2026-10",
+          "name": "IDC Frontier cloud (Japan)",
+          "item": {
+            "@id": "https://hacktracking.com/#idc-frontier-cloud-2026-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "url": "https://hacktracking.com/#atf-2026-08",
+          "name": "ATF (U.S. firearms agency)",
+          "item": {
+            "@id": "https://hacktracking.com/#atf-2026-08"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "url": "https://hacktracking.com/#klue-2026-06",
+          "name": "Klue (market research software)",
+          "item": {
+            "@id": "https://hacktracking.com/#klue-2026-06"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "url": "https://hacktracking.com/#uber-drivers-2026-10",
+          "name": "Uber drivers (via Fireworks AI)",
+          "item": {
+            "@id": "https://hacktracking.com/#uber-drivers-2026-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "url": "https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11",
+          "name": "Ukraine air raid alert app",
+          "item": {
+            "@id": "https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "url": "https://hacktracking.com/#the-kyiv-independent-2026-11",
+          "name": "The Kyiv Independent (news outlet)",
+          "item": {
+            "@id": "https://hacktracking.com/#the-kyiv-independent-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "url": "https://hacktracking.com/#the-japan-times-2026-09",
+          "name": "The Japan Times (news outlet)",
+          "item": {
+            "@id": "https://hacktracking.com/#the-japan-times-2026-09"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hacktracking.com/#speculated-section",
+      "name": "Speculated / Potential Hacks",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 14,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://hacktracking.com/#faa-nationwide-ground-stop-2026-11",
+          "name": "FAA: nationwide ground stop",
+          "item": {
+            "@id": "https://hacktracking.com/#faa-nationwide-ground-stop-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11",
+          "name": "Microsoft 365 / Outlook global outage",
+          "item": {
+            "@id": "https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07",
+          "name": "CrowdStrike / Windows global IT outage",
+          "item": {
+            "@id": "https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://hacktracking.com/#amazon-web-services-2025-10",
+          "name": "Amazon Web Services (US-EAST-1)",
+          "item": {
+            "@id": "https://hacktracking.com/#amazon-web-services-2025-10"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://hacktracking.com/#spain-portugal-blackout-2025-04",
+          "name": "Spain & Portugal blackout",
+          "item": {
+            "@id": "https://hacktracking.com/#spain-portugal-blackout-2025-04"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://hacktracking.com/#cloudflare-global-outage-2025-11",
+          "name": "Cloudflare global outage",
+          "item": {
+            "@id": "https://hacktracking.com/#cloudflare-global-outage-2025-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11",
+          "name": "JPMorgan Chase online banking",
+          "item": {
+            "@id": "https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "url": "https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01",
+          "name": "Verizon nationwide wireless outage",
+          "item": {
+            "@id": "https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "url": "https://hacktracking.com/#nsa-classified-network-2026-11",
+          "name": "NSA classified network (NSANet)",
+          "item": {
+            "@id": "https://hacktracking.com/#nsa-classified-network-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "url": "https://hacktracking.com/#starlink-global-outage-2025-07",
+          "name": "Starlink global outage",
+          "item": {
+            "@id": "https://hacktracking.com/#starlink-global-outage-2025-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "url": "https://hacktracking.com/#united-airlines-system-outage-2026-11",
+          "name": "United Airlines system outage",
+          "item": {
+            "@id": "https://hacktracking.com/#united-airlines-system-outage-2026-11"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "url": "https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07",
+          "name": "American Airlines nationwide ground stop",
+          "item": {
+            "@id": "https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "url": "https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07",
+          "name": "Xbox sign-in and game library outage",
+          "item": {
+            "@id": "https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "url": "https://hacktracking.com/#playstation-network-outage-2026-07",
+          "name": "PlayStation Network outage",
+          "item": {
+            "@id": "https://hacktracking.com/#playstation-network-outage-2026-07"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#binance-2026-10",
+      "headline": "Binance (crypto exchange)",
+      "name": "Binance (crypto exchange)",
+      "url": "https://hacktracking.com/#binance-2026-10",
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-11-17",
+      "description": "Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group.",
+      "articleBody": "Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group. Impact: About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals. Status: Confirmed by Binance. Losses covered.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Finance, Crypto, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Binance announcement",
+          "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Chainalysis",
+          "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#instructure-2026-05",
+      "headline": "Instructure (Canvas learning platform)",
+      "name": "Instructure (Canvas learning platform)",
+      "url": "https://hacktracking.com/#instructure-2026-05",
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-11-17",
+      "description": "The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.",
+      "articleBody": "The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers. Impact: Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff. Status: Confirmed by Instructure.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Education, Tech, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/canvas-parent-company-reaches-agreement-with-hacking-group-behind-recent-breach-2026-05-12/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#fbi-surveillance-system-2026-04",
+      "headline": "FBI surveillance system",
+      "name": "FBI surveillance system",
+      "url": "https://hacktracking.com/#fbi-surveillance-system-2026-04",
+      "datePublished": "2026-04-01",
+      "dateModified": "2026-11-17",
+      "description": "The FBI declared a \"major cyber incident\" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.",
+      "articleBody": "The FBI declared a \"major cyber incident\" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets. Impact: Possible exposure of surveillance-target information; full scope not disclosed. Status: Confirmed by the FBI. Investigation ongoing.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Government, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "POLITICO",
+          "url": "https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/fbi-labels-suspected-china-hack-law-enforcement-data-major-cyber-incid-rcna266495"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#stryker-2026-03",
+      "headline": "Stryker (medical technology)",
+      "name": "Stryker (medical technology)",
+      "url": "https://hacktracking.com/#stryker-2026-03",
+      "datePublished": "2026-03-11",
+      "dateModified": "2026-11-17",
+      "description": "Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.",
+      "articleBody": "Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks. Impact: Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later. Status: Confirmed by Stryker. Recovered.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Healthcare, Manufacturing, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#connectwise-2026-10",
+      "headline": "ConnectWise (IT management software)",
+      "name": "ConnectWise (IT management software)",
+      "url": "https://hacktracking.com/#connectwise-2026-10",
+      "datePublished": "2026-10-17",
+      "dateModified": "2026-11-17",
+      "description": "Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies.",
+      "articleBody": "Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies. Impact: Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline. Status: Confirmed by ConnectWise and Microsoft.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#dentaquest-2026-05",
+      "headline": "DentaQuest (dental benefits)",
+      "name": "DentaQuest (dental benefits)",
+      "url": "https://hacktracking.com/#dentaquest-2026-05",
+      "datePublished": "2026-05-17",
+      "dateModified": "2026-11-17",
+      "description": "Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.",
+      "articleBody": "Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year. Impact: 15 million people (HHS filing). Status: Confirmed. Notices sent.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Healthcare, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Healthcare Dive",
+          "url": "https://www.healthcaredive.com/news/Dental-benefits-administrator-discloses-breach/827533/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/15/the-worst-hacks-and-breaches-of-2026-so-far/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#arara-2026-10",
+      "headline": "ARARA (email delivery service, Japan)",
+      "name": "ARARA (email delivery service, Japan)",
+      "url": "https://hacktracking.com/#arara-2026-10",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-11-17",
+      "description": "Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.",
+      "articleBody": "Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists. Impact: 81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people). Status: Confirmed by ARARA. Investigation ongoing.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Consumer, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "ARARA report (Japanese)",
+          "url": "https://www.arara.com/dcms_media/other/arara_20261106.pdf"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer (SEGA)",
+          "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#drivewealth-2026-09",
+      "headline": "DriveWealth (brokerage tech)",
+      "name": "DriveWealth (brokerage tech)",
+      "url": "https://hacktracking.com/#drivewealth-2026-09",
+      "datePublished": "2026-09-04",
+      "dateModified": "2026-11-17",
+      "description": "An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.",
+      "articleBody": "An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers. Impact: 30 million people (state attorney general filings). Status: Confirmed. Notices sent.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Finance, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "California AG notice",
+          "url": "https://oag.ca.gov/system/files/DriveWealth%20-%20Redacted%20Notice.pdf"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Washington AG",
+          "url": "https://www.atg.wa.gov/drivewealth-llc"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#idscan-net-2026-09",
+      "headline": "IDScan.net (ID verification)",
+      "name": "IDScan.net (ID verification)",
+      "url": "https://hacktracking.com/#idscan-net-2026-09",
+      "datePublished": "2026-09-01",
+      "dateModified": "2026-11-17",
+      "description": "A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.",
+      "articleBody": "A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers. Impact: 13 million people per a state filing; hackers claimed about 153 million records. Status: Confirmed by IDScan.net.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Consumer, Critical, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#european-commission-cloud-2026-03",
+      "headline": "European Commission cloud",
+      "name": "European Commission cloud",
+      "url": "https://hacktracking.com/#european-commission-cloud-2026-03",
+      "datePublished": "2026-03-01",
+      "dateModified": "2026-11-17",
+      "description": "Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.",
+      "articleBody": "Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts. Impact: About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU). Status: Confirmed by CERT-EU and the Commission.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Government, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CERT-EU",
+          "url": "https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#poland-s-energy-sector-2025-12",
+      "headline": "Poland's energy sector",
+      "name": "Poland's energy sector",
+      "url": "https://hacktracking.com/#poland-s-energy-sector-2025-12",
+      "datePublished": "2025-12-29",
+      "dateModified": "2026-11-17",
+      "description": "A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.",
+      "articleBody": "A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers. Impact: Communications disrupted at some grid connection points; power and heat generation did not stop. Status: Confirmed by CERT Polska and the Polish government.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Energy, Government, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CERT Polska report",
+          "url": "https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#u-s-water-systems-2026-04",
+      "headline": "U.S. water systems (Iran-linked)",
+      "name": "U.S. water systems (Iran-linked)",
+      "url": "https://hacktracking.com/#u-s-water-systems-2026-04",
+      "datePublished": "2026-04-07",
+      "dateModified": "2026-11-17",
+      "description": "U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.",
+      "articleBody": "U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption. Impact: Operational disruption at affected utilities; no single total published. Status: Confirmed by CISA, FBI, EPA and NSA advisories.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Utilities, Government, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CISA advisory AA26-097A",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "EPA",
+          "url": "https://www.epa.gov/newsreleases/epa-fbi-cisa-nsa-issue-joint-cybersecurity-advisory-water-system-regarding-iranian"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#nitori-2026-11",
+      "headline": "Nitori (furniture retailer, Japan)",
+      "name": "Nitori (furniture retailer, Japan)",
+      "url": "https://hacktracking.com/#nitori-2026-11",
+      "datePublished": "2026-11-06",
+      "dateModified": "2026-11-17",
+      "description": "Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.",
+      "articleBody": "Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen. Impact: Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers. Status: Confirmed by Nitori. Investigation ongoing.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Retail, Consumer, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "SC Media",
+          "url": "https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02",
+      "headline": "Cisco SD-WAN zero-day attacks",
+      "name": "Cisco SD-WAN zero-day attacks",
+      "url": "https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02",
+      "datePublished": "2026-02-25",
+      "dateModified": "2026-11-17",
+      "description": "Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.",
+      "articleBody": "Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders. Impact: Unknown number of networks; Cisco Talos said the campaign went back to at least 2023. Status: Confirmed by Cisco and CISA (Emergency Directive 26-03).",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Government, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CISA ED 26-03",
+          "url": "https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Cybersecurity Dive",
+          "url": "https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#boston-scientific-2026-08",
+      "headline": "Boston Scientific (medical devices)",
+      "name": "Boston Scientific (medical devices)",
+      "url": "https://hacktracking.com/#boston-scientific-2026-08",
+      "datePublished": "2026-08-25",
+      "dateModified": "2026-11-17",
+      "description": "A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.",
+      "articleBody": "A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks. Impact: Global operations disrupted until about September 9; expected material hit to 2026 results. Status: Confirmed by Boston Scientific. Recovered.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Healthcare, Manufacturing, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Boston Scientific update",
+          "url": "https://news.bostonscientific.com/update-on-recent-cybersecurity-incident"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#carnival-corporation-2026-04",
+      "headline": "Carnival Corporation (cruises)",
+      "name": "Carnival Corporation (cruises)",
+      "url": "https://hacktracking.com/#carnival-corporation-2026-04",
+      "datePublished": "2026-04-10",
+      "dateModified": "2026-11-17",
+      "description": "Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group.",
+      "articleBody": "Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group. Impact: 5,995,277 people; data may include government ID numbers. Status: Confirmed by Carnival.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Travel, Consumer, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Record",
+          "url": "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#jaguar-land-rover-2025-09",
+      "headline": "Jaguar Land Rover",
+      "name": "Jaguar Land Rover",
+      "url": "https://hacktracking.com/#jaguar-land-rover-2025-09",
+      "datePublished": "2025-09-01",
+      "dateModified": "2026-11-17",
+      "description": "A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.",
+      "articleBody": "A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack. Impact: £196 million in costs reported for the quarter; production halted for weeks. Status: Confirmed by JLR. Recovered. (Older event, still in the news.)",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Manufacturing, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ckg1w255gy1o"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#fairlife-coca-cola-2026-07",
+      "headline": "fairlife / Coca-Cola",
+      "name": "fairlife / Coca-Cola",
+      "url": "https://hacktracking.com/#fairlife-coca-cola-2026-07",
+      "datePublished": "2026-07-16",
+      "dateModified": "2026-11-17",
+      "description": "A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.",
+      "articleBody": "A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants. Impact: U.S. production suspended; most production resumed by July 27. Status: Confirmed by Coca-Cola (SEC filing).",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Food, Manufacturing, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AP News",
+          "url": "https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#idc-frontier-cloud-2026-10",
+      "headline": "IDC Frontier cloud (Japan)",
+      "name": "IDC Frontier cloud (Japan)",
+      "url": "https://hacktracking.com/#idc-frontier-cloud-2026-10",
+      "datePublished": "2026-10-07",
+      "dateModified": "2026-11-17",
+      "description": "Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.",
+      "articleBody": "Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments. Impact: 495 companies and local governments disrupted. Status: Confirmed by IDC Frontier. No ransom paid.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Government, High, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "IDC Frontier update",
+          "url": "https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#atf-2026-08",
+      "headline": "ATF (U.S. firearms agency)",
+      "name": "ATF (U.S. firearms agency)",
+      "url": "https://hacktracking.com/#atf-2026-08",
+      "datePublished": "2026-08-27",
+      "dateModified": "2026-11-17",
+      "description": "The ATF declared a \"major incident\" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.",
+      "articleBody": "The ATF declared a \"major incident\" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it. Impact: One standalone system; data taken not disclosed. Status: Confirmed by ATF. Investigation ongoing.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Government, Medium, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Record",
+          "url": "https://therecord.media/doj-atf-cyberattack-qilin-ransomware"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#klue-2026-06",
+      "headline": "Klue (market research software)",
+      "name": "Klue (market research software)",
+      "url": "https://hacktracking.com/#klue-2026-06",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-11-17",
+      "description": "Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.",
+      "articleBody": "Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass. Impact: Close to 200 customer companies affected (TechCrunch); business contact and sales data. Status: Confirmed by Klue and affected companies.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Medium, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "HackerOne advisory",
+          "url": "https://www.hackerone.com/security-updates/klue-2026-06"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#uber-drivers-2026-10",
+      "headline": "Uber drivers (via Fireworks AI)",
+      "name": "Uber drivers (via Fireworks AI)",
+      "url": "https://hacktracking.com/#uber-drivers-2026-10",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-11-17",
+      "description": "Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.",
+      "articleBody": "Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected. Impact: 149,346 Uber drivers notified (names, addresses, birth dates, license numbers). Status: Confirmed by Uber, Fireworks AI and Notion.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Consumer, Medium, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch (Uber)",
+          "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "TechCrunch (Fireworks/Notion)",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11",
+      "headline": "Ukraine air raid alert app",
+      "name": "Ukraine air raid alert app",
+      "url": "https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11",
+      "datePublished": "2026-11-01",
+      "dateModified": "2026-11-17",
+      "description": "Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.",
+      "articleBody": "Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack. Impact: Several fake alerts sent to users' phones before being cleared about an hour later. Status: Confirmed by Ukraine's government.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Government, Medium, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#the-kyiv-independent-2026-11",
+      "headline": "The Kyiv Independent (news outlet)",
+      "name": "The Kyiv Independent (news outlet)",
+      "url": "https://hacktracking.com/#the-kyiv-independent-2026-11",
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-17",
+      "description": "Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.",
+      "articleBody": "Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia. Impact: Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk. Status: Confirmed by The Kyiv Independent.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Media, Medium, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061264/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#the-japan-times-2026-09",
+      "headline": "The Japan Times (news outlet)",
+      "name": "The Japan Times (news outlet)",
+      "url": "https://hacktracking.com/#the-japan-times-2026-09",
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-11-17",
+      "description": "Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.",
+      "articleBody": "Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online. Impact: HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate. Status: Confirmed by The Japan Times.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Media, Low, confirmed hack",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "The Japan Times notice",
+          "url": "https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#faa-nationwide-ground-stop-2026-11",
+      "headline": "FAA: nationwide ground stop",
+      "name": "FAA: nationwide ground stop",
+      "url": "https://hacktracking.com/#faa-nationwide-ground-stop-2026-11",
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-17",
+      "description": "The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.",
+      "articleBody": "The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system. What people speculated: A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before. Official explanation: The FAA says it has \"no indication that this was a cyberattack or an outside nefarious actor.\" Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage. Impact: Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure). Status: No evidence of a hack. Root-cause investigation ongoing.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Aviation, Government, Critical, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "FAA: Nationwide Ground Stop Q&A",
+          "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AP News",
+          "url": "https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11",
+      "headline": "Microsoft 365 / Outlook global outage",
+      "name": "Microsoft 365 / Outlook global outage",
+      "url": "https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11",
+      "datePublished": "2026-11-12",
+      "dateModified": "2026-11-17",
+      "description": "Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked.",
+      "articleBody": "Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked. What people speculated: A cyberattack on Microsoft's cloud. Official explanation: Microsoft's preliminary post-incident report calls it \"a technical issue not related to cyber or AI/agents\": a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers. Impact: At the worst point more than 80% of the affected gateway servers stopped responding; it took nearly 24 hours to stabilize email. Status: Official cause published. Not a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Critical, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "USA Today",
+          "url": "https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07",
+      "headline": "CrowdStrike / Windows global IT outage",
+      "name": "CrowdStrike / Windows global IT outage",
+      "url": "https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07",
+      "datePublished": "2024-07-19",
+      "dateModified": "2026-11-17",
+      "description": "A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.",
+      "articleBody": "A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits. What people speculated: A global cyberattack. Official explanation: CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash. Impact: About 8.5 million Windows devices (Microsoft estimate). Status: Official cause published. Not a hack. (Older event, still widely referenced.)",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Aviation, Critical, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CrowdStrike technical details",
+          "url": "https://www.crowdstrike.com/en-us/blog/falcon-update-for-windows-hosts-technical-details/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Microsoft",
+          "url": "https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#amazon-web-services-2025-10",
+      "headline": "Amazon Web Services (US-EAST-1)",
+      "name": "Amazon Web Services (US-EAST-1)",
+      "url": "https://hacktracking.com/#amazon-web-services-2025-10",
+      "datePublished": "2025-10-20",
+      "dateModified": "2026-11-17",
+      "description": "A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.",
+      "articleBody": "A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure. What people speculated: A cyberattack or DNS hijacking. Official explanation: AWS traced it to a hidden race condition in DynamoDB's automated DNS management that left a key DNS record empty. There was no sign of malicious activity. Impact: Widespread disruption to sites and apps that rely on AWS. Status: Official cause published. Not a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, Critical, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cev1en9077ro"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/what-that-huge-aws-outage-reveals-about-the-internet/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#spain-portugal-blackout-2025-04",
+      "headline": "Spain & Portugal blackout",
+      "name": "Spain & Portugal blackout",
+      "url": "https://hacktracking.com/#spain-portugal-blackout-2025-04",
+      "datePublished": "2025-04-28",
+      "dateModified": "2026-11-17",
+      "description": "Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.",
+      "articleBody": "Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed. What people speculated: A cyberattack on the power grid. Official explanation: Spain's government report (June 2025) and the European grid operators' expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections. Impact: Power cut across the Iberian Peninsula. Status: Official reports published. No cyberattack found. (Older event, final report in 2026.)",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Energy, Government, Critical, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2025/jun/17/expert-report-rules-out-cyber-attack-for-spain-and-portugal-april-blackout"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "ENTSO-E final report",
+          "url": "https://www.entsoe.eu/news/2026/03/20/entso-e-publishes-expert-panel-final-report-on-28-april-2025-blackout-in-spain-and-portugal/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#cloudflare-global-outage-2025-11",
+      "headline": "Cloudflare global outage",
+      "name": "Cloudflare global outage",
+      "url": "https://hacktracking.com/#cloudflare-global-outage-2025-11",
+      "datePublished": "2025-11-18",
+      "dateModified": "2026-11-17",
+      "description": "Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack.",
+      "articleBody": "Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack. What people speculated: A huge DDoS (traffic-flood) attack. Official explanation: Cloudflare's postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software. Impact: Errors on a large share of websites using Cloudflare for several hours. Status: Official cause published. Not a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Tech, High, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Cloudflare postmortem",
+          "url": "https://blog.cloudflare.com/18-november-2025-outage/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11",
+      "headline": "JPMorgan Chase online banking",
+      "name": "JPMorgan Chase online banking",
+      "url": "https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-17",
+      "description": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack.",
+      "articleBody": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Status: Company explanation given. No evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Finance, High, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "POLITICO",
+          "url": "https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AP News",
+          "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01",
+      "headline": "Verizon nationwide wireless outage",
+      "name": "Verizon nationwide wireless outage",
+      "url": "https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01",
+      "datePublished": "2026-01-14",
+      "dateModified": "2026-11-17",
+      "description": "Verizon customers across the U.S. lost wireless service for hours.",
+      "articleBody": "Verizon customers across the U.S. lost wireless service for hours. What people speculated: A cyberattack on the phone network. Official explanation: Verizon blamed a \"software issue\"; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit. Impact: Hours-long loss of service for customers nationwide. Status: Company explanation given. No evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Telecom, High, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/verizon-offers-20-credit-customers-affected-by-massive-wireless-outage-2026-01-15/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#nsa-classified-network-2026-11",
+      "headline": "NSA classified network (NSANet)",
+      "name": "NSA classified network (NSANet)",
+      "url": "https://hacktracking.com/#nsa-classified-network-2026-11",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "description": "The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages.",
+      "articleBody": "The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages. What people speculated: An attack on a U.S. intelligence network. Official explanation: The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack. Impact: Temporary loss of the agency's internal classified communications network. Status: Official explanation given. No evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Government, High, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "NSA statement",
+          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#starlink-global-outage-2025-07",
+      "headline": "Starlink global outage",
+      "name": "Starlink global outage",
+      "url": "https://hacktracking.com/#starlink-global-outage-2025-07",
+      "datePublished": "2025-07-24",
+      "dateModified": "2026-11-17",
+      "description": "SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack.",
+      "articleBody": "SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack. What people speculated: A cyberattack on the satellite network. Official explanation: SpaceX said a failed software upgrade to its ground-based network systems caused the outage. Impact: Global loss of Starlink service for hours. Status: Company explanation given. Not a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Telecom, Tech, High, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/spacex-probes-cause-starlinks-global-satellite-network-outage-2025-07-25/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "PCMag",
+          "url": "https://me.pcmag.com/en/networking/31409/spacex-traces-starlink-outage-to-network-upgrade"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#united-airlines-system-outage-2026-11",
+      "headline": "United Airlines system outage",
+      "name": "United Airlines system outage",
+      "url": "https://hacktracking.com/#united-airlines-system-outage-2026-11",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-17",
+      "description": "Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff.",
+      "articleBody": "Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff. What people speculated: Another attack on U.S. aviation, linked to the FAA ground stop. Official explanation: United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop. Impact: Delays to hundreds of departures. Status: No root cause published. No evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Aviation, Medium, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AP News",
+          "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07",
+      "headline": "American Airlines nationwide ground stop",
+      "name": "American Airlines nationwide ground stop",
+      "url": "https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07",
+      "datePublished": "2026-07-28",
+      "dateModified": "2026-11-17",
+      "description": "The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.",
+      "articleBody": "The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages. What people speculated: A cyberattack, possibly part of a wider campaign that week. Official explanation: American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack. Impact: Nationwide departure halt of roughly 45 minutes, with delays after. Status: No root cause published. No evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Aviation, Medium, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/faa-issues-american-airlines-nationwide-ground-stop-over-it-outage-2026-07-28/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "RVA Cyber analysis",
+          "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07",
+      "headline": "Xbox sign-in and game library outage",
+      "name": "Xbox sign-in and game library outage",
+      "url": "https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-11-17",
+      "description": "Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks.",
+      "articleBody": "Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks. What people speculated: An attack on Microsoft's gaming network during a cluster of outages. Official explanation: Microsoft's Xbox CTO said a licensing service that Xbox depends on began failing. Impact: Sign-in, purchase and game launch failures from late July 26 into July 27. Status: Company explanation given. Not attributed to a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Gaming, Tech, Medium, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "RVA Cyber analysis",
+          "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hacktracking.com/#playstation-network-outage-2026-07",
+      "headline": "PlayStation Network outage",
+      "name": "PlayStation Network outage",
+      "url": "https://hacktracking.com/#playstation-network-outage-2026-07",
+      "datePublished": "2026-07-24",
+      "dateModified": "2026-11-17",
+      "description": "PlayStation Network accounts, gaming, the store and other features were down for about five hours.",
+      "articleBody": "PlayStation Network accounts, gaming, the store and other features were down for about five hours. What people speculated: A hack of Sony's network. Official explanation: Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm. Impact: About five hours of disruption across PSN services. Status: Cause not disclosed. No public evidence of a hack.",
+      "isPartOf": {
+        "@id": "https://hacktracking.com/#website"
+      },
+      "inLanguage": "en",
+      "keywords": "Gaming, Low, speculated outage",
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "RVA Cyber analysis",
+          "url": "https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://hacktracking.com/#faq",
+      "name": "Hack Tracker frequently asked questions",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What counts as hacking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between confirmed hacks and speculated hacks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confirmed Hacks were confirmed by the affected organization, a government agency, or law enforcement. Numbers come from those statements, filings, or the linked reporting. Attacker claims are labeled as claims. Speculated / Potential Hacks are outages or incidents where the public wondered about a hack. They are not confirmed hacks. Each one shows what the organization or investigators officially said."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often is Hack Tracker updated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The list is reviewed and updated about every two hours during the day, Eastern Time. It covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the FAA: nationwide ground stop a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The FAA says it has \"no indication that this was a cyberattack or an outside nefarious actor.\" Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage. No evidence of a hack. Root-cause investigation ongoing. Sources: FAA: Nationwide Ground Stop Q&A, SecurityWeek, and AP News."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Microsoft 365 / Outlook global outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft's preliminary post-incident report calls it \"a technical issue not related to cyber or AI/agents\": a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers. Official cause published. Not a hack. Sources: Ars Technica, BleepingComputer, and USA Today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the CrowdStrike / Windows global IT outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash. Official cause published. Not a hack. (Older event, still widely referenced.) Sources: CrowdStrike technical details, and Microsoft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Amazon Web Services (US-EAST-1) a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AWS traced it to a hidden race condition in DynamoDB's automated DNS management that left a key DNS record empty. There was no sign of malicious activity. Official cause published. Not a hack. Sources: BBC News, and WIRED."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Spain & Portugal blackout a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spain's government report (June 2025) and the European grid operators' expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections. Official reports published. No cyberattack found. (Older event, final report in 2026.) Sources: The Guardian, and ENTSO-E final report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Cloudflare global outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloudflare's postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software. Official cause published. Not a hack. Sources: Cloudflare postmortem, and Ars Technica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the JPMorgan Chase online banking a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Company explanation given. No evidence of a hack. Sources: POLITICO, CNBC, and AP News."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Verizon nationwide wireless outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verizon blamed a \"software issue\"; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit. Company explanation given. No evidence of a hack. Sources: BleepingComputer, and Reuters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the NSA classified network (NSANet) a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack. Official explanation given. No evidence of a hack. Sources: NSA statement, CBS News, and The Guardian."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Starlink global outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SpaceX said a failed software upgrade to its ground-based network systems caused the outage. Company explanation given. Not a hack. Sources: Reuters, and PCMag."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the United Airlines system outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop. No root cause published. No evidence of a hack. Sources: CNBC, AP News, and CNA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the American Airlines nationwide ground stop a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack. No root cause published. No evidence of a hack. Sources: Reuters, and RVA Cyber analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Xbox sign-in and game library outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft's Xbox CTO said a licensing service that Xbox depends on began failing. Company explanation given. Not attributed to a hack. Source: RVA Cyber analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the PlayStation Network outage a hack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm. Cause not disclosed. No public evidence of a hack. Source: RVA Cyber analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happened in the Binance (crypto exchange) incident?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group. Impact: About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals. Status: Confirmed by Binance. Losses covered. Sources: Binance announcement, CNBC, and Chainalysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happened in the Instructure (Canvas learning platform) incident?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers. Impact: Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff. Status: Confirmed by Instructure. Sources: BleepingComputer, TechCrunch, and Reuters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happened in the FBI surveillance system incident?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The FBI declared a \"major cyber incident\" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets. Impact: Possible exposure of surveillance-target information; full scope not disclosed. Status: Confirmed by the FBI. Investigation ongoing. Sources: POLITICO, and NBC News."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <div class="wrap">
-    <div class="brand"><span class="dot"></span>HACK<span class="accent">TRACKER</span></div>
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <h1>HACK <span class="accent">TRACKER</span></h1>
+    </div>
     <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
-    <p class="updated">Last updated: <span id="updated">-</span></p>
+    <p class="updated">Last updated: <time datetime="2026-11-17" id="updated">November 17, 2026</time></p>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="definition">
+<main id="main" class="wrap">
+  <section class="definition" id="definition">
     <h2>What counts as hacking</h2>
     <blockquote>Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system.</blockquote>
   </section>
 
-  <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="confirmed" role="tab">Confirmed Hacks <span class="count" id="c-confirmed"></span></button>
-    <button class="tab" data-tab="speculated" role="tab">Speculated / Potential Hacks <span class="count" id="c-speculated"></span></button>
+  <nav class="tabs" role="tablist" aria-label="Hack categories">
+    <a class="tab is-active" href="#confirmed-section" id="tab-confirmed" data-tab="confirmed" role="tab" aria-selected="true" aria-controls="confirmed-section">Confirmed Hacks <span class="count">25</span></a>
+    <a class="tab" href="#speculated-section" id="tab-speculated" data-tab="speculated" role="tab" aria-selected="false" aria-controls="speculated-section">Speculated / Potential Hacks <span class="count">14</span></a>
   </nav>
-
-  <p class="tabnote" id="tabnote"></p>
 
   <div class="controls">
     <input id="search" type="search" placeholder="Search company, agency, keyword..." aria-label="Search">
@@ -38,21 +1717,784 @@
     </select>
   </div>
 
-  <div id="list" class="list"></div>
   <p id="empty" class="empty" hidden>No matches. Try a different search or filter.</p>
 
-  <section class="disclaimer">
-    <h2>Read this first</h2>
+  <section id="confirmed-section" class="results is-active" data-tab="confirmed" aria-labelledby="h-confirmed" role="tabpanel">
+    <h2 id="h-confirmed">Confirmed Hacks</h2>
+    <p class="tabnote">Breaches and attacks confirmed by the affected organization, a government, or law enforcement. Biggest impact first.</p>
+    <div class="list" id="list-confirmed">
+      <article class="card Critical" id="binance-2026-10" data-severity="Critical" data-sectors="Finance,Crypto" data-search="Binance (crypto exchange) Hackers drained about $6.3 billion in crypto from Binance&#x27;s hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea&#x27;s TraderTraitor group. About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals. Confirmed by Binance. Losses covered. Finance Crypto">
+        <div class="row">
+          <h3><span class="rank">#1</span> Binance (crypto exchange)</h3>
+          <time class="date" datetime="2026-10-29">Oct 29, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Finance</span><span class="badge sector">Crypto</span></div>
+        <p>Hackers drained about $6.3 billion in crypto from Binance&#x27;s hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea&#x27;s TraderTraitor group.</p>
+        <span class="lbl">Impact</span><p>About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Binance. Losses covered.</p>
+        <ul class="sources"><li><a href="https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7" target="_blank" rel="noopener noreferrer">Binance announcement <span aria-hidden="true">↗</span></a></li><li><a href="https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html" target="_blank" rel="noopener noreferrer">CNBC <span aria-hidden="true">↗</span></a></li><li><a href="https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/" target="_blank" rel="noopener noreferrer">Chainalysis <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=binance-2026-10 url=https://hacktracking.com/#binance-2026-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="binance-2026-10" aria-expanded="false" aria-controls="comments-binance-2026-10">Comments <span class="disqus-comment-count" data-disqus-identifier="binance-2026-10"></span></button>
+          <div class="comments-panel" id="comments-binance-2026-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="instructure-2026-05" data-severity="Critical" data-sectors="Education,Tech" data-search="Instructure (Canvas learning platform) The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers. Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff. Confirmed by Instructure. Education Tech">
+        <div class="row">
+          <h3><span class="rank">#2</span> Instructure (Canvas learning platform)</h3>
+          <time class="date" datetime="2026-05">May 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Education</span><span class="badge sector">Tech</span></div>
+        <p>The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.</p>
+        <span class="lbl">Impact</span><p>Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Instructure.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://www.reuters.com/legal/litigation/canvas-parent-company-reaches-agreement-with-hacking-group-behind-recent-breach-2026-05-12/" target="_blank" rel="noopener noreferrer">Reuters <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=instructure-2026-05 url=https://hacktracking.com/#instructure-2026-05 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="instructure-2026-05" aria-expanded="false" aria-controls="comments-instructure-2026-05">Comments <span class="disqus-comment-count" data-disqus-identifier="instructure-2026-05"></span></button>
+          <div class="comments-panel" id="comments-instructure-2026-05" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="fbi-surveillance-system-2026-04" data-severity="Critical" data-sectors="Government" data-search="FBI surveillance system The FBI declared a &quot;major cyber incident&quot; and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets. Possible exposure of surveillance-target information; full scope not disclosed. Confirmed by the FBI. Investigation ongoing. Government">
+        <div class="row">
+          <h3><span class="rank">#3</span> FBI surveillance system</h3>
+          <time class="date" datetime="2026-04">April 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Government</span></div>
+        <p>The FBI declared a &quot;major cyber incident&quot; and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.</p>
+        <span class="lbl">Impact</span><p>Possible exposure of surveillance-target information; full scope not disclosed.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by the FBI. Investigation ongoing.</p>
+        <ul class="sources"><li><a href="https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237" target="_blank" rel="noopener noreferrer">POLITICO <span aria-hidden="true">↗</span></a></li><li><a href="https://www.nbcnews.com/news/us-news/fbi-labels-suspected-china-hack-law-enforcement-data-major-cyber-incid-rcna266495" target="_blank" rel="noopener noreferrer">NBC News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=fbi-surveillance-system-2026-04 url=https://hacktracking.com/#fbi-surveillance-system-2026-04 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="fbi-surveillance-system-2026-04" aria-expanded="false" aria-controls="comments-fbi-surveillance-system-2026-04">Comments <span class="disqus-comment-count" data-disqus-identifier="fbi-surveillance-system-2026-04"></span></button>
+          <div class="comments-panel" id="comments-fbi-surveillance-system-2026-04" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="stryker-2026-03" data-severity="Critical" data-sectors="Healthcare,Manufacturing" data-search="Stryker (medical technology) Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks. Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later. Confirmed by Stryker. Recovered. Healthcare Manufacturing">
+        <div class="row">
+          <h3><span class="rank">#4</span> Stryker (medical technology)</h3>
+          <time class="date" datetime="2026-03-11">Mar 11, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Healthcare</span><span class="badge sector">Manufacturing</span></div>
+        <p>Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.</p>
+        <span class="lbl">Impact</span><p>Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Stryker. Recovered.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/" target="_blank" rel="noopener noreferrer">Krebs on Security <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=stryker-2026-03 url=https://hacktracking.com/#stryker-2026-03 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="stryker-2026-03" aria-expanded="false" aria-controls="comments-stryker-2026-03">Comments <span class="disqus-comment-count" data-disqus-identifier="stryker-2026-03"></span></button>
+          <div class="comments-panel" id="comments-stryker-2026-03" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="connectwise-2026-10" data-severity="Critical" data-sectors="Tech" data-search="ConnectWise (IT management software) Chinese state-linked hackers stole credentials from ConnectWise&#x27;s cloud backup service and used them to get into customers&#x27; Microsoft 365 accounts, spying on thousands of companies. Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline. Confirmed by ConnectWise and Microsoft. Tech">
+        <div class="row">
+          <h3><span class="rank">#5</span> ConnectWise (IT management software)</h3>
+          <time class="date" datetime="2026-10">October 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Tech</span></div>
+        <p>Chinese state-linked hackers stole credentials from ConnectWise&#x27;s cloud backup service and used them to get into customers&#x27; Microsoft 365 accounts, spying on thousands of companies.</p>
+        <span class="lbl">Impact</span><p>Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by ConnectWise and Microsoft.</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html" target="_blank" rel="noopener noreferrer">The Hacker News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=connectwise-2026-10 url=https://hacktracking.com/#connectwise-2026-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="connectwise-2026-10" aria-expanded="false" aria-controls="comments-connectwise-2026-10">Comments <span class="disqus-comment-count" data-disqus-identifier="connectwise-2026-10"></span></button>
+          <div class="comments-panel" id="comments-connectwise-2026-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="dentaquest-2026-05" data-severity="Critical" data-sectors="Healthcare" data-search="DentaQuest (dental benefits) Hackers were inside DentaQuest&#x27;s network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year. 15 million people (HHS filing). Confirmed. Notices sent. Healthcare">
+        <div class="row">
+          <h3><span class="rank">#6</span> DentaQuest (dental benefits)</h3>
+          <time class="date" datetime="2026-05-17">May 17, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Healthcare</span></div>
+        <p>Hackers were inside DentaQuest&#x27;s network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.</p>
+        <span class="lbl">Impact</span><p>15 million people (HHS filing).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed. Notices sent.</p>
+        <ul class="sources"><li><a href="https://www.healthcaredive.com/news/Dental-benefits-administrator-discloses-breach/827533/" target="_blank" rel="noopener noreferrer">Healthcare Dive <span aria-hidden="true">↗</span></a></li><li><a href="https://techcrunch.com/2026/09/15/the-worst-hacks-and-breaches-of-2026-so-far/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=dentaquest-2026-05 url=https://hacktracking.com/#dentaquest-2026-05 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="dentaquest-2026-05" aria-expanded="false" aria-controls="comments-dentaquest-2026-05">Comments <span class="disqus-comment-count" data-disqus-identifier="dentaquest-2026-05"></span></button>
+          <div class="comments-panel" id="comments-dentaquest-2026-05" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="arara-2026-10" data-severity="Critical" data-sectors="Tech,Consumer" data-search="ARARA (email delivery service, Japan) Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists. 81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people). Confirmed by ARARA. Investigation ongoing. Tech Consumer">
+        <div class="row">
+          <h3><span class="rank">#7</span> ARARA (email delivery service, Japan)</h3>
+          <time class="date" datetime="2026-10-28">Oct 28, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Tech</span><span class="badge sector">Consumer</span></div>
+        <p>Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.</p>
+        <span class="lbl">Impact</span><p>81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by ARARA. Investigation ongoing.</p>
+        <ul class="sources"><li><a href="https://www.arara.com/dcms_media/other/arara_20261106.pdf" target="_blank" rel="noopener noreferrer">ARARA report (Japanese) <span aria-hidden="true">↗</span></a></li><li><a href="https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/" target="_blank" rel="noopener noreferrer">BleepingComputer (SEGA) <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=arara-2026-10 url=https://hacktracking.com/#arara-2026-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="arara-2026-10" aria-expanded="false" aria-controls="comments-arara-2026-10">Comments <span class="disqus-comment-count" data-disqus-identifier="arara-2026-10"></span></button>
+          <div class="comments-panel" id="comments-arara-2026-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="drivewealth-2026-09" data-severity="Critical" data-sectors="Finance" data-search="DriveWealth (brokerage tech) An intruder got into DriveWealth&#x27;s network, which powers investing features in many apps, and accessed customer data including Social Security numbers. 30 million people (state attorney general filings). Confirmed. Notices sent. Finance">
+        <div class="row">
+          <h3><span class="rank">#8</span> DriveWealth (brokerage tech)</h3>
+          <time class="date" datetime="2026-09-04">Sep 4, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Finance</span></div>
+        <p>An intruder got into DriveWealth&#x27;s network, which powers investing features in many apps, and accessed customer data including Social Security numbers.</p>
+        <span class="lbl">Impact</span><p>30 million people (state attorney general filings).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed. Notices sent.</p>
+        <ul class="sources"><li><a href="https://oag.ca.gov/system/files/DriveWealth%20-%20Redacted%20Notice.pdf" target="_blank" rel="noopener noreferrer">California AG notice <span aria-hidden="true">↗</span></a></li><li><a href="https://www.atg.wa.gov/drivewealth-llc" target="_blank" rel="noopener noreferrer">Washington AG <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=drivewealth-2026-09 url=https://hacktracking.com/#drivewealth-2026-09 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="drivewealth-2026-09" aria-expanded="false" aria-controls="comments-drivewealth-2026-09">Comments <span class="disqus-comment-count" data-disqus-identifier="drivewealth-2026-09"></span></button>
+          <div class="comments-panel" id="comments-drivewealth-2026-09" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="idscan-net-2026-09" data-severity="Critical" data-sectors="Tech,Consumer" data-search="IDScan.net (ID verification) A company that scans driver&#x27;s licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers. 13 million people per a state filing; hackers claimed about 153 million records. Confirmed by IDScan.net. Tech Consumer">
+        <div class="row">
+          <h3><span class="rank">#9</span> IDScan.net (ID verification)</h3>
+          <time class="date" datetime="2026-09">Sept 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge sector">Tech</span><span class="badge sector">Consumer</span></div>
+        <p>A company that scans driver&#x27;s licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.</p>
+        <span class="lbl">Impact</span><p>13 million people per a state filing; hackers claimed about 153 million records.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by IDScan.net.</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/" target="_blank" rel="noopener noreferrer">Help Net Security <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=idscan-net-2026-09 url=https://hacktracking.com/#idscan-net-2026-09 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="idscan-net-2026-09" aria-expanded="false" aria-controls="comments-idscan-net-2026-09">Comments <span class="disqus-comment-count" data-disqus-identifier="idscan-net-2026-09"></span></button>
+          <div class="comments-panel" id="comments-idscan-net-2026-09" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="european-commission-cloud-2026-03" data-severity="High" data-sectors="Government" data-search="European Commission cloud Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts. About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU). Confirmed by CERT-EU and the Commission. Government">
+        <div class="row">
+          <h3><span class="rank">#10</span> European Commission cloud</h3>
+          <time class="date" datetime="2026">2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Government</span></div>
+        <p>Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.</p>
+        <span class="lbl">Impact</span><p>About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by CERT-EU and the Commission.</p>
+        <ul class="sources"><li><a href="https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain" target="_blank" rel="noopener noreferrer">CERT-EU <span aria-hidden="true">↗</span></a></li><li><a href="https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=european-commission-cloud-2026-03 url=https://hacktracking.com/#european-commission-cloud-2026-03 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="european-commission-cloud-2026-03" aria-expanded="false" aria-controls="comments-european-commission-cloud-2026-03">Comments <span class="disqus-comment-count" data-disqus-identifier="european-commission-cloud-2026-03"></span></button>
+          <div class="comments-panel" id="comments-european-commission-cloud-2026-03" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="poland-s-energy-sector-2025-12" data-severity="High" data-sectors="Energy,Government" data-search="Poland&#x27;s energy sector A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland&#x27;s CERT linked it to Russian state hackers. Communications disrupted at some grid connection points; power and heat generation did not stop. Confirmed by CERT Polska and the Polish government. Energy Government">
+        <div class="row">
+          <h3><span class="rank">#11</span> Poland&#x27;s energy sector</h3>
+          <time class="date" datetime="2025-12-29">Dec 29, 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Energy</span><span class="badge sector">Government</span></div>
+        <p>A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland&#x27;s CERT linked it to Russian state hackers.</p>
+        <span class="lbl">Impact</span><p>Communications disrupted at some grid connection points; power and heat generation did not stop.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by CERT Polska and the Polish government.</p>
+        <ul class="sources"><li><a href="https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/" target="_blank" rel="noopener noreferrer">CERT Polska report <span aria-hidden="true">↗</span></a></li><li><a href="https://thehackernews.com/2026/01/poland-attributes-december-cyber.html" target="_blank" rel="noopener noreferrer">The Hacker News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=poland-s-energy-sector-2025-12 url=https://hacktracking.com/#poland-s-energy-sector-2025-12 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="poland-s-energy-sector-2025-12" aria-expanded="false" aria-controls="comments-poland-s-energy-sector-2025-12">Comments <span class="disqus-comment-count" data-disqus-identifier="poland-s-energy-sector-2025-12"></span></button>
+          <div class="comments-panel" id="comments-poland-s-energy-sector-2025-12" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="u-s-water-systems-2026-04" data-severity="High" data-sectors="Utilities,Government" data-search="U.S. water systems (Iran-linked) U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption. Operational disruption at affected utilities; no single total published. Confirmed by CISA, FBI, EPA and NSA advisories. Utilities Government">
+        <div class="row">
+          <h3><span class="rank">#12</span> U.S. water systems (Iran-linked)</h3>
+          <time class="date" datetime="2026">2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Utilities</span><span class="badge sector">Government</span></div>
+        <p>U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.</p>
+        <span class="lbl">Impact</span><p>Operational disruption at affected utilities; no single total published.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by CISA, FBI, EPA and NSA advisories.</p>
+        <ul class="sources"><li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a" target="_blank" rel="noopener noreferrer">CISA advisory AA26-097A <span aria-hidden="true">↗</span></a></li><li><a href="https://www.epa.gov/newsreleases/epa-fbi-cisa-nsa-issue-joint-cybersecurity-advisory-water-system-regarding-iranian" target="_blank" rel="noopener noreferrer">EPA <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=u-s-water-systems-2026-04 url=https://hacktracking.com/#u-s-water-systems-2026-04 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="u-s-water-systems-2026-04" aria-expanded="false" aria-controls="comments-u-s-water-systems-2026-04">Comments <span class="disqus-comment-count" data-disqus-identifier="u-s-water-systems-2026-04"></span></button>
+          <div class="comments-panel" id="comments-u-s-water-systems-2026-04" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="nitori-2026-11" data-severity="High" data-sectors="Retail,Consumer" data-search="Nitori (furniture retailer, Japan) Japan&#x27;s biggest furniture chain found intruders in a company system and says customer and order records may have been stolen. Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers. Confirmed by Nitori. Investigation ongoing. Retail Consumer">
+        <div class="row">
+          <h3><span class="rank">#13</span> Nitori (furniture retailer, Japan)</h3>
+          <time class="date" datetime="2026-11-06">Nov 6, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Retail</span><span class="badge sector">Consumer</span></div>
+        <p>Japan&#x27;s biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.</p>
+        <span class="lbl">Impact</span><p>Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Nitori. Investigation ongoing.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records" target="_blank" rel="noopener noreferrer">SC Media <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=nitori-2026-11 url=https://hacktracking.com/#nitori-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="nitori-2026-11" aria-expanded="false" aria-controls="comments-nitori-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="nitori-2026-11"></span></button>
+          <div class="comments-panel" id="comments-nitori-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="cisco-sd-wan-zero-day-attacks-2026-02" data-severity="High" data-sectors="Tech,Government" data-search="Cisco SD-WAN zero-day attacks Attackers exploited unknown flaws in Cisco&#x27;s SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders. Unknown number of networks; Cisco Talos said the campaign went back to at least 2023. Confirmed by Cisco and CISA (Emergency Directive 26-03). Tech Government">
+        <div class="row">
+          <h3><span class="rank">#14</span> Cisco SD-WAN zero-day attacks</h3>
+          <time class="date" datetime="2026-02-25">Feb 25, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Tech</span><span class="badge sector">Government</span></div>
+        <p>Attackers exploited unknown flaws in Cisco&#x27;s SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.</p>
+        <span class="lbl">Impact</span><p>Unknown number of networks; Cisco Talos said the campaign went back to at least 2023.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Cisco and CISA (Emergency Directive 26-03).</p>
+        <ul class="sources"><li><a href="https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems" target="_blank" rel="noopener noreferrer">CISA ED 26-03 <span aria-hidden="true">↗</span></a></li><li><a href="https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/" target="_blank" rel="noopener noreferrer">Cybersecurity Dive <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=cisco-sd-wan-zero-day-attacks-2026-02 url=https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="cisco-sd-wan-zero-day-attacks-2026-02" aria-expanded="false" aria-controls="comments-cisco-sd-wan-zero-day-attacks-2026-02">Comments <span class="disqus-comment-count" data-disqus-identifier="cisco-sd-wan-zero-day-attacks-2026-02"></span></button>
+          <div class="comments-panel" id="comments-cisco-sd-wan-zero-day-attacks-2026-02" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="boston-scientific-2026-08" data-severity="High" data-sectors="Healthcare,Manufacturing" data-search="Boston Scientific (medical devices) A cyberattack knocked out Boston Scientific&#x27;s global network, halting manufacturing, orders and shipping for about two weeks. Global operations disrupted until about September 9; expected material hit to 2026 results. Confirmed by Boston Scientific. Recovered. Healthcare Manufacturing">
+        <div class="row">
+          <h3><span class="rank">#15</span> Boston Scientific (medical devices)</h3>
+          <time class="date" datetime="2026-08-25">Aug 25, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Healthcare</span><span class="badge sector">Manufacturing</span></div>
+        <p>A cyberattack knocked out Boston Scientific&#x27;s global network, halting manufacturing, orders and shipping for about two weeks.</p>
+        <span class="lbl">Impact</span><p>Global operations disrupted until about September 9; expected material hit to 2026 results.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Boston Scientific. Recovered.</p>
+        <ul class="sources"><li><a href="https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/" target="_blank" rel="noopener noreferrer">Reuters <span aria-hidden="true">↗</span></a></li><li><a href="https://news.bostonscientific.com/update-on-recent-cybersecurity-incident" target="_blank" rel="noopener noreferrer">Boston Scientific update <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=boston-scientific-2026-08 url=https://hacktracking.com/#boston-scientific-2026-08 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="boston-scientific-2026-08" aria-expanded="false" aria-controls="comments-boston-scientific-2026-08">Comments <span class="disqus-comment-count" data-disqus-identifier="boston-scientific-2026-08"></span></button>
+          <div class="comments-panel" id="comments-boston-scientific-2026-08" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="carnival-corporation-2026-04" data-severity="High" data-sectors="Travel,Consumer" data-search="Carnival Corporation (cruises) Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn&#x27;t named a group. 5,995,277 people; data may include government ID numbers. Confirmed by Carnival. Travel Consumer">
+        <div class="row">
+          <h3><span class="rank">#16</span> Carnival Corporation (cruises)</h3>
+          <time class="date" datetime="2026-04-10">Apr 10, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Travel</span><span class="badge sector">Consumer</span></div>
+        <p>Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn&#x27;t named a group.</p>
+        <span class="lbl">Impact</span><p>5,995,277 people; data may include government ID numbers.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Carnival.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million" target="_blank" rel="noopener noreferrer">The Record <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=carnival-corporation-2026-04 url=https://hacktracking.com/#carnival-corporation-2026-04 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="carnival-corporation-2026-04" aria-expanded="false" aria-controls="comments-carnival-corporation-2026-04">Comments <span class="disqus-comment-count" data-disqus-identifier="carnival-corporation-2026-04"></span></button>
+          <div class="comments-panel" id="comments-carnival-corporation-2026-04" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="jaguar-land-rover-2025-09" data-severity="High" data-sectors="Manufacturing" data-search="Jaguar Land Rover A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack. £196 million in costs reported for the quarter; production halted for weeks. Confirmed by JLR. Recovered. (Older event, still in the news.) Manufacturing">
+        <div class="row">
+          <h3><span class="rank">#17</span> Jaguar Land Rover</h3>
+          <time class="date" datetime="2025-09">Sept 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Manufacturing</span></div>
+        <p>A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.</p>
+        <span class="lbl">Impact</span><p>£196 million in costs reported for the quarter; production halted for weeks.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by JLR. Recovered. (Older event, still in the news.)</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://www.bbc.com/news/articles/ckg1w255gy1o" target="_blank" rel="noopener noreferrer">BBC News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=jaguar-land-rover-2025-09 url=https://hacktracking.com/#jaguar-land-rover-2025-09 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="jaguar-land-rover-2025-09" aria-expanded="false" aria-controls="comments-jaguar-land-rover-2025-09">Comments <span class="disqus-comment-count" data-disqus-identifier="jaguar-land-rover-2025-09"></span></button>
+          <div class="comments-panel" id="comments-jaguar-land-rover-2025-09" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="fairlife-coca-cola-2026-07" data-severity="High" data-sectors="Food,Manufacturing" data-search="fairlife / Coca-Cola A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants. U.S. production suspended; most production resumed by July 27. Confirmed by Coca-Cola (SEC filing). Food Manufacturing">
+        <div class="row">
+          <h3><span class="rank">#18</span> fairlife / Coca-Cola</h3>
+          <time class="date" datetime="2026-07-16">Jul 16, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Food</span><span class="badge sector">Manufacturing</span></div>
+        <p>A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.</p>
+        <span class="lbl">Impact</span><p>U.S. production suspended; most production resumed by July 27.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Coca-Cola (SEC filing).</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6" target="_blank" rel="noopener noreferrer">AP News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=fairlife-coca-cola-2026-07 url=https://hacktracking.com/#fairlife-coca-cola-2026-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="fairlife-coca-cola-2026-07" aria-expanded="false" aria-controls="comments-fairlife-coca-cola-2026-07">Comments <span class="disqus-comment-count" data-disqus-identifier="fairlife-coca-cola-2026-07"></span></button>
+          <div class="comments-panel" id="comments-fairlife-coca-cola-2026-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="idc-frontier-cloud-2026-10" data-severity="High" data-sectors="Tech,Government" data-search="IDC Frontier cloud (Japan) Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments. 495 companies and local governments disrupted. Confirmed by IDC Frontier. No ransom paid. Tech Government">
+        <div class="row">
+          <h3><span class="rank">#19</span> IDC Frontier cloud (Japan)</h3>
+          <time class="date" datetime="2026-10-07">Oct 7, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge sector">Tech</span><span class="badge sector">Government</span></div>
+        <p>Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.</p>
+        <span class="lbl">Impact</span><p>495 companies and local governments disrupted.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by IDC Frontier. No ransom paid.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf" target="_blank" rel="noopener noreferrer">IDC Frontier update <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=idc-frontier-cloud-2026-10 url=https://hacktracking.com/#idc-frontier-cloud-2026-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="idc-frontier-cloud-2026-10" aria-expanded="false" aria-controls="comments-idc-frontier-cloud-2026-10">Comments <span class="disqus-comment-count" data-disqus-identifier="idc-frontier-cloud-2026-10"></span></button>
+          <div class="comments-panel" id="comments-idc-frontier-cloud-2026-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="atf-2026-08" data-severity="Medium" data-sectors="Government" data-search="ATF (U.S. firearms agency) The ATF declared a &quot;major incident&quot; after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it. One standalone system; data taken not disclosed. Confirmed by ATF. Investigation ongoing. Government">
+        <div class="row">
+          <h3><span class="rank">#20</span> ATF (U.S. firearms agency)</h3>
+          <time class="date" datetime="2026-08-27">Aug 27, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge sector">Government</span></div>
+        <p>The ATF declared a &quot;major incident&quot; after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.</p>
+        <span class="lbl">Impact</span><p>One standalone system; data taken not disclosed.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by ATF. Investigation ongoing.</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://therecord.media/doj-atf-cyberattack-qilin-ransomware" target="_blank" rel="noopener noreferrer">The Record <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=atf-2026-08 url=https://hacktracking.com/#atf-2026-08 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="atf-2026-08" aria-expanded="false" aria-controls="comments-atf-2026-08">Comments <span class="disqus-comment-count" data-disqus-identifier="atf-2026-08"></span></button>
+          <div class="comments-panel" id="comments-atf-2026-08" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="klue-2026-06" data-severity="Medium" data-sectors="Tech" data-search="Klue (market research software) Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass. Close to 200 customer companies affected (TechCrunch); business contact and sales data. Confirmed by Klue and affected companies. Tech">
+        <div class="row">
+          <h3><span class="rank">#21</span> Klue (market research software)</h3>
+          <time class="date" datetime="2026-06">June 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge sector">Tech</span></div>
+        <p>Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.</p>
+        <span class="lbl">Impact</span><p>Close to 200 customer companies affected (TechCrunch); business contact and sales data.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Klue and affected companies.</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/" target="_blank" rel="noopener noreferrer">TechCrunch <span aria-hidden="true">↗</span></a></li><li><a href="https://www.hackerone.com/security-updates/klue-2026-06" target="_blank" rel="noopener noreferrer">HackerOne advisory <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=klue-2026-06 url=https://hacktracking.com/#klue-2026-06 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="klue-2026-06" aria-expanded="false" aria-controls="comments-klue-2026-06">Comments <span class="disqus-comment-count" data-disqus-identifier="klue-2026-06"></span></button>
+          <div class="comments-panel" id="comments-klue-2026-06" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="uber-drivers-2026-10" data-severity="Medium" data-sectors="Tech,Consumer" data-search="Uber drivers (via Fireworks AI) Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected. 149,346 Uber drivers notified (names, addresses, birth dates, license numbers). Confirmed by Uber, Fireworks AI and Notion. Tech Consumer">
+        <div class="row">
+          <h3><span class="rank">#22</span> Uber drivers (via Fireworks AI)</h3>
+          <time class="date" datetime="2026-10-09">Oct 9, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge sector">Tech</span><span class="badge sector">Consumer</span></div>
+        <p>Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.</p>
+        <span class="lbl">Impact</span><p>149,346 Uber drivers notified (names, addresses, birth dates, license numbers).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Uber, Fireworks AI and Notion.</p>
+        <ul class="sources"><li><a href="https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/" target="_blank" rel="noopener noreferrer">TechCrunch (Uber) <span aria-hidden="true">↗</span></a></li><li><a href="https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/" target="_blank" rel="noopener noreferrer">TechCrunch (Fireworks/Notion) <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=uber-drivers-2026-10 url=https://hacktracking.com/#uber-drivers-2026-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="uber-drivers-2026-10" aria-expanded="false" aria-controls="comments-uber-drivers-2026-10">Comments <span class="disqus-comment-count" data-disqus-identifier="uber-drivers-2026-10"></span></button>
+          <div class="comments-panel" id="comments-uber-drivers-2026-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="ukraine-air-raid-alert-app-2026-11" data-severity="Medium" data-sectors="Government" data-search="Ukraine air raid alert app Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine&#x27;s air raid alert app. President Zelensky called it a Russian cyberattack. Several fake alerts sent to users&#x27; phones before being cleared about an hour later. Confirmed by Ukraine&#x27;s government. Government">
+        <div class="row">
+          <h3><span class="rank">#23</span> Ukraine air raid alert app</h3>
+          <time class="date" datetime="2026-11-01">Nov 1, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge sector">Government</span></div>
+        <p>Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine&#x27;s air raid alert app. President Zelensky called it a Russian cyberattack.</p>
+        <span class="lbl">Impact</span><p>Several fake alerts sent to users&#x27; phones before being cleared about an hour later.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by Ukraine&#x27;s government.</p>
+        <ul class="sources"><li><a href="https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/" target="_blank" rel="noopener noreferrer">The Kyiv Independent <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=ukraine-air-raid-alert-app-2026-11 url=https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="ukraine-air-raid-alert-app-2026-11" aria-expanded="false" aria-controls="comments-ukraine-air-raid-alert-app-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="ukraine-air-raid-alert-app-2026-11"></span></button>
+          <div class="comments-panel" id="comments-ukraine-air-raid-alert-app-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="the-kyiv-independent-2026-11" data-severity="Medium" data-sectors="Media" data-search="The Kyiv Independent (news outlet) Hackers got into the newsroom&#x27;s website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia. Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk. Confirmed by The Kyiv Independent. Media">
+        <div class="row">
+          <h3><span class="rank">#24</span> The Kyiv Independent (news outlet)</h3>
+          <time class="date" datetime="2026-11-04">Nov 4, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge sector">Media</span></div>
+        <p>Hackers got into the newsroom&#x27;s website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.</p>
+        <span class="lbl">Impact</span><p>Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by The Kyiv Independent.</p>
+        <ul class="sources"><li><a href="https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/" target="_blank" rel="noopener noreferrer">The Kyiv Independent <span aria-hidden="true">↗</span></a></li><li><a href="https://www.pravda.com.ua/eng/news/2026/11/04/8061264/" target="_blank" rel="noopener noreferrer">Ukrainska Pravda <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=the-kyiv-independent-2026-11 url=https://hacktracking.com/#the-kyiv-independent-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="the-kyiv-independent-2026-11" aria-expanded="false" aria-controls="comments-the-kyiv-independent-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="the-kyiv-independent-2026-11"></span></button>
+          <div class="comments-panel" id="comments-the-kyiv-independent-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Low" id="the-japan-times-2026-09" data-severity="Low" data-sectors="Media" data-search="The Japan Times (news outlet) Ransomware hit an old administrative file server at The Japan Times&#x27; group, and data the attacker claimed to have stolen was later posted online. HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate. Confirmed by The Japan Times. Media">
+        <div class="row">
+          <h3><span class="rank">#25</span> The Japan Times (news outlet)</h3>
+          <time class="date" datetime="2026-09-18">Sep 18, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Low">Low</span><span class="badge sector">Media</span></div>
+        <p>Ransomware hit an old administrative file server at The Japan Times&#x27; group, and data the attacker claimed to have stolen was later posted online.</p>
+        <span class="lbl">Impact</span><p>HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Confirmed by The Japan Times.</p>
+        <ul class="sources"><li><a href="https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/" target="_blank" rel="noopener noreferrer">The Japan Times notice <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=the-japan-times-2026-09 url=https://hacktracking.com/#the-japan-times-2026-09 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="the-japan-times-2026-09" aria-expanded="false" aria-controls="comments-the-japan-times-2026-09">Comments <span class="disqus-comment-count" data-disqus-identifier="the-japan-times-2026-09"></span></button>
+          <div class="comments-panel" id="comments-the-japan-times-2026-09" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="speculated-section" class="results" data-tab="speculated" aria-labelledby="h-speculated" role="tabpanel">
+    <h2 id="h-speculated">Speculated / Potential Hacks</h2>
+    <p class="tabnote">Big outages and incidents people suspected were hacks. These are not confirmed hacks. Each shows the official explanation. Biggest impact first.</p>
+    <div class="list" id="list-speculated">
+      <article class="card Critical" id="faa-nationwide-ground-stop-2026-11" data-severity="Critical" data-sectors="Aviation,Government" data-search="FAA: nationwide ground stop The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system. Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure). No evidence of a hack. Root-cause investigation ongoing. A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before. The FAA says it has &quot;no indication that this was a cyberattack or an outside nefarious actor.&quot; Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA&#x27;s legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage. Aviation Government">
+        <div class="row">
+          <h3><span class="rank">#1</span> FAA: nationwide ground stop</h3>
+          <time class="date" datetime="2026-11-13">Nov 13, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Aviation</span><span class="badge sector">Government</span></div>
+        <p>The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.</p>
+        <span class="lbl">What people speculated</span><p>A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>The FAA says it has &quot;no indication that this was a cyberattack or an outside nefarious actor.&quot; Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA&#x27;s legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage.</p></div><span class="lbl">Impact</span><p>Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure).</p>
+        <span class="lbl">Status</span>
+        <p class="status">No evidence of a hack. Root-cause investigation ongoing.</p>
+        <ul class="sources"><li><a href="https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers" target="_blank" rel="noopener noreferrer">FAA: Nationwide Ground Stop Q&amp;A <span aria-hidden="true">↗</span></a></li><li><a href="https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/" target="_blank" rel="noopener noreferrer">SecurityWeek <span aria-hidden="true">↗</span></a></li><li><a href="https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b" target="_blank" rel="noopener noreferrer">AP News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=faa-nationwide-ground-stop-2026-11 url=https://hacktracking.com/#faa-nationwide-ground-stop-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="faa-nationwide-ground-stop-2026-11" aria-expanded="false" aria-controls="comments-faa-nationwide-ground-stop-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="faa-nationwide-ground-stop-2026-11"></span></button>
+          <div class="comments-panel" id="comments-faa-nationwide-ground-stop-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="microsoft-365-outlook-global-outage-2026-11" data-severity="Critical" data-sectors="Tech" data-search="Microsoft 365 / Outlook global outage Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company&#x27;s history. Microsoft publicly pushed back on speculation that it had been hacked. At the worst point more than 80% of the affected gateway servers stopped responding; it took nearly 24 hours to stabilize email. Official cause published. Not a hack. A cyberattack on Microsoft&#x27;s cloud. Microsoft&#x27;s preliminary post-incident report calls it &quot;a technical issue not related to cyber or AI/agents&quot;: a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers. Tech">
+        <div class="row">
+          <h3><span class="rank">#2</span> Microsoft 365 / Outlook global outage</h3>
+          <time class="date" datetime="2026-11-12">Nov 12, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Tech</span></div>
+        <p>Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company&#x27;s history. Microsoft publicly pushed back on speculation that it had been hacked.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack on Microsoft&#x27;s cloud.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Microsoft&#x27;s preliminary post-incident report calls it &quot;a technical issue not related to cyber or AI/agents&quot;: a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers.</p></div><span class="lbl">Impact</span><p>At the worst point more than 80% of the affected gateway servers stopped responding; it took nearly 24 hours to stabilize email.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official cause published. Not a hack.</p>
+        <ul class="sources"><li><a href="https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/" target="_blank" rel="noopener noreferrer">Ars Technica <span aria-hidden="true">↗</span></a></li><li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/" target="_blank" rel="noopener noreferrer">USA Today <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=microsoft-365-outlook-global-outage-2026-11 url=https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="microsoft-365-outlook-global-outage-2026-11" aria-expanded="false" aria-controls="comments-microsoft-365-outlook-global-outage-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="microsoft-365-outlook-global-outage-2026-11"></span></button>
+          <div class="comments-panel" id="comments-microsoft-365-outlook-global-outage-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="crowdstrike-windows-global-it-outage-2024-07" data-severity="Critical" data-sectors="Tech,Aviation" data-search="CrowdStrike / Windows global IT outage A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits. About 8.5 million Windows devices (Microsoft estimate). Official cause published. Not a hack. (Older event, still widely referenced.) A global cyberattack. CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash. Tech Aviation">
+        <div class="row">
+          <h3><span class="rank">#3</span> CrowdStrike / Windows global IT outage</h3>
+          <time class="date" datetime="2024-07-19">Jul 19, 2024</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Tech</span><span class="badge sector">Aviation</span></div>
+        <p>A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.</p>
+        <span class="lbl">What people speculated</span><p>A global cyberattack.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash.</p></div><span class="lbl">Impact</span><p>About 8.5 million Windows devices (Microsoft estimate).</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official cause published. Not a hack. (Older event, still widely referenced.)</p>
+        <ul class="sources"><li><a href="https://www.crowdstrike.com/en-us/blog/falcon-update-for-windows-hosts-technical-details/" target="_blank" rel="noopener noreferrer">CrowdStrike technical details <span aria-hidden="true">↗</span></a></li><li><a href="https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/" target="_blank" rel="noopener noreferrer">Microsoft <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=crowdstrike-windows-global-it-outage-2024-07 url=https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="crowdstrike-windows-global-it-outage-2024-07" aria-expanded="false" aria-controls="comments-crowdstrike-windows-global-it-outage-2024-07">Comments <span class="disqus-comment-count" data-disqus-identifier="crowdstrike-windows-global-it-outage-2024-07"></span></button>
+          <div class="comments-panel" id="comments-crowdstrike-windows-global-it-outage-2024-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="amazon-web-services-2025-10" data-severity="Critical" data-sectors="Tech" data-search="Amazon Web Services (US-EAST-1) A failure in Amazon&#x27;s biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure. Widespread disruption to sites and apps that rely on AWS. Official cause published. Not a hack. A cyberattack or DNS hijacking. AWS traced it to a hidden race condition in DynamoDB&#x27;s automated DNS management that left a key DNS record empty. There was no sign of malicious activity. Tech">
+        <div class="row">
+          <h3><span class="rank">#4</span> Amazon Web Services (US-EAST-1)</h3>
+          <time class="date" datetime="2025-10-20">Oct 20, 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Tech</span></div>
+        <p>A failure in Amazon&#x27;s biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack or DNS hijacking.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>AWS traced it to a hidden race condition in DynamoDB&#x27;s automated DNS management that left a key DNS record empty. There was no sign of malicious activity.</p></div><span class="lbl">Impact</span><p>Widespread disruption to sites and apps that rely on AWS.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official cause published. Not a hack.</p>
+        <ul class="sources"><li><a href="https://www.bbc.com/news/articles/cev1en9077ro" target="_blank" rel="noopener noreferrer">BBC News <span aria-hidden="true">↗</span></a></li><li><a href="https://www.wired.com/story/what-that-huge-aws-outage-reveals-about-the-internet/" target="_blank" rel="noopener noreferrer">WIRED <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=amazon-web-services-2025-10 url=https://hacktracking.com/#amazon-web-services-2025-10 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="amazon-web-services-2025-10" aria-expanded="false" aria-controls="comments-amazon-web-services-2025-10">Comments <span class="disqus-comment-count" data-disqus-identifier="amazon-web-services-2025-10"></span></button>
+          <div class="comments-panel" id="comments-amazon-web-services-2025-10" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Critical" id="spain-portugal-blackout-2025-04" data-severity="Critical" data-sectors="Energy,Government" data-search="Spain &amp; Portugal blackout Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed. Power cut across the Iberian Peninsula. Official reports published. No cyberattack found. (Older event, final report in 2026.) A cyberattack on the power grid. Spain&#x27;s government report (June 2025) and the European grid operators&#x27; expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections. Energy Government">
+        <div class="row">
+          <h3><span class="rank">#5</span> Spain &amp; Portugal blackout</h3>
+          <time class="date" datetime="2025-04-28">Apr 28, 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-Critical">Critical</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Energy</span><span class="badge sector">Government</span></div>
+        <p>Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack on the power grid.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Spain&#x27;s government report (June 2025) and the European grid operators&#x27; expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections.</p></div><span class="lbl">Impact</span><p>Power cut across the Iberian Peninsula.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official reports published. No cyberattack found. (Older event, final report in 2026.)</p>
+        <ul class="sources"><li><a href="https://www.theguardian.com/world/2025/jun/17/expert-report-rules-out-cyber-attack-for-spain-and-portugal-april-blackout" target="_blank" rel="noopener noreferrer">The Guardian <span aria-hidden="true">↗</span></a></li><li><a href="https://www.entsoe.eu/news/2026/03/20/entso-e-publishes-expert-panel-final-report-on-28-april-2025-blackout-in-spain-and-portugal/" target="_blank" rel="noopener noreferrer">ENTSO-E final report <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=spain-portugal-blackout-2025-04 url=https://hacktracking.com/#spain-portugal-blackout-2025-04 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="spain-portugal-blackout-2025-04" aria-expanded="false" aria-controls="comments-spain-portugal-blackout-2025-04">Comments <span class="disqus-comment-count" data-disqus-identifier="spain-portugal-blackout-2025-04"></span></button>
+          <div class="comments-panel" id="comments-spain-portugal-blackout-2025-04" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="cloudflare-global-outage-2025-11" data-severity="High" data-sectors="Tech" data-search="Cloudflare global outage Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare&#x27;s own team first suspected a massive DDoS attack. Errors on a large share of websites using Cloudflare for several hours. Official cause published. Not a hack. A huge DDoS (traffic-flood) attack. Cloudflare&#x27;s postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software. Tech">
+        <div class="row">
+          <h3><span class="rank">#6</span> Cloudflare global outage</h3>
+          <time class="date" datetime="2025-11-18">Nov 18, 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Tech</span></div>
+        <p>Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare&#x27;s own team first suspected a massive DDoS attack.</p>
+        <span class="lbl">What people speculated</span><p>A huge DDoS (traffic-flood) attack.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Cloudflare&#x27;s postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software.</p></div><span class="lbl">Impact</span><p>Errors on a large share of websites using Cloudflare for several hours.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official cause published. Not a hack.</p>
+        <ul class="sources"><li><a href="https://blog.cloudflare.com/18-november-2025-outage/" target="_blank" rel="noopener noreferrer">Cloudflare postmortem <span aria-hidden="true">↗</span></a></li><li><a href="https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/" target="_blank" rel="noopener noreferrer">Ars Technica <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=cloudflare-global-outage-2025-11 url=https://hacktracking.com/#cloudflare-global-outage-2025-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="cloudflare-global-outage-2025-11" aria-expanded="false" aria-controls="comments-cloudflare-global-outage-2025-11">Comments <span class="disqus-comment-count" data-disqus-identifier="cloudflare-global-outage-2025-11"></span></button>
+          <div class="comments-panel" id="comments-cloudflare-global-outage-2025-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="jpmorgan-chase-online-banking-2026-11" data-severity="High" data-sectors="Finance" data-search="JPMorgan Chase online banking Chase&#x27;s online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Company explanation given. No evidence of a hack. A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Finance">
+        <div class="row">
+          <h3><span class="rank">#7</span> JPMorgan Chase online banking</h3>
+          <time class="date" datetime="2026-11-16">Nov 16, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Finance</span></div>
+        <p>Chase&#x27;s online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack.</p></div><span class="lbl">Impact</span><p>Delayed transactions and online banking problems; some other banks affected when dealing with Chase.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Company explanation given. No evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592" target="_blank" rel="noopener noreferrer">POLITICO <span aria-hidden="true">↗</span></a></li><li><a href="https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html" target="_blank" rel="noopener noreferrer">CNBC <span aria-hidden="true">↗</span></a></li><li><a href="https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e" target="_blank" rel="noopener noreferrer">AP News <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=jpmorgan-chase-online-banking-2026-11 url=https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="jpmorgan-chase-online-banking-2026-11" aria-expanded="false" aria-controls="comments-jpmorgan-chase-online-banking-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="jpmorgan-chase-online-banking-2026-11"></span></button>
+          <div class="comments-panel" id="comments-jpmorgan-chase-online-banking-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="verizon-nationwide-wireless-outage-2026-01" data-severity="High" data-sectors="Telecom" data-search="Verizon nationwide wireless outage Verizon customers across the U.S. lost wireless service for hours. Hours-long loss of service for customers nationwide. Company explanation given. No evidence of a hack. A cyberattack on the phone network. Verizon blamed a &quot;software issue&quot;; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit. Telecom">
+        <div class="row">
+          <h3><span class="rank">#8</span> Verizon nationwide wireless outage</h3>
+          <time class="date" datetime="2026-01-14">Jan 14, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Telecom</span></div>
+        <p>Verizon customers across the U.S. lost wireless service for hours.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack on the phone network.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Verizon blamed a &quot;software issue&quot;; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit.</p></div><span class="lbl">Impact</span><p>Hours-long loss of service for customers nationwide.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Company explanation given. No evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/" target="_blank" rel="noopener noreferrer">BleepingComputer <span aria-hidden="true">↗</span></a></li><li><a href="https://www.reuters.com/business/media-telecom/verizon-offers-20-credit-customers-affected-by-massive-wireless-outage-2026-01-15/" target="_blank" rel="noopener noreferrer">Reuters <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=verizon-nationwide-wireless-outage-2026-01 url=https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="verizon-nationwide-wireless-outage-2026-01" aria-expanded="false" aria-controls="comments-verizon-nationwide-wireless-outage-2026-01">Comments <span class="disqus-comment-count" data-disqus-identifier="verizon-nationwide-wireless-outage-2026-01"></span></button>
+          <div class="comments-panel" id="comments-verizon-nationwide-wireless-outage-2026-01" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="nsa-classified-network-2026-11" data-severity="High" data-sectors="Government" data-search="NSA classified network (NSANet) The National Security Agency&#x27;s internal top-secret network went down, right on the heels of a week of big outages. Temporary loss of the agency&#x27;s internal classified communications network. Official explanation given. No evidence of a hack. An attack on a U.S. intelligence network. The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack. Government">
+        <div class="row">
+          <h3><span class="rank">#9</span> NSA classified network (NSANet)</h3>
+          <time class="date" datetime="2026-11-17">Nov 17, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Government</span></div>
+        <p>The National Security Agency&#x27;s internal top-secret network went down, right on the heels of a week of big outages.</p>
+        <span class="lbl">What people speculated</span><p>An attack on a U.S. intelligence network.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack.</p></div><span class="lbl">Impact</span><p>Temporary loss of the agency&#x27;s internal classified communications network.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Official explanation given. No evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/" target="_blank" rel="noopener noreferrer">NSA statement <span aria-hidden="true">↗</span></a></li><li><a href="https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/" target="_blank" rel="noopener noreferrer">CBS News <span aria-hidden="true">↗</span></a></li><li><a href="https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down" target="_blank" rel="noopener noreferrer">The Guardian <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=nsa-classified-network-2026-11 url=https://hacktracking.com/#nsa-classified-network-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="nsa-classified-network-2026-11" aria-expanded="false" aria-controls="comments-nsa-classified-network-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="nsa-classified-network-2026-11"></span></button>
+          <div class="comments-panel" id="comments-nsa-classified-network-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card High" id="starlink-global-outage-2025-07" data-severity="High" data-sectors="Telecom,Tech" data-search="Starlink global outage SpaceX&#x27;s Starlink satellite internet went down worldwide for hours, prompting talk of an attack. Global loss of Starlink service for hours. Company explanation given. Not a hack. A cyberattack on the satellite network. SpaceX said a failed software upgrade to its ground-based network systems caused the outage. Telecom Tech">
+        <div class="row">
+          <h3><span class="rank">#10</span> Starlink global outage</h3>
+          <time class="date" datetime="2025-07-24">Jul 24, 2025</time>
+        </div>
+        <div class="meta"><span class="badge sev-High">High</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Telecom</span><span class="badge sector">Tech</span></div>
+        <p>SpaceX&#x27;s Starlink satellite internet went down worldwide for hours, prompting talk of an attack.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack on the satellite network.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>SpaceX said a failed software upgrade to its ground-based network systems caused the outage.</p></div><span class="lbl">Impact</span><p>Global loss of Starlink service for hours.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Company explanation given. Not a hack.</p>
+        <ul class="sources"><li><a href="https://www.reuters.com/technology/spacex-probes-cause-starlinks-global-satellite-network-outage-2025-07-25/" target="_blank" rel="noopener noreferrer">Reuters <span aria-hidden="true">↗</span></a></li><li><a href="https://me.pcmag.com/en/networking/31409/spacex-traces-starlink-outage-to-network-upgrade" target="_blank" rel="noopener noreferrer">PCMag <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=starlink-global-outage-2025-07 url=https://hacktracking.com/#starlink-global-outage-2025-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="starlink-global-outage-2025-07" aria-expanded="false" aria-controls="comments-starlink-global-outage-2025-07">Comments <span class="disqus-comment-count" data-disqus-identifier="starlink-global-outage-2025-07"></span></button>
+          <div class="comments-panel" id="comments-starlink-global-outage-2025-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="united-airlines-system-outage-2026-11" data-severity="Medium" data-sectors="Aviation" data-search="United Airlines system outage Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn&#x27;t get final aircraft weight data needed for takeoff. Delays to hundreds of departures. No root cause published. No evidence of a hack. Another attack on U.S. aviation, linked to the FAA ground stop. United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop. Aviation">
+        <div class="row">
+          <h3><span class="rank">#11</span> United Airlines system outage</h3>
+          <time class="date" datetime="2026-11-16">Nov 16, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Aviation</span></div>
+        <p>Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn&#x27;t get final aircraft weight data needed for takeoff.</p>
+        <span class="lbl">What people speculated</span><p>Another attack on U.S. aviation, linked to the FAA ground stop.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop.</p></div><span class="lbl">Impact</span><p>Delays to hundreds of departures.</p>
+        <span class="lbl">Status</span>
+        <p class="status">No root cause published. No evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html" target="_blank" rel="noopener noreferrer">CNBC <span aria-hidden="true">↗</span></a></li><li><a href="https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff" target="_blank" rel="noopener noreferrer">AP News <span aria-hidden="true">↗</span></a></li><li><a href="https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946" target="_blank" rel="noopener noreferrer">CNA <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=united-airlines-system-outage-2026-11 url=https://hacktracking.com/#united-airlines-system-outage-2026-11 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="united-airlines-system-outage-2026-11" aria-expanded="false" aria-controls="comments-united-airlines-system-outage-2026-11">Comments <span class="disqus-comment-count" data-disqus-identifier="united-airlines-system-outage-2026-11"></span></button>
+          <div class="comments-panel" id="comments-united-airlines-system-outage-2026-11" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="american-airlines-nationwide-ground-stop-2026-07" data-severity="Medium" data-sectors="Aviation" data-search="American Airlines nationwide ground stop The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages. Nationwide departure halt of roughly 45 minutes, with delays after. No root cause published. No evidence of a hack. A cyberattack, possibly part of a wider campaign that week. American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack. Aviation">
+        <div class="row">
+          <h3><span class="rank">#12</span> American Airlines nationwide ground stop</h3>
+          <time class="date" datetime="2026-07-28">Jul 28, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Aviation</span></div>
+        <p>The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.</p>
+        <span class="lbl">What people speculated</span><p>A cyberattack, possibly part of a wider campaign that week.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack.</p></div><span class="lbl">Impact</span><p>Nationwide departure halt of roughly 45 minutes, with delays after.</p>
+        <span class="lbl">Status</span>
+        <p class="status">No root cause published. No evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://www.reuters.com/world/faa-issues-american-airlines-nationwide-ground-stop-over-it-outage-2026-07-28/" target="_blank" rel="noopener noreferrer">Reuters <span aria-hidden="true">↗</span></a></li><li><a href="https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/" target="_blank" rel="noopener noreferrer">RVA Cyber analysis <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=american-airlines-nationwide-ground-stop-2026-07 url=https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="american-airlines-nationwide-ground-stop-2026-07" aria-expanded="false" aria-controls="comments-american-airlines-nationwide-ground-stop-2026-07">Comments <span class="disqus-comment-count" data-disqus-identifier="american-airlines-nationwide-ground-stop-2026-07"></span></button>
+          <div class="comments-panel" id="comments-american-airlines-nationwide-ground-stop-2026-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Medium" id="xbox-sign-in-and-game-library-outage-2026-07" data-severity="Medium" data-sectors="Gaming,Tech" data-search="Xbox sign-in and game library outage Xbox players couldn&#x27;t sign in, buy or launch games for many hours; even some disc games failed license checks. Sign-in, purchase and game launch failures from late July 26 into July 27. Company explanation given. Not attributed to a hack. An attack on Microsoft&#x27;s gaming network during a cluster of outages. Microsoft&#x27;s Xbox CTO said a licensing service that Xbox depends on began failing. Gaming Tech">
+        <div class="row">
+          <h3><span class="rank">#13</span> Xbox sign-in and game library outage</h3>
+          <time class="date" datetime="2026-07-26">Jul 26, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Medium">Medium</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Gaming</span><span class="badge sector">Tech</span></div>
+        <p>Xbox players couldn&#x27;t sign in, buy or launch games for many hours; even some disc games failed license checks.</p>
+        <span class="lbl">What people speculated</span><p>An attack on Microsoft&#x27;s gaming network during a cluster of outages.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Microsoft&#x27;s Xbox CTO said a licensing service that Xbox depends on began failing.</p></div><span class="lbl">Impact</span><p>Sign-in, purchase and game launch failures from late July 26 into July 27.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Company explanation given. Not attributed to a hack.</p>
+        <ul class="sources"><li><a href="https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/" target="_blank" rel="noopener noreferrer">RVA Cyber analysis <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=xbox-sign-in-and-game-library-outage-2026-07 url=https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="xbox-sign-in-and-game-library-outage-2026-07" aria-expanded="false" aria-controls="comments-xbox-sign-in-and-game-library-outage-2026-07">Comments <span class="disqus-comment-count" data-disqus-identifier="xbox-sign-in-and-game-library-outage-2026-07"></span></button>
+          <div class="comments-panel" id="comments-xbox-sign-in-and-game-library-outage-2026-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card Low" id="playstation-network-outage-2026-07" data-severity="Low" data-sectors="Gaming" data-search="PlayStation Network outage PlayStation Network accounts, gaming, the store and other features were down for about five hours. About five hours of disruption across PSN services. Cause not disclosed. No public evidence of a hack. A hack of Sony&#x27;s network. Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm. Gaming">
+        <div class="row">
+          <h3><span class="rank">#14</span> PlayStation Network outage</h3>
+          <time class="date" datetime="2026-07-24">Jul 24, 2026</time>
+        </div>
+        <div class="meta"><span class="badge sev-Low">Low</span><span class="badge unconf">Unconfirmed / speculation</span><span class="badge sector">Gaming</span></div>
+        <p>PlayStation Network accounts, gaming, the store and other features were down for about five hours.</p>
+        <span class="lbl">What people speculated</span><p>A hack of Sony&#x27;s network.</p><div class="official"><span class="lbl" style="margin-top:0">Official explanation</span><p>Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm.</p></div><span class="lbl">Impact</span><p>About five hours of disruption across PSN services.</p>
+        <span class="lbl">Status</span>
+        <p class="status">Cause not disclosed. No public evidence of a hack.</p>
+        <ul class="sources"><li><a href="https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/" target="_blank" rel="noopener noreferrer">RVA Cyber analysis <span aria-hidden="true">↗</span></a></li></ul>
+        <div class="comments-slot">
+          <!-- Disqus thread placeholder. identifier=playstation-network-outage-2026-07 url=https://hacktracking.com/#playstation-network-outage-2026-07 shortname=hacktracking -->
+          <button type="button" class="comments-toggle" data-entry-id="playstation-network-outage-2026-07" aria-expanded="false" aria-controls="comments-playstation-network-outage-2026-07">Comments <span class="disqus-comment-count" data-disqus-identifier="playstation-network-outage-2026-07"></span></button>
+          <div class="comments-panel" id="comments-playstation-network-outage-2026-07" hidden>
+            <div class="comments-host"></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About and methodology</h2>
+    <h3>How confirmed and speculated are decided</h3>
     <ul>
-      <li><b>Speculated / Potential Hacks</b> are outages or incidents where the public wondered about a hack. They are <b>not confirmed hacks</b>. Each one shows what the organization or investigators officially said.</li>
       <li><b>Confirmed Hacks</b> were confirmed by the affected organization, a government agency, or law enforcement. Numbers come from those statements, filings, or the linked reporting. Attacker claims are labeled as claims.</li>
+      <li><b>Speculated / Potential Hacks</b> are outages or incidents where the public wondered about a hack. They are <b>not confirmed hacks</b>. Each one shows what the organization or investigators officially said.</li>
+    </ul>
+    <h3>How this tracker is updated</h3>
+    <ul>
+      <li>The list is reviewed and updated about every two hours during the day, Eastern Time.</li>
       <li>Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score.</li>
       <li>Covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest.</li>
     </ul>
+    <p class="about-def-ref">The definition of hacking used on this site is at the top of the page, under <a href="#definition">What counts as hacking</a>.</p>
   </section>
 </main>
 
-<footer class="wrap foot">Hack Tracker · Updated <span id="updated2">-</span> · Sources linked on every entry</footer>
+<footer class="wrap foot">
+  <p>Hack Tracker · Updated <time datetime="2026-11-17" id="updated2">November 17, 2026</time> · Sources linked on every entry · <a href="https://hacktracking.com/feed.xml">RSS feed</a></p>
+</footer>
 <script src="app.js"></script>
+<script id="dsq-count-scr" src="https://hacktracking.disqus.com/count.js" async></script>
 </body>
 </html>

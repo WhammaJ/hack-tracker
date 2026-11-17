@@ -1,0 +1,515 @@
+Hack Tracker
+https://hacktracking.com/
+Last updated: November 17, 2026
+
+What counts as hacking:
+Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system.
+
+Confirmed Hacks were confirmed by the affected organization, a government agency, or law enforcement. Numbers come from those statements, filings, or the linked reporting. Attacker claims are labeled as claims.
+
+Speculated / Potential Hacks are outages or incidents where the public wondered about a hack. They are not confirmed hacks. Each one shows what the organization or investigators officially said.
+
+The list is reviewed and updated about every two hours during the day, Eastern Time. Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score. Covers roughly the past 12 months, plus a few older events that are still widely referenced.
+
+CONFIRMED HACKS
+
+1. Binance (crypto exchange)
+   URL: https://hacktracking.com/#binance-2026-10
+   Date: Oct 29, 2026
+   Severity: Critical
+   Sectors: Finance, Crypto
+   Summary: Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group.
+   Impact: About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals.
+   Status: Confirmed by Binance. Losses covered.
+   Sources:
+     - Binance announcement: https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7
+     - CNBC: https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html
+     - Chainalysis: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/
+
+2. Instructure (Canvas learning platform)
+   URL: https://hacktracking.com/#instructure-2026-05
+   Date: May 2026
+   Severity: Critical
+   Sectors: Education, Tech
+   Summary: The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.
+   Impact: Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff.
+   Status: Confirmed by Instructure.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/
+     - TechCrunch: https://techcrunch.com/2026/05/07/hackers-deface-school-login-pages-after-claiming-another-instructure-hack/
+     - Reuters: https://www.reuters.com/legal/litigation/canvas-parent-company-reaches-agreement-with-hacking-group-behind-recent-breach-2026-05-12/
+
+3. FBI surveillance system
+   URL: https://hacktracking.com/#fbi-surveillance-system-2026-04
+   Date: April 2026
+   Severity: Critical
+   Sectors: Government
+   Summary: The FBI declared a "major cyber incident" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.
+   Impact: Possible exposure of surveillance-target information; full scope not disclosed.
+   Status: Confirmed by the FBI. Investigation ongoing.
+   Sources:
+     - POLITICO: https://www.politico.com/news/2026/04/01/fbi-hack-surveillance-system-major-incident-00854237
+     - NBC News: https://www.nbcnews.com/news/us-news/fbi-labels-suspected-china-hack-law-enforcement-data-major-cyber-incid-rcna266495
+
+4. Stryker (medical technology)
+   URL: https://hacktracking.com/#stryker-2026-03
+   Date: Mar 11, 2026
+   Severity: Critical
+   Sectors: Healthcare, Manufacturing
+   Summary: Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.
+   Impact: Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later.
+   Status: Confirmed by Stryker. Recovered.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-fully-operational-after-data-wiping-attack/
+     - Krebs on Security: https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/
+
+5. ConnectWise (IT management software)
+   URL: https://hacktracking.com/#connectwise-2026-10
+   Date: October 2026
+   Severity: Critical
+   Sectors: Tech
+   Summary: Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies.
+   Impact: Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline.
+   Status: Confirmed by ConnectWise and Microsoft.
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
+     - The Hacker News: https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html
+
+6. DentaQuest (dental benefits)
+   URL: https://hacktracking.com/#dentaquest-2026-05
+   Date: May 17, 2026
+   Severity: Critical
+   Sectors: Healthcare
+   Summary: Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.
+   Impact: 15 million people (HHS filing).
+   Status: Confirmed. Notices sent.
+   Sources:
+     - Healthcare Dive: https://www.healthcaredive.com/news/Dental-benefits-administrator-discloses-breach/827533/
+     - TechCrunch: https://techcrunch.com/2026/09/15/the-worst-hacks-and-breaches-of-2026-so-far/
+
+7. ARARA (email delivery service, Japan)
+   URL: https://hacktracking.com/#arara-2026-10
+   Date: Oct 28, 2026
+   Severity: Critical
+   Sectors: Tech, Consumer
+   Summary: Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.
+   Impact: 81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people).
+   Status: Confirmed by ARARA. Investigation ongoing.
+   Sources:
+     - ARARA report (Japanese): https://www.arara.com/dcms_media/other/arara_20261106.pdf
+     - BleepingComputer (SEGA): https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+
+8. DriveWealth (brokerage tech)
+   URL: https://hacktracking.com/#drivewealth-2026-09
+   Date: Sep 4, 2026
+   Severity: Critical
+   Sectors: Finance
+   Summary: An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.
+   Impact: 30 million people (state attorney general filings).
+   Status: Confirmed. Notices sent.
+   Sources:
+     - California AG notice: https://oag.ca.gov/system/files/DriveWealth%20-%20Redacted%20Notice.pdf
+     - Washington AG: https://www.atg.wa.gov/drivewealth-llc
+
+9. IDScan.net (ID verification)
+   URL: https://hacktracking.com/#idscan-net-2026-09
+   Date: Sept 2026
+   Severity: Critical
+   Sectors: Tech, Consumer
+   Summary: A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.
+   Impact: 13 million people per a state filing; hackers claimed about 153 million records.
+   Status: Confirmed by IDScan.net.
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/
+     - Help Net Security: https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/
+
+10. European Commission cloud
+   URL: https://hacktracking.com/#european-commission-cloud-2026-03
+   Date: 2026
+   Severity: High
+   Sectors: Government
+   Summary: Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.
+   Impact: About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU).
+   Status: Confirmed by CERT-EU and the Commission.
+   Sources:
+     - CERT-EU: https://cert.europa.eu/blog/european-commission-cloud-breach-trivy-supply-chain
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/
+
+11. Poland's energy sector
+   URL: https://hacktracking.com/#poland-s-energy-sector-2025-12
+   Date: Dec 29, 2025
+   Severity: High
+   Sectors: Energy, Government
+   Summary: A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.
+   Impact: Communications disrupted at some grid connection points; power and heat generation did not stop.
+   Status: Confirmed by CERT Polska and the Polish government.
+   Sources:
+     - CERT Polska report: https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/
+     - The Hacker News: https://thehackernews.com/2026/01/poland-attributes-december-cyber.html
+
+12. U.S. water systems (Iran-linked)
+   URL: https://hacktracking.com/#u-s-water-systems-2026-04
+   Date: 2026
+   Severity: High
+   Sectors: Utilities, Government
+   Summary: U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.
+   Impact: Operational disruption at affected utilities; no single total published.
+   Status: Confirmed by CISA, FBI, EPA and NSA advisories.
+   Sources:
+     - CISA advisory AA26-097A: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a
+     - EPA: https://www.epa.gov/newsreleases/epa-fbi-cisa-nsa-issue-joint-cybersecurity-advisory-water-system-regarding-iranian
+
+13. Nitori (furniture retailer, Japan)
+   URL: https://hacktracking.com/#nitori-2026-11
+   Date: Nov 6, 2026
+   Severity: High
+   Sectors: Retail, Consumer
+   Summary: Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.
+   Impact: Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers.
+   Status: Confirmed by Nitori. Investigation ongoing.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/
+     - SC Media: https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records
+
+14. Cisco SD-WAN zero-day attacks
+   URL: https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02
+   Date: Feb 25, 2026
+   Severity: High
+   Sectors: Tech, Government
+   Summary: Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.
+   Impact: Unknown number of networks; Cisco Talos said the campaign went back to at least 2023.
+   Status: Confirmed by Cisco and CISA (Emergency Directive 26-03).
+   Sources:
+     - CISA ED 26-03: https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems
+     - Cybersecurity Dive: https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/
+
+15. Boston Scientific (medical devices)
+   URL: https://hacktracking.com/#boston-scientific-2026-08
+   Date: Aug 25, 2026
+   Severity: High
+   Sectors: Healthcare, Manufacturing
+   Summary: A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.
+   Impact: Global operations disrupted until about September 9; expected material hit to 2026 results.
+   Status: Confirmed by Boston Scientific. Recovered.
+   Sources:
+     - Reuters: https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/
+     - Boston Scientific update: https://news.bostonscientific.com/update-on-recent-cybersecurity-incident
+
+16. Carnival Corporation (cruises)
+   URL: https://hacktracking.com/#carnival-corporation-2026-04
+   Date: Apr 10, 2026
+   Severity: High
+   Sectors: Travel, Consumer
+   Summary: Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group.
+   Impact: 5,995,277 people; data may include government ID numbers.
+   Status: Confirmed by Carnival.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/
+     - The Record: https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million
+
+17. Jaguar Land Rover
+   URL: https://hacktracking.com/#jaguar-land-rover-2025-09
+   Date: Sept 2025
+   Severity: High
+   Sectors: Manufacturing
+   Summary: A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.
+   Impact: £196 million in costs reported for the quarter; production halted for weeks.
+   Status: Confirmed by JLR. Recovered. (Older event, still in the news.)
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/
+     - BBC News: https://www.bbc.com/news/articles/ckg1w255gy1o
+
+18. fairlife / Coca-Cola
+   URL: https://hacktracking.com/#fairlife-coca-cola-2026-07
+   Date: Jul 16, 2026
+   Severity: High
+   Sectors: Food, Manufacturing
+   Summary: A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.
+   Impact: U.S. production suspended; most production resumed by July 27.
+   Status: Confirmed by Coca-Cola (SEC filing).
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/
+     - AP News: https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6
+
+19. IDC Frontier cloud (Japan)
+   URL: https://hacktracking.com/#idc-frontier-cloud-2026-10
+   Date: Oct 7, 2026
+   Severity: High
+   Sectors: Tech, Government
+   Summary: Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.
+   Impact: 495 companies and local governments disrupted.
+   Status: Confirmed by IDC Frontier. No ransom paid.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/
+     - IDC Frontier update: https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf
+
+20. ATF (U.S. firearms agency)
+   URL: https://hacktracking.com/#atf-2026-08
+   Date: Aug 27, 2026
+   Severity: Medium
+   Sectors: Government
+   Summary: The ATF declared a "major incident" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.
+   Impact: One standalone system; data taken not disclosed.
+   Status: Confirmed by ATF. Investigation ongoing.
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/
+     - The Record: https://therecord.media/doj-atf-cyberattack-qilin-ransomware
+
+21. Klue (market research software)
+   URL: https://hacktracking.com/#klue-2026-06
+   Date: June 2026
+   Severity: Medium
+   Sectors: Tech
+   Summary: Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.
+   Impact: Close to 200 customer companies affected (TechCrunch); business contact and sales data.
+   Status: Confirmed by Klue and affected companies.
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/
+     - HackerOne advisory: https://www.hackerone.com/security-updates/klue-2026-06
+
+22. Uber drivers (via Fireworks AI)
+   URL: https://hacktracking.com/#uber-drivers-2026-10
+   Date: Oct 9, 2026
+   Severity: Medium
+   Sectors: Tech, Consumer
+   Summary: Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.
+   Impact: 149,346 Uber drivers notified (names, addresses, birth dates, license numbers).
+   Status: Confirmed by Uber, Fireworks AI and Notion.
+   Sources:
+     - TechCrunch (Uber): https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/
+     - TechCrunch (Fireworks/Notion): https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
+
+23. Ukraine air raid alert app
+   URL: https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11
+   Date: Nov 1, 2026
+   Severity: Medium
+   Sectors: Government
+   Summary: Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.
+   Impact: Several fake alerts sent to users' phones before being cleared about an hour later.
+   Status: Confirmed by Ukraine's government.
+   Sources:
+     - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
+
+24. The Kyiv Independent (news outlet)
+   URL: https://hacktracking.com/#the-kyiv-independent-2026-11
+   Date: Nov 4, 2026
+   Severity: Medium
+   Sectors: Media
+   Summary: Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.
+   Impact: Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk.
+   Status: Confirmed by The Kyiv Independent.
+   Sources:
+     - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
+     - Ukrainska Pravda: https://www.pravda.com.ua/eng/news/2026/11/04/8061264/
+
+25. The Japan Times (news outlet)
+   URL: https://hacktracking.com/#the-japan-times-2026-09
+   Date: Sep 18, 2026
+   Severity: Low
+   Sectors: Media
+   Summary: Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.
+   Impact: HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate.
+   Status: Confirmed by The Japan Times.
+   Sources:
+     - The Japan Times notice: https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/
+
+SPECULATED / POTENTIAL HACKS
+
+1. FAA: nationwide ground stop
+   URL: https://hacktracking.com/#faa-nationwide-ground-stop-2026-11
+   Date: Nov 13, 2026
+   Severity: Critical
+   Sectors: Aviation, Government
+   Summary: The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.
+   What people speculated: A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before.
+   Official explanation: The FAA says it has "no indication that this was a cyberattack or an outside nefarious actor." Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage.
+   Impact: Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure).
+   Status: No evidence of a hack. Root-cause investigation ongoing.
+   Sources:
+     - FAA: Nationwide Ground Stop Q&A: https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers
+     - SecurityWeek: https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/
+     - AP News: https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b
+
+2. Microsoft 365 / Outlook global outage
+   URL: https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11
+   Date: Nov 12, 2026
+   Severity: Critical
+   Sectors: Tech
+   Summary: Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked.
+   What people speculated: A cyberattack on Microsoft's cloud.
+   Official explanation: Microsoft's preliminary post-incident report calls it "a technical issue not related to cyber or AI/agents": a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers.
+   Impact: At the worst point more than 80% of the affected gateway servers stopped responding; it took nearly 24 hours to stabilize email.
+   Status: Official cause published. Not a hack.
+   Sources:
+     - Ars Technica: https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/
+     - BleepingComputer: https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/
+     - USA Today: https://www.usatoday.com/story/tech/2026/11/13/microsoft-dismisses-cyberattack-speculation-amid-outage/92759759007/
+
+3. CrowdStrike / Windows global IT outage
+   URL: https://hacktracking.com/#crowdstrike-windows-global-it-outage-2024-07
+   Date: Jul 19, 2024
+   Severity: Critical
+   Sectors: Tech, Aviation
+   Summary: A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.
+   What people speculated: A global cyberattack.
+   Official explanation: CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash.
+   Impact: About 8.5 million Windows devices (Microsoft estimate).
+   Status: Official cause published. Not a hack. (Older event, still widely referenced.)
+   Sources:
+     - CrowdStrike technical details: https://www.crowdstrike.com/en-us/blog/falcon-update-for-windows-hosts-technical-details/
+     - Microsoft: https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/
+
+4. Amazon Web Services (US-EAST-1)
+   URL: https://hacktracking.com/#amazon-web-services-2025-10
+   Date: Oct 20, 2025
+   Severity: Critical
+   Sectors: Tech
+   Summary: A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.
+   What people speculated: A cyberattack or DNS hijacking.
+   Official explanation: AWS traced it to a hidden race condition in DynamoDB's automated DNS management that left a key DNS record empty. There was no sign of malicious activity.
+   Impact: Widespread disruption to sites and apps that rely on AWS.
+   Status: Official cause published. Not a hack.
+   Sources:
+     - BBC News: https://www.bbc.com/news/articles/cev1en9077ro
+     - WIRED: https://www.wired.com/story/what-that-huge-aws-outage-reveals-about-the-internet/
+
+5. Spain & Portugal blackout
+   URL: https://hacktracking.com/#spain-portugal-blackout-2025-04
+   Date: Apr 28, 2025
+   Severity: Critical
+   Sectors: Energy, Government
+   Summary: Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.
+   What people speculated: A cyberattack on the power grid.
+   Official explanation: Spain's government report (June 2025) and the European grid operators' expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections.
+   Impact: Power cut across the Iberian Peninsula.
+   Status: Official reports published. No cyberattack found. (Older event, final report in 2026.)
+   Sources:
+     - The Guardian: https://www.theguardian.com/world/2025/jun/17/expert-report-rules-out-cyber-attack-for-spain-and-portugal-april-blackout
+     - ENTSO-E final report: https://www.entsoe.eu/news/2026/03/20/entso-e-publishes-expert-panel-final-report-on-28-april-2025-blackout-in-spain-and-portugal/
+
+6. Cloudflare global outage
+   URL: https://hacktracking.com/#cloudflare-global-outage-2025-11
+   Date: Nov 18, 2025
+   Severity: High
+   Sectors: Tech
+   Summary: Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack.
+   What people speculated: A huge DDoS (traffic-flood) attack.
+   Official explanation: Cloudflare's postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software.
+   Impact: Errors on a large share of websites using Cloudflare for several hours.
+   Status: Official cause published. Not a hack.
+   Sources:
+     - Cloudflare postmortem: https://blog.cloudflare.com/18-november-2025-outage/
+     - Ars Technica: https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/
+
+7. JPMorgan Chase online banking
+   URL: https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11
+   Date: Nov 16, 2026
+   Severity: High
+   Sectors: Finance
+   Summary: Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack.
+   What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.
+   Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack.
+   Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase.
+   Status: Company explanation given. No evidence of a hack.
+   Sources:
+     - POLITICO: https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592
+     - CNBC: https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html
+     - AP News: https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e
+
+8. Verizon nationwide wireless outage
+   URL: https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01
+   Date: Jan 14, 2026
+   Severity: High
+   Sectors: Telecom
+   Summary: Verizon customers across the U.S. lost wireless service for hours.
+   What people speculated: A cyberattack on the phone network.
+   Official explanation: Verizon blamed a "software issue"; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit.
+   Impact: Hours-long loss of service for customers nationwide.
+   Status: Company explanation given. No evidence of a hack.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/
+     - Reuters: https://www.reuters.com/business/media-telecom/verizon-offers-20-credit-customers-affected-by-massive-wireless-outage-2026-01-15/
+
+9. NSA classified network (NSANet)
+   URL: https://hacktracking.com/#nsa-classified-network-2026-11
+   Date: Nov 17, 2026
+   Severity: High
+   Sectors: Government
+   Summary: The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages.
+   What people speculated: An attack on a U.S. intelligence network.
+   Official explanation: The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack.
+   Impact: Temporary loss of the agency's internal classified communications network.
+   Status: Official explanation given. No evidence of a hack.
+   Sources:
+     - NSA statement: https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/
+     - CBS News: https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/
+     - The Guardian: https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down
+
+10. Starlink global outage
+   URL: https://hacktracking.com/#starlink-global-outage-2025-07
+   Date: Jul 24, 2025
+   Severity: High
+   Sectors: Telecom, Tech
+   Summary: SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack.
+   What people speculated: A cyberattack on the satellite network.
+   Official explanation: SpaceX said a failed software upgrade to its ground-based network systems caused the outage.
+   Impact: Global loss of Starlink service for hours.
+   Status: Company explanation given. Not a hack.
+   Sources:
+     - Reuters: https://www.reuters.com/technology/spacex-probes-cause-starlinks-global-satellite-network-outage-2025-07-25/
+     - PCMag: https://me.pcmag.com/en/networking/31409/spacex-traces-starlink-outage-to-network-upgrade
+
+11. United Airlines system outage
+   URL: https://hacktracking.com/#united-airlines-system-outage-2026-11
+   Date: Nov 16, 2026
+   Severity: Medium
+   Sectors: Aviation
+   Summary: Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff.
+   What people speculated: Another attack on U.S. aviation, linked to the FAA ground stop.
+   Official explanation: United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop.
+   Impact: Delays to hundreds of departures.
+   Status: No root cause published. No evidence of a hack.
+   Sources:
+     - CNBC: https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html
+     - AP News: https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff
+     - CNA: https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946
+
+12. American Airlines nationwide ground stop
+   URL: https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07
+   Date: Jul 28, 2026
+   Severity: Medium
+   Sectors: Aviation
+   Summary: The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.
+   What people speculated: A cyberattack, possibly part of a wider campaign that week.
+   Official explanation: American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack.
+   Impact: Nationwide departure halt of roughly 45 minutes, with delays after.
+   Status: No root cause published. No evidence of a hack.
+   Sources:
+     - Reuters: https://www.reuters.com/world/faa-issues-american-airlines-nationwide-ground-stop-over-it-outage-2026-07-28/
+     - RVA Cyber analysis: https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/
+
+13. Xbox sign-in and game library outage
+   URL: https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07
+   Date: Jul 26, 2026
+   Severity: Medium
+   Sectors: Gaming, Tech
+   Summary: Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks.
+   What people speculated: An attack on Microsoft's gaming network during a cluster of outages.
+   Official explanation: Microsoft's Xbox CTO said a licensing service that Xbox depends on began failing.
+   Impact: Sign-in, purchase and game launch failures from late July 26 into July 27.
+   Status: Company explanation given. Not attributed to a hack.
+   Sources:
+     - RVA Cyber analysis: https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/
+
+14. PlayStation Network outage
+   URL: https://hacktracking.com/#playstation-network-outage-2026-07
+   Date: Jul 24, 2026
+   Severity: Low
+   Sectors: Gaming
+   Summary: PlayStation Network accounts, gaming, the store and other features were down for about five hours.
+   What people speculated: A hack of Sony's network.
+   Official explanation: Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm.
+   Impact: About five hours of disruption across PSN services.
+   Status: Cause not disclosed. No public evidence of a hack.
+   Sources:
+     - RVA Cyber analysis: https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/
