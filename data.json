@@ -652,6 +652,20 @@
       ]
     },
     {
+      "org": "Vanderbilt University",
+      "date": "2026-11-09",
+      "sectors": ["Education", "Research"],
+      "severity": "High",
+      "summary": "Vanderbilt University in Nashville said on Nov. 9 it was responding to an active cyberattack affecting university devices, systems and cloud-based services, and told everyone to shut down university devices and get off campus Wi-Fi. The BYOD ransomware gang has claimed the attack; that claim has not been confirmed by the university.",
+      "impact": "Most systems were restricted for days. As of Nov. 18 almost all systems are back, but Microsoft OneDrive, SharePoint and Teams remain disabled, Box is due back by Nov. 20, and the university is contacting people with compromised laptops in batches. BYOD claims it stole Social Security numbers, names, email addresses and other data; Vanderbilt says it does not yet know what data, if any, was accessed.",
+      "status": "Confirmed by Vanderbilt. Working with federal law enforcement; investigation ongoing.",
+      "sources": [
+        {"name": "Vanderbilt University incident updates", "url": "https://news.vanderbilt.edu/2026/11/09/nov-9-active-cybersecurity-incident-updates/"},
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"},
+        {"name": "CyberScoop", "url": "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/"}
+      ]
+    },
+    {
       "org": "IDC Frontier cloud (Japan)",
       "date": "2026-10-07",
       "sectors": ["Tech", "Government"],
@@ -674,6 +688,31 @@
       "status": "Confirmed by RIKEN. Investigation ongoing.",
       "sources": [
         {"name": "RIKEN notice", "url": "https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html"}
+      ]
+    },
+    {
+      "org": "Transport for London (Oyster photocards)",
+      "date": "2026-11-16",
+      "sectors": ["Transportation", "Government"],
+      "severity": "Medium",
+      "summary": "Transport for London said it spotted suspicious activity on its Oyster photocard website on Nov. 16, after photocard holders got unexpected emails asking them to create an account they already had. It took the photocard system offline and says unauthorized access to customers' web account details resulted.",
+      "impact": "About 265,000 photocard customers' names, email and home addresses, phone numbers, dates of birth and security questions and answers were compromised. TfL says no passwords, bank or payment card details, journey information, or names and birth dates of children with Zip Oyster cards were taken. The photocard website stays offline, so cards can't be applied for or renewed online.",
+      "status": "Confirmed by TfL. Reported to the ICO. Investigation ongoing.",
+      "sources": [
+        {"name": "BBC News", "url": "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o"},
+        {"name": "The Independent", "url": "https://www.independent.co.uk/news/uk/home-news/oyster-card-tfl-apology-data-breach-b3087538.html"}
+      ]
+    },
+    {
+      "org": "KPMG Canada (accounting firm)",
+      "date": "2026-11-18",
+      "sectors": ["Finance", "Business"],
+      "severity": "Medium",
+      "summary": "KPMG Canada confirmed a data breach in which client tax documents were compromised, and is contacting affected clients. It is the latest in a string of breaches at Canadian professional services firms, including several big Bay Street law firms.",
+      "impact": "Client tax documents. KPMG has not said how many clients or files were affected or how the attackers got in. It says its monitoring shows the data is not available online or being misused.",
+      "status": "Confirmed by KPMG Canada. Clients being contacted.",
+      "sources": [
+        {"name": "The Globe and Mail", "url": "https://www.theglobeandmail.com/business/technology/article-kpmg-canada-data-breach-client-files-cyber-attack-november-18/"}
       ]
     },
     {
