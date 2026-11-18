@@ -159,7 +159,20 @@ CONFIRMED HACKS
      - CISA advisory AA26-097A: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a
      - EPA: https://www.epa.gov/newsreleases/epa-fbi-cisa-nsa-issue-joint-cybersecurity-advisory-water-system-regarding-iranian
 
-13. Nitori (furniture retailer, Japan)
+13. Equinor (energy company, Norway)
+   URL: https://hacktracking.com/#equinor-2026-11
+   Date: Nov 17, 2026
+   Severity: High
+   Sectors: Energy
+   Summary: Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it.
+   Impact: Some IT systems affected. Equinor says there are no indications data was stolen and oil and gas operations and production were not affected.
+   Status: Confirmed by Equinor. Attack ongoing.
+   Sources:
+     - Equinor statement: https://www.equinor.com/news/20261711-equinor-detected-cyber-attack
+     - Reuters via Euronext: https://live.euronext.com/en/financial-news/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected
+     - Upstream: https://www.upstreamonline.com/safety/equinor-reports-ongoing-cyber-attack-on-it-systems/2-1-2075589
+
+14. Nitori (furniture retailer, Japan)
    URL: https://hacktracking.com/#nitori-2026-11
    Date: Nov 6, 2026
    Severity: High
@@ -171,7 +184,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/
      - SC Media: https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records
 
-14. Cisco SD-WAN zero-day attacks
+15. Cisco SD-WAN zero-day attacks
    URL: https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02
    Date: Feb 25, 2026
    Severity: High
@@ -183,7 +196,7 @@ CONFIRMED HACKS
      - CISA ED 26-03: https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems
      - Cybersecurity Dive: https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/
 
-15. Boston Scientific (medical devices)
+16. Boston Scientific (medical devices)
    URL: https://hacktracking.com/#boston-scientific-2026-08
    Date: Aug 25, 2026
    Severity: High
@@ -195,7 +208,7 @@ CONFIRMED HACKS
      - Reuters: https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/
      - Boston Scientific update: https://news.bostonscientific.com/update-on-recent-cybersecurity-incident
 
-16. Carnival Corporation (cruises)
+17. Carnival Corporation (cruises)
    URL: https://hacktracking.com/#carnival-corporation-2026-04
    Date: Apr 10, 2026
    Severity: High
@@ -207,7 +220,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/
      - The Record: https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million
 
-17. Jaguar Land Rover
+18. Jaguar Land Rover
    URL: https://hacktracking.com/#jaguar-land-rover-2025-09
    Date: Sept 2025
    Severity: High
@@ -219,7 +232,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/
      - BBC News: https://www.bbc.com/news/articles/ckg1w255gy1o
 
-18. fairlife / Coca-Cola
+19. fairlife / Coca-Cola
    URL: https://hacktracking.com/#fairlife-coca-cola-2026-07
    Date: Jul 16, 2026
    Severity: High
@@ -231,7 +244,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/
      - AP News: https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6
 
-19. IDC Frontier cloud (Japan)
+20. IDC Frontier cloud (Japan)
    URL: https://hacktracking.com/#idc-frontier-cloud-2026-10
    Date: Oct 7, 2026
    Severity: High
@@ -243,7 +256,18 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/
      - IDC Frontier update: https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf
 
-20. ATF (U.S. firearms agency)
+21. RIKEN Fugaku supercomputer (Japan)
+   URL: https://hacktracking.com/#riken-fugaku-supercomputer-2026-11
+   Date: Nov 12, 2026
+   Severity: High
+   Sectors: Research, Government
+   Summary: An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it.
+   Impact: Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted.
+   Status: Confirmed by RIKEN. Investigation ongoing.
+   Sources:
+     - RIKEN notice: https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html
+
+22. ATF (U.S. firearms agency)
    URL: https://hacktracking.com/#atf-2026-08
    Date: Aug 27, 2026
    Severity: Medium
@@ -255,7 +279,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/
      - The Record: https://therecord.media/doj-atf-cyberattack-qilin-ransomware
 
-21. Klue (market research software)
+23. Klue (market research software)
    URL: https://hacktracking.com/#klue-2026-06
    Date: June 2026
    Severity: Medium
@@ -267,7 +291,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/
      - HackerOne advisory: https://www.hackerone.com/security-updates/klue-2026-06
 
-22. Uber drivers (via Fireworks AI)
+24. Uber drivers (via Fireworks AI)
    URL: https://hacktracking.com/#uber-drivers-2026-10
    Date: Oct 9, 2026
    Severity: Medium
@@ -279,7 +303,40 @@ CONFIRMED HACKS
      - TechCrunch (Uber): https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/
      - TechCrunch (Fireworks/Notion): https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
 
-23. Ukraine air raid alert app
+25. Fandango (movie tickets)
+   URL: https://hacktracking.com/#fandango-2026-10
+   Date: Oct 8, 2026
+   Severity: Medium
+   Sectors: Retail, Consumer
+   Summary: Card-skimming code was planted on Fandango's website checkout page and sent payment details typed in by customers to the attackers.
+   Impact: Card numbers, CVV codes, expiration dates, billing ZIP codes and email addresses for purchases made October 8-11, 2026. Fandango has not said how many customers were affected.
+   Status: Confirmed by Fandango. Notices sent.
+   Sources:
+     - BleepingComputer: https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/
+
+26. Infoblox (network security company)
+   URL: https://hacktracking.com/#infoblox-2026-11
+   Date: Nov 16, 2026
+   Severity: Medium
+   Sectors: Tech
+   Summary: The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor.
+   Impact: Unspecified company information. Infoblox says there's no indication its products, cloud services or software updates were involved; it has not said how many customers are affected.
+   Status: Confirmed by Infoblox. Investigation ongoing.
+   Sources:
+     - TechCrunch: https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/
+
+27. Meetsmore (service booking platform, Japan)
+   URL: https://hacktracking.com/#meetsmore-2026-11
+   Date: Nov 11, 2026
+   Severity: Medium
+   Sectors: Tech, Consumer
+   Summary: Attackers logged into 201 accounts using passwords stolen elsewhere, then exploited a flaw in a scheduling feature to pull customer job details.
+   Impact: Up to 366,850 records with customer addresses, phone numbers and request details. No names, emails, passwords or card numbers.
+   Status: Confirmed by Meetsmore. Flaw fixed.
+   Sources:
+     - Meetsmore notice (Japanese): https://company.meetsmore.com/page/notice-20261116
+
+28. Ukraine air raid alert app
    URL: https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11
    Date: Nov 1, 2026
    Severity: Medium
@@ -290,7 +347,7 @@ CONFIRMED HACKS
    Sources:
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
 
-24. The Kyiv Independent (news outlet)
+29. The Kyiv Independent (news outlet)
    URL: https://hacktracking.com/#the-kyiv-independent-2026-11
    Date: Nov 4, 2026
    Severity: Medium
@@ -302,7 +359,7 @@ CONFIRMED HACKS
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
      - Ukrainska Pravda: https://www.pravda.com.ua/eng/news/2026/11/04/8061264/
 
-25. The Japan Times (news outlet)
+30. The Japan Times (news outlet)
    URL: https://hacktracking.com/#the-japan-times-2026-09
    Date: Sep 18, 2026
    Severity: Low
@@ -312,6 +369,28 @@ CONFIRMED HACKS
    Status: Confirmed by The Japan Times.
    Sources:
      - The Japan Times notice: https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/
+
+31. Nikkei (via PLAID KARTE marketing service)
+   URL: https://hacktracking.com/#nikkei-2026-11
+   Date: Nov 15, 2026
+   Severity: Low
+   Sectors: Media
+   Summary: KARTE, a marketing service run by PLAID that Nikkei uses, was accessed without authorization, and some Nikkei Online Edition user data it handled may have leaked.
+   Impact: Email addresses, phone numbers, gender and birth year/month, which Nikkei says had been processed so they can't be restored to their original form. No card data.
+   Status: Confirmed by Nikkei.
+   Sources:
+     - Nikkei announcement: https://www.nikkei.co.jp/nikkeiinfo/en/news/announcements/1576.html
+
+32. Ipsos (market research)
+   URL: https://hacktracking.com/#ipsos-2026-11
+   Date: Nov 11, 2026
+   Severity: Low
+   Sectors: Business
+   Summary: The global market research firm found a breach of one internal information system and filed a complaint with authorities.
+   Impact: One internal system. Ipsos says operations weren't affected and the scope is still under investigation.
+   Status: Confirmed by Ipsos. Investigation ongoing.
+   Sources:
+     - Ipsos statement: https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems
 
 SPECULATED / POTENTIAL HACKS
 
@@ -401,7 +480,22 @@ SPECULATED / POTENTIAL HACKS
      - Cloudflare postmortem: https://blog.cloudflare.com/18-november-2025-outage/
      - Ars Technica: https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/
 
-7. JPMorgan Chase online banking
+7. Apple services outage (iCloud, App Store, Apple Pay)
+   URL: https://hacktracking.com/#apple-services-outage-2026-11
+   Date: Nov 17, 2026
+   Severity: High
+   Sectors: Tech, Consumer
+   Summary: iCloud sign-in, the App Store, Apple Music, Apple Pay, AppleCare and Apple retail store systems went down for hours, the latest in a week of big U.S. outages.
+   What people speculated: Another hit in a coordinated cyberattack behind the Microsoft, FAA, Chase and NSA outages.
+   Official explanation: Apple said an internal update caused the outages and that it was not a cyberattack. The U.S. Director of National Intelligence also said the recent string of outages was not a cyberattack or a coordinated nation-state effort.
+   Impact: Hours of sign-in failures and service outages; Apple stores unable to complete purchases. Services restored by that evening.
+   Status: Company explanation given. Not a hack.
+   Sources:
+     - MacRumors: https://www.macrumors.com/2026/11/17/apple-outage-internal-update/
+     - NBC News: https://www.nbcnews.com/business/corporations/apple-outages-working-get-systems-back-online-rcna609861
+     - CNBC: https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html
+
+8. JPMorgan Chase online banking
    URL: https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11
    Date: Nov 16, 2026
    Severity: High
@@ -416,7 +510,7 @@ SPECULATED / POTENTIAL HACKS
      - CNBC: https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html
      - AP News: https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e
 
-8. Verizon nationwide wireless outage
+9. Verizon nationwide wireless outage
    URL: https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01
    Date: Jan 14, 2026
    Severity: High
@@ -430,7 +524,7 @@ SPECULATED / POTENTIAL HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/
      - Reuters: https://www.reuters.com/business/media-telecom/verizon-offers-20-credit-customers-affected-by-massive-wireless-outage-2026-01-15/
 
-9. NSA classified network (NSANet)
+10. NSA classified network (NSANet)
    URL: https://hacktracking.com/#nsa-classified-network-2026-11
    Date: Nov 17, 2026
    Severity: High
@@ -445,7 +539,7 @@ SPECULATED / POTENTIAL HACKS
      - CBS News: https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/
      - The Guardian: https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down
 
-10. Starlink global outage
+11. Starlink global outage
    URL: https://hacktracking.com/#starlink-global-outage-2025-07
    Date: Jul 24, 2025
    Severity: High
@@ -459,7 +553,7 @@ SPECULATED / POTENTIAL HACKS
      - Reuters: https://www.reuters.com/technology/spacex-probes-cause-starlinks-global-satellite-network-outage-2025-07-25/
      - PCMag: https://me.pcmag.com/en/networking/31409/spacex-traces-starlink-outage-to-network-upgrade
 
-11. United Airlines system outage
+12. United Airlines system outage
    URL: https://hacktracking.com/#united-airlines-system-outage-2026-11
    Date: Nov 16, 2026
    Severity: Medium
@@ -474,7 +568,21 @@ SPECULATED / POTENTIAL HACKS
      - AP News: https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff
      - CNA: https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946
 
-12. American Airlines nationwide ground stop
+13. Marriott Bonvoy sign-in outage
+   URL: https://hacktracking.com/#marriott-bonvoy-sign-in-outage-2026-11
+   Date: Nov 17, 2026
+   Severity: Medium
+   Sectors: Travel, Consumer
+   Summary: Marriott.com and the Bonvoy app wouldn't let members sign in for several hours, knocking out mobile check-in and digital room keys for some guests.
+   What people speculated: Part of a wave of attacks behind the week's other outages.
+   Official explanation: Marriott said it resolved a technical issue and its review found no indication it was cybersecurity-related.
+   Impact: Several hours of failed log-ins, mobile keys and reservation changes.
+   Status: Company explanation given. No evidence of a hack.
+   Sources:
+     - Skift: https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/
+     - AP News: https://apnews.com/article/apple-marriott-technology-outages-ff097d2a0bec767baf38a1bd8eff5829
+
+14. American Airlines nationwide ground stop
    URL: https://hacktracking.com/#american-airlines-nationwide-ground-stop-2026-07
    Date: Jul 28, 2026
    Severity: Medium
@@ -488,7 +596,7 @@ SPECULATED / POTENTIAL HACKS
      - Reuters: https://www.reuters.com/world/faa-issues-american-airlines-nationwide-ground-stop-over-it-outage-2026-07-28/
      - RVA Cyber analysis: https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/
 
-13. Xbox sign-in and game library outage
+15. Xbox sign-in and game library outage
    URL: https://hacktracking.com/#xbox-sign-in-and-game-library-outage-2026-07
    Date: Jul 26, 2026
    Severity: Medium
@@ -501,7 +609,7 @@ SPECULATED / POTENTIAL HACKS
    Sources:
      - RVA Cyber analysis: https://news.rvacyber.com/briefings/major-outages-cyber-assessment-july-2026/
 
-14. PlayStation Network outage
+16. PlayStation Network outage
    URL: https://hacktracking.com/#playstation-network-outage-2026-07
    Date: Jul 24, 2026
    Severity: Low

@@ -8,6 +8,27 @@
 <lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>Equinor (energy company, Norway) — Confirmed Hack</title>
+<link>https://hacktracking.com/#equinor-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it. Impact: Some IT systems affected. Equinor says there are no indications data was stolen and oil and gas operations and production were not affected. Status: Confirmed by Equinor. Attack ongoing. Sources: Equinor statement (https://www.equinor.com/news/20261711-equinor-detected-cyber-attack); Reuters via Euronext (https://live.euronext.com/en/financial-news/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected); Upstream (https://www.upstreamonline.com/safety/equinor-reports-ongoing-cyber-attack-on-it-systems/2-1-2075589)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Energy</category>
+</item>
+<item>
+<title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#apple-services-outage-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#apple-services-outage-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>iCloud sign-in, the App Store, Apple Music, Apple Pay, AppleCare and Apple retail store systems went down for hours, the latest in a week of big U.S. outages. What people speculated: Another hit in a coordinated cyberattack behind the Microsoft, FAA, Chase and NSA outages. Official explanation: Apple said an internal update caused the outages and that it was not a cyberattack. The U.S. Director of National Intelligence also said the recent string of outages was not a cyberattack or a coordinated nation-state effort. Impact: Hours of sign-in failures and service outages; Apple stores unable to complete purchases. Services restored by that evening. Status: Company explanation given. Not a hack. Sources: MacRumors (https://www.macrumors.com/2026/11/17/apple-outage-internal-update/); NBC News (https://www.nbcnews.com/business/corporations/apple-outages-working-get-systems-back-online-rcna609861); CNBC (https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html)</description>
+<category>Speculated / Potential Hack</category>
+<category>High</category>
+<category>Tech</category>
+<category>Consumer</category>
+</item>
+<item>
 <title>NSA classified network (NSANet) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#nsa-classified-network-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
@@ -16,6 +37,27 @@
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Government</category>
+</item>
+<item>
+<title>Marriott Bonvoy sign-in outage — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#marriott-bonvoy-sign-in-outage-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#marriott-bonvoy-sign-in-outage-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Marriott.com and the Bonvoy app wouldn't let members sign in for several hours, knocking out mobile check-in and digital room keys for some guests. What people speculated: Part of a wave of attacks behind the week's other outages. Official explanation: Marriott said it resolved a technical issue and its review found no indication it was cybersecurity-related. Impact: Several hours of failed log-ins, mobile keys and reservation changes. Status: Company explanation given. No evidence of a hack. Sources: Skift (https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/); AP News (https://apnews.com/article/apple-marriott-technology-outages-ff097d2a0bec767baf38a1bd8eff5829)</description>
+<category>Speculated / Potential Hack</category>
+<category>Medium</category>
+<category>Travel</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>Infoblox (network security company) — Confirmed Hack</title>
+<link>https://hacktracking.com/#infoblox-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#infoblox-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor. Impact: Unspecified company information. Infoblox says there's no indication its products, cloud services or software updates were involved; it has not said how many customers are affected. Status: Confirmed by Infoblox. Investigation ongoing. Sources: TechCrunch (https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
 </item>
 <item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
@@ -38,6 +80,16 @@
 <category>Aviation</category>
 </item>
 <item>
+<title>Nikkei (via PLAID KARTE marketing service) — Confirmed Hack</title>
+<link>https://hacktracking.com/#nikkei-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#nikkei-2026-11</guid>
+<pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+<description>KARTE, a marketing service run by PLAID that Nikkei uses, was accessed without authorization, and some Nikkei Online Edition user data it handled may have leaked. Impact: Email addresses, phone numbers, gender and birth year/month, which Nikkei says had been processed so they can't be restored to their original form. No card data. Status: Confirmed by Nikkei. Sources: Nikkei announcement (https://www.nikkei.co.jp/nikkeiinfo/en/news/announcements/1576.html)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Media</category>
+</item>
+<item>
 <title>FAA: nationwide ground stop — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#faa-nationwide-ground-stop-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#faa-nationwide-ground-stop-2026-11</guid>
@@ -49,6 +101,17 @@
 <category>Government</category>
 </item>
 <item>
+<title>RIKEN Fugaku supercomputer (Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#riken-fugaku-supercomputer-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#riken-fugaku-supercomputer-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it. Impact: Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted. Status: Confirmed by RIKEN. Investigation ongoing. Sources: RIKEN notice (https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Research</category>
+<category>Government</category>
+</item>
+<item>
 <title>Microsoft 365 / Outlook global outage — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#microsoft-365-outlook-global-outage-2026-11</guid>
@@ -57,6 +120,27 @@
 <category>Speculated / Potential Hack</category>
 <category>Critical</category>
 <category>Tech</category>
+</item>
+<item>
+<title>Meetsmore (service booking platform, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#meetsmore-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#meetsmore-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers logged into 201 accounts using passwords stolen elsewhere, then exploited a flaw in a scheduling feature to pull customer job details. Impact: Up to 366,850 records with customer addresses, phone numbers and request details. No names, emails, passwords or card numbers. Status: Confirmed by Meetsmore. Flaw fixed. Sources: Meetsmore notice (Japanese) (https://company.meetsmore.com/page/notice-20261116)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>Ipsos (market research) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ipsos-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#ipsos-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>The global market research firm found a breach of one internal information system and filed a complaint with authorities. Impact: One internal system. Ipsos says operations weren't affected and the scope is still under investigation. Status: Confirmed by Ipsos. Investigation ongoing. Sources: Ipsos statement (https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Business</category>
 </item>
 <item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
@@ -130,6 +214,17 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>Fandango (movie tickets) — Confirmed Hack</title>
+<link>https://hacktracking.com/#fandango-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#fandango-2026-10</guid>
+<pubDate>Thu, 08 Oct 2026 12:00:00 GMT</pubDate>
+<description>Card-skimming code was planted on Fandango's website checkout page and sent payment details typed in by customers to the attackers. Impact: Card numbers, CVV codes, expiration dates, billing ZIP codes and email addresses for purchases made October 8-11, 2026. Fandango has not said how many customers were affected. Status: Confirmed by Fandango. Notices sent. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
 <category>Consumer</category>
 </item>
 <item>

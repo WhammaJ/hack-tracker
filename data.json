@@ -94,6 +94,22 @@
       ]
     },
     {
+      "org": "Apple services outage (iCloud, App Store, Apple Pay)",
+      "date": "2026-11-17",
+      "sectors": ["Tech", "Consumer"],
+      "severity": "High",
+      "summary": "iCloud sign-in, the App Store, Apple Music, Apple Pay, AppleCare and Apple retail store systems went down for hours, the latest in a week of big U.S. outages.",
+      "speculation": "Another hit in a coordinated cyberattack behind the Microsoft, FAA, Chase and NSA outages.",
+      "official": "Apple said an internal update caused the outages and that it was not a cyberattack. The U.S. Director of National Intelligence also said the recent string of outages was not a cyberattack or a coordinated nation-state effort.",
+      "impact": "Hours of sign-in failures and service outages; Apple stores unable to complete purchases. Services restored by that evening.",
+      "status": "Company explanation given. Not a hack.",
+      "sources": [
+        {"name": "MacRumors", "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/"},
+        {"name": "NBC News", "url": "https://www.nbcnews.com/business/corporations/apple-outages-working-get-systems-back-online-rcna609861"},
+        {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"}
+      ]
+    },
+    {
       "org": "JPMorgan Chase online banking",
       "date": "2026-11-16",
       "sectors": ["Finance"],
@@ -169,6 +185,21 @@
         {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"},
         {"name": "AP News", "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff"},
         {"name": "CNA", "url": "https://www.channelnewsasia.com/business/united-airlines-says-tech-outage-disrupts-departures-no-signs-cyberattack-6556946"}
+      ]
+    },
+    {
+      "org": "Marriott Bonvoy sign-in outage",
+      "date": "2026-11-17",
+      "sectors": ["Travel", "Consumer"],
+      "severity": "Medium",
+      "summary": "Marriott.com and the Bonvoy app wouldn't let members sign in for several hours, knocking out mobile check-in and digital room keys for some guests.",
+      "speculation": "Part of a wave of attacks behind the week's other outages.",
+      "official": "Marriott said it resolved a technical issue and its review found no indication it was cybersecurity-related.",
+      "impact": "Several hours of failed log-ins, mobile keys and reservation changes.",
+      "status": "Company explanation given. No evidence of a hack.",
+      "sources": [
+        {"name": "Skift", "url": "https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/"},
+        {"name": "AP News", "url": "https://apnews.com/article/apple-marriott-technology-outages-ff097d2a0bec767baf38a1bd8eff5829"}
       ]
     },
     {
@@ -381,6 +412,20 @@
       ]
     },
     {
+      "org": "Equinor (energy company, Norway)",
+      "date": "2026-11-17",
+      "sectors": ["Energy"],
+      "severity": "High",
+      "summary": "Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it.",
+      "impact": "Some IT systems affected. Equinor says there are no indications data was stolen and oil and gas operations and production were not affected.",
+      "status": "Confirmed by Equinor. Attack ongoing.",
+      "sources": [
+        {"name": "Equinor statement", "url": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack"},
+        {"name": "Reuters via Euronext", "url": "https://live.euronext.com/en/financial-news/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected"},
+        {"name": "Upstream", "url": "https://www.upstreamonline.com/safety/equinor-reports-ongoing-cyber-attack-on-it-systems/2-1-2075589"}
+      ]
+    },
+    {
       "org": "Nitori (furniture retailer, Japan)",
       "date": "2026-11-06",
       "sectors": ["Retail", "Consumer"],
@@ -473,6 +518,18 @@
       ]
     },
     {
+      "org": "RIKEN Fugaku supercomputer (Japan)",
+      "date": "2026-11-12",
+      "sectors": ["Research", "Government"],
+      "severity": "High",
+      "summary": "An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it.",
+      "impact": "Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted.",
+      "status": "Confirmed by RIKEN. Investigation ongoing.",
+      "sources": [
+        {"name": "RIKEN notice", "url": "https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html"}
+      ]
+    },
+    {
       "org": "ATF (U.S. firearms agency)",
       "date": "2026-08-27",
       "sectors": ["Government"],
@@ -513,6 +570,42 @@
       ]
     },
     {
+      "org": "Fandango (movie tickets)",
+      "date": "2026-10-08",
+      "sectors": ["Retail", "Consumer"],
+      "severity": "Medium",
+      "summary": "Card-skimming code was planted on Fandango's website checkout page and sent payment details typed in by customers to the attackers.",
+      "impact": "Card numbers, CVV codes, expiration dates, billing ZIP codes and email addresses for purchases made October 8-11, 2026. Fandango has not said how many customers were affected.",
+      "status": "Confirmed by Fandango. Notices sent.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/"}
+      ]
+    },
+    {
+      "org": "Infoblox (network security company)",
+      "date": "2026-11-16",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor.",
+      "impact": "Unspecified company information. Infoblox says there's no indication its products, cloud services or software updates were involved; it has not said how many customers are affected.",
+      "status": "Confirmed by Infoblox. Investigation ongoing.",
+      "sources": [
+        {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/"}
+      ]
+    },
+    {
+      "org": "Meetsmore (service booking platform, Japan)",
+      "date": "2026-11-11",
+      "sectors": ["Tech", "Consumer"],
+      "severity": "Medium",
+      "summary": "Attackers logged into 201 accounts using passwords stolen elsewhere, then exploited a flaw in a scheduling feature to pull customer job details.",
+      "impact": "Up to 366,850 records with customer addresses, phone numbers and request details. No names, emails, passwords or card numbers.",
+      "status": "Confirmed by Meetsmore. Flaw fixed.",
+      "sources": [
+        {"name": "Meetsmore notice (Japanese)", "url": "https://company.meetsmore.com/page/notice-20261116"}
+      ]
+    },
+    {
       "org": "Ukraine air raid alert app",
       "date": "2026-11-01",
       "sectors": ["Government"],
@@ -547,6 +640,30 @@
       "status": "Confirmed by The Japan Times.",
       "sources": [
         {"name": "The Japan Times notice", "url": "https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/"}
+      ]
+    },
+    {
+      "org": "Nikkei (via PLAID KARTE marketing service)",
+      "date": "2026-11-15",
+      "sectors": ["Media"],
+      "severity": "Low",
+      "summary": "KARTE, a marketing service run by PLAID that Nikkei uses, was accessed without authorization, and some Nikkei Online Edition user data it handled may have leaked.",
+      "impact": "Email addresses, phone numbers, gender and birth year/month, which Nikkei says had been processed so they can't be restored to their original form. No card data.",
+      "status": "Confirmed by Nikkei.",
+      "sources": [
+        {"name": "Nikkei announcement", "url": "https://www.nikkei.co.jp/nikkeiinfo/en/news/announcements/1576.html"}
+      ]
+    },
+    {
+      "org": "Ipsos (market research)",
+      "date": "2026-11-11",
+      "sectors": ["Business"],
+      "severity": "Low",
+      "summary": "The global market research firm found a breach of one internal information system and filed a complaint with authorities.",
+      "impact": "One internal system. Ipsos says operations weren't affected and the scope is still under investigation.",
+      "status": "Confirmed by Ipsos. Investigation ongoing.",
+      "sources": [
+        {"name": "Ipsos statement", "url": "https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems"}
       ]
     }
   ]
