@@ -187,7 +187,7 @@
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); CNET Japan (Japanese) (https://japan.cnet.com/article/35255076/)</description>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -217,6 +217,18 @@
 <category>Government</category>
 </item>
 <item>
+<title>Expedia Group (travel) — Confirmed Hack</title>
+<link>https://hacktracking.com/#expedia-group-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#expedia-group-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>Expedia Group, owner of Expedia, Hotels.com and Vrbo, confirmed attackers reached its systems through a compromised third-party data platform provider in a supply chain attack that hit several companies. The n0n extortion group claims it stole more than 1 TB of Expedia data. Security researchers had described a similar attack using access tied to the Qubole data platform; Expedia has not named the vendor. Impact: Not disclosed by Expedia. n0n claims (unverified) hundreds of millions of account records and about 830 million rows of loyalty program data, plus traveler profiles and trip records. Status: Breach confirmed by Expedia. Scale and n0n's data claims unconfirmed; investigation ongoing. Sources: Skift (https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/); Security Affairs (https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Travel</category>
+<category>Consumer</category>
+<category>Tech</category>
+</item>
+<item>
 <title>RIKEN Fugaku supercomputer (Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#riken-fugaku-supercomputer-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#riken-fugaku-supercomputer-2026-11</guid>
@@ -226,6 +238,17 @@
 <category>High</category>
 <category>Research</category>
 <category>Government</category>
+</item>
+<item>
+<title>Lyko (beauty retailer, Sweden) — Confirmed Hack</title>
+<link>https://hacktracking.com/#lyko-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#lyko-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>Unauthorized parties got into a small, isolated part of Swedish beauty retailer Lyko's systems and accessed customer data. Lyko says it stopped the breach within an hour and fixed the security hole. Impact: About 60,000 customers across Lyko's markets (36,000 in Sweden): names, addresses and phone numbers. Order information for 95 customers. No ID numbers, payment details or passwords. Status: Confirmed by Lyko. Reported to Sweden's privacy regulator (IMY). Sources: Lyko press release (PDF) (https://storage.mfn.se/d6ebc8eb-0ad4-4a6b-8b5f-12ea0d0050bb/lyko-has-addressed-a-data-breach-in-a-limited-part-of-its-system.pdf); SVT Nyheter (Swedish) (https://www.svt.se/nyheter/inrikes/lyko-hackat-kundernas-personuppgifter-har-stulits)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
+<category>Consumer</category>
 </item>
 <item>
 <title>Microsoft 365 / Outlook global outage — Speculated / Potential Hack</title>
@@ -290,6 +313,17 @@
 <category>Healthcare</category>
 </item>
 <item>
+<title>Openlogi (shipping and fulfillment service, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#openlogi-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#openlogi-2026-11</guid>
+<pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
+<description>An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops and REALITY Studios have since warned their customers. Impact: Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people. No credit card numbers. Status: Confirmed by Openlogi and client companies. Access route blocked Nov. 9. Sources: Openlogi notice (Japanese) (https://corp.openlogi.com/news/notice-20261111/); Kashima Antlers notice (https://www.antlers.co.jp/en-world/blogs/news/261118ytxj2u)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Logistics</category>
+<category>Retail</category>
+</item>
+<item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#nitori-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nitori-2026-11</guid>
@@ -299,6 +333,18 @@
 <category>High</category>
 <category>Retail</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>Port of Santos authority (Brazil) — Confirmed Hack</title>
+<link>https://hacktracking.com/#port-of-santos-authority-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#port-of-santos-authority-2026-11</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+<description>A cyberattack hit the Santos Port Authority (APS), the state-owned company that runs Brazil's largest port, knocking its online systems partly offline after a power outage at its headquarters. APS later confirmed a ransom demand. Brazil's Federal Police are investigating. Impact: Port authority systems partly down for days; operators reported delays and manual scheduling, arrival records and billing. Terminals and ship movements kept running. APS says it does not know whether data was accessed. Status: Confirmed by the port authority. Recovery ongoing; attacker not officially named. Sources: Folha de S.Paulo (https://www1.folha.uol.com.br/internacional/en/business/2026/11/port-of-santos-confirms-cyberattack-says-it-does-not-know-whether-data-was-accessed-without-authorization.shtml); G1 (Portuguese) (https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2026/11/12/porto-de-santos-confirma-pedido-de-resgate-apos-ataque-hacker-7percent-dos-dados-foram-recuperados.ghtml)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Transportation</category>
+<category>Logistics</category>
+<category>Government</category>
 </item>
 <item>
 <title>M1 (mobile carrier, Singapore) — Confirmed Hack</title>
@@ -392,6 +438,16 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>University of Texas at Arlington — Confirmed Hack</title>
+<link>https://hacktracking.com/#university-of-texas-at-arlington-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#university-of-texas-at-arlington-2026-10</guid>
+<pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+<description>Hackers broke into University of Texas at Arlington systems in late October. The school took down MachForms, its online forms portal for event registration, service requests and surveys, and later confirmed that personal information was stolen. The Qilin ransomware gang claimed the attack. Impact: Personal information of students and employees stolen; the school has not said what data or how many people. MachForms still offline as of Nov. 13. Status: Confirmed by the university. Qilin's claim not confirmed by the school. Sources: The Record (https://therecord.media/university-of-texas-arlington-warns-data-breach); The Shorthorn (https://www.theshorthorn.com/news/campus/uta-cybersecurity-investigation-finds-that-personal-information-was-accessed/article_1807ba67-877b-419f-9810-da2c32afa187.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
 </item>
 <item>
 <title>J.B. Hunt (trucking) — Confirmed Hack</title>
