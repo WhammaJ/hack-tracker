@@ -5,7 +5,7 @@
 <link>https://hacktracking.com/</link>
 <description>Confirmed hacking incidents and outages people suspected were hacks, with official explanations and sources.</description>
 <language>en</language>
-<lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>Equinor (energy company, Norway) — Confirmed Hack</title>
@@ -153,6 +153,17 @@
 <category>Government</category>
 </item>
 <item>
+<title>DHC (cosmetics, Japan, via PLAID KARTE) — Confirmed Hack</title>
+<link>https://hacktracking.com/#dhc-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#dhc-2026-11</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Unauthorized access to KARTE, a marketing service run by PLAID that DHC used for direct mail and similar messages, leaked DHC customer account information linked to it. PLAID notified DHC on Nov. 13. Impact: About 19.11 million customer account records (names, email addresses, birth dates and more). DHC says online-shop passwords and card data were not included and no secondary damage has been confirmed. Status: Confirmed by DHC. Regulator to be notified. Sources: Nikkei (Japanese) (https://www.nikkei.com/article/DGXZQOUC1886Z0Y6A111C2000000/)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Retail</category>
+<category>Consumer</category>
+</item>
+<item>
 <title>FAA: nationwide ground stop — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#faa-nationwide-ground-stop-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#faa-nationwide-ground-stop-2026-11</guid>
@@ -183,6 +194,16 @@
 <category>Speculated / Potential Hack</category>
 <category>Critical</category>
 <category>Tech</category>
+</item>
+<item>
+<title>Rakuten Securities (online brokerage, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#rakuten-securities-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#rakuten-securities-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers got into a test-environment system at Rakuten Securities on Nov. 11 and customer data held there may have been taken. The company detected the intrusion on Nov. 16 and blocked it. Impact: Login IDs and customer codes for up to about 11.25 million accounts; names, birth dates, addresses, phone numbers, emails, employers, withdrawal bank accounts, and self-reported income and assets for up to about 4.47 million accounts. Rakuten says passwords and PINs were not leaked and no unauthorized trades have been found. Status: Confirmed by Rakuten Securities. Investigation ongoing. Sources: Rakuten Securities announcement (Japanese) (https://www.rakuten-sec.co.jp/web/company/newsrelease/pdf/press2026111702.pdf); The Japan Times (https://www.japantimes.co.jp/business/2026/11/18/companies/rakuten-securities-unauthorized-access/); NHK World (https://www3.nhk.or.jp/nhkworld/news/20261117de77429/)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Finance</category>
 </item>
 <item>
 <title>Maersk (shipping) — Confirmed Hack</title>
@@ -256,6 +277,26 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Media</category>
+</item>
+<item>
+<title>SPH Media (news publisher, Singapore) — Confirmed Hack</title>
+<link>https://hacktracking.com/#sph-media-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#sph-media-2026-11</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>SPH Media, publisher of The Straits Times, found cyberattacks on five of its systems between Nov. 4 and Nov. 8, which it believes were carried out by the same threat actor. It says software bugs and system configuration played a part. Impact: About 9% of its database exposed, mostly email addresses plus some names, mailing addresses and phone numbers. No payment card, banking or account access data compromised. Status: Confirmed by SPH Media. Reported to Singapore authorities and police. Sources: SPH Media statement (https://www.sph.com.sg/media-centre/media-releases/media-statement-sph-cybersecurity-incident/); The Straits Times (https://www.straitstimes.com/singapore/politics/sph-media-hit-by-cyberattacks-no-payment-card-details-or-financial-information-compromised)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Media</category>
+</item>
+<item>
+<title>Myriad Genetics (genetic testing) — Confirmed Hack</title>
+<link>https://hacktracking.com/#myriad-genetics-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#myriad-genetics-2026-11</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+<description>Myriad Genetics detected unauthorized access to its IT network and temporarily suspended testing operations and order management systems while it contained the activity. Impact: Testing temporarily paused. The company is still assessing whether patient records were accessed. Most systems back to normal. Status: Confirmed by Myriad Genetics (SEC filing). Investigation ongoing. Sources: SEC 8-K filing (https://www.sec.gov/Archives/edgar/data/899923/000162828026070659/mygn-20261102.htm); Investing.com (https://www.investing.com/news/sec-filings/myriad-genetics-reports-unauthorized-access-to-it-network-resumes-most-operations-93CH-5004615)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
 </item>
 <item>
 <title>Ukraine air raid alert app — Confirmed Hack</title>
@@ -342,6 +383,16 @@
 <category>High</category>
 <category>Tech</category>
 <category>Government</category>
+</item>
+<item>
+<title>Irish credit unions (via Wellington IT) — Confirmed Hack</title>
+<link>https://hacktracking.com/#irish-credit-unions-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#irish-credit-unions-2026-10</guid>
+<pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate>
+<description>An attacker exploited a flaw in the online banking platform Wellington IT provides to Irish credit unions and pulled saved payee records in early October. Credit unions were only told in mid-November. Impact: About 40 credit unions affected, roughly a quarter of the country's total. Saved payee names, IBANs, BICs, addresses and payment references potentially exposed. Officials say member balances were not accessed and no financial losses have been reported. Status: Confirmed by affected credit unions and Ireland's government. Flaw closed. Assessment ongoing. Sources: RTÉ (https://www.rte.ie/news/2026/1118/1599645-credit-union-data-breach-assessed/); Irish Department of Finance (https://www.gov.ie/en/department-of-finance/press-releases/t%C3%A1naiste-and-minister-troy-comment-on-suspected-cybersecurity-incident-involving-credit-unions/); Galway Live (https://www.ireland-live.ie/west/galway-live/galway-credit-union-cyberattack-9358558)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
 </item>
 <item>
 <title>The Japan Times (news outlet) — Confirmed Hack</title>

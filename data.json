@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17",
+  "lastUpdated": "2026-11-18",
   "speculated": [
     {
       "org": "FAA: nationwide ground stop",
@@ -331,6 +331,32 @@
       ]
     },
     {
+      "org": "Rakuten Securities (online brokerage, Japan)",
+      "date": "2026-11-11",
+      "sectors": ["Finance"],
+      "severity": "Critical",
+      "summary": "Attackers got into a test-environment system at Rakuten Securities on Nov. 11 and customer data held there may have been taken. The company detected the intrusion on Nov. 16 and blocked it.",
+      "impact": "Login IDs and customer codes for up to about 11.25 million accounts; names, birth dates, addresses, phone numbers, emails, employers, withdrawal bank accounts, and self-reported income and assets for up to about 4.47 million accounts. Rakuten says passwords and PINs were not leaked and no unauthorized trades have been found.",
+      "status": "Confirmed by Rakuten Securities. Investigation ongoing.",
+      "sources": [
+        {"name": "Rakuten Securities announcement (Japanese)", "url": "https://www.rakuten-sec.co.jp/web/company/newsrelease/pdf/press2026111702.pdf"},
+        {"name": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/11/18/companies/rakuten-securities-unauthorized-access/"},
+        {"name": "NHK World", "url": "https://www3.nhk.or.jp/nhkworld/news/20261117de77429/"}
+      ]
+    },
+    {
+      "org": "DHC (cosmetics, Japan, via PLAID KARTE)",
+      "date": "2026-11-13",
+      "sectors": ["Retail", "Consumer"],
+      "severity": "Critical",
+      "summary": "Unauthorized access to KARTE, a marketing service run by PLAID that DHC used for direct mail and similar messages, leaked DHC customer account information linked to it. PLAID notified DHC on Nov. 13.",
+      "impact": "About 19.11 million customer account records (names, email addresses, birth dates and more). DHC says online-shop passwords and card data were not included and no secondary damage has been confirmed.",
+      "status": "Confirmed by DHC. Regulator to be notified.",
+      "sources": [
+        {"name": "Nikkei (Japanese)", "url": "https://www.nikkei.com/article/DGXZQOUC1886Z0Y6A111C2000000/"}
+      ]
+    },
+    {
       "org": "DentaQuest (dental benefits)",
       "date": "2026-05-17",
       "sectors": ["Healthcare"],
@@ -449,6 +475,20 @@
       "sources": [
         {"name": "Cybernews", "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/"},
         {"name": "CISO Brief", "url": "https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/"}
+      ]
+    },
+    {
+      "org": "Irish credit unions (via Wellington IT)",
+      "date": "2026-10-06",
+      "sectors": ["Finance"],
+      "severity": "High",
+      "summary": "An attacker exploited a flaw in the online banking platform Wellington IT provides to Irish credit unions and pulled saved payee records in early October. Credit unions were only told in mid-November.",
+      "impact": "About 40 credit unions affected, roughly a quarter of the country's total. Saved payee names, IBANs, BICs, addresses and payment references potentially exposed. Officials say member balances were not accessed and no financial losses have been reported.",
+      "status": "Confirmed by affected credit unions and Ireland's government. Flaw closed. Assessment ongoing.",
+      "sources": [
+        {"name": "RTÉ", "url": "https://www.rte.ie/news/2026/1118/1599645-credit-union-data-breach-assessed/"},
+        {"name": "Irish Department of Finance", "url": "https://www.gov.ie/en/department-of-finance/press-releases/t%C3%A1naiste-and-minister-troy-comment-on-suspected-cybersecurity-incident-involving-credit-unions/"},
+        {"name": "Galway Live", "url": "https://www.ireland-live.ie/west/galway-live/galway-credit-union-cyberattack-9358558"}
       ]
     },
     {
@@ -634,6 +674,19 @@
       ]
     },
     {
+      "org": "Myriad Genetics (genetic testing)",
+      "date": "2026-11-02",
+      "sectors": ["Healthcare"],
+      "severity": "Medium",
+      "summary": "Myriad Genetics detected unauthorized access to its IT network and temporarily suspended testing operations and order management systems while it contained the activity.",
+      "impact": "Testing temporarily paused. The company is still assessing whether patient records were accessed. Most systems back to normal.",
+      "status": "Confirmed by Myriad Genetics (SEC filing). Investigation ongoing.",
+      "sources": [
+        {"name": "SEC 8-K filing", "url": "https://www.sec.gov/Archives/edgar/data/899923/000162828026070659/mygn-20261102.htm"},
+        {"name": "Investing.com", "url": "https://www.investing.com/news/sec-filings/myriad-genetics-reports-unauthorized-access-to-it-network-resumes-most-operations-93CH-5004615"}
+      ]
+    },
+    {
       "org": "Uber drivers (via Fireworks AI)",
       "date": "2026-10-09",
       "sectors": ["Tech", "Consumer"],
@@ -741,6 +794,19 @@
       "sources": [
         {"name": "The Kyiv Independent", "url": "https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/"},
         {"name": "Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061264/"}
+      ]
+    },
+    {
+      "org": "SPH Media (news publisher, Singapore)",
+      "date": "2026-11-04",
+      "sectors": ["Media"],
+      "severity": "Medium",
+      "summary": "SPH Media, publisher of The Straits Times, found cyberattacks on five of its systems between Nov. 4 and Nov. 8, which it believes were carried out by the same threat actor. It says software bugs and system configuration played a part.",
+      "impact": "About 9% of its database exposed, mostly email addresses plus some names, mailing addresses and phone numbers. No payment card, banking or account access data compromised.",
+      "status": "Confirmed by SPH Media. Reported to Singapore authorities and police.",
+      "sources": [
+        {"name": "SPH Media statement", "url": "https://www.sph.com.sg/media-centre/media-releases/media-statement-sph-cybersecurity-incident/"},
+        {"name": "The Straits Times", "url": "https://www.straitstimes.com/singapore/politics/sph-media-hit-by-cyberattacks-no-payment-card-details-or-financial-information-compromised"}
       ]
     },
     {
