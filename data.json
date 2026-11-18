@@ -114,15 +114,15 @@
       "date": "2026-11-16",
       "sectors": ["Finance"],
       "severity": "High",
-      "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack.",
+      "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; that is an unverified attacker claim.",
       "speculation": "A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.",
-      "official": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack.",
+      "official": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Asked about the gang's claim, the bank said there is no evidence linking the disruption to a cyberattack.",
       "impact": "Delayed transactions and online banking problems; some other banks affected when dealing with Chase.",
       "status": "Company explanation given. No evidence of a hack.",
       "sources": [
         {"name": "POLITICO", "url": "https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592"},
         {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"},
-        {"name": "AP News", "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e"}
+        {"name": "Cybernews", "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/"}
       ]
     },
     {
@@ -318,6 +318,19 @@
       ]
     },
     {
+      "org": "Optimizely (website experimentation platform)",
+      "date": "2026-11-16",
+      "sectors": ["Tech", "Retail", "Finance"],
+      "severity": "Critical",
+      "summary": "Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached.",
+      "impact": "Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day.",
+      "status": "Confirmed by Optimizely. Vulnerable path blocked and customers contacted.",
+      "sources": [
+        {"name": "The Record", "url": "https://therecord.media/optimizely-malicious-code-customer-sites"},
+        {"name": "TechTarget", "url": "https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/"}
+      ]
+    },
+    {
       "org": "DentaQuest (dental benefits)",
       "date": "2026-05-17",
       "sectors": ["Healthcare"],
@@ -426,6 +439,32 @@
       ]
     },
     {
+      "org": "Visa (via third-party provider)",
+      "date": "2026-11-17",
+      "sectors": ["Finance"],
+      "severity": "High",
+      "summary": "A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region.",
+      "impact": "Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. What the gang claims to have taken has not been shown.",
+      "status": "Third-party incident confirmed by Visa. Gang's data claims unverified.",
+      "sources": [
+        {"name": "Cybernews", "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/"},
+        {"name": "CISO Brief", "url": "https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/"}
+      ]
+    },
+    {
+      "org": "South Korea government email system",
+      "date": "2026-11-16",
+      "sectors": ["Government"],
+      "severity": "High",
+      "summary": "South Korea's Ministry of the Interior and Safety said hackers got into the government's administrative email system by going through vulnerable local government networks and exploiting a flaw in its single sign-on (SSO) login system.",
+      "impact": "Abnormal access to about 300 government email accounts found so far. The breach was reported to the privacy regulator and affected people were notified.",
+      "status": "Confirmed by South Korea's government. Joint investigation with NIS and KISA ongoing.",
+      "sources": [
+        {"name": "SBS News", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008847830"},
+        {"name": "Aju Press", "url": "https://www.ajupress.com/view/20261116133270131"}
+      ]
+    },
+    {
       "org": "Nitori (furniture retailer, Japan)",
       "date": "2026-11-06",
       "sectors": ["Retail", "Consumer"],
@@ -436,6 +475,18 @@
       "sources": [
         {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"},
         {"name": "SC Media", "url": "https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records"}
+      ]
+    },
+    {
+      "org": "Maersk (shipping)",
+      "date": "2026-11-11",
+      "sectors": ["Transportation", "Logistics"],
+      "severity": "High",
+      "summary": "The shipping giant confirmed that a threat actor breached a legacy system belonging to a company it previously acquired and stole data. The WhiteArmor ransomware group claimed the attack and threatened to release about 100GB of data, demanding $5 million (attacker's claim).",
+      "impact": "Maersk says the incident is isolated to a local system, current evidence indicates no sensitive data was disclosed, and shipping operations are not disrupted.",
+      "status": "Confirmed by Maersk. Investigation ongoing.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"}
       ]
     },
     {
@@ -540,6 +591,31 @@
       "sources": [
         {"name": "TechCrunch", "url": "https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/"},
         {"name": "The Record", "url": "https://therecord.media/doj-atf-cyberattack-qilin-ransomware"}
+      ]
+    },
+    {
+      "org": "J.B. Hunt (trucking)",
+      "date": "2026-10-23",
+      "sectors": ["Transportation", "Logistics"],
+      "severity": "Medium",
+      "summary": "J.B. Hunt confirmed it is investigating unauthorized access to certain information in an isolated part of its technology systems. The WhiteArmor extortion group claims it stole data from J.B. Hunt as well as Ryder and Echo Global Logistics; those two have not publicly confirmed an incident.",
+      "impact": "Systems stayed operational. What was taken has not been disclosed; employees have filed multiple proposed class action lawsuits. The date shown is when ransomware trackers recorded the attack.",
+      "status": "Confirmed by J.B. Hunt. Investigation ongoing.",
+      "sources": [
+        {"name": "FreightWaves", "url": "https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit"},
+        {"name": "Breach News", "url": "https://breachnews.com/ransomware/jb-hunt-ryder-echo-whitearmor-ransomware-claims/"}
+      ]
+    },
+    {
+      "org": "M1 (mobile carrier, Singapore)",
+      "date": "2026-11-06",
+      "sectors": ["Telecom"],
+      "severity": "Medium",
+      "summary": "Singapore mobile carrier M1 disclosed a data breach it identified on October 30 involving customer information. It says the breach has been contained.",
+      "impact": "Customer names, NRIC/FIN numbers, dates of birth, mobile numbers, email addresses and addresses. M1 says no payment card, banking or account access was compromised; it has not said how many customers are affected.",
+      "status": "Confirmed by M1. Customers being notified.",
+      "sources": [
+        {"name": "M1", "url": "https://www.m1.com.sg/about-us/news-releases/2026/m1-discloses-data-breach"}
       ]
     },
     {

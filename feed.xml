@@ -18,6 +18,16 @@
 <category>Energy</category>
 </item>
 <item>
+<title>Visa (via third-party provider) — Confirmed Hack</title>
+<link>https://hacktracking.com/#visa-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#visa-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. What the gang claims to have taken has not been shown. Status: Third-party incident confirmed by Visa. Gang's data claims unverified. Sources: Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/); CISO Brief (https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+</item>
+<item>
 <title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#apple-services-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#apple-services-outage-2026-11</guid>
@@ -50,6 +60,28 @@
 <category>Consumer</category>
 </item>
 <item>
+<title>Optimizely (website experimentation platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#optimizely-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#optimizely-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached. Impact: Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day. Status: Confirmed by Optimizely. Vulnerable path blocked and customers contacted. Sources: The Record (https://therecord.media/optimizely-malicious-code-customer-sites); TechTarget (https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Tech</category>
+<category>Retail</category>
+<category>Finance</category>
+</item>
+<item>
+<title>South Korea government email system — Confirmed Hack</title>
+<link>https://hacktracking.com/#south-korea-government-email-system-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#south-korea-government-email-system-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>South Korea's Ministry of the Interior and Safety said hackers got into the government's administrative email system by going through vulnerable local government networks and exploiting a flaw in its single sign-on (SSO) login system. Impact: Abnormal access to about 300 government email accounts found so far. The breach was reported to the privacy regulator and affected people were notified. Status: Confirmed by South Korea's government. Joint investigation with NIS and KISA ongoing. Sources: SBS News (https://news.sbs.co.kr/english/article.do?news_id=N1008847830); Aju Press (https://www.ajupress.com/view/20261116133270131)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Government</category>
+</item>
+<item>
 <title>Infoblox (network security company) — Confirmed Hack</title>
 <link>https://hacktracking.com/#infoblox-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#infoblox-2026-11</guid>
@@ -64,7 +96,7 @@
 <link>https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</guid>
 <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-<description>Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Status: Company explanation given. No evidence of a hack. Sources: POLITICO (https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592); CNBC (https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html); AP News (https://apnews.com/article/bank-outage-chase-wells-fargo-truist-zelle-aeb4b0d6b6789c8c96bb2520454a6d1e)</description>
+<description>Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; that is an unverified attacker claim. What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Asked about the gang's claim, the bank said there is no evidence linking the disruption to a cyberattack. Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Status: Company explanation given. No evidence of a hack. Sources: POLITICO (https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592); CNBC (https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html); Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/)</description>
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Finance</category>
@@ -122,6 +154,17 @@
 <category>Tech</category>
 </item>
 <item>
+<title>Maersk (shipping) — Confirmed Hack</title>
+<link>https://hacktracking.com/#maersk-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#maersk-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>The shipping giant confirmed that a threat actor breached a legacy system belonging to a company it previously acquired and stole data. The WhiteArmor ransomware group claimed the attack and threatened to release about 100GB of data, demanding $5 million (attacker's claim). Impact: Maersk says the incident is isolated to a local system, current evidence indicates no sensitive data was disclosed, and shipping operations are not disrupted. Status: Confirmed by Maersk. Investigation ongoing. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Transportation</category>
+<category>Logistics</category>
+</item>
+<item>
 <title>Meetsmore (service booking platform, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#meetsmore-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#meetsmore-2026-11</guid>
@@ -152,6 +195,16 @@
 <category>High</category>
 <category>Retail</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>M1 (mobile carrier, Singapore) — Confirmed Hack</title>
+<link>https://hacktracking.com/#m1-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#m1-2026-11</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+<description>Singapore mobile carrier M1 disclosed a data breach it identified on October 30 involving customer information. It says the breach has been contained. Impact: Customer names, NRIC/FIN numbers, dates of birth, mobile numbers, email addresses and addresses. M1 says no payment card, banking or account access was compromised; it has not said how many customers are affected. Status: Confirmed by M1. Customers being notified. Sources: M1 (https://www.m1.com.sg/about-us/news-releases/2026/m1-discloses-data-breach)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Telecom</category>
 </item>
 <item>
 <title>The Kyiv Independent (news outlet) — Confirmed Hack</title>
@@ -194,6 +247,17 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>J.B. Hunt (trucking) — Confirmed Hack</title>
+<link>https://hacktracking.com/#j-b-hunt-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#j-b-hunt-2026-10</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+<description>J.B. Hunt confirmed it is investigating unauthorized access to certain information in an isolated part of its technology systems. The WhiteArmor extortion group claims it stole data from J.B. Hunt as well as Ryder and Echo Global Logistics; those two have not publicly confirmed an incident. Impact: Systems stayed operational. What was taken has not been disclosed; employees have filed multiple proposed class action lawsuits. The date shown is when ransomware trackers recorded the attack. Status: Confirmed by J.B. Hunt. Investigation ongoing. Sources: FreightWaves (https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit); Breach News (https://breachnews.com/ransomware/jb-hunt-ryder-echo-whitearmor-ransomware-claims/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Transportation</category>
+<category>Logistics</category>
 </item>
 <item>
 <title>ConnectWise (IT management software) — Confirmed Hack</title>
