@@ -28,6 +28,17 @@
 <category>Finance</category>
 </item>
 <item>
+<title>SOFT99 (car care products, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#soft99-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#soft99-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Unauthorized access to an outside company that handles SOFT99's online-shop orders and shipping leaked customer order information. Impact: About 3,813 people (3,728 orders): names, addresses, phone numbers, emails and order details. No card data. All online shops temporarily closed. Status: Confirmed by SOFT99. Police and regulator notified. Sources: Japan IR (SOFT99 disclosure) (https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Retail</category>
+<category>Consumer</category>
+</item>
+<item>
 <title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#apple-services-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#apple-services-outage-2026-11</guid>
@@ -92,6 +103,16 @@
 <category>Tech</category>
 </item>
 <item>
+<title>Charleston County Government (South Carolina) — Confirmed Hack</title>
+<link>https://hacktracking.com/#charleston-county-government-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#charleston-county-government-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>Charleston County's IT team spotted unusual network activity and the county has confirmed data was removed from its systems. State police (SLED) are investigating on site. Impact: Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected. Status: Confirmed by Charleston County. Investigation ongoing. Sources: Moultrie News / Post and Courier (https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+</item>
+<item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</guid>
@@ -120,6 +141,16 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Media</category>
+</item>
+<item>
+<title>City of South Portland (Maine) — Confirmed Hack</title>
+<link>https://hacktracking.com/#city-of-south-portland-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#city-of-south-portland-2026-11</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+<description>The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity. Impact: City Hall, Assessing and the Library closed to the public while systems are restored. The city says initial assessments show most city data is unaffected. Status: Confirmed by the city. Forensic review ongoing with state and federal agencies. Sources: City of South Portland (https://www.southportland.gov/m/newsflash/Home/Detail/619)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
 </item>
 <item>
 <title>FAA: nationwide ground stop — Speculated / Potential Hack</title>
@@ -186,11 +217,21 @@
 <category>Business</category>
 </item>
 <item>
+<title>Monadnock Community Hospital (New Hampshire) — Confirmed Hack</title>
+<link>https://hacktracking.com/#monadnock-community-hospital-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#monadnock-community-hospital-2026-11</guid>
+<pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+<description>A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER. Impact: Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation. Status: Confirmed by the hospital. Law enforcement involved. Investigation ongoing. Sources: Monadnock Ledger-Transcript (https://ledgertranscript.com/2026/11/17/monadnock-community-hospital-cyber-incident/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+</item>
+<item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#nitori-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nitori-2026-11</guid>
 <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-<description>Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen. Impact: Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers. Status: Confirmed by Nitori. Investigation ongoing. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/); SC Media (https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records)</description>
+<description>Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen. Impact: Up to 37.62 million potentially affected records (names, contact details, dates of birth); Nitori says the count includes duplicates and is not the number of people. No passwords or card numbers. Status: Confirmed by Nitori, which says attackers extracted data through a vulnerability in an online-shop admin server. How much leaked is still undetermined. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/); SC Media (https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records); MLex (https://www.mlex.com/mlex/data-privacy-security/articles/2551466/japan-s-nitori-confirms-data-extraction-says-breach-scope-unclear)</description>
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Retail</category>

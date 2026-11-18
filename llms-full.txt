@@ -214,11 +214,12 @@ CONFIRMED HACKS
    Severity: High
    Sectors: Retail, Consumer
    Summary: Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.
-   Impact: Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers.
-   Status: Confirmed by Nitori. Investigation ongoing.
+   Impact: Up to 37.62 million potentially affected records (names, contact details, dates of birth); Nitori says the count includes duplicates and is not the number of people. No passwords or card numbers.
+   Status: Confirmed by Nitori, which says attackers extracted data through a vulnerability in an online-shop admin server. How much leaked is still undetermined.
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/
      - SC Media: https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records
+     - MLex: https://www.mlex.com/mlex/data-privacy-security/articles/2551466/japan-s-nitori-confirms-data-extraction-says-breach-scope-unclear
 
 18. Maersk (shipping)
    URL: https://hacktracking.com/#maersk-2026-11
@@ -406,7 +407,40 @@ CONFIRMED HACKS
    Sources:
      - Meetsmore notice (Japanese): https://company.meetsmore.com/page/notice-20261116
 
-34. Ukraine air raid alert app
+34. Monadnock Community Hospital (New Hampshire)
+   URL: https://hacktracking.com/#monadnock-community-hospital-2026-11
+   Date: Nov 9, 2026
+   Severity: Medium
+   Sectors: Healthcare
+   Summary: A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER.
+   Impact: Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation.
+   Status: Confirmed by the hospital. Law enforcement involved. Investigation ongoing.
+   Sources:
+     - Monadnock Ledger-Transcript: https://ledgertranscript.com/2026/11/17/monadnock-community-hospital-cyber-incident/
+
+35. Charleston County Government (South Carolina)
+   URL: https://hacktracking.com/#charleston-county-government-2026-11
+   Date: Nov 16, 2026
+   Severity: Medium
+   Sectors: Government
+   Summary: Charleston County's IT team spotted unusual network activity and the county has confirmed data was removed from its systems. State police (SLED) are investigating on site.
+   Impact: Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected.
+   Status: Confirmed by Charleston County. Investigation ongoing.
+   Sources:
+     - Moultrie News / Post and Courier: https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html
+
+36. City of South Portland (Maine)
+   URL: https://hacktracking.com/#city-of-south-portland-2026-11
+   Date: Nov 14, 2026
+   Severity: Medium
+   Sectors: Government
+   Summary: The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.
+   Impact: City Hall, Assessing and the Library closed to the public while systems are restored. The city says initial assessments show most city data is unaffected.
+   Status: Confirmed by the city. Forensic review ongoing with state and federal agencies.
+   Sources:
+     - City of South Portland: https://www.southportland.gov/m/newsflash/Home/Detail/619
+
+37. Ukraine air raid alert app
    URL: https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11
    Date: Nov 1, 2026
    Severity: Medium
@@ -417,7 +451,7 @@ CONFIRMED HACKS
    Sources:
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
 
-35. The Kyiv Independent (news outlet)
+38. The Kyiv Independent (news outlet)
    URL: https://hacktracking.com/#the-kyiv-independent-2026-11
    Date: Nov 4, 2026
    Severity: Medium
@@ -429,7 +463,7 @@ CONFIRMED HACKS
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
      - Ukrainska Pravda: https://www.pravda.com.ua/eng/news/2026/11/04/8061264/
 
-36. The Japan Times (news outlet)
+39. The Japan Times (news outlet)
    URL: https://hacktracking.com/#the-japan-times-2026-09
    Date: Sep 18, 2026
    Severity: Low
@@ -440,7 +474,7 @@ CONFIRMED HACKS
    Sources:
      - The Japan Times notice: https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/
 
-37. Nikkei (via PLAID KARTE marketing service)
+40. Nikkei (via PLAID KARTE marketing service)
    URL: https://hacktracking.com/#nikkei-2026-11
    Date: Nov 15, 2026
    Severity: Low
@@ -451,7 +485,7 @@ CONFIRMED HACKS
    Sources:
      - Nikkei announcement: https://www.nikkei.co.jp/nikkeiinfo/en/news/announcements/1576.html
 
-38. Ipsos (market research)
+41. Ipsos (market research)
    URL: https://hacktracking.com/#ipsos-2026-11
    Date: Nov 11, 2026
    Severity: Low
@@ -461,6 +495,17 @@ CONFIRMED HACKS
    Status: Confirmed by Ipsos. Investigation ongoing.
    Sources:
      - Ipsos statement: https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems
+
+42. SOFT99 (car care products, Japan)
+   URL: https://hacktracking.com/#soft99-2026-11
+   Date: Nov 17, 2026
+   Severity: Low
+   Sectors: Retail, Consumer
+   Summary: Unauthorized access to an outside company that handles SOFT99's online-shop orders and shipping leaked customer order information.
+   Impact: About 3,813 people (3,728 orders): names, addresses, phone numbers, emails and order details. No card data. All online shops temporarily closed.
+   Status: Confirmed by SOFT99. Police and regulator notified.
+   Sources:
+     - Japan IR (SOFT99 disclosure): https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/
 
 SPECULATED / POTENTIAL HACKS
 

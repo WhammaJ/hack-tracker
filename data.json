@@ -470,11 +470,12 @@
       "sectors": ["Retail", "Consumer"],
       "severity": "High",
       "summary": "Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.",
-      "impact": "Up to 37.62 million records (names, contact details, dates of birth). No passwords or card numbers.",
-      "status": "Confirmed by Nitori. Investigation ongoing.",
+      "impact": "Up to 37.62 million potentially affected records (names, contact details, dates of birth); Nitori says the count includes duplicates and is not the number of people. No passwords or card numbers.",
+      "status": "Confirmed by Nitori, which says attackers extracted data through a vulnerability in an online-shop admin server. How much leaked is still undetermined.",
       "sources": [
         {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"},
-        {"name": "SC Media", "url": "https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records"}
+        {"name": "SC Media", "url": "https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records"},
+        {"name": "MLex", "url": "https://www.mlex.com/mlex/data-privacy-security/articles/2551466/japan-s-nitori-confirms-data-extraction-says-breach-scope-unclear"}
       ]
     },
     {
@@ -682,6 +683,42 @@
       ]
     },
     {
+      "org": "Monadnock Community Hospital (New Hampshire)",
+      "date": "2026-11-09",
+      "sectors": ["Healthcare"],
+      "severity": "Medium",
+      "summary": "A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER.",
+      "impact": "Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation.",
+      "status": "Confirmed by the hospital. Law enforcement involved. Investigation ongoing.",
+      "sources": [
+        {"name": "Monadnock Ledger-Transcript", "url": "https://ledgertranscript.com/2026/11/17/monadnock-community-hospital-cyber-incident/"}
+      ]
+    },
+    {
+      "org": "Charleston County Government (South Carolina)",
+      "date": "2026-11-16",
+      "sectors": ["Government"],
+      "severity": "Medium",
+      "summary": "Charleston County's IT team spotted unusual network activity and the county has confirmed data was removed from its systems. State police (SLED) are investigating on site.",
+      "impact": "Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected.",
+      "status": "Confirmed by Charleston County. Investigation ongoing.",
+      "sources": [
+        {"name": "Moultrie News / Post and Courier", "url": "https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html"}
+      ]
+    },
+    {
+      "org": "City of South Portland (Maine)",
+      "date": "2026-11-14",
+      "sectors": ["Government"],
+      "severity": "Medium",
+      "summary": "The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.",
+      "impact": "City Hall, Assessing and the Library closed to the public while systems are restored. The city says initial assessments show most city data is unaffected.",
+      "status": "Confirmed by the city. Forensic review ongoing with state and federal agencies.",
+      "sources": [
+        {"name": "City of South Portland", "url": "https://www.southportland.gov/m/newsflash/Home/Detail/619"}
+      ]
+    },
+    {
       "org": "Ukraine air raid alert app",
       "date": "2026-11-01",
       "sectors": ["Government"],
@@ -740,6 +777,18 @@
       "status": "Confirmed by Ipsos. Investigation ongoing.",
       "sources": [
         {"name": "Ipsos statement", "url": "https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems"}
+      ]
+    },
+    {
+      "org": "SOFT99 (car care products, Japan)",
+      "date": "2026-11-17",
+      "sectors": ["Retail", "Consumer"],
+      "severity": "Low",
+      "summary": "Unauthorized access to an outside company that handles SOFT99's online-shop orders and shipping leaked customer order information.",
+      "impact": "About 3,813 people (3,728 orders): names, addresses, phone numbers, emails and order details. No card data. All online shops temporarily closed.",
+      "status": "Confirmed by SOFT99. Police and regulator notified.",
+      "sources": [
+        {"name": "Japan IR (SOFT99 disclosure)", "url": "https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/"}
       ]
     }
   ]
