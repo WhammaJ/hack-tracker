@@ -12,7 +12,7 @@
 <link>https://hacktracking.com/#equinor-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-<description>Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it. Impact: Some IT systems affected. Equinor says there are no indications data was stolen and oil and gas operations and production were not affected. Status: Confirmed by Equinor. Attack ongoing. Sources: Equinor statement (https://www.equinor.com/news/20261711-equinor-detected-cyber-attack); Reuters via Euronext (https://live.euronext.com/en/financial-news/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected); Upstream (https://www.upstreamonline.com/safety/equinor-reports-ongoing-cyber-attack-on-it-systems/2-1-2075589)</description>
+<description>Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it. Impact: Some IT systems affected; staff may have trouble reaching corporate apps and IT services. Equinor says there are no indications data was stolen, the attack did not involve a computer virus, and oil and gas production was not affected. Status: Confirmed by Equinor. Work to neutralise the attack and restore systems ongoing; Equinor says it is too early to say how long that will take. Sources: Equinor statement (https://www.equinor.com/news/20261711-equinor-detected-cyber-attack); Reuters via Euronext (https://live.euronext.com/en/financial-news/norways-equinor-detects-ongoing-cyberattack-oil-and-gas-output-unaffected); The Record (https://therecord.media/norway-equinor-cyberattack-energy)</description>
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Energy</category>
@@ -97,7 +97,7 @@
 <link>https://hacktracking.com/#infoblox-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#infoblox-2026-11</guid>
 <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-<description>The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor. Impact: Unspecified company information. Infoblox says there's no indication its products, cloud services or software updates were involved; it has not said how many customers are affected. Status: Confirmed by Infoblox. Investigation ongoing. Sources: TechCrunch (https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/)</description>
+<description>The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor. Impact: Infoblox says there's no indication its products, cloud services or software updates were involved. The Register reports, citing an internal email, that employee personal details (including Social Security numbers and direct-deposit details) and some customers' network configuration backups were taken; Infoblox has not said how many customers are affected. Status: Confirmed by Infoblox. Investigation ongoing. Sources: TechCrunch (https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/); TechRadar (https://www.techradar.com/pro/security/infoblox-confirms-company-and-customer-data-exposed-in-sharepoint-breach)</description>
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
@@ -151,6 +151,18 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+</item>
+<item>
+<title>PLAID KARTE customers (MUFG Bank, JINS, Shimamura and others, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); CNET Japan (Japanese) (https://japan.cnet.com/article/35255076/)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Tech</category>
+<category>Finance</category>
+<category>Retail</category>
 </item>
 <item>
 <title>DHC (cosmetics, Japan, via PLAID KARTE) — Confirmed Hack</title>
