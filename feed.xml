@@ -48,6 +48,17 @@
 <category>Finance</category>
 </item>
 <item>
+<title>Japan health ministry drug supply system — Confirmed Hack</title>
+<link>https://hacktracking.com/#japan-health-ministry-drug-supply-system-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#japan-health-ministry-drug-supply-system-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Japan's Ministry of Health, Labour and Welfare said NTT Data, which runs and maintains its system for tracking drug supply shortages, reported unauthorized access by a third party. Traces show some stored data was viewed and someone tried to alter it, and a suspicious file was uploaded to the reporting system. Impact: Names and contact details of some drug company staff may have leaked; full scope still under investigation. The system was shut down on Nov. 17 and the reporting system stays offline for now. Status: Confirmed by the health ministry. Attacker IPs blocked and the file deleted; investigation ongoing. Sources: Ministry of Health, Labour and Welfare (Japanese) (https://www.mhlw.go.jp/stf/newpage_77515.html); Sankei News (Japanese) (https://www.sankei.com/article/20261118-BV6UKWJIWFNOVKOIAF6WSQNAD4/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+<category>Healthcare</category>
+</item>
+<item>
 <title>SOFT99 (car care products, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#soft99-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#soft99-2026-11</guid>
@@ -187,7 +198,7 @@
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -355,6 +366,17 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Telecom</category>
+</item>
+<item>
+<title>NTT Docomo (mobile carrier, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ntt-docomo-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#ntt-docomo-2026-11</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>NTT Docomo detected unauthorized outside access to its Docomo Online Shop and My docomo account site on Nov. 4 and shut down procedures on both early Nov. 5. The company later confirmed that some customer information was taken through the access. Impact: Up to about 300,000 customers, including former subscribers: names, birth dates, addresses, phone numbers, email addresses, ID document numbers and plan details, plus bank account details for some. Docomo says no card data was leaked and plans to compensate affected people. Status: Confirmed by NTT Docomo. Most My docomo procedures back since Nov. 9; online shop still in emergency maintenance as of Nov. 18. Investigation ongoing. Sources: Nippon.com (Jiji Press) (https://www.nippon.com/en/articles/-/57060); NTT Docomo notice (Japanese) (https://www.docomo.ne.jp/info/notice/page/261118_00_m.html); ITmedia Mobile (Japanese) (https://www.itmedia.co.jp/mobile/articles/2611/06/news085.html)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Telecom</category>
+<category>Consumer</category>
 </item>
 <item>
 <title>The Kyiv Independent (news outlet) — Confirmed Hack</title>
