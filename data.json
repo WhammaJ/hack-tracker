@@ -324,10 +324,11 @@
       "severity": "Critical",
       "summary": "Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached.",
       "impact": "Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day.",
-      "status": "Confirmed by Optimizely. Vulnerable path blocked and customers contacted.",
+      "status": "Confirmed by Optimizely. In a Nov. 18 update it said under 5% of its customers were affected, the flaw (in its Web Experimentation sign-up flow) was closed within three hours of detection, and all injected code has been removed.",
       "sources": [
         {"name": "The Record", "url": "https://therecord.media/optimizely-malicious-code-customer-sites"},
-        {"name": "TechTarget", "url": "https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/"}
+        {"name": "TechTarget", "url": "https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/"},
+        {"name": "Security Today", "url": "https://securitytoday.com/articles/2026/11/18/optimizely-patches-signup-flaw-after-attackers-inject-malicious-code.aspx"}
       ]
     },
     {
@@ -714,6 +715,42 @@
       ]
     },
     {
+      "org": "Cursor (code editor, via Fireworks AI)",
+      "date": "2026-10-29",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "Cursor said attackers used an access key stolen from its provider Fireworks AI to copy stored data, then used credentials found in that data to get into other internal systems. On Oct. 29 they used a stolen credential to put malicious copies of a popular extension on Cursor's extension marketplace for about 11 hours.",
+      "impact": "Up to about 5,000 developers may have downloaded the malicious extension, which tried to install hidden SSH backdoors. Cursor says fewer than 0.05% of users had stored coding traces exposed and some customer support data, contact details and archived non-production code were taken.",
+      "status": "Confirmed by Cursor in an incident report (Nov. 14). Exposed credentials rotated and marketplace rebuilt.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"}
+      ]
+    },
+    {
+      "org": "StubHub International (ticket resale)",
+      "date": "2026-11-18",
+      "sectors": ["Consumer"],
+      "severity": "Medium",
+      "summary": "StubHub International, the non-U.S. ticket resale business run by Ticketbis, told customers it detected unauthorized access to certain systems between late October and early November.",
+      "impact": "Customer names, email addresses, phone numbers and country or region settings may have been exposed. The company says it found no evidence passwords, banking information or payment card details were accessed. It has not said how many customers were affected.",
+      "status": "Confirmed by StubHub International. Investigation ongoing with outside experts.",
+      "sources": [
+        {"name": "The Register", "url": "https://www.theregister.com/cyber-crime/2026/11/18/stubhub-international-warns-customer-data-may-have-left-the-venue/5310775"}
+      ]
+    },
+    {
+      "org": "Ethiopian Airlines",
+      "date": "2026-11-18",
+      "sectors": ["Aviation"],
+      "severity": "Medium",
+      "summary": "Ethiopian Airlines emailed members of its ShebaMiles frequent-flyer program warning that some customer information may have been exposed in a recent cyberattack it called \"of limited scope.\"",
+      "impact": "The airline says there is currently no evidence financial information was accessed. It has not said when the intrusion happened, what data was involved or how many people are affected.",
+      "status": "Confirmed by Ethiopian Airlines. Investigation ongoing with authorities.",
+      "sources": [
+        {"name": "TechCabal", "url": "https://techcabal.com/2026/11/18/ethiopian-airlines-reports-cyberattack/"}
+      ]
+    },
+    {
       "org": "Fandango (movie tickets)",
       "date": "2026-10-08",
       "sectors": ["Retail", "Consumer"],
@@ -870,6 +907,31 @@
       "status": "Confirmed by SOFT99. Police and regulator notified.",
       "sources": [
         {"name": "Japan IR (SOFT99 disclosure)", "url": "https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/"}
+      ]
+    },
+    {
+      "org": "Air Botswana",
+      "date": "2026-11-03",
+      "sectors": ["Aviation", "Government"],
+      "severity": "Low",
+      "summary": "Botswana's state-owned airline said unauthorized parties got into some of its internal systems in what it described as a suspected ransomware attack.",
+      "impact": "Affected systems hold employee and internal information. The airline says passenger bookings, aircraft systems and flight operations were not affected. It has not said whether data was copied.",
+      "status": "Confirmed by Air Botswana. Investigation ongoing; authorities engaged.",
+      "sources": [
+        {"name": "ITWeb Africa", "url": "https://itweb.africa/article/air-botswana-probes-suspected-cyberattack/GxwQDq1DLy8MlPVo"},
+        {"name": "CIO Africa", "url": "https://cioafrica.co/air-botswana-reports-suspected-ransomware-attack-on-internal-systems/"}
+      ]
+    },
+    {
+      "org": "Wilmington School District 209U (Illinois)",
+      "date": "2026-11-17",
+      "sectors": ["Education"],
+      "severity": "Low",
+      "summary": "The district's superintendent told families the district was hit by a ransomware attack that may have involved a data breach.",
+      "impact": "District laptops and other Windows devices suspended as a precaution; internet, Chromebooks and phones still usable. Whether personal information was accessed is still being determined.",
+      "status": "Confirmed by the district. Investigation ongoing with cybersecurity specialists.",
+      "sources": [
+        {"name": "WJOL", "url": "https://www.wjol.com/wilmington-school-district-209u-reports-ransomware-attack-and-possible-data-breach/"}
       ]
     }
   ]

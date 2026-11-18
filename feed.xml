@@ -8,6 +8,26 @@
 <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>StubHub International (ticket resale) — Confirmed Hack</title>
+<link>https://hacktracking.com/#stubhub-international-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#stubhub-international-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>StubHub International, the non-U.S. ticket resale business run by Ticketbis, told customers it detected unauthorized access to certain systems between late October and early November. Impact: Customer names, email addresses, phone numbers and country or region settings may have been exposed. The company says it found no evidence passwords, banking information or payment card details were accessed. It has not said how many customers were affected. Status: Confirmed by StubHub International. Investigation ongoing with outside experts. Sources: The Register (https://www.theregister.com/cyber-crime/2026/11/18/stubhub-international-warns-customer-data-may-have-left-the-venue/5310775)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>Ethiopian Airlines — Confirmed Hack</title>
+<link>https://hacktracking.com/#ethiopian-airlines-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#ethiopian-airlines-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Ethiopian Airlines emailed members of its ShebaMiles frequent-flyer program warning that some customer information may have been exposed in a recent cyberattack it called "of limited scope." Impact: The airline says there is currently no evidence financial information was accessed. It has not said when the intrusion happened, what data was involved or how many people are affected. Status: Confirmed by Ethiopian Airlines. Investigation ongoing with authorities. Sources: TechCabal (https://techcabal.com/2026/11/18/ethiopian-airlines-reports-cyberattack/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Aviation</category>
+</item>
+<item>
 <title>Equinor (energy company, Norway) — Confirmed Hack</title>
 <link>https://hacktracking.com/#equinor-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
@@ -37,6 +57,16 @@
 <category>Low</category>
 <category>Retail</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>Wilmington School District 209U (Illinois) — Confirmed Hack</title>
+<link>https://hacktracking.com/#wilmington-school-district-209u-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#wilmington-school-district-209u-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>The district's superintendent told families the district was hit by a ransomware attack that may have involved a data breach. Impact: District laptops and other Windows devices suspended as a precaution; internet, Chromebooks and phones still usable. Whether personal information was accessed is still being determined. Status: Confirmed by the district. Investigation ongoing with cybersecurity specialists. Sources: WJOL (https://www.wjol.com/wilmington-school-district-209u-reports-ransomware-attack-and-possible-data-breach/)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Education</category>
 </item>
 <item>
 <title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
@@ -75,7 +105,7 @@
 <link>https://hacktracking.com/#optimizely-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#optimizely-2026-11</guid>
 <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached. Impact: Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day. Status: Confirmed by Optimizely. Vulnerable path blocked and customers contacted. Sources: The Record (https://therecord.media/optimizely-malicious-code-customer-sites); TechTarget (https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/)</description>
+<description>Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached. Impact: Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day. Status: Confirmed by Optimizely. In a Nov. 18 update it said under 5% of its customers were affected, the flaw (in its Web Experimentation sign-up flow) was closed within three hours of detection, and all injected code has been removed. Sources: The Record (https://therecord.media/optimizely-malicious-code-customer-sites); TechTarget (https://www.techtarget.com/news/optimizely-supply-chain-attack-turns-trusted-scripts-against-178-orgs/874997/); Security Today (https://securitytoday.com/articles/2026/11/18/optimizely-patches-signup-flaw-after-attackers-inject-malicious-code.aspx)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -301,6 +331,17 @@
 <category>Media</category>
 </item>
 <item>
+<title>Air Botswana — Confirmed Hack</title>
+<link>https://hacktracking.com/#air-botswana-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#air-botswana-2026-11</guid>
+<pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
+<description>Botswana's state-owned airline said unauthorized parties got into some of its internal systems in what it described as a suspected ransomware attack. Impact: Affected systems hold employee and internal information. The airline says passenger bookings, aircraft systems and flight operations were not affected. It has not said whether data was copied. Status: Confirmed by Air Botswana. Investigation ongoing; authorities engaged. Sources: ITWeb Africa (https://itweb.africa/article/air-botswana-probes-suspected-cyberattack/GxwQDq1DLy8MlPVo); CIO Africa (https://cioafrica.co/air-botswana-reports-suspected-ransomware-attack-on-internal-systems/)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Aviation</category>
+<category>Government</category>
+</item>
+<item>
 <title>Myriad Genetics (genetic testing) — Confirmed Hack</title>
 <link>https://hacktracking.com/#myriad-genetics-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#myriad-genetics-2026-11</guid>
@@ -330,6 +371,16 @@
 <category>Critical</category>
 <category>Finance</category>
 <category>Crypto</category>
+</item>
+<item>
+<title>Cursor (code editor, via Fireworks AI) — Confirmed Hack</title>
+<link>https://hacktracking.com/#cursor-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#cursor-2026-10</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+<description>Cursor said attackers used an access key stolen from its provider Fireworks AI to copy stored data, then used credentials found in that data to get into other internal systems. On Oct. 29 they used a stolen credential to put malicious copies of a popular extension on Cursor's extension marketplace for about 11 hours. Impact: Up to about 5,000 developers may have downloaded the malicious extension, which tried to install hidden SSH backdoors. Cursor says fewer than 0.05% of users had stored coding traces exposed and some customer support data, contact details and archived non-production code were taken. Status: Confirmed by Cursor in an incident report (Nov. 14). Exposed credentials rotated and marketplace rebuilt. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
 </item>
 <item>
 <title>ARARA (email delivery service, Japan) — Confirmed Hack</title>
