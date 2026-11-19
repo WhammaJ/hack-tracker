@@ -502,11 +502,13 @@
       "date": "2026-10-22",
       "sectors": ["Government"],
       "severity": "High",
-      "summary": "The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Officials could not access it for several days. The Commission's digital spokesperson said the attack used a publicly available AI tool and was detected on Oct. 22.",
-      "impact": "Sysper unavailable to Commission staff for several days. The Commission says it has not detected evidence of a data breach affecting staff as a whole; whether any sensitive data was taken is still being assessed. No ransom demand was received.",
-      "status": "Confirmed by the European Commission. Investigation ongoing; not attributed to any actor.",
+      "summary": "The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Spokesperson Thomas Regnier called it an \"AI-generated cyber campaign\" first detected on Oct. 22. POLITICO reported that CERT-EU linked the attackers to ARTEX, an open-source AI hacking platform; the Commission has not named the tool.",
+      "impact": "The Commission says it temporarily took several applications offline as a protective measure and most have since been restored. Personnel systems, including payroll, leave requests and medical reimbursements, were reportedly disrupted for more than 10 days. The Commission says it has notified affected individuals and found no evidence of a data breach affecting staff as a whole. No ransom demand is known.",
+      "status": "Confirmed by the European Commission on Nov. 19. Investigation ongoing; not attributed to any actor.",
       "sources": [
-        {"name": "Euronews", "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"}
+        {"name": "Euronews", "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"},
+        {"name": "The Record", "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai"},
+        {"name": "Reuters via Euronext", "url": "https://live.euronext.com/en/financial-news/eu-commission-confirms-it-was-targeted-cyberattack-through-use-ai-tools"}
       ]
     },
     {
@@ -639,6 +641,18 @@
       "status": "Confirmed by Barracuda. Attacker not named.",
       "sources": [
         {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"}
+      ]
+    },
+    {
+      "org": "GitBook (documentation platform)",
+      "date": "2026-11-02",
+      "sectors": ["Tech"],
+      "severity": "High",
+      "summary": "GitBook says an attacker used a flaw in its SSO login flow to create sessions as GitBook staff, then reached its internal code repositories, a Cloudflare API key and production secrets that gave full infrastructure access. GitBook says the attack appears aimed at one of its customers.",
+      "impact": "GitBook took its app offline for about 16 hours (Nov. 2-3) and rotated every infrastructure and customer-managed secret. It is treating all customer data as exposed, including API tokens, integration secrets, Git Sync secrets and authenticated docs. GitBook says billing information and passwords were not compromised and it found no evidence other customers' content was modified.",
+      "status": "Confirmed by GitBook in a published post-mortem. Resolved; the attacker has not been named.",
+      "sources": [
+        {"name": "GitBook", "url": "https://www.gitbook.com/status/security-incident-2026-11-03"}
       ]
     },
     {
@@ -954,6 +968,18 @@
       ]
     },
     {
+      "org": "Trezor customers (via shipping partner Skladon)",
+      "date": "2026-11-07",
+      "sectors": ["Consumer", "Finance"],
+      "severity": "Medium",
+      "summary": "Crypto hardware wallet maker Trezor says its shipping partner Skladon had unauthorized access to its systems on Nov. 7, and the attacker exported Trezor customer shipping data. Skladon notified Trezor on Nov. 15.",
+      "impact": "About 27,000 orders placed between Aug. 9 and Nov. 7, 2026: full names, phone numbers, delivery addresses, email addresses and order details. Trezor says its own systems were not compromised and no wallet backups, PINs or passphrases were involved, and it warns customers to watch for scams.",
+      "status": "Confirmed by Trezor. Investigation ongoing.",
+      "sources": [
+        {"name": "Trezor", "url": "https://trezor.io/blog/news/data-breach-at-trezor-shipping-partner-skladon"}
+      ]
+    },
+    {
       "org": "J.B. Hunt (trucking)",
       "date": "2026-10-23",
       "sectors": ["Transportation", "Logistics"],
@@ -1167,6 +1193,19 @@
       ]
     },
     {
+      "org": "Greiz-Ronneburg district hospital (Germany)",
+      "date": "2026-11-14",
+      "sectors": ["Healthcare"],
+      "severity": "Medium",
+      "summary": "A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt.",
+      "impact": "The emergency room was out of service until the evening of Nov. 16; planned treatments continued. Digital treatment plans were still affected afterward. The hospital has not said whether patient data was affected.",
+      "status": "Attack confirmed by the hospital and the Greiz district. State criminal police and prosecutors are investigating, and police are investigating a suspect. No group has claimed it.",
+      "sources": [
+        {"name": "MDR", "url": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/greiz/krankenhaus-notaufnahme-,greiz-hackerangriff-100.html"},
+        {"name": "Landkreis Greiz", "url": "https://www.landkreis-greiz.de/aktuelles/news-detailseite/notaufnahme-nimmt-wieder-patienten-auf"}
+      ]
+    },
+    {
       "org": "University of Texas at Arlington",
       "date": "2026-10-26",
       "sectors": ["Education"],
@@ -1197,10 +1236,12 @@
       "sectors": ["Government"],
       "severity": "Medium",
       "summary": "The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.",
-      "impact": "City Hall, Assessing and the Library closed to the public while systems are restored. The city says initial assessments show most city data is unaffected.",
-      "status": "Confirmed by the city. Forensic review ongoing with state and federal agencies.",
+      "impact": "City Hall, Assessing and the Library remain closed to the public. The city phone system, in-person card payments, some online portals and mapping services are still disrupted. On Nov. 18 the city said most city data was not compromised but it is still working to verify what was accessed.",
+      "status": "Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked.",
       "sources": [
-        {"name": "City of South Portland", "url": "https://www.southportland.gov/m/newsflash/Home/Detail/619"}
+        {"name": "City of South Portland", "url": "https://www.southportland.gov/m/newsflash/Home/Detail/619"},
+        {"name": "WMTW", "url": "https://www.wmtw.com/article/most-city-data-safe-south-portland-maine-offices-closed-cyberattack/74468058"},
+        {"name": "Portland Press Herald", "url": "https://www.pressherald.com/2026/11/18/south-portland-city-services-remain-closed-after-cyberattack/"}
       ]
     },
     {
@@ -1299,6 +1340,18 @@
       "status": "Confirmed by SOFT99. Police and regulator notified.",
       "sources": [
         {"name": "Japan IR (SOFT99 disclosure)", "url": "https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/"}
+      ]
+    },
+    {
+      "org": "Wieson Technologies (connector maker, Taiwan)",
+      "date": "2026-11-16",
+      "sectors": ["Manufacturing"],
+      "severity": "Low",
+      "summary": "Wieson Technologies says it discovered on Nov. 16 that some of its information system servers had been hit by a cyberattack, and it isolated the affected servers and network equipment.",
+      "impact": "The company says the incident is limited to part of its information systems, core systems and daily operations are running normally, and preliminary checks found no signs of data exfiltration. It is restoring data from backups.",
+      "status": "Confirmed by Wieson Technologies. Investigation into cause and scope ongoing.",
+      "sources": [
+        {"name": "Wieson Technologies", "url": "https://www.wieson.com/news-view.php?lang=en&sn=81"}
       ]
     },
     {

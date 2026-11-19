@@ -249,6 +249,16 @@
 <category>Government</category>
 </item>
 <item>
+<title>Wieson Technologies (connector maker, Taiwan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#wieson-technologies-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#wieson-technologies-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>Wieson Technologies says it discovered on Nov. 16 that some of its information system servers had been hit by a cyberattack, and it isolated the affected servers and network equipment. Impact: The company says the incident is limited to part of its information systems, core systems and daily operations are running normally, and preliminary checks found no signs of data exfiltration. It is restoring data from backups. Status: Confirmed by Wieson Technologies. Investigation into cause and scope ongoing. Sources: Wieson Technologies (https://www.wieson.com/news-view.php?lang=en&amp;sn=81)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Manufacturing</category>
+</item>
+<item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</guid>
@@ -300,11 +310,21 @@
 <category>Media</category>
 </item>
 <item>
+<title>Greiz-Ronneburg district hospital (Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+<description>A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt. Impact: The emergency room was out of service until the evening of Nov. 16; planned treatments continued. Digital treatment plans were still affected afterward. The hospital has not said whether patient data was affected. Status: Attack confirmed by the hospital and the Greiz district. State criminal police and prosecutors are investigating, and police are investigating a suspect. No group has claimed it. Sources: MDR (https://www.mdr.de/nachrichten/thueringen/ost-thueringen/greiz/krankenhaus-notaufnahme-,greiz-hackerangriff-100.html); Landkreis Greiz (https://www.landkreis-greiz.de/aktuelles/news-detailseite/notaufnahme-nimmt-wieder-patienten-auf)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+</item>
+<item>
 <title>City of South Portland (Maine) — Confirmed Hack</title>
 <link>https://hacktracking.com/#city-of-south-portland-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#city-of-south-portland-2026-11</guid>
 <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
-<description>The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity. Impact: City Hall, Assessing and the Library closed to the public while systems are restored. The city says initial assessments show most city data is unaffected. Status: Confirmed by the city. Forensic review ongoing with state and federal agencies. Sources: City of South Portland (https://www.southportland.gov/m/newsflash/Home/Detail/619)</description>
+<description>The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity. Impact: City Hall, Assessing and the Library remain closed to the public. The city phone system, in-person card payments, some online portals and mapping services are still disrupted. On Nov. 18 the city said most city data was not compromised but it is still working to verify what was accessed. Status: Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked. Sources: City of South Portland (https://www.southportland.gov/m/newsflash/Home/Detail/619); WMTW (https://www.wmtw.com/article/most-city-data-safe-south-portland-maine-offices-closed-cyberattack/74468058); Portland Press Herald (https://www.pressherald.com/2026/11/18/south-portland-city-services-remain-closed-after-cyberattack/)</description>
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
@@ -493,6 +513,17 @@
 <category>Retail</category>
 </item>
 <item>
+<title>Trezor customers (via shipping partner Skladon) — Confirmed Hack</title>
+<link>https://hacktracking.com/#trezor-customers-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#trezor-customers-2026-11</guid>
+<pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
+<description>Crypto hardware wallet maker Trezor says its shipping partner Skladon had unauthorized access to its systems on Nov. 7, and the attacker exported Trezor customer shipping data. Skladon notified Trezor on Nov. 15. Impact: About 27,000 orders placed between Aug. 9 and Nov. 7, 2026: full names, phone numbers, delivery addresses, email addresses and order details. Trezor says its own systems were not compromised and no wallet backups, PINs or passphrases were involved, and it warns customers to watch for scams. Status: Confirmed by Trezor. Investigation ongoing. Sources: Trezor (https://trezor.io/blog/news/data-breach-at-trezor-shipping-partner-skladon)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Consumer</category>
+<category>Finance</category>
+</item>
+<item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#nitori-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nitori-2026-11</guid>
@@ -599,6 +630,16 @@
 <category>Government</category>
 </item>
 <item>
+<title>GitBook (documentation platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#gitbook-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#gitbook-2026-11</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+<description>GitBook says an attacker used a flaw in its SSO login flow to create sessions as GitBook staff, then reached its internal code repositories, a Cloudflare API key and production secrets that gave full infrastructure access. GitBook says the attack appears aimed at one of its customers. Impact: GitBook took its app offline for about 16 hours (Nov. 2-3) and rotated every infrastructure and customer-managed secret. It is treating all customer data as exposed, including API tokens, integration secrets, Git Sync secrets and authenticated docs. GitBook says billing information and passwords were not compromised and it found no evidence other customers' content was modified. Status: Confirmed by GitBook in a published post-mortem. Resolved; the attacker has not been named. Sources: GitBook (https://www.gitbook.com/status/security-incident-2026-11-03)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
+</item>
+<item>
 <title>Myriad Genetics (genetic testing) — Confirmed Hack</title>
 <link>https://hacktracking.com/#myriad-genetics-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#myriad-genetics-2026-11</guid>
@@ -686,7 +727,7 @@
 <link>https://hacktracking.com/#european-commission-hr-system-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#european-commission-hr-system-2026-10</guid>
 <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-<description>The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Officials could not access it for several days. The Commission's digital spokesperson said the attack used a publicly available AI tool and was detected on Oct. 22. Impact: Sysper unavailable to Commission staff for several days. The Commission says it has not detected evidence of a data breach affecting staff as a whole; whether any sensitive data was taken is still being assessed. No ransom demand was received. Status: Confirmed by the European Commission. Investigation ongoing; not attributed to any actor. Sources: Euronews (https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown)</description>
+<description>The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Spokesperson Thomas Regnier called it an "AI-generated cyber campaign" first detected on Oct. 22. POLITICO reported that CERT-EU linked the attackers to ARTEX, an open-source AI hacking platform; the Commission has not named the tool. Impact: The Commission says it temporarily took several applications offline as a protective measure and most have since been restored. Personnel systems, including payroll, leave requests and medical reimbursements, were reportedly disrupted for more than 10 days. The Commission says it has notified affected individuals and found no evidence of a data breach affecting staff as a whole. No ransom demand is known. Status: Confirmed by the European Commission on Nov. 19. Investigation ongoing; not attributed to any actor. Sources: Euronews (https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown); The Record (https://therecord.media/european-commission-confirms-cyberattack-using-ai); Reuters via Euronext (https://live.euronext.com/en/financial-news/eu-commission-confirms-it-was-targeted-cyberattack-through-use-ai-tools)</description>
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
