@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18",
+  "lastUpdated": "2026-11-19",
   "speculated": [
     {
       "org": "FAA: nationwide ground stop",
@@ -107,6 +107,22 @@
         {"name": "MacRumors", "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/"},
         {"name": "NBC News", "url": "https://www.nbcnews.com/business/corporations/apple-outages-working-get-systems-back-online-rcna609861"},
         {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"}
+      ]
+    },
+    {
+      "org": "Workday HR platform outage",
+      "date": "2026-11-13",
+      "sectors": ["Tech", "Business"],
+      "severity": "High",
+      "summary": "Workday's HR platform went down for most of a day starting the afternoon of Nov. 13, leaving employees at customer organizations unable to clock in or out, see pay information, request time off or file for benefits. It hit one day after the Microsoft 365 outage and the same day as the FAA ground stop, during a run of big outages that drew hack theories online.",
+      "speculation": "A cyberattack, possibly connected to the other outages that week.",
+      "official": "Workday said the outage was not related to a cybersecurity incident. Its status notice said tenanted services at its disaster recovery site unexpectedly connected to production databases while it was validating a weekly maintenance window, leaving data inconsistent, so it put all WD1 production tenants into maintenance.",
+      "impact": "Workday serves about 11,500 organizations; it has not said how many were affected. Service was restored by 11 a.m. ET on Nov. 14.",
+      "status": "Company explanation given. Not a hack.",
+      "sources": [
+        {"name": "Engadget", "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/"},
+        {"name": "WFAA", "url": "https://www.wfaa.com/article/news/nation-world/workday-restores-service-after-outage/507-57fa2abd-b7f8-4f6b-b3c2-64d7f4adb1d6"},
+        {"name": "Disaster Recovery Journal", "url": "https://drj.com/journal_main/faa-microsoft-365-workday-outages-lessons/"}
       ]
     },
     {
@@ -278,6 +294,20 @@
       ]
     },
     {
+      "org": "Credit Mutuel Arkea (bank, France)",
+      "date": "2026-11-04",
+      "sectors": ["Finance"],
+      "severity": "Critical",
+      "summary": "Attackers got in through the platform of one of the bank's service providers and used Crédit Mutuel Arkéa's own account to send money to other banks, which was then converted into cryptocurrency. The bank suspended some transactions as a precaution and its app was unavailable for several hours.",
+      "impact": "More than €100 million taken, an order of magnitude the bank confirms (Le Télégramme reports €118 million; the bank has not confirmed that figure). Part of the money has been blocked or recovered. The bank says no customer accounts were used and customers' funds are not affected; some transfers were delayed.",
+      "status": "Confirmed by Crédit Mutuel Arkéa. Paris prosecutor's office opened an investigation, led by France's anti-cybercrime office (OFAC). Recovery efforts ongoing.",
+      "sources": [
+        {"name": "Crédit Mutuel Arkéa statement (French)", "url": "https://www.cm-arkea.com/arkea/banque/assurances/pa_38386/en/informations-complementaires-suite-a-l-attaque-dont-le-credit-mutuel-arkea-a-ete-victime"},
+        {"name": "franceinfo (French)", "url": "https://www.franceinfo.fr/economie/fraude/le-credit-mutuel-arkea-bretagne-victime-d-un-piratage-de-plus-de-100-millions-d-euros-sans-repercussion-pour-les-clients_8267399.html"},
+        {"name": "France 24 / AFP (French)", "url": "https://www.france24.com/fr/info-en-continu/20261106-cyberattaque-cr%C3%A9dit-mutuel-ark%C3%A9a-a-r%C3%A9cup%C3%A9r%C3%A9-une-partie-des-100-millions-d-euros-d%C3%A9rob%C3%A9s"}
+      ]
+    },
+    {
       "org": "Instructure (Canvas learning platform)",
       "date": "2026-05-01",
       "dateLabel": "May 2026",
@@ -366,12 +396,12 @@
       "sectors": ["Tech", "Finance", "Retail"],
       "severity": "Critical",
       "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since.",
-      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
-      "status": "Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18.",
+      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
+      "status": "Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies announcing leaks as of Nov. 19.",
       "sources": [
         {"name": "MUFG Bank notice (Japanese, PDF)", "url": "https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf"},
-        {"name": "NTT Solmare notice (Japanese)", "url": "https://www.nttsolmare.com/press/2026/1118.html"},
-        {"name": "J.League notice (Japanese)", "url": "https://www.jleague.jp/news/article/35384/"}
+        {"name": "J.League notice (Japanese)", "url": "https://www.jleague.jp/news/article/35384/"},
+        {"name": "NHK (Sharp, Japanese)", "url": "https://news.web.nhk/newsweb/na/nd-20261119de78404"}
       ]
     },
     {
@@ -468,6 +498,18 @@
       ]
     },
     {
+      "org": "European Commission HR system (Sysper)",
+      "date": "2026-10-22",
+      "sectors": ["Government"],
+      "severity": "High",
+      "summary": "The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Officials could not access it for several days. The Commission's digital spokesperson said the attack used a publicly available AI tool and was detected on Oct. 22.",
+      "impact": "Sysper unavailable to Commission staff for several days. The Commission says it has not detected evidence of a data breach affecting staff as a whole; whether any sensitive data was taken is still being assessed. No ransom demand was received.",
+      "status": "Confirmed by the European Commission. Investigation ongoing; not attributed to any actor.",
+      "sources": [
+        {"name": "Euronews", "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"}
+      ]
+    },
+    {
       "org": "Poland's energy sector",
       "date": "2025-12-29",
       "sectors": ["Energy", "Government"],
@@ -559,6 +601,30 @@
         {"name": "RTÉ", "url": "https://www.rte.ie/news/2026/1118/1599645-credit-union-data-breach-assessed/"},
         {"name": "Irish Department of Finance", "url": "https://www.gov.ie/en/department-of-finance/press-releases/t%C3%A1naiste-and-minister-troy-comment-on-suspected-cybersecurity-incident-involving-credit-unions/"},
         {"name": "RTÉ (Wellington IT statement)", "url": "https://www.rte.ie/news/business/2026/1119/1599774-credit-union-breach/"}
+      ]
+    },
+    {
+      "org": "N-able Mail Assure and SpamExperts (email security cloud)",
+      "date": "2026-11-16",
+      "sectors": ["Tech"],
+      "severity": "High",
+      "summary": "N-able said unknown attackers gained unauthorized access to a server in its Mail Assure and SpamExperts hosted cloud. A service disruption that started Nov. 16 was first traced to configuration and service dependencies, but the company later determined it was caused by the security incident and disabled management interfaces and APIs.",
+      "impact": "Management portal, APIs, quarantine and logging offline for Mail Assure and SpamExperts in the Americas, APAC and Europe; mail flow and filtering kept running. N-able says it has no evidence so far that customer data or tenant mailboxes were accessed.",
+      "status": "Confirmed by N-able. Restoration still underway as of Nov. 19; investigation ongoing.",
+      "sources": [
+        {"name": "The Hacker News", "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"}
+      ]
+    },
+    {
+      "org": "Barracuda (security company cloud)",
+      "date": "2026-11-01",
+      "sectors": ["Tech"],
+      "severity": "High",
+      "summary": "Barracuda said an attacker used a cloud access key it had given a third-party vendor for a past project, and never retired, to get into about 10 of its cloud accounts over 44 hours on Nov. 1-2. The attacker moved through its data analytics environment, source-code repositories and Kubernetes clusters and went after cryptocurrency secrets. Barracuda says the intrusion matched the ARTEX AI penetration-testing framework.",
+      "impact": "About 10 cloud accounts accessed. The attacker reached a system storing customer integration credentials for Barracuda XDR; Barracuda found no evidence they were taken but asked potentially affected Managed XDR customers to revoke and recreate them.",
+      "status": "Confirmed by Barracuda. Attacker not named.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"}
       ]
     },
     {
@@ -695,6 +761,18 @@
       ]
     },
     {
+      "org": "2RedBeans (dating site)",
+      "date": "2026-11-04",
+      "sectors": ["Consumer"],
+      "severity": "High",
+      "summary": "2RedBeans (Embrace Inc.) said an unauthorized party got into one of its internal systems on Nov. 4 and copied member information before the access was detected and shut off on Nov. 5.",
+      "impact": "About 1.3 million member accounts: names, gender, age and birth date, location, profile answers, profile photos (including unapproved ones), email addresses, verified phone numbers, IP addresses, and reports and feedback with any attached screenshots. The company says passwords, payment details, government ID numbers and private messages were not involved.",
+      "status": "Confirmed by 2RedBeans. Reported to the FBI's IC3; review ongoing.",
+      "sources": [
+        {"name": "2RedBeans notice", "url": "https://blogs.2redbeans.com/en/2026-11-data-breach-notice/"}
+      ]
+    },
+    {
       "org": "Jaguar Land Rover",
       "date": "2025-09-01",
       "dateLabel": "Sept 2025",
@@ -800,6 +878,18 @@
       ]
     },
     {
+      "org": "Canton of Basel-Country administration (Switzerland)",
+      "date": "2026-11-15",
+      "sectors": ["Government"],
+      "severity": "Medium",
+      "summary": "Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure.",
+      "impact": "Around 20 cantonal applications on six servers affected, including the tax calculator; servers are being reinstalled. Emergency and rescue services' IT was not affected.",
+      "status": "Confirmed by the Cantonal Chancellery. Recovery ongoing.",
+      "sources": [
+        {"name": "Swissinfo (Keystone-SDA)", "url": "https://www.swissinfo.ch/eng/swiss-politics/basel-area-administrative-authorities-hit-by-cyberattacks/92405333"}
+      ]
+    },
+    {
       "org": "ATF (U.S. firearms agency)",
       "date": "2026-08-27",
       "sectors": ["Government"],
@@ -874,6 +964,18 @@
       "sources": [
         {"name": "TechCrunch", "url": "https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/"},
         {"name": "HackerOne advisory", "url": "https://www.hackerone.com/security-updates/klue-2026-06"}
+      ]
+    },
+    {
+      "org": "Apify (web scraping platform)",
+      "date": "2026-11-09",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "Apify, a Czech web scraping and browser automation platform, said an unauthorized third party got into parts of its internal systems on Nov. 9-10. It cut off the access, rotated internal secrets and API tokens, reset all sessions and revoked some third-party OAuth connections, including GitHub.",
+      "impact": "Affected customers' API tokens and proxy passwords rotated; some told to reset two-factor authentication because codes may have been exposed. Apify says passwords are safe and it has found no sign that account data on the platform was affected.",
+      "status": "Confirmed by Apify. Investigation ongoing.",
+      "sources": [
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"}
       ]
     },
     {

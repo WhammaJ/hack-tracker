@@ -5,7 +5,7 @@
 <link>https://hacktracking.com/</link>
 <description>Confirmed hacking incidents and outages people suspected were hacks, with official explanations and sources.</description>
 <language>en</language>
-<lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>KPMG Canada (accounting firm) — Confirmed Hack</title>
@@ -177,6 +177,16 @@
 <category>Consumer</category>
 </item>
 <item>
+<title>N-able Mail Assure and SpamExperts (email security cloud) — Confirmed Hack</title>
+<link>https://hacktracking.com/#n-able-mail-assure-and-spamexperts-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#n-able-mail-assure-and-spamexperts-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>N-able said unknown attackers gained unauthorized access to a server in its Mail Assure and SpamExperts hosted cloud. A service disruption that started Nov. 16 was first traced to configuration and service dependencies, but the company later determined it was caused by the security incident and disabled management interfaces and APIs. Impact: Management portal, APIs, quarantine and logging offline for Mail Assure and SpamExperts in the Americas, APAC and Europe; mail flow and filtering kept running. N-able says it has no evidence so far that customer data or tenant mailboxes were accessed. Status: Confirmed by N-able. Restoration still underway as of Nov. 19; investigation ongoing. Sources: The Hacker News (https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
+</item>
+<item>
 <title>South Korea government email system — Confirmed Hack</title>
 <link>https://hacktracking.com/#south-korea-government-email-system-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#south-korea-government-email-system-2026-11</guid>
@@ -238,6 +248,16 @@
 <category>Aviation</category>
 </item>
 <item>
+<title>Canton of Basel-Country administration (Switzerland) — Confirmed Hack</title>
+<link>https://hacktracking.com/#canton-of-basel-country-administration-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#canton-of-basel-country-administration-2026-11</guid>
+<pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
+<description>Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure. Impact: Around 20 cantonal applications on six servers affected, including the tax calculator; servers are being reinstalled. Emergency and rescue services' IT was not affected. Status: Confirmed by the Cantonal Chancellery. Recovery ongoing. Sources: Swissinfo (Keystone-SDA) (https://www.swissinfo.ch/eng/swiss-politics/basel-area-administrative-authorities-hit-by-cyberattacks/92405333)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+</item>
+<item>
 <title>Jeonbuk Office of Education school bus system (South Korea) — Confirmed Hack</title>
 <link>https://hacktracking.com/#jeonbuk-office-of-education-school-bus-system-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jeonbuk-office-of-education-school-bus-system-2026-11</guid>
@@ -273,7 +293,7 @@
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); NTT Solmare notice (Japanese) (https://www.nttsolmare.com/press/2026/1118.html); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies announcing leaks as of Nov. 19. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/); NHK (Sharp, Japanese) (https://news.web.nhk/newsweb/na/nd-20261119de78404)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -301,6 +321,17 @@
 <category>Critical</category>
 <category>Aviation</category>
 <category>Government</category>
+</item>
+<item>
+<title>Workday HR platform outage — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#workday-hr-platform-outage-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#workday-hr-platform-outage-2026-11</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Workday's HR platform went down for most of a day starting the afternoon of Nov. 13, leaving employees at customer organizations unable to clock in or out, see pay information, request time off or file for benefits. It hit one day after the Microsoft 365 outage and the same day as the FAA ground stop, during a run of big outages that drew hack theories online. What people speculated: A cyberattack, possibly connected to the other outages that week. Official explanation: Workday said the outage was not related to a cybersecurity incident. Its status notice said tenanted services at its disaster recovery site unexpectedly connected to production databases while it was validating a weekly maintenance window, leaving data inconsistent, so it put all WD1 production tenants into maintenance. Impact: Workday serves about 11,500 organizations; it has not said how many were affected. Service was restored by 11 a.m. ET on Nov. 14. Status: Company explanation given. Not a hack. Sources: Engadget (https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/); WFAA (https://www.wfaa.com/article/news/nation-world/workday-restores-service-after-outage/507-57fa2abd-b7f8-4f6b-b3c2-64d7f4adb1d6); Disaster Recovery Journal (https://drj.com/journal_main/faa-microsoft-365-workday-outages-lessons/)</description>
+<category>Speculated / Potential Hack</category>
+<category>High</category>
+<category>Tech</category>
+<category>Business</category>
 </item>
 <item>
 <title>Expedia Group (travel) — Confirmed Hack</title>
@@ -410,6 +441,16 @@
 <category>Research</category>
 </item>
 <item>
+<title>Apify (web scraping platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#apify-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#apify-2026-11</guid>
+<pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+<description>Apify, a Czech web scraping and browser automation platform, said an unauthorized third party got into parts of its internal systems on Nov. 9-10. It cut off the access, rotated internal secrets and API tokens, reset all sessions and revoked some third-party OAuth connections, including GitHub. Impact: Affected customers' API tokens and proxy passwords rotated; some told to reset two-factor authentication because codes may have been exposed. Apify says passwords are safe and it has found no sign that account data on the platform was affected. Status: Confirmed by Apify. Investigation ongoing. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+</item>
+<item>
 <title>Monadnock Community Hospital (New Hampshire) — Confirmed Hack</title>
 <link>https://hacktracking.com/#monadnock-community-hospital-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#monadnock-community-hospital-2026-11</guid>
@@ -475,6 +516,16 @@
 <category>Tech</category>
 </item>
 <item>
+<title>Credit Mutuel Arkea (bank, France) — Confirmed Hack</title>
+<link>https://hacktracking.com/#credit-mutuel-arkea-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#credit-mutuel-arkea-2026-11</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers got in through the platform of one of the bank's service providers and used Crédit Mutuel Arkéa's own account to send money to other banks, which was then converted into cryptocurrency. The bank suspended some transactions as a precaution and its app was unavailable for several hours. Impact: More than €100 million taken, an order of magnitude the bank confirms (Le Télégramme reports €118 million; the bank has not confirmed that figure). Part of the money has been blocked or recovered. The bank says no customer accounts were used and customers' funds are not affected; some transfers were delayed. Status: Confirmed by Crédit Mutuel Arkéa. Paris prosecutor's office opened an investigation, led by France's anti-cybercrime office (OFAC). Recovery efforts ongoing. Sources: Crédit Mutuel Arkéa statement (French) (https://www.cm-arkea.com/arkea/banque/assurances/pa_38386/en/informations-complementaires-suite-a-l-attaque-dont-le-credit-mutuel-arkea-a-ete-victime); franceinfo (French) (https://www.franceinfo.fr/economie/fraude/le-credit-mutuel-arkea-bretagne-victime-d-un-piratage-de-plus-de-100-millions-d-euros-sans-repercussion-pour-les-clients_8267399.html); France 24 / AFP (French) (https://www.france24.com/fr/info-en-continu/20261106-cyberattaque-cr%C3%A9dit-mutuel-ark%C3%A9a-a-r%C3%A9cup%C3%A9r%C3%A9-une-partie-des-100-millions-d-euros-d%C3%A9rob%C3%A9s)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Finance</category>
+</item>
+<item>
 <title>NTT Docomo (mobile carrier, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#ntt-docomo-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#ntt-docomo-2026-11</guid>
@@ -483,6 +534,16 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Telecom</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>2RedBeans (dating site) — Confirmed Hack</title>
+<link>https://hacktracking.com/#2redbeans-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#2redbeans-2026-11</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>2RedBeans (Embrace Inc.) said an unauthorized party got into one of its internal systems on Nov. 4 and copied member information before the access was detected and shut off on Nov. 5. Impact: About 1.3 million member accounts: names, gender, age and birth date, location, profile answers, profile photos (including unapproved ones), email addresses, verified phone numbers, IP addresses, and reports and feedback with any attached screenshots. The company says passwords, payment details, government ID numbers and private messages were not involved. Status: Confirmed by 2RedBeans. Reported to the FBI's IC3; review ongoing. Sources: 2RedBeans notice (https://blogs.2redbeans.com/en/2026-11-data-breach-notice/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
 <category>Consumer</category>
 </item>
 <item>
@@ -525,6 +586,16 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+</item>
+<item>
+<title>Barracuda (security company cloud) — Confirmed Hack</title>
+<link>https://hacktracking.com/#barracuda-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#barracuda-2026-11</guid>
+<pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+<description>Barracuda said an attacker used a cloud access key it had given a third-party vendor for a past project, and never retired, to get into about 10 of its cloud accounts over 44 hours on Nov. 1-2. The attacker moved through its data analytics environment, source-code repositories and Kubernetes clusters and went after cryptocurrency secrets. Barracuda says the intrusion matched the ARTEX AI penetration-testing framework. Impact: About 10 cloud accounts accessed. The attacker reached a system storing customer integration credentials for Barracuda XDR; Barracuda found no evidence they were taken but asked potentially affected Managed XDR customers to revoke and recreate them. Status: Confirmed by Barracuda. Attacker not named. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
 </item>
 <item>
 <title>Ukraine air raid alert app — Confirmed Hack</title>
@@ -588,6 +659,16 @@
 <category>Medium</category>
 <category>Transportation</category>
 <category>Logistics</category>
+</item>
+<item>
+<title>European Commission HR system (Sysper) — Confirmed Hack</title>
+<link>https://hacktracking.com/#european-commission-hr-system-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#european-commission-hr-system-2026-10</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+<description>The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Officials could not access it for several days. The Commission's digital spokesperson said the attack used a publicly available AI tool and was detected on Oct. 22. Impact: Sysper unavailable to Commission staff for several days. The Commission says it has not detected evidence of a data breach affecting staff as a whole; whether any sensitive data was taken is still being assessed. No ransom demand was received. Status: Confirmed by the European Commission. Investigation ongoing; not attributed to any actor. Sources: Euronews (https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Government</category>
 </item>
 <item>
 <title>Richmond Public Schools (Virginia) — Confirmed Hack</title>
