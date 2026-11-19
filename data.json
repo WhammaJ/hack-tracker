@@ -8,12 +8,12 @@
       "severity": "Critical",
       "summary": "The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.",
       "speculation": "A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before.",
-      "official": "The FAA says it has \"no indication that this was a cyberattack or an outside nefarious actor.\" Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage.",
+      "official": "The FAA says it has \"no indication that this was a cyberattack or an outside nefarious actor.\" Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage. On Nov. 18, the Director of National Intelligence and an FBI deputy director told Congress they had found no indication of malicious cyber activity behind the recent string of outages.",
       "impact": "Instability at 17 of 22 en route air traffic control centers; about 12,462 flights canceled that day (FAA figure).",
       "status": "No evidence of a hack. Root-cause investigation ongoing.",
       "sources": [
         {"name": "FAA: Nationwide Ground Stop Q&A", "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"},
-        {"name": "SecurityWeek", "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/"},
+        {"name": "CBS News (Nov. 18 hearing)", "url": "https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/"},
         {"name": "AP News", "url": "https://apnews.com/article/nationwide-ground-stop-trump-air-travel-faa-a638c9651f1fabe8f95d20353779ee5b"}
       ]
     },
@@ -147,13 +147,13 @@
       "severity": "High",
       "summary": "The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages.",
       "speculation": "An attack on a U.S. intelligence network.",
-      "official": "The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack.",
+      "official": "The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack. At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages.",
       "impact": "Temporary loss of the agency's internal classified communications network.",
       "status": "Official explanation given. No evidence of a hack.",
       "sources": [
         {"name": "NSA statement", "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"},
         {"name": "CBS News", "url": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/"},
-        {"name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"}
+        {"name": "CBS News (Nov. 18 hearing)", "url": "https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/"}
       ]
     },
     {
@@ -535,17 +535,30 @@
       ]
     },
     {
+      "org": "SBC Medical Group (Shonan Beauty Clinic operator, Japan)",
+      "date": "2026-11-16",
+      "sectors": ["Healthcare", "Consumer"],
+      "severity": "High",
+      "summary": "SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data.",
+      "impact": "From SBC's database: customers' names, email addresses, phone numbers, addresses, birth dates, member IDs, passwords (which SBC says it stored unencrypted at the time), web booking and inquiry form contents, and staff account details. SBC listed more than 1 million further customers whose leaked data was limited to hard-to-identify items such as patient card numbers. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken.",
+      "status": "Confirmed by SBC Medical Group and Tribeau. Reported to Japan's privacy regulator and police; investigation ongoing.",
+      "sources": [
+        {"name": "SBC Medical Group notice (Japanese)", "url": "https://prtimes.jp/main/html/rd/p/000000416.000097803.html"},
+        {"name": "Tribeau notice (Japanese)", "url": "https://prtimes.jp/main/html/rd/p/000000067.000047703.html"}
+      ]
+    },
+    {
       "org": "Irish credit unions (via Wellington IT)",
       "date": "2026-10-06",
       "sectors": ["Finance"],
       "severity": "High",
       "summary": "An attacker exploited a flaw in the online banking platform Wellington IT provides to Irish credit unions and pulled saved payee records in early October. Credit unions were only told in mid-November.",
       "impact": "About 40 credit unions affected, roughly a quarter of the country's total. Saved payee names, IBANs, BICs, addresses and payment references potentially exposed. Officials say member balances were not accessed and no financial losses have been reported.",
-      "status": "Confirmed by affected credit unions and Ireland's government. Flaw closed. Assessment ongoing.",
+      "status": "Confirmed by Wellington IT, affected credit unions and Ireland's government. Flaw closed. Wellington IT says it is working with the Data Protection Commission, NCSC and Garda cyber crime bureau; investigation ongoing.",
       "sources": [
         {"name": "RTÉ", "url": "https://www.rte.ie/news/2026/1118/1599645-credit-union-data-breach-assessed/"},
         {"name": "Irish Department of Finance", "url": "https://www.gov.ie/en/department-of-finance/press-releases/t%C3%A1naiste-and-minister-troy-comment-on-suspected-cybersecurity-incident-involving-credit-unions/"},
-        {"name": "Galway Live", "url": "https://www.ireland-live.ie/west/galway-live/galway-credit-union-cyberattack-9358558"}
+        {"name": "RTÉ (Wellington IT statement)", "url": "https://www.rte.ie/news/business/2026/1119/1599774-credit-union-breach/"}
       ]
     },
     {
@@ -810,6 +823,18 @@
       "sources": [
         {"name": "Ministry of Health, Labour and Welfare (Japanese)", "url": "https://www.mhlw.go.jp/stf/newpage_77515.html"},
         {"name": "Sankei News (Japanese)", "url": "https://www.sankei.com/article/20261118-BV6UKWJIWFNOVKOIAF6WSQNAD4/"}
+      ]
+    },
+    {
+      "org": "Digital payments firm (Gurugram, India)",
+      "date": "2026-11-05",
+      "sectors": ["Finance", "Tech"],
+      "severity": "Medium",
+      "summary": "Hackers got into three cloud servers belonging to an unnamed Gurugram-based digital payments firm on the night of Nov. 5-6, ran malicious scripts and abused its payout API to send money out of its escrow account, police say. Two men from Ludhiana have been arrested.",
+      "impact": "About ₹25.67 crore (police figure) taken in 265 unauthorized payments to 156 bank accounts; about ₹1.5 crore frozen so far.",
+      "status": "Confirmed by Gurugram police. Two arrests; money trail and how the servers were breached still under investigation.",
+      "sources": [
+        {"name": "Hindustan Times", "url": "https://www.hindustantimes.com/cities/gurugram-news/hackers-siphon-off-25-67-crore-from-gurugram-payments-firm-two-held-101795026794149.html"}
       ]
     },
     {
@@ -1086,6 +1111,18 @@
       "sources": [
         {"name": "SPH Media statement", "url": "https://www.sph.com.sg/media-centre/media-releases/media-statement-sph-cybersecurity-incident/"},
         {"name": "The Straits Times", "url": "https://www.straitstimes.com/singapore/politics/sph-media-hit-by-cyberattacks-no-payment-card-details-or-financial-information-compromised"}
+      ]
+    },
+    {
+      "org": "Jeonbuk Office of Education school bus system (South Korea)",
+      "date": "2026-11-15",
+      "sectors": ["Education", "Government"],
+      "severity": "Low",
+      "summary": "South Korea's Jeonbuk provincial education office said its school bus management system was hacked on the evening of Nov. 15. It learned of the leak after being alerted by the Ministry of Education's cyber safety center, shut the system down and asked police to investigate.",
+      "impact": "Personal data of about 9,900 people leaked, including students' names and addresses, guardians' contact numbers and bus plate numbers. The parent app for live bus tracking and boarding alerts is offline.",
+      "status": "Confirmed by the Jeonbuk Office of Education. Police investigating; victims notified.",
+      "sources": [
+        {"name": "Yonhap News (Korean)", "url": "https://www.yna.co.kr/view/AKR20261119087900055"}
       ]
     },
     {
