@@ -64,6 +64,7 @@
         <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m7.8 12.3 2.8 2.8 5.6-6"/></symbol>
         <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
         <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7v5l3.2 2"/></symbol>
+        <symbol id="i-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.2-5.5"/><path d="M20 4v6h-6"/></symbol>
         <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
         <symbol id="i-hex" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 20.5 7.3v9.4L12 21.5l-8.5-4.8V7.3L12 2.5Z"/></symbol>
         <symbol id="i-chip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></symbol>
@@ -91,7 +92,7 @@
       <div class="brand">
         <h1>HACK <span class="accent">TRACKER</span></h1>
       </div>
-      <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
+      <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, most recent first.</p>
       <div class="cta">
         <a class="pill pill-solid" href="#confirmed-section">Confirmed hacks</a>
         <a class="pill pill-ghost" href="#speculated-section">Speculated</a>
@@ -130,7 +131,7 @@
 
   <section id="confirmed-section" class="results is-active" data-tab="confirmed" aria-labelledby="h-confirmed" role="tabpanel">
     <h2 id="h-confirmed">Confirmed Hacks</h2>
-    <p class="tabnote">Breaches and attacks confirmed by the affected organization, a government, or law enforcement. Biggest impact first.</p>
+    <p class="tabnote">Breaches and attacks confirmed by the affected organization, a government, or law enforcement. Most recent incident or news update first.</p>
     <div class="list" id="list-confirmed">
 {{CONFIRMED_CARDS}}
     </div>
@@ -138,7 +139,7 @@
 
   <section id="speculated-section" class="results" data-tab="speculated" aria-labelledby="h-speculated" role="tabpanel">
     <h2 id="h-speculated">Speculated / Potential Hacks</h2>
-    <p class="tabnote">Big outages and incidents people suspected were hacks. These are not confirmed hacks. Each shows the official explanation. Biggest impact first.</p>
+    <p class="tabnote">Big outages and incidents people suspected were hacks. These are not confirmed hacks. Each shows the official explanation. Most recent incident or news update first.</p>
     <div class="list" id="list-speculated">
 {{SPECULATED_CARDS}}
     </div>
@@ -154,7 +155,7 @@
     <h3>How this tracker is updated</h3>
     <ul>
       <li>The list is reviewed and updated about every two hours during the day, Eastern Time.</li>
-      <li>Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score.</li>
+      <li>Sorted by the most recent incident or news update first. An older entry that gets new information moves back up. Severity is a rough editorial rating, not an official score.</li>
       <li>Covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest.</li>
     </ul>
     <p class="about-def-ref">The definition of hacking used on this site is at the top of the page, under <a href="#definition">What counts as hacking</a>.</p>

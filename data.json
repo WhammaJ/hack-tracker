@@ -4,6 +4,7 @@
     {
       "org": "FAA: nationwide ground stop",
       "date": "2026-11-13",
+      "updated": "2026-11-18",
       "sectors": [
         "Aviation",
         "Government"
@@ -209,6 +210,7 @@
     {
       "org": "JPMorgan Chase online banking",
       "date": "2026-11-16",
+      "updated": "2026-11-19",
       "sectors": [
         "Finance"
       ],
@@ -259,6 +261,7 @@
     {
       "org": "NSA classified network (NSANet)",
       "date": "2026-11-17",
+      "updated": "2026-11-19",
       "sectors": [
         "Government"
       ],
@@ -637,6 +640,7 @@
     {
       "org": "Optimizely (website experimentation platform)",
       "date": "2026-11-16",
+      "updated": "2026-11-18",
       "sectors": [
         "Tech",
         "Retail",
@@ -664,6 +668,7 @@
     {
       "org": "PLAID KARTE customers (MUFG Bank, JINS, Shimamura and others, Japan)",
       "date": "2026-11-13",
+      "updated": "2026-11-19",
       "sectors": [
         "Tech",
         "Finance",
@@ -843,6 +848,7 @@
     {
       "org": "European Commission HR system (Sysper)",
       "date": "2026-10-22",
+      "updated": "2026-11-19",
       "sectors": [
         "Government"
       ],
@@ -913,6 +919,7 @@
     {
       "org": "Equinor (energy company, Norway)",
       "date": "2026-11-17",
+      "updated": "2026-11-19",
       "sectors": [
         "Energy"
       ],
@@ -960,6 +967,7 @@
     {
       "org": "Visa (via third-party provider)",
       "date": "2026-11-17",
+      "updated": "2026-11-19",
       "sectors": [
         "Finance"
       ],
@@ -1053,6 +1061,7 @@
     {
       "org": "Irish credit unions (via Wellington IT)",
       "date": "2026-10-06",
+      "updated": "2026-11-18",
       "sectors": [
         "Finance"
       ],
@@ -1150,6 +1159,7 @@
     {
       "org": "Nitori (furniture retailer, Japan)",
       "date": "2026-11-06",
+      "updated": "2026-11-17",
       "sectors": [
         "Retail",
         "Consumer"
@@ -1580,6 +1590,7 @@
     {
       "org": "KPMG Canada (accounting firm)",
       "date": "2026-11-18",
+      "updated": "2026-11-19",
       "sectors": [
         "Finance",
         "Business"
@@ -1897,6 +1908,7 @@
     {
       "org": "Openlogi (shipping and fulfillment service, Japan)",
       "date": "2026-11-08",
+      "updated": "2026-11-19",
       "sectors": [
         "Logistics",
         "Retail"
@@ -1963,6 +1975,7 @@
     {
       "org": "Cursor (code editor, via Fireworks AI)",
       "date": "2026-10-29",
+      "updated": "2026-11-14",
       "sectors": [
         "Tech"
       ],
@@ -2032,6 +2045,7 @@
     {
       "org": "Infoblox (network security company)",
       "date": "2026-11-16",
+      "updated": "2026-11-18",
       "sectors": [
         "Tech"
       ],
@@ -2169,6 +2183,7 @@
     {
       "org": "City of South Portland (Maine)",
       "date": "2026-11-14",
+      "updated": "2026-11-19",
       "sectors": [
         "Government"
       ],

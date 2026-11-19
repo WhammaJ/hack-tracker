@@ -38,8 +38,31 @@ def load_data():
     return data
 
 
+def recency_date(entry):
+    """Latest of the incident date and any later news-update date."""
+    dates = [entry["date"]]
+    if entry.get("updated"):
+        dates.append(entry["updated"])
+    return max(dates)
+
+
 def sort_entries(entries):
-    return sorted(entries, key=lambda e: SEV.get(e.get("severity"), 99))
+    # Newest incident or news update first; higher severity breaks ties.
+    return sorted(
+        entries,
+        key=lambda e: (recency_date(e), -SEV.get(e.get("severity"), 99)),
+        reverse=True,
+    )
+
+
+def mark_top_entries(entries, n=3):
+    """Rainbow-border the n highest-severity entries; recency (list order) breaks ties."""
+    order = sorted(
+        range(len(entries)),
+        key=lambda i: (SEV.get(entries[i].get("severity"), 99), i),
+    )
+    for i in order[:n]:
+        entries[i]["_top"] = True
 
 
 def make_id(entry, used):
@@ -72,6 +95,8 @@ def assign_ids(data):
                 sys.exit(f"Entry missing org or date: {entry!r}")
             if not re.match(r"^\d{4}-\d{2}-\d{2}$", entry["date"]):
                 sys.exit(f"Bad date for {entry['org']}: {entry['date']}")
+            if entry.get("updated") and not re.match(r"^\d{4}-\d{2}-\d{2}$", entry["updated"]):
+                sys.exit(f"Bad updated date for {entry['org']}: {entry['updated']}")
             entry["_id"] = make_id(entry, used)
             entry["_kind"] = key
 
@@ -85,6 +110,11 @@ def display_date(entry):
         return entry["dateLabel"]
     d = datetime.strptime(entry["date"], "%Y-%m-%d")
     return d.strftime("%b ") + str(d.day) + d.strftime(", %Y")
+
+
+def display_updated(iso_date):
+    d = datetime.strptime(iso_date, "%Y-%m-%d")
+    return d.strftime("%b ") + str(d.day)
 
 
 def datetime_attr(entry):
@@ -223,7 +253,17 @@ def render_card(entry, rank, speculated):
     tiles += f'<div class="tile t-status"><span class="lbl">{icon("check")}Status</span><p class="status">{esc(entry.get("status") or "")}</p></div>'
     tiles += "</div>"
 
-    top = " top" if rank <= 3 else ""
+    top = " top" if entry.get("_top") else ""
+    dates_html = (
+        f'<time class="date" datetime="{esc(datetime_attr(entry))}">'
+        f'{icon("clock")}{esc(display_date(entry))}</time>'
+    )
+    upd = entry.get("updated")
+    if upd and upd > entry["date"]:
+        dates_html += (
+            f'<time class="fresh" datetime="{esc(upd)}">'
+            f'{icon("refresh")}Updated {esc(display_updated(upd))}</time>'
+        )
     return f'''      <article class="card {esc(sev)}{top}" id="{esc(eid)}" data-severity="{esc(sev)}" data-sectors="{esc(",".join(sectors))}" data-search="{esc(search_blob(entry))}">
         <svg class="card-cube" aria-hidden="true" focusable="false"><use href="#cube"/></svg>
         <div class="card-head">
@@ -233,7 +273,7 @@ def render_card(entry, rank, speculated):
             <div class="meta">{"".join(badges)}</div>
           </div>
           <div class="head-side">
-            <time class="date" datetime="{esc(datetime_attr(entry))}">{icon("clock")}{esc(display_date(entry))}</time>
+            <div class="dates">{dates_html}</div>
             <div class="meter" title="Threat level: {esc(sev)}"><span class="meter-lbl">Threat</span><span class="segs" aria-hidden="true">{meter}</span></div>
           </div>
         </div>
@@ -311,7 +351,7 @@ def json_ld(data):
                 "name": entry["org"],
                 "url": url,
                 "datePublished": entry["date"],
-                "dateModified": last,
+                "dateModified": entry.get("updated") or entry["date"],
                 "description": entry.get("summary") or "",
                 "articleBody": article_body(entry, speculated),
                 "isPartOf": {"@id": website_id},
@@ -431,8 +471,8 @@ def faq_page(data):
             }
         )
 
-    # A few top confirmed incidents, facts only from the entry fields.
-    for entry in data["confirmed"][:3]:
+    # A few top-severity confirmed incidents, facts only from the entry fields.
+    for entry in [e for e in data["confirmed"] if e.get("_top")]:
         org = entry["org"]
         name = org
         questions.append(
@@ -542,7 +582,10 @@ def build_feed(data):
         items.append((entry, False))
     for entry in data["speculated"]:
         items.append((entry, True))
-    items.sort(key=lambda pair: pair[0]["date"], reverse=True)
+    items.sort(
+        key=lambda pair: (recency_date(pair[0]), -SEV.get(pair[0].get("severity"), 99)),
+        reverse=True,
+    )
 
     last = data["lastUpdated"]
     built = datetime.strptime(last, "%Y-%m-%d").replace(hour=12, tzinfo=timezone.utc)
@@ -569,7 +612,7 @@ def build_feed(data):
         out.append(f"<title>{xml_escape(title)}</title>")
         out.append(f"<link>{xml_escape(link)}</link>")
         out.append(f"<guid isPermaLink=\"true\">{xml_escape(link)}</guid>")
-        out.append(f"<pubDate>{rfc822(entry['date'])}</pubDate>")
+        out.append(f"<pubDate>{rfc822(recency_date(entry))}</pubDate>")
         out.append(f"<description>{entry_rss_description(entry, speculated)}</description>")
         for c in cats:
             if c:
@@ -593,7 +636,7 @@ def build_llms(data):
         "",
         "## Confirmed Hacks",
         "",
-        "Incidents confirmed by the affected organization, a government agency, or law enforcement. Biggest impact first.",
+        "Incidents confirmed by the affected organization, a government agency, or law enforcement. Most recent incident or news update first.",
         "",
     ]
     for entry in data["confirmed"]:
@@ -604,7 +647,7 @@ def build_llms(data):
         "",
         "## Speculated / Potential Hacks",
         "",
-        "Outages or incidents where the public wondered about a hack. These are not confirmed hacks. Each entry includes the official explanation. Biggest impact first.",
+        "Outages or incidents where the public wondered about a hack. These are not confirmed hacks. Each entry includes the official explanation. Most recent incident or news update first.",
         "",
     ]
     for entry in data["speculated"]:
@@ -643,7 +686,7 @@ def build_llms_full(data):
         "",
         "Speculated / Potential Hacks are outages or incidents where the public wondered about a hack. They are not confirmed hacks. Each one shows what the organization or investigators officially said.",
         "",
-        "The list is reviewed and updated about every two hours during the day, Eastern Time. Sorted by scale and impact, biggest first. Severity is a rough editorial rating, not an official score. Covers roughly the past 12 months, plus a few older events that are still widely referenced.",
+        "The list is reviewed and updated about every two hours during the day, Eastern Time. Sorted by the most recent incident or news update first. An older entry that gets new information moves back up. Severity is a rough editorial rating, not an official score. Covers roughly the past 12 months, plus a few older events that are still widely referenced.",
         "",
     ]
 
@@ -654,6 +697,8 @@ def build_llms_full(data):
             lines.append(f"{i}. {entry['org']}")
             lines.append(f"   URL: {SITE}/#{entry['_id']}")
             lines.append(f"   Date: {display_date(entry)}")
+            if entry.get("updated") and entry["updated"] > entry["date"]:
+                lines.append(f"   Updated: {display_updated(entry['updated'])}")
             lines.append(f"   Severity: {entry['severity']}")
             if entry.get("sectors"):
                 lines.append("   Sectors: " + ", ".join(entry["sectors"]))
@@ -750,6 +795,8 @@ def main():
     data["confirmed"] = sort_entries(data["confirmed"])
     data["speculated"] = sort_entries(data["speculated"])
     assign_ids(data)
+    mark_top_entries(data["confirmed"])
+    mark_top_entries(data["speculated"])
     build_index(data)
     build_sitemap(data)
     build_feed(data)
