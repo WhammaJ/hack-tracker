@@ -115,46 +115,138 @@ def search_blob(entry):
     return " ".join(p for p in parts if p)
 
 
+SECTOR_ICONS = {
+    "Tech": "chip", "Telecom": "signal", "Media": "signal", "Gaming": "chip",
+    "Government": "gov", "Research": "gov", "Education": "gov",
+    "Finance": "coin", "Crypto": "coin", "Business": "coin",
+    "Consumer": "user", "Retail": "cart", "Food": "cart",
+    "Healthcare": "health",
+    "Aviation": "plane", "Travel": "plane",
+    "Transportation": "truck", "Logistics": "truck",
+    "Manufacturing": "bolt", "Energy": "bolt", "Utilities": "bolt",
+    "Sports": "user",
+}
+SEV_LEVEL = {"Critical": 4, "High": 3, "Medium": 2, "Low": 1}
+_STAT_RE = re.compile(
+    r"(?:[$€£]\s?\d[\d,.]*\s?(?:billion|million|thousand|[bmk]\b)?"
+    r"|\b\d[\d,.]*\s?(?:billion|million|thousand)\b"
+    r"|\b\d{1,3}(?:,\d{3})+\b)",
+    re.I,
+)
+_STAT_SKIP = re.compile(r"claim|unverified|alleg|not disclosed|not confirmed|possibl|may have|reportedly|estimat", re.I)
+_STAT_STOP = {"and", "or", "of", "the", "a", "an", "in", "on", "to", "for", "from", "with", "by", "at", "was", "were", "is", "are", "per", "about", "more", "than", "across", "including", "between", "who", "whose", "that"}
+
+
+def key_stat(entry):
+    """Pull a headline number straight from the impact text, or return None.
+    Only uses a number that is already in the text; skips claims and estimates."""
+    text = (entry.get("impact") or "").strip()
+    sentence = re.split(r"(?<=[.;])\s+", text, maxsplit=1)[0] if text else ""
+    m = _STAT_RE.search(sentence)
+    # Only a lead number near the start of the first sentence, never a claim or estimate.
+    if not m or m.start() > 25 or _STAT_SKIP.search(sentence) or re.search(r"\bserves?\b", sentence, re.I):
+        return None
+    stat = m.group(0).strip().rstrip(".,")
+    tail = re.split(r"[,;:().]", sentence[m.end():], maxsplit=1)[0]
+    words = []
+    cut_by_and = False
+    for w in re.findall(r"[A-Za-z][A-Za-z'-]*", tail):
+        if w.lower() in _STAT_STOP:
+            if words:
+                cut_by_and = w.lower() in ("and", "or")
+                break
+            continue
+        if words and w.lower().endswith("ly"):
+            break
+        words.append(w.rstrip("'"))
+        if len(words) == 3 or w.endswith("'"):
+            break
+    if cut_by_and and words and words[0][:1].isupper():
+        words = []  # e.g. "4,597 Fugaku and RIKYU users": a partial name would mislead
+    lead = re.search(r"(up to(?: about)?|more than|over|nearly|almost|at least|about|roughly|around)\s*$", sentence[:m.start()], re.I)
+    prefix = lead.group(1) if lead else ""
+    return stat, " ".join(words), prefix
+
+
+def icon(name, cls="i"):
+    return f'<svg class="{cls}" aria-hidden="true" focusable="false"><use href="#i-{name}"/></svg>'
+
+
 def render_card(entry, rank, speculated):
     eid = entry["_id"]
     sectors = entry.get("sectors") or []
     sev = entry["severity"]
-    badges = [f'<span class="badge sev-{esc(sev)}">{esc(sev)}</span>']
+    level = SEV_LEVEL.get(sev, 1)
+    meter = "".join(
+        f'<i class="seg{" on" if i < level else ""}"></i>' for i in range(4)
+    )
+    badges = [f'<span class="badge sev-{esc(sev)}">{icon("alert")}{esc(sev)}</span>']
     if speculated:
-        badges.append('<span class="badge unconf">Unconfirmed / speculation</span>')
-    badges.extend(f'<span class="badge sector">{esc(s)}</span>' for s in sectors)
+        badges.append(f'<span class="badge unconf">{icon("eye")}Unconfirmed / speculation</span>')
+    badges.extend(
+        f'<span class="badge sector">{icon(SECTOR_ICONS.get(s, "hex"))}{esc(s)}</span>'
+        for s in sectors
+    )
     source_items = []
     for src in entry.get("sources") or []:
         source_items.append(
             f'<li><a href="{esc(src["url"])}" target="_blank" rel="noopener noreferrer">'
-            f'{esc(src["name"])} <span aria-hidden="true">↗</span></a></li>'
+            f'{icon("link")}{esc(src["name"])} <span aria-hidden="true">↗</span></a></li>'
         )
-    sources = f'<ul class="sources">{"".join(source_items)}</ul>' if source_items else ""
+    sources = (
+        f'<div class="srcwrap"><span class="lbl">Sources</span><ul class="sources">{"".join(source_items)}</ul></div>'
+        if source_items else ""
+    )
 
-    extra = ""
+    stat_html = ""
+    st = key_stat(entry)
+    if st:
+        stat_html = (
+            '<div class="stat" aria-hidden="true">'
+            + (f'<em>{esc(st[2])}</em>' if st[2] else "")
+            + f'<b>{esc(st[0])}</b>'
+            + (f'<span>{esc(st[1])}</span>' if st[1] else "")
+            + "</div>"
+        )
+
+    spec = ""
     if speculated:
-        extra += (
-            f'<span class="lbl">What people speculated</span><p>{esc(entry.get("speculation") or "")}</p>'
-            f'<div class="official"><span class="lbl" style="margin-top:0">Official explanation</span>'
-            f'<p>{esc(entry.get("official") or "")}</p></div>'
+        spec = (
+            '<div class="tiles versus">'
+            f'<div class="tile t-spec"><span class="lbl">{icon("eye")}What people speculated</span><p>{esc(entry.get("speculation") or "")}</p></div>'
+            f'<div class="tile t-off official"><span class="lbl">{icon("shield")}Official explanation</span><p>{esc(entry.get("official") or "")}</p></div>'
+            "</div>"
         )
+    tiles = '<div class="tiles">'
     if entry.get("impact"):
-        extra += f'<span class="lbl">Impact</span><p>{esc(entry["impact"])}</p>'
+        tiles += f'<div class="tile t-impact"><span class="lbl">{icon("bolt")}Impact</span><p>{esc(entry["impact"])}</p></div>'
+    tiles += f'<div class="tile t-status"><span class="lbl">{icon("check")}Status</span><p class="status">{esc(entry.get("status") or "")}</p></div>'
+    tiles += "</div>"
 
-    return f'''      <article class="card {esc(sev)}" id="{esc(eid)}" data-severity="{esc(sev)}" data-sectors="{esc(",".join(sectors))}" data-search="{esc(search_blob(entry))}">
-        <div class="row">
-          <h3><span class="rank">#{rank}</span> {esc(entry["org"])}</h3>
-          <time class="date" datetime="{esc(datetime_attr(entry))}">{esc(display_date(entry))}</time>
+    top = " top" if rank <= 3 else ""
+    return f'''      <article class="card {esc(sev)}{top}" id="{esc(eid)}" data-severity="{esc(sev)}" data-sectors="{esc(",".join(sectors))}" data-search="{esc(search_blob(entry))}">
+        <svg class="card-cube" aria-hidden="true" focusable="false"><use href="#cube"/></svg>
+        <div class="card-head">
+          <span class="rank" aria-label="Rank {rank}"><small>#</small>{rank}</span>
+          <div class="head-main">
+            <h3>{esc(entry["org"])}</h3>
+            <div class="meta">{"".join(badges)}</div>
+          </div>
+          <div class="head-side">
+            <time class="date" datetime="{esc(datetime_attr(entry))}">{icon("clock")}{esc(display_date(entry))}</time>
+            <div class="meter" title="Threat level: {esc(sev)}"><span class="meter-lbl">Threat</span><span class="segs" aria-hidden="true">{meter}</span></div>
+          </div>
         </div>
-        <div class="meta">{"".join(badges)}</div>
-        <p>{esc(entry.get("summary") or "")}</p>
-        {extra}
-        <span class="lbl">Status</span>
-        <p class="status">{esc(entry.get("status") or "")}</p>
+        <div class="card-body">
+          {stat_html}
+          <p class="summary">{esc(entry.get("summary") or "")}</p>
+        </div>
+        {spec}
+        {tiles}
         {sources}
         <div class="comments-slot">
           <!-- Disqus thread placeholder. identifier={eid} url={SITE}/#{eid} shortname=hacktracking -->
-          <button type="button" class="comments-toggle" data-entry-id="{esc(eid)}" aria-expanded="false" aria-controls="comments-{esc(eid)}">Comments <span class="disqus-comment-count" data-disqus-identifier="{esc(eid)}"></span></button>
+          <button type="button" class="comments-toggle" data-entry-id="{esc(eid)}" aria-expanded="false" aria-controls="comments-{esc(eid)}">{icon("chat")}Comments <span class="disqus-comment-count" data-disqus-identifier="{esc(eid)}"></span></button>
           <div class="comments-panel" id="comments-{esc(eid)}" hidden>
             <div class="comments-host"></div>
           </div>
