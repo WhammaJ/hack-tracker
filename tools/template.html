@@ -6,7 +6,7 @@
 <title>Hack Tracker: Confirmed Hacks vs. Speculated Outages</title>
 <meta name="description" content="A plain-English tracker of confirmed hacking incidents and big outages people suspected were hacks. Official explanations and sources on every entry.">
 <link rel="canonical" href="https://hacktracking.com/">
-<meta name="theme-color" content="#0b0f14">
+<meta name="theme-color" content="#0a3a9e">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hack Tracker">
 <meta property="og:url" content="https://hacktracking.com/">
@@ -24,20 +24,67 @@
 <meta name="twitter:image:alt" content="Hack Tracker: confirmed hacks versus speculated outages.">
 <link rel="alternate" type="application/rss+xml" title="Hack Tracker feed" href="https://hacktracking.com/feed.xml">
 <link rel="sitemap" type="application/xml" href="https://hacktracking.com/sitemap.xml">
+<link rel="preload" href="assets/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('has-js');</script>
 <script type="application/ld+json">{{JSON_LD}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="top">
-  <div class="wrap">
-    <div class="brand">
-      <span class="dot" aria-hidden="true"></span>
-      <h1>HACK <span class="accent">TRACKER</span></h1>
+<header class="top hero">
+  <div class="sky" aria-hidden="true">
+    <div class="rays"></div>
+    <svg class="net" viewBox="0 0 1440 640" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <g stroke="#bff3ff" stroke-width="1" fill="none" opacity=".55">
+        <path d="M40 120 L210 60 L360 150 L520 90 L640 210 L820 140 L980 230 L1130 120 L1290 190 L1420 80"/>
+        <path d="M210 60 L250 260 L360 150 M520 90 L470 300 L640 210 M820 140 L860 360 L980 230 M1130 120 L1180 330 L1290 190"/>
+        <path d="M60 420 L250 260 L470 300 L600 470 L860 360 L1010 520 L1180 330 L1380 450"/>
+        <path d="M250 260 L120 560 M600 470 L700 600 M1010 520 L1230 600 M1380 450 L1290 190"/>
+      </g>
+      <g fill="#e6fbff">
+        <circle cx="40" cy="120" r="2"/><circle cx="210" cy="60" r="3"/><circle cx="360" cy="150" r="2"/><circle cx="520" cy="90" r="3"/><circle cx="640" cy="210" r="2"/><circle cx="820" cy="140" r="3"/><circle cx="980" cy="230" r="2"/><circle cx="1130" cy="120" r="3"/><circle cx="1290" cy="190" r="2.5"/><circle cx="1420" cy="80" r="2"/>
+        <circle cx="250" cy="260" r="2.5"/><circle cx="470" cy="300" r="2"/><circle cx="860" cy="360" r="2.5"/><circle cx="1180" cy="330" r="2"/><circle cx="60" cy="420" r="2"/><circle cx="600" cy="470" r="3"/><circle cx="1010" cy="520" r="2"/><circle cx="1380" cy="450" r="2.5"/><circle cx="120" cy="560" r="2"/><circle cx="700" cy="600" r="2"/><circle cx="1230" cy="600" r="2"/>
+      </g>
+    </svg>
+    <svg width="0" height="0" style="position:absolute" focusable="false">
+      <defs>
+        <symbol id="cube" viewBox="0 0 100 100">
+          <polygon points="50,6 92,28 50,50 8,28" fill="currentColor"/>
+          <polygon points="50,6 92,28 50,50 8,28" fill="#fff" opacity=".42"/>
+          <polygon points="8,28 50,50 50,96 8,74" fill="currentColor"/>
+          <polygon points="92,28 92,74 50,96 50,50" fill="currentColor"/>
+          <polygon points="92,28 92,74 50,96 50,50" fill="#000" opacity=".32"/>
+          <polyline points="8,28 50,50 92,28 M50,50" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/>
+          <line x1="50" y1="50" x2="50" y2="96" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/>
+        </symbol>
+      </defs>
+    </svg>
+    <svg class="cube c1"><use href="#cube"/></svg>
+    <svg class="cube c2"><use href="#cube"/></svg>
+    <svg class="cube c3"><use href="#cube"/></svg>
+    <svg class="cube c4"><use href="#cube"/></svg>
+    <svg class="cube c5"><use href="#cube"/></svg>
+    <svg class="cube c6"><use href="#cube"/></svg>
+    <i class="conf f1"></i><i class="conf f2"></i><i class="conf f3"></i><i class="conf f4"></i><i class="conf f5"></i><i class="conf f6"></i><i class="conf f7"></i><i class="conf f8"></i>
+  </div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="kicker"><span class="dot" aria-hidden="true"></span> Confirmed vs. speculated</p>
+      <div class="brand">
+        <h1>HACK <span class="accent">TRACKER</span></h1>
+      </div>
+      <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
+      <div class="cta">
+        <a class="pill pill-solid" href="#confirmed-section">Confirmed hacks</a>
+        <a class="pill pill-ghost" href="#speculated-section">Speculated</a>
+      </div>
+      <p class="updated">Last updated: <time datetime="{{LAST_UPDATED}}" id="updated">{{LAST_UPDATED_DISPLAY}}</time></p>
     </div>
-    <p class="tag">Recent hacks and suspected hacks hitting major companies, governments, news outlets and everyday services, biggest first.</p>
-    <p class="updated">Last updated: <time datetime="{{LAST_UPDATED}}" id="updated">{{LAST_UPDATED_DISPLAY}}</time></p>
+    <ul class="hexes" aria-label="Tracker at a glance">
+      <li class="hex hex-crit"><a href="#confirmed-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4 4.6-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>{{CONFIRMED_COUNT}}</b><span>Confirmed</span></a></li>
+      <li class="hex hex-high"><a href="#speculated-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.5v.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1.2" fill="currentColor"/></svg><b>{{SPECULATED_COUNT}}</b><span>Speculated</span></a></li>
+      <li class="hex hex-low"><a href="#about"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><b>2 hr</b><span>Updates</span></a></li>
+    </ul>
   </div>
 </header>
 
