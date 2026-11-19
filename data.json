@@ -493,6 +493,19 @@
       ]
     },
     {
+      "org": "Osaki Electric (smart meter maker, Japan)",
+      "date": "2026-11-17",
+      "sectors": ["Energy", "Manufacturing"],
+      "severity": "High",
+      "summary": "Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. The company cut its systems off from outside networks and shut down production systems at its Saitama plant and two production subsidiaries.",
+      "impact": "Production and shipment of smart meters and other products suspended at the Saitama R&D and Manufacturing Center, Iwate Osaki Electric and Osaki Platech, with no restart date. Whether data was taken is still under investigation; the financial impact is unknown.",
+      "status": "Confirmed by Osaki Electric, which reported it to police. Sankei reports the company was contacted by a party believed to be the attacker and says it will not negotiate.",
+      "sources": [
+        {"name": "Osaki Electric notice (PDF)", "url": "https://www.osaki.co.jp/en/ir/news/auto_20261118582910/pdfFile.pdf"},
+        {"name": "Sankei News (Japanese)", "url": "https://www.sankei.com/article/20261118-JU47FTW5VNLN3LZSFLYXYOBPC4/"}
+      ]
+    },
+    {
       "org": "Visa (via third-party provider)",
       "date": "2026-11-17",
       "sectors": ["Finance"],
@@ -713,6 +726,20 @@
       "status": "Confirmed by KPMG Canada. Clients being contacted.",
       "sources": [
         {"name": "The Globe and Mail", "url": "https://www.theglobeandmail.com/business/technology/article-kpmg-canada-data-breach-client-files-cyber-attack-november-18/"}
+      ]
+    },
+    {
+      "org": "Richmond Public Schools (Virginia)",
+      "date": "2026-10-21",
+      "sectors": ["Education", "Government"],
+      "severity": "Medium",
+      "summary": "Ransom messages appeared on district laptops saying attackers had extracted sensitive data and encrypted critical files, and demanding contact within 72 hours to negotiate. The district took its internet offline, knocking out phones and email.",
+      "impact": "The attackers claim to have taken personal information of current and former students, staff and contractors; the district says affected systems held data such as Social Security numbers, driver's license numbers, health insurance numbers and limited medical information. Nearly a month later, network access, camera feeds and other systems were still not fully restored.",
+      "status": "Confirmed by the district, which is working with the FBI, Virginia State Police and CISA and offering free credit monitoring. Network rebuild ongoing.",
+      "sources": [
+        {"name": "Richmond Public Schools notice", "url": "https://www.rvaschools.net/notice-of-cyber-incident"},
+        {"name": "GovTech (Richmond Times-Dispatch)", "url": "https://www.govtech.com/education/k-12/ransomware-attack-forces-richmond-va-schools-offline"},
+        {"name": "Axios Richmond", "url": "https://www.axios.com/local/richmond/2026/11/18/rps-cyberattack-teachers-school-security-fallout"}
       ]
     },
     {

@@ -49,6 +49,17 @@
 <category>Energy</category>
 </item>
 <item>
+<title>Osaki Electric (smart meter maker, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#osaki-electric-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#osaki-electric-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. The company cut its systems off from outside networks and shut down production systems at its Saitama plant and two production subsidiaries. Impact: Production and shipment of smart meters and other products suspended at the Saitama R&amp;D and Manufacturing Center, Iwate Osaki Electric and Osaki Platech, with no restart date. Whether data was taken is still under investigation; the financial impact is unknown. Status: Confirmed by Osaki Electric, which reported it to police. Sankei reports the company was contacted by a party believed to be the attacker and says it will not negotiate. Sources: Osaki Electric notice (PDF) (https://www.osaki.co.jp/en/ir/news/auto_20261118582910/pdfFile.pdf); Sankei News (Japanese) (https://www.sankei.com/article/20261118-JU47FTW5VNLN3LZSFLYXYOBPC4/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Energy</category>
+<category>Manufacturing</category>
+</item>
+<item>
 <title>Visa (via third-party provider) — Confirmed Hack</title>
 <link>https://hacktracking.com/#visa-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#visa-2026-11</guid>
@@ -514,6 +525,17 @@
 <category>Medium</category>
 <category>Transportation</category>
 <category>Logistics</category>
+</item>
+<item>
+<title>Richmond Public Schools (Virginia) — Confirmed Hack</title>
+<link>https://hacktracking.com/#richmond-public-schools-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#richmond-public-schools-2026-10</guid>
+<pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+<description>Ransom messages appeared on district laptops saying attackers had extracted sensitive data and encrypted critical files, and demanding contact within 72 hours to negotiate. The district took its internet offline, knocking out phones and email. Impact: The attackers claim to have taken personal information of current and former students, staff and contractors; the district says affected systems held data such as Social Security numbers, driver's license numbers, health insurance numbers and limited medical information. Nearly a month later, network access, camera feeds and other systems were still not fully restored. Status: Confirmed by the district, which is working with the FBI, Virginia State Police and CISA and offering free credit monitoring. Network rebuild ongoing. Sources: Richmond Public Schools notice (https://www.rvaschools.net/notice-of-cyber-incident); GovTech (Richmond Times-Dispatch) (https://www.govtech.com/education/k-12/ransomware-attack-forces-richmond-va-schools-offline); Axios Richmond (https://www.axios.com/local/richmond/2026/11/18/rps-cyberattack-teachers-school-security-fallout)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
+<category>Government</category>
 </item>
 <item>
 <title>ConnectWise (IT management software) — Confirmed Hack</title>
