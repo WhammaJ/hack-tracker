@@ -275,14 +275,27 @@ CONFIRMED HACKS
    Date: Nov 17, 2026
    Severity: High
    Sectors: Finance
-   Summary: A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region.
-   Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. What the gang claims to have taken has not been shown.
-   Status: Third-party incident confirmed by Visa. Gang's data claims unverified.
+   Summary: A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific.
+   Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details.
+   Status: Third-party incident confirmed by Visa. Gang has published data; its larger claims are unverified.
    Sources:
+     - Cybernews (data leak): https://cybernews.com/security/visa-card-data-breach/
      - Cybernews: https://cybernews.com/security/visa-jpmorgan-data-breach/
      - CISO Brief: https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/
 
-23. SBC Medical Group (Shonan Beauty Clinic operator, Japan)
+23. JPMorgan Chase (via third-party vendors)
+   URL: https://hacktracking.com/#jpmorgan-chase-2026-11
+   Date: Nov 19, 2026
+   Severity: High
+   Sectors: Finance
+   Summary: JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program.
+   Impact: JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week.
+   Status: Vendor attack confirmed by JPMorgan Chase. Investigation ongoing; the gang's wider claims are unverified.
+   Sources:
+     - Reuters via CNA: https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201
+     - Cybernews: https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/
+
+24. SBC Medical Group (Shonan Beauty Clinic operator, Japan)
    URL: https://hacktracking.com/#sbc-medical-group-2026-11
    Date: Nov 16, 2026
    Severity: High
@@ -294,7 +307,7 @@ CONFIRMED HACKS
      - SBC Medical Group notice (Japanese): https://prtimes.jp/main/html/rd/p/000000416.000097803.html
      - Tribeau notice (Japanese): https://prtimes.jp/main/html/rd/p/000000067.000047703.html
 
-24. Irish credit unions (via Wellington IT)
+25. Irish credit unions (via Wellington IT)
    URL: https://hacktracking.com/#irish-credit-unions-2026-10
    Date: Oct 6, 2026
    Severity: High
@@ -307,7 +320,7 @@ CONFIRMED HACKS
      - Irish Department of Finance: https://www.gov.ie/en/department-of-finance/press-releases/t%C3%A1naiste-and-minister-troy-comment-on-suspected-cybersecurity-incident-involving-credit-unions/
      - RTÉ (Wellington IT statement): https://www.rte.ie/news/business/2026/1119/1599774-credit-union-breach/
 
-25. N-able Mail Assure and SpamExperts (email security cloud)
+26. N-able Mail Assure and SpamExperts (email security cloud)
    URL: https://hacktracking.com/#n-able-mail-assure-and-spamexperts-2026-11
    Date: Nov 16, 2026
    Severity: High
@@ -318,7 +331,7 @@ CONFIRMED HACKS
    Sources:
      - The Hacker News: https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html
 
-26. Barracuda (security company cloud)
+27. Barracuda (security company cloud)
    URL: https://hacktracking.com/#barracuda-2026-11
    Date: Nov 1, 2026
    Severity: High
@@ -329,7 +342,7 @@ CONFIRMED HACKS
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/
 
-27. South Korea government email system
+28. South Korea government email system
    URL: https://hacktracking.com/#south-korea-government-email-system-2026-11
    Date: Nov 16, 2026
    Severity: High
@@ -341,7 +354,7 @@ CONFIRMED HACKS
      - SBS News: https://news.sbs.co.kr/english/article.do?news_id=N1008847830
      - Aju Press: https://www.ajupress.com/view/20261116133270131
 
-28. Nitori (furniture retailer, Japan)
+29. Nitori (furniture retailer, Japan)
    URL: https://hacktracking.com/#nitori-2026-11
    Date: Nov 6, 2026
    Severity: High
@@ -354,7 +367,7 @@ CONFIRMED HACKS
      - SC Media: https://www.scworld.com/brief/nitori-reports-data-breach-affecting-37-62-million-customer-records
      - MLex: https://www.mlex.com/mlex/data-privacy-security/articles/2551466/japan-s-nitori-confirms-data-extraction-says-breach-scope-unclear
 
-29. Maersk (shipping)
+30. Maersk (shipping)
    URL: https://hacktracking.com/#maersk-2026-11
    Date: Nov 11, 2026
    Severity: High
@@ -365,7 +378,7 @@ CONFIRMED HACKS
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/
 
-30. Port of Santos authority (Brazil)
+31. Port of Santos authority (Brazil)
    URL: https://hacktracking.com/#port-of-santos-authority-2026-11
    Date: Nov 6, 2026
    Severity: High
@@ -377,7 +390,7 @@ CONFIRMED HACKS
      - Folha de S.Paulo: https://www1.folha.uol.com.br/internacional/en/business/2026/11/port-of-santos-confirms-cyberattack-says-it-does-not-know-whether-data-was-accessed-without-authorization.shtml
      - G1 (Portuguese): https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2026/11/12/porto-de-santos-confirma-pedido-de-resgate-apos-ataque-hacker-7percent-dos-dados-foram-recuperados.ghtml
 
-31. Cisco SD-WAN zero-day attacks
+32. Cisco SD-WAN zero-day attacks
    URL: https://hacktracking.com/#cisco-sd-wan-zero-day-attacks-2026-02
    Date: Feb 25, 2026
    Severity: High
@@ -389,7 +402,7 @@ CONFIRMED HACKS
      - CISA ED 26-03: https://www.cisa.gov/news-events/news/immediate-action-required-cisa-issues-emergency-directive-secure-cisco-sd-wan-systems
      - Cybersecurity Dive: https://www.cybersecuritydive.com/news/cisa-emergency-directive-cisco-sd-wan-devices/813110/
 
-32. Boston Scientific (medical devices)
+33. Boston Scientific (medical devices)
    URL: https://hacktracking.com/#boston-scientific-2026-08
    Date: Aug 25, 2026
    Severity: High
@@ -401,7 +414,7 @@ CONFIRMED HACKS
      - Reuters: https://www.reuters.com/legal/government/boston-scientific-hit-by-cyberattack-global-operations-affected-2026-08-26/
      - Boston Scientific update: https://news.bostonscientific.com/update-on-recent-cybersecurity-incident
 
-33. Carnival Corporation (cruises)
+34. Carnival Corporation (cruises)
    URL: https://hacktracking.com/#carnival-corporation-2026-04
    Date: Apr 10, 2026
    Severity: High
@@ -413,7 +426,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/
      - The Record: https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million
 
-34. Value Design Value Card (prepaid e-money service, Japan)
+35. Value Design Value Card (prepaid e-money service, Japan)
    URL: https://hacktracking.com/#value-design-value-card-2026-10
    Date: Oct 19, 2026
    Severity: High
@@ -426,7 +439,7 @@ CONFIRMED HACKS
      - Value Design notice, Nov. 18 (Japanese): https://www.valuedesign.jp/news/info/20261118
      - Nikkei (Japanese): https://www.nikkei.com/article/DGXZQOUC1898S0Y6A111C2000000/
 
-35. NTT Solmare Comic Cmoa (e-book store, Japan)
+36. NTT Solmare Comic Cmoa (e-book store, Japan)
    URL: https://hacktracking.com/#ntt-solmare-comic-cmoa-2026-10
    Date: Oct 15, 2026
    Severity: High
@@ -439,7 +452,7 @@ CONFIRMED HACKS
      - NTT Solmare report no. 3 (Japanese): https://www.nttsolmare.com/press/2026/1016-1.html
      - NTT Solmare KARTE notice, Nov. 18 (Japanese): https://www.nttsolmare.com/press/2026/1118.html
 
-36. NTT Docomo (mobile carrier, Japan)
+37. NTT Docomo (mobile carrier, Japan)
    URL: https://hacktracking.com/#ntt-docomo-2026-11
    Date: Nov 4, 2026
    Severity: High
@@ -452,7 +465,7 @@ CONFIRMED HACKS
      - NTT Docomo notice (Japanese): https://www.docomo.ne.jp/info/notice/page/261118_00_m.html
      - ITmedia Mobile (Japanese): https://www.itmedia.co.jp/mobile/articles/2611/06/news085.html
 
-37. 2RedBeans (dating site)
+38. 2RedBeans (dating site)
    URL: https://hacktracking.com/#2redbeans-2026-11
    Date: Nov 4, 2026
    Severity: High
@@ -463,7 +476,7 @@ CONFIRMED HACKS
    Sources:
      - 2RedBeans notice: https://blogs.2redbeans.com/en/2026-11-data-breach-notice/
 
-38. Jaguar Land Rover
+39. Jaguar Land Rover
    URL: https://hacktracking.com/#jaguar-land-rover-2025-09
    Date: Sept 2025
    Severity: High
@@ -475,7 +488,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/
      - BBC News: https://www.bbc.com/news/articles/ckg1w255gy1o
 
-39. fairlife / Coca-Cola
+40. fairlife / Coca-Cola
    URL: https://hacktracking.com/#fairlife-coca-cola-2026-07
    Date: Jul 16, 2026
    Severity: High
@@ -487,7 +500,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/
      - AP News: https://apnews.com/article/fairlife-milk-cyberattack-cocacola-e3a5574043f58a7340500c89d74c2ba6
 
-40. Vanderbilt University
+41. Vanderbilt University
    URL: https://hacktracking.com/#vanderbilt-university-2026-11
    Date: Nov 9, 2026
    Severity: High
@@ -500,7 +513,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/
      - CyberScoop: https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/
 
-41. IDC Frontier cloud (Japan)
+42. IDC Frontier cloud (Japan)
    URL: https://hacktracking.com/#idc-frontier-cloud-2026-10
    Date: Oct 7, 2026
    Severity: High
@@ -512,7 +525,7 @@ CONFIRMED HACKS
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/
      - IDC Frontier update: https://www.idcf.jp/pdf/topics/20261027/20261027_IDCF_UA_Update7_EN.pdf
 
-42. RIKEN Fugaku supercomputer (Japan)
+43. RIKEN Fugaku supercomputer (Japan)
    URL: https://hacktracking.com/#riken-fugaku-supercomputer-2026-11
    Date: Nov 12, 2026
    Severity: High
@@ -523,7 +536,7 @@ CONFIRMED HACKS
    Sources:
      - RIKEN notice: https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html
 
-43. Transport for London (Oyster photocards)
+44. Transport for London (Oyster photocards)
    URL: https://hacktracking.com/#transport-for-london-2026-11
    Date: Nov 16, 2026
    Severity: Medium
@@ -535,7 +548,7 @@ CONFIRMED HACKS
      - BBC News: https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o
      - The Independent: https://www.independent.co.uk/news/uk/home-news/oyster-card-tfl-apology-data-breach-b3087538.html
 
-44. KPMG Canada (accounting firm)
+45. KPMG Canada (accounting firm)
    URL: https://hacktracking.com/#kpmg-canada-2026-11
    Date: Nov 18, 2026
    Severity: Medium
@@ -546,7 +559,7 @@ CONFIRMED HACKS
    Sources:
      - The Globe and Mail: https://www.theglobeandmail.com/business/technology/article-kpmg-canada-data-breach-client-files-cyber-attack-november-18/
 
-45. Richmond Public Schools (Virginia)
+46. Richmond Public Schools (Virginia)
    URL: https://hacktracking.com/#richmond-public-schools-2026-10
    Date: Oct 21, 2026
    Severity: Medium
@@ -559,7 +572,7 @@ CONFIRMED HACKS
      - GovTech (Richmond Times-Dispatch): https://www.govtech.com/education/k-12/ransomware-attack-forces-richmond-va-schools-offline
      - Axios Richmond: https://www.axios.com/local/richmond/2026/11/18/rps-cyberattack-teachers-school-security-fallout
 
-46. Canton of Basel-Country administration (Switzerland)
+47. Canton of Basel-Country administration (Switzerland)
    URL: https://hacktracking.com/#canton-of-basel-country-administration-2026-11
    Date: Nov 15, 2026
    Severity: Medium
@@ -570,7 +583,18 @@ CONFIRMED HACKS
    Sources:
      - Swissinfo (Keystone-SDA): https://www.swissinfo.ch/eng/swiss-politics/basel-area-administrative-authorities-hit-by-cyberattacks/92405333
 
-47. ATF (U.S. firearms agency)
+48. Wittenberg-Net (regional internet provider, Germany)
+   URL: https://hacktracking.com/#wittenberg-net-2026-11
+   Date: Nov 18, 2026
+   Severity: Medium
+   Sectors: Telecom, Government
+   Summary: Stadtwerke Wittenberg confirmed that criminals attacked the systems of its regional internet and phone provider Wittenberg-Net overnight into Wednesday, Nov. 18, causing a widespread outage around Wittenberg in Saxony-Anhalt. All relevant systems were taken offline as a precaution.
+   Impact: About 8,000 households and many public facilities, including the Wittenberg city and district administrations, temporarily lost landline phone and internet service or had limited service. Most connections are back online; work on some systems continues.
+   Status: Confirmed by Stadtwerke Wittenberg. Recovery ongoing.
+   Sources:
+     - MDR (German): https://www.mdr.de/nachrichten/sachsen-anhalt/dessau/wittenberg/festnetz-internet-102,it-stoerung-100.html
+
+49. ATF (U.S. firearms agency)
    URL: https://hacktracking.com/#atf-2026-08
    Date: Aug 27, 2026
    Severity: Medium
@@ -582,7 +606,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/
      - The Record: https://therecord.media/doj-atf-cyberattack-qilin-ransomware
 
-48. Japan health ministry drug supply system
+50. Japan health ministry drug supply system
    URL: https://hacktracking.com/#japan-health-ministry-drug-supply-system-2026-11
    Date: Nov 17, 2026
    Severity: Medium
@@ -594,7 +618,7 @@ CONFIRMED HACKS
      - Ministry of Health, Labour and Welfare (Japanese): https://www.mhlw.go.jp/stf/newpage_77515.html
      - Sankei News (Japanese): https://www.sankei.com/article/20261118-BV6UKWJIWFNOVKOIAF6WSQNAD4/
 
-49. Digital payments firm (Gurugram, India)
+51. Digital payments firm (Gurugram, India)
    URL: https://hacktracking.com/#digital-payments-firm-2026-11
    Date: Nov 5, 2026
    Severity: Medium
@@ -605,7 +629,7 @@ CONFIRMED HACKS
    Sources:
      - Hindustan Times: https://www.hindustantimes.com/cities/gurugram-news/hackers-siphon-off-25-67-crore-from-gurugram-payments-firm-two-held-101795026794149.html
 
-50. J.B. Hunt (trucking)
+52. J.B. Hunt (trucking)
    URL: https://hacktracking.com/#j-b-hunt-2026-10
    Date: Oct 23, 2026
    Severity: Medium
@@ -617,7 +641,7 @@ CONFIRMED HACKS
      - FreightWaves: https://www.freightwaves.com/news/new-cyber-thief-gang-targets-transports-hunt-ryder-and-echo-hit
      - Breach News: https://breachnews.com/ransomware/jb-hunt-ryder-echo-whitearmor-ransomware-claims/
 
-51. M1 (mobile carrier, Singapore)
+53. M1 (mobile carrier, Singapore)
    URL: https://hacktracking.com/#m1-2026-11
    Date: Nov 6, 2026
    Severity: Medium
@@ -628,7 +652,7 @@ CONFIRMED HACKS
    Sources:
      - M1: https://www.m1.com.sg/about-us/news-releases/2026/m1-discloses-data-breach
 
-52. Klue (market research software)
+54. Klue (market research software)
    URL: https://hacktracking.com/#klue-2026-06
    Date: June 2026
    Severity: Medium
@@ -640,7 +664,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/
      - HackerOne advisory: https://www.hackerone.com/security-updates/klue-2026-06
 
-53. Apify (web scraping platform)
+55. Apify (web scraping platform)
    URL: https://hacktracking.com/#apify-2026-11
    Date: Nov 9, 2026
    Severity: Medium
@@ -651,7 +675,7 @@ CONFIRMED HACKS
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/
 
-54. Myriad Genetics (genetic testing)
+56. Myriad Genetics (genetic testing)
    URL: https://hacktracking.com/#myriad-genetics-2026-11
    Date: Nov 2, 2026
    Severity: Medium
@@ -663,7 +687,7 @@ CONFIRMED HACKS
      - SEC 8-K filing: https://www.sec.gov/Archives/edgar/data/899923/000162828026070659/mygn-20261102.htm
      - Investing.com: https://www.investing.com/news/sec-filings/myriad-genetics-reports-unauthorized-access-to-it-network-resumes-most-operations-93CH-5004615
 
-55. Star Petroleum Refining (SPRC, Thailand)
+57. Star Petroleum Refining (SPRC, Thailand)
    URL: https://hacktracking.com/#star-petroleum-refining-2026-11
    Date: Nov 18, 2026
    Severity: Medium
@@ -675,7 +699,7 @@ CONFIRMED HACKS
      - Kaohoon International: https://www.kaohooninternational.com/markets/594940
      - Money & Banking Magazine: https://en.moneyandbanking.co.th/2026/288049/
 
-56. OPEN Inc. BizRobo! mini (automation software, Japan)
+58. OPEN Inc. BizRobo! mini (automation software, Japan)
    URL: https://hacktracking.com/#open-inc-bizrobo-mini-2026-11
    Date: Nov 12, 2026
    Severity: Medium
@@ -686,7 +710,7 @@ CONFIRMED HACKS
    Sources:
      - OPEN Inc. notice (Japanese): https://open.co.jp/blog/202611181500/
 
-57. Openlogi (shipping and fulfillment service, Japan)
+59. Openlogi (shipping and fulfillment service, Japan)
    URL: https://hacktracking.com/#openlogi-2026-11
    Date: Nov 8, 2026
    Severity: Medium
@@ -698,7 +722,7 @@ CONFIRMED HACKS
      - Openlogi notice (Japanese): https://corp.openlogi.com/news/notice-20261111/
      - Kashima Antlers notice: https://www.antlers.co.jp/en-world/blogs/news/261118ytxj2u
 
-58. Uber drivers (via Fireworks AI)
+60. Uber drivers (via Fireworks AI)
    URL: https://hacktracking.com/#uber-drivers-2026-10
    Date: Oct 9, 2026
    Severity: Medium
@@ -710,7 +734,7 @@ CONFIRMED HACKS
      - TechCrunch (Uber): https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/
      - TechCrunch (Fireworks/Notion): https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
 
-59. Cursor (code editor, via Fireworks AI)
+61. Cursor (code editor, via Fireworks AI)
    URL: https://hacktracking.com/#cursor-2026-10
    Date: Oct 29, 2026
    Severity: Medium
@@ -721,7 +745,7 @@ CONFIRMED HACKS
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/
 
-60. StubHub International (ticket resale)
+62. StubHub International (ticket resale)
    URL: https://hacktracking.com/#stubhub-international-2026-11
    Date: Nov 18, 2026
    Severity: Medium
@@ -732,7 +756,7 @@ CONFIRMED HACKS
    Sources:
      - The Register: https://www.theregister.com/cyber-crime/2026/11/18/stubhub-international-warns-customer-data-may-have-left-the-venue/5310775
 
-61. Ethiopian Airlines
+63. Ethiopian Airlines
    URL: https://hacktracking.com/#ethiopian-airlines-2026-11
    Date: Nov 18, 2026
    Severity: Medium
@@ -743,7 +767,7 @@ CONFIRMED HACKS
    Sources:
      - TechCabal: https://techcabal.com/2026/11/18/ethiopian-airlines-reports-cyberattack/
 
-62. Fandango (movie tickets)
+64. Fandango (movie tickets)
    URL: https://hacktracking.com/#fandango-2026-10
    Date: Oct 8, 2026
    Severity: Medium
@@ -754,7 +778,7 @@ CONFIRMED HACKS
    Sources:
      - BleepingComputer: https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/
 
-63. Infoblox (network security company)
+65. Infoblox (network security company)
    URL: https://hacktracking.com/#infoblox-2026-11
    Date: Nov 16, 2026
    Severity: Medium
@@ -766,7 +790,7 @@ CONFIRMED HACKS
      - TechCrunch: https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/
      - TechRadar: https://www.techradar.com/pro/security/infoblox-confirms-company-and-customer-data-exposed-in-sharepoint-breach
 
-64. Meetsmore (service booking platform, Japan)
+66. Meetsmore (service booking platform, Japan)
    URL: https://hacktracking.com/#meetsmore-2026-11
    Date: Nov 11, 2026
    Severity: Medium
@@ -777,7 +801,7 @@ CONFIRMED HACKS
    Sources:
      - Meetsmore notice (Japanese): https://company.meetsmore.com/page/notice-20261116
 
-65. Lyko (beauty retailer, Sweden)
+67. Lyko (beauty retailer, Sweden)
    URL: https://hacktracking.com/#lyko-2026-11
    Date: Nov 12, 2026
    Severity: Medium
@@ -789,7 +813,7 @@ CONFIRMED HACKS
      - Lyko press release (PDF): https://storage.mfn.se/d6ebc8eb-0ad4-4a6b-8b5f-12ea0d0050bb/lyko-has-addressed-a-data-breach-in-a-limited-part-of-its-system.pdf
      - SVT Nyheter (Swedish): https://www.svt.se/nyheter/inrikes/lyko-hackat-kundernas-personuppgifter-har-stulits
 
-66. Monadnock Community Hospital (New Hampshire)
+68. Monadnock Community Hospital (New Hampshire)
    URL: https://hacktracking.com/#monadnock-community-hospital-2026-11
    Date: Nov 9, 2026
    Severity: Medium
@@ -800,7 +824,7 @@ CONFIRMED HACKS
    Sources:
      - Monadnock Ledger-Transcript: https://ledgertranscript.com/2026/11/17/monadnock-community-hospital-cyber-incident/
 
-67. University of Texas at Arlington
+69. University of Texas at Arlington
    URL: https://hacktracking.com/#university-of-texas-at-arlington-2026-10
    Date: Oct 26, 2026
    Severity: Medium
@@ -812,7 +836,7 @@ CONFIRMED HACKS
      - The Record: https://therecord.media/university-of-texas-arlington-warns-data-breach
      - The Shorthorn: https://www.theshorthorn.com/news/campus/uta-cybersecurity-investigation-finds-that-personal-information-was-accessed/article_1807ba67-877b-419f-9810-da2c32afa187.html
 
-68. Charleston County Government (South Carolina)
+70. Charleston County Government (South Carolina)
    URL: https://hacktracking.com/#charleston-county-government-2026-11
    Date: Nov 16, 2026
    Severity: Medium
@@ -823,7 +847,7 @@ CONFIRMED HACKS
    Sources:
      - Moultrie News / Post and Courier: https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html
 
-69. City of South Portland (Maine)
+71. City of South Portland (Maine)
    URL: https://hacktracking.com/#city-of-south-portland-2026-11
    Date: Nov 14, 2026
    Severity: Medium
@@ -834,7 +858,7 @@ CONFIRMED HACKS
    Sources:
      - City of South Portland: https://www.southportland.gov/m/newsflash/Home/Detail/619
 
-70. Ukraine air raid alert app
+72. Ukraine air raid alert app
    URL: https://hacktracking.com/#ukraine-air-raid-alert-app-2026-11
    Date: Nov 1, 2026
    Severity: Medium
@@ -845,7 +869,7 @@ CONFIRMED HACKS
    Sources:
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
 
-71. The Kyiv Independent (news outlet)
+73. The Kyiv Independent (news outlet)
    URL: https://hacktracking.com/#the-kyiv-independent-2026-11
    Date: Nov 4, 2026
    Severity: Medium
@@ -857,7 +881,7 @@ CONFIRMED HACKS
      - The Kyiv Independent: https://kyivindependent.com/kyiv-independent-hit-by-suspected-russian-cyberattack/
      - Ukrainska Pravda: https://www.pravda.com.ua/eng/news/2026/11/04/8061264/
 
-72. SPH Media (news publisher, Singapore)
+74. SPH Media (news publisher, Singapore)
    URL: https://hacktracking.com/#sph-media-2026-11
    Date: Nov 4, 2026
    Severity: Medium
@@ -869,7 +893,7 @@ CONFIRMED HACKS
      - SPH Media statement: https://www.sph.com.sg/media-centre/media-releases/media-statement-sph-cybersecurity-incident/
      - The Straits Times: https://www.straitstimes.com/singapore/politics/sph-media-hit-by-cyberattacks-no-payment-card-details-or-financial-information-compromised
 
-73. Jeonbuk Office of Education school bus system (South Korea)
+75. Jeonbuk Office of Education school bus system (South Korea)
    URL: https://hacktracking.com/#jeonbuk-office-of-education-school-bus-system-2026-11
    Date: Nov 15, 2026
    Severity: Low
@@ -880,7 +904,7 @@ CONFIRMED HACKS
    Sources:
      - Yonhap News (Korean): https://www.yna.co.kr/view/AKR20261119087900055
 
-74. The Japan Times (news outlet)
+76. The Japan Times (news outlet)
    URL: https://hacktracking.com/#the-japan-times-2026-09
    Date: Sep 18, 2026
    Severity: Low
@@ -891,7 +915,7 @@ CONFIRMED HACKS
    Sources:
      - The Japan Times notice: https://www.japantimes.co.jp/press/2026/10/19/notice-ransomware-incident-second-report/
 
-75. Nikkei (via PLAID KARTE marketing service)
+77. Nikkei (via PLAID KARTE marketing service)
    URL: https://hacktracking.com/#nikkei-2026-11
    Date: Nov 15, 2026
    Severity: Low
@@ -902,7 +926,7 @@ CONFIRMED HACKS
    Sources:
      - Nikkei announcement: https://www.nikkei.co.jp/nikkeiinfo/en/news/announcements/1576.html
 
-76. Ipsos (market research)
+78. Ipsos (market research)
    URL: https://hacktracking.com/#ipsos-2026-11
    Date: Nov 11, 2026
    Severity: Low
@@ -913,7 +937,7 @@ CONFIRMED HACKS
    Sources:
      - Ipsos statement: https://www.ipsos.com/en/ipsos-announced-it-filed-complaint-regarding-breach-one-its-internal-systems
 
-77. SOFT99 (car care products, Japan)
+79. SOFT99 (car care products, Japan)
    URL: https://hacktracking.com/#soft99-2026-11
    Date: Nov 17, 2026
    Severity: Low
@@ -924,7 +948,7 @@ CONFIRMED HACKS
    Sources:
      - Japan IR (SOFT99 disclosure): https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/
 
-78. Air Botswana
+80. Air Botswana
    URL: https://hacktracking.com/#air-botswana-2026-11
    Date: Nov 3, 2026
    Severity: Low
@@ -936,7 +960,7 @@ CONFIRMED HACKS
      - ITWeb Africa: https://itweb.africa/article/air-botswana-probes-suspected-cyberattack/GxwQDq1DLy8MlPVo
      - CIO Africa: https://cioafrica.co/air-botswana-reports-suspected-ransomware-attack-on-internal-systems/
 
-79. Wilmington School District 209U (Illinois)
+81. Wilmington School District 209U (Illinois)
    URL: https://hacktracking.com/#wilmington-school-district-209u-2026-11
    Date: Nov 17, 2026
    Severity: Low
@@ -1070,15 +1094,15 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 16, 2026
    Severity: High
    Sectors: Finance
-   Summary: Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; that is an unverified attacker claim.
+   Summary: Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; on Nov. 19 the bank confirmed a separate attack on its vendors, which it says is unrelated to the outage.
    What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.
-   Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Asked about the gang's claim, the bank said there is no evidence linking the disruption to a cyberattack.
+   Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. On Nov. 19 the bank confirmed a separate cyberattack on third-party vendors (see the confirmed list) and said there is "no connection" between it and the service disruption.
    Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase.
    Status: Company explanation given. No evidence of a hack.
    Sources:
      - POLITICO: https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592
      - CNBC: https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html
-     - Cybernews: https://cybernews.com/security/visa-jpmorgan-data-breach/
+     - Reuters via CNA: https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201
 
 10. Verizon nationwide wireless outage
    URL: https://hacktracking.com/#verizon-nationwide-wireless-outage-2026-01

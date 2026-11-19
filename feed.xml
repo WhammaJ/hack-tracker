@@ -8,6 +8,16 @@
 <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>JPMorgan Chase (via third-party vendors) — Confirmed Hack</title>
+<link>https://hacktracking.com/#jpmorgan-chase-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program. Impact: JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week. Status: Vendor attack confirmed by JPMorgan Chase. Investigation ongoing; the gang's wider claims are unverified. Sources: Reuters via CNA (https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201); Cybernews (https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+</item>
+<item>
 <title>KPMG Canada (accounting firm) — Confirmed Hack</title>
 <link>https://hacktracking.com/#kpmg-canada-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#kpmg-canada-2026-11</guid>
@@ -17,6 +27,17 @@
 <category>Medium</category>
 <category>Finance</category>
 <category>Business</category>
+</item>
+<item>
+<title>Wittenberg-Net (regional internet provider, Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#wittenberg-net-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#wittenberg-net-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Stadtwerke Wittenberg confirmed that criminals attacked the systems of its regional internet and phone provider Wittenberg-Net overnight into Wednesday, Nov. 18, causing a widespread outage around Wittenberg in Saxony-Anhalt. All relevant systems were taken offline as a precaution. Impact: About 8,000 households and many public facilities, including the Wittenberg city and district administrations, temporarily lost landline phone and internet service or had limited service. Most connections are back online; work on some systems continues. Status: Confirmed by Stadtwerke Wittenberg. Recovery ongoing. Sources: MDR (German) (https://www.mdr.de/nachrichten/sachsen-anhalt/dessau/wittenberg/festnetz-internet-102,it-stoerung-100.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Telecom</category>
+<category>Government</category>
 </item>
 <item>
 <title>Star Petroleum Refining (SPRC, Thailand) — Confirmed Hack</title>
@@ -84,7 +105,7 @@
 <link>https://hacktracking.com/#visa-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#visa-2026-11</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-<description>A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. What the gang claims to have taken has not been shown. Status: Third-party incident confirmed by Visa. Gang's data claims unverified. Sources: Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/); CISO Brief (https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/)</description>
+<description>A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific. Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details. Status: Third-party incident confirmed by Visa. Gang has published data; its larger claims are unverified. Sources: Cybernews (data leak) (https://cybernews.com/security/visa-card-data-breach/); Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/); CISO Brief (https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/)</description>
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
@@ -232,7 +253,7 @@
 <link>https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</guid>
 <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-<description>Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; that is an unverified attacker claim. What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Asked about the gang's claim, the bank said there is no evidence linking the disruption to a cyberattack. Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Status: Company explanation given. No evidence of a hack. Sources: POLITICO (https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592); CNBC (https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html); Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/)</description>
+<description>Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; on Nov. 19 the bank confirmed a separate attack on its vendors, which it says is unrelated to the outage. What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages. Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. On Nov. 19 the bank confirmed a separate cyberattack on third-party vendors (see the confirmed list) and said there is "no connection" between it and the service disruption. Impact: Delayed transactions and online banking problems; some other banks affected when dealing with Chase. Status: Company explanation given. No evidence of a hack. Sources: POLITICO (https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592); CNBC (https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html); Reuters via CNA (https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201)</description>
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Finance</category>

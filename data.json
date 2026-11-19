@@ -130,15 +130,15 @@
       "date": "2026-11-16",
       "sectors": ["Finance"],
       "severity": "High",
-      "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; that is an unverified attacker claim.",
+      "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; on Nov. 19 the bank confirmed a separate attack on its vendors, which it says is unrelated to the outage.",
       "speculation": "A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.",
-      "official": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. Asked about the gang's claim, the bank said there is no evidence linking the disruption to a cyberattack.",
+      "official": "Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. On Nov. 19 the bank confirmed a separate cyberattack on third-party vendors (see the confirmed list) and said there is \"no connection\" between it and the service disruption.",
       "impact": "Delayed transactions and online banking problems; some other banks affected when dealing with Chase.",
       "status": "Company explanation given. No evidence of a hack.",
       "sources": [
         {"name": "POLITICO", "url": "https://www.politico.com/news/2026/11/16/jpmorgan-chase-banking-outage-software-bug-01168592"},
         {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"},
-        {"name": "Cybernews", "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/"}
+        {"name": "Reuters via CNA", "url": "https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201"}
       ]
     },
     {
@@ -568,12 +568,26 @@
       "date": "2026-11-17",
       "sectors": ["Finance"],
       "severity": "High",
-      "summary": "A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region.",
-      "impact": "Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. What the gang claims to have taken has not been shown.",
-      "status": "Third-party incident confirmed by Visa. Gang's data claims unverified.",
+      "summary": "A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific.",
+      "impact": "Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details.",
+      "status": "Third-party incident confirmed by Visa. Gang has published data; its larger claims are unverified.",
       "sources": [
+        {"name": "Cybernews (data leak)", "url": "https://cybernews.com/security/visa-card-data-breach/"},
         {"name": "Cybernews", "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/"},
         {"name": "CISO Brief", "url": "https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/"}
+      ]
+    },
+    {
+      "org": "JPMorgan Chase (via third-party vendors)",
+      "date": "2026-11-19",
+      "sectors": ["Finance"],
+      "severity": "High",
+      "summary": "JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program.",
+      "impact": "JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week.",
+      "status": "Vendor attack confirmed by JPMorgan Chase. Investigation ongoing; the gang's wider claims are unverified.",
+      "sources": [
+        {"name": "Reuters via CNA", "url": "https://www.channelnewsasia.com/business/jpmorgan-says-third-party-vendors-targeted-in-cyberattack-6566201"},
+        {"name": "Cybernews", "url": "https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/"}
       ]
     },
     {
@@ -887,6 +901,18 @@
       "status": "Confirmed by the Cantonal Chancellery. Recovery ongoing.",
       "sources": [
         {"name": "Swissinfo (Keystone-SDA)", "url": "https://www.swissinfo.ch/eng/swiss-politics/basel-area-administrative-authorities-hit-by-cyberattacks/92405333"}
+      ]
+    },
+    {
+      "org": "Wittenberg-Net (regional internet provider, Germany)",
+      "date": "2026-11-18",
+      "sectors": ["Telecom", "Government"],
+      "severity": "Medium",
+      "summary": "Stadtwerke Wittenberg confirmed that criminals attacked the systems of its regional internet and phone provider Wittenberg-Net overnight into Wednesday, Nov. 18, causing a widespread outage around Wittenberg in Saxony-Anhalt. All relevant systems were taken offline as a precaution.",
+      "impact": "About 8,000 households and many public facilities, including the Wittenberg city and district administrations, temporarily lost landline phone and internet service or had limited service. Most connections are back online; work on some systems continues.",
+      "status": "Confirmed by Stadtwerke Wittenberg. Recovery ongoing.",
+      "sources": [
+        {"name": "MDR (German)", "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/dessau/wittenberg/festnetz-internet-102,it-stoerung-100.html"}
       ]
     },
     {
