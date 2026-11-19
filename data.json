@@ -308,6 +308,24 @@
       ]
     },
     {
+      "org": "U.S. Department of Agriculture applications",
+      "date": "2026-11-16",
+      "sectors": [
+        "Government",
+        "Agriculture"
+      ],
+      "severity": "High",
+      "summary": "Many USDA applications, including financial tools used for payments to farmers, have been offline over several days. Nextgov/FCW and Government Executive report an internal USDA email saying its security operations center \"uncovered a security incident\" that required resetting all database passwords and applications. Some staff have also had VPN problems.",
+      "impact": "Staff unable to reach client-facing applications for loan and aid notices and statuses; intermittent outages expected through the week. Not known who was behind it or whether any data was taken.",
+      "status": "USDA has not publicly commented. Cause and scope not officially disclosed.",
+      "sources": [
+        {
+          "name": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
+        }
+      ]
+    },
+    {
       "org": "Nvidia (ransomware gang claim)",
       "date": "2026-11-18",
       "sectors": [
@@ -1884,8 +1902,8 @@
         "Retail"
       ],
       "severity": "Medium",
-      "summary": "An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops and REALITY Studios have since warned their customers.",
-      "impact": "Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people. No credit card numbers.",
+      "summary": "An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops, REALITY Studios, Toei Animation's online lottery shop and Calpis's butter online shop have since warned their customers.",
+      "impact": "Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people and Toei Animation 3,358. No credit card numbers.",
       "status": "Confirmed by Openlogi and client companies. Access route blocked Nov. 9.",
       "sources": [
         {
@@ -1895,6 +1913,28 @@
         {
           "name": "Kashima Antlers notice",
           "url": "https://www.antlers.co.jp/en-world/blogs/news/261118ytxj2u"
+        },
+        {
+          "name": "Toei Animation notice (Japanese)",
+          "url": "https://corp.toei-anim.co.jp/ja/press/press815000909226104953.html"
+        }
+      ]
+    },
+    {
+      "org": "Atlas Confit (academic conference system, Japan)",
+      "date": "2026-11-12",
+      "sectors": [
+        "Tech",
+        "Education"
+      ],
+      "severity": "Medium",
+      "summary": "Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see.",
+      "impact": "About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data.",
+      "status": "Confirmed by Atlas. Temporary block in place since Nov. 12, permanent fix expected Nov. 20; reported to police and Japan's privacy regulator.",
+      "sources": [
+        {
+          "name": "Atlas notice (Japanese)",
+          "url": "https://www.atlas.jp/news/2026-11-19"
         }
       ]
     },
@@ -2294,6 +2334,41 @@
         {
           "name": "Japan IR (SOFT99 disclosure)",
           "url": "https://japanir.jp/en/company/company-4464/ir/4464-20261117-01_wp_disclosure_update/"
+        }
+      ]
+    },
+    {
+      "org": "Kyash (payments app, Japan)",
+      "date": "2026-10-28",
+      "sectors": [
+        "Finance"
+      ],
+      "severity": "Low",
+      "summary": "Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed.",
+      "impact": "Up to 11,996 customers: internal IDs, plus account status and some payment merchant, date and amount details for most of them, and login, top-up or transfer history, device IDs or IP addresses for 310. No names, addresses, phone numbers, emails, card or bank details, or passwords.",
+      "status": "Confirmed by Kyash. Affected customers being emailed.",
+      "sources": [
+        {
+          "name": "Kyash notice (Japanese)",
+          "url": "https://www.kyash.co/information/20261119"
+        }
+      ]
+    },
+    {
+      "org": "Steinberg (music software accounts)",
+      "date": "2026-11-19",
+      "sectors": [
+        "Tech",
+        "Consumer"
+      ],
+      "severity": "Low",
+      "summary": "Steinberg, maker of the Cubase music software, says attackers used email and password pairs likely leaked from other, unrelated breaches to break into a limited number of Steinberg accounts (credential stuffing).",
+      "impact": "A limited number of accounts accessed; no count given. Steinberg found no sign account data was changed or software licenses moved or deleted, and accounts with two-factor authentication were not affected. Its own credential database was not compromised.",
+      "status": "Confirmed by Steinberg. Passwords of affected accounts reset; customers being notified.",
+      "sources": [
+        {
+          "name": "Steinberg security notice (German)",
+          "url": "https://helpcenter.steinberg.de/hc/de/articles/40717966955538-Sicherheitshinweis-zu-Steinberg-Konten"
         }
       ]
     },

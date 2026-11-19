@@ -39,6 +39,17 @@
 <category>Business</category>
 </item>
 <item>
+<title>Steinberg (music software accounts) — Confirmed Hack</title>
+<link>https://hacktracking.com/#steinberg-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#steinberg-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Steinberg, maker of the Cubase music software, says attackers used email and password pairs likely leaked from other, unrelated breaches to break into a limited number of Steinberg accounts (credential stuffing). Impact: A limited number of accounts accessed; no count given. Steinberg found no sign account data was changed or software licenses moved or deleted, and accounts with two-factor authentication were not affected. Its own credential database was not compromised. Status: Confirmed by Steinberg. Passwords of affected accounts reset; customers being notified. Sources: Steinberg security notice (German) (https://helpcenter.steinberg.de/hc/de/articles/40717966955538-Sicherheitshinweis-zu-Steinberg-Konten)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Tech</category>
+<category>Consumer</category>
+</item>
+<item>
 <title>USEN-ALMEX PreCheck-in (hotel online check-in service, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#usen-almex-precheck-in-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#usen-almex-precheck-in-2026-11</guid>
@@ -333,6 +344,17 @@
 <category>Finance</category>
 </item>
 <item>
+<title>U.S. Department of Agriculture applications — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#u-s-department-of-agriculture-applications-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#u-s-department-of-agriculture-applications-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>Many USDA applications, including financial tools used for payments to farmers, have been offline over several days. Nextgov/FCW and Government Executive report an internal USDA email saying its security operations center "uncovered a security incident" that required resetting all database passwords and applications. Some staff have also had VPN problems. Impact: Staff unable to reach client-facing applications for loan and aid notices and statuses; intermittent outages expected through the week. Not known who was behind it or whether any data was taken. Status: USDA has not publicly commented. Cause and scope not officially disclosed. Sources: Nextgov/FCW (https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/)</description>
+<category>Speculated / Potential Hack</category>
+<category>High</category>
+<category>Government</category>
+<category>Agriculture</category>
+</item>
+<item>
 <title>United Airlines system outage — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#united-airlines-system-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#united-airlines-system-outage-2026-11</guid>
@@ -472,6 +494,17 @@
 <category>Tech</category>
 </item>
 <item>
+<title>Atlas Confit (academic conference system, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#atlas-confit-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#atlas-confit-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see. Impact: About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data. Status: Confirmed by Atlas. Temporary block in place since Nov. 12, permanent fix expected Nov. 20; reported to police and Japan's privacy regulator. Sources: Atlas notice (Japanese) (https://www.atlas.jp/news/2026-11-19)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+<category>Education</category>
+</item>
+<item>
 <title>Lyko (beauty retailer, Sweden) — Confirmed Hack</title>
 <link>https://hacktracking.com/#lyko-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#lyko-2026-11</guid>
@@ -570,7 +603,7 @@
 <link>https://hacktracking.com/#openlogi-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#openlogi-2026-11</guid>
 <pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
-<description>An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops and REALITY Studios have since warned their customers. Impact: Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people. No credit card numbers. Status: Confirmed by Openlogi and client companies. Access route blocked Nov. 9. Sources: Openlogi notice (Japanese) (https://corp.openlogi.com/news/notice-20261111/); Kashima Antlers notice (https://www.antlers.co.jp/en-world/blogs/news/261118ytxj2u)</description>
+<description>An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops, REALITY Studios, Toei Animation's online lottery shop and Calpis's butter online shop have since warned their customers. Impact: Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people and Toei Animation 3,358. No credit card numbers. Status: Confirmed by Openlogi and client companies. Access route blocked Nov. 9. Sources: Openlogi notice (Japanese) (https://corp.openlogi.com/news/notice-20261111/); Kashima Antlers notice (https://www.antlers.co.jp/en-world/blogs/news/261118ytxj2u); Toei Animation notice (Japanese) (https://corp.toei-anim.co.jp/ja/press/press815000909226104953.html)</description>
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Logistics</category>
@@ -764,6 +797,16 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>Kyash (payments app, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#kyash-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#kyash-2026-10</guid>
+<pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+<description>Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed. Impact: Up to 11,996 customers: internal IDs, plus account status and some payment merchant, date and amount details for most of them, and login, top-up or transfer history, device IDs or IP addresses for 310. No names, addresses, phone numbers, emails, card or bank details, or passwords. Status: Confirmed by Kyash. Affected customers being emailed. Sources: Kyash notice (Japanese) (https://www.kyash.co/information/20261119)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Finance</category>
 </item>
 <item>
 <title>WS Audiology (hearing aid maker, parent of Widex and Signia) — Confirmed Hack</title>
