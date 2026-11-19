@@ -172,6 +172,22 @@
       ]
     },
     {
+      "org": "Nvidia (ransomware gang claim)",
+      "date": "2026-11-18",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "The Gentlemen ransomware gang listed Nvidia as a victim on its leak site, claiming it would post data soon and giving the company about nine days to pay. It has not posted any samples.",
+      "speculation": "That the gang breached Nvidia and stole its data.",
+      "official": "Nvidia says it is \"investigating an incident that may have affected a third-party partner\" and has \"found no indication that Nvidia systems or networks were affected.\"",
+      "impact": "Unknown. The gang's data claim is unverified.",
+      "status": "Under investigation. No evidence Nvidia's own systems were hacked.",
+      "sources": [
+        {"name": "PCMag", "url": "https://uk.pcmag.com/security/168457/nvidia-probes-breach-of-partner-as-ransomware-group-claims-it-stole-data"},
+        {"name": "Cybernews", "url": "https://cybernews.com/security/nvidia-the-gentlemen-ransomware-attack/"},
+        {"name": "Newsweek", "url": "https://www.newsweek.com/hacking-gentlemen-breach-nvidia-12734362"}
+      ]
+    },
+    {
       "org": "United Airlines system outage",
       "date": "2026-11-16",
       "sectors": ["Aviation"],
@@ -350,11 +366,11 @@
       "sectors": ["Tech", "Finance", "Retail"],
       "severity": "Critical",
       "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since.",
-      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
+      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
       "status": "Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18.",
       "sources": [
         {"name": "MUFG Bank notice (Japanese, PDF)", "url": "https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf"},
-        {"name": "ITmedia NEWS (Japanese)", "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003287/"},
+        {"name": "NTT Solmare notice (Japanese)", "url": "https://www.nttsolmare.com/press/2026/1118.html"},
         {"name": "J.League notice (Japanese)", "url": "https://www.jleague.jp/news/article/35384/"}
       ]
     },
@@ -624,6 +640,34 @@
       ]
     },
     {
+      "org": "Value Design Value Card (prepaid e-money service, Japan)",
+      "date": "2026-10-19",
+      "sectors": ["Finance", "Tech"],
+      "severity": "High",
+      "summary": "Attackers exploited a web-server vulnerability at Value Design, a PayCloud Holdings subsidiary that runs the Value Card house e-money service for retailers, and took card ID numbers, PINs and balance data. On Nov. 18 the company said a second server, for a site it runs for business customers, was also hit on Oct. 19 and payment codes were taken from it.",
+      "impact": "1,424,748 Value Card records (card ID numbers, PINs and balances; 569,224 were issued cards) plus up to about 31,000 payment codes from the second server. The company says no names or other personal details were included; the leaked codes were invalidated Nov. 16.",
+      "status": "Confirmed by Value Design and PayCloud Holdings. Investigation ongoing.",
+      "sources": [
+        {"name": "PayCloud Holdings disclosure, Oct. 23 (Japanese, PDF)", "url": "https://www2.jpx.co.jp/disc/40150/140120261023555340.pdf"},
+        {"name": "Value Design notice, Nov. 18 (Japanese)", "url": "https://www.valuedesign.jp/news/info/20261118"},
+        {"name": "Nikkei (Japanese)", "url": "https://www.nikkei.com/article/DGXZQOUC1898S0Y6A111C2000000/"}
+      ]
+    },
+    {
+      "org": "NTT Solmare Comic Cmoa (e-book store, Japan)",
+      "date": "2026-10-15",
+      "sectors": ["Media", "Retail"],
+      "severity": "High",
+      "summary": "NTT Solmare shut down its Comic Cmoa e-book store on Oct. 15 after detecting possible unauthorized access to its servers, and later confirmed attackers got into its member information system and took data. The store has been brought back in stages, with a full reopening targeted for November.",
+      "impact": "Registration data for 319 members (email, hashed password, nickname, birth date, gender) and up to about 4.2 million records from system log files (email, nickname, birth date, gender; no passwords). No card data or purchase history leaked, the company says.",
+      "status": "Confirmed by NTT Solmare. Service partly restored.",
+      "sources": [
+        {"name": "NTT Solmare report no. 4 (Japanese)", "url": "https://www.nttsolmare.com/press/2026/1021.html"},
+        {"name": "NTT Solmare report no. 3 (Japanese)", "url": "https://www.nttsolmare.com/press/2026/1016-1.html"},
+        {"name": "NTT Solmare KARTE notice, Nov. 18 (Japanese)", "url": "https://www.nttsolmare.com/press/2026/1118.html"}
+      ]
+    },
+    {
       "org": "NTT Docomo (mobile carrier, Japan)",
       "date": "2026-11-04",
       "sectors": ["Telecom", "Consumer"],
@@ -818,6 +862,31 @@
       "sources": [
         {"name": "SEC 8-K filing", "url": "https://www.sec.gov/Archives/edgar/data/899923/000162828026070659/mygn-20261102.htm"},
         {"name": "Investing.com", "url": "https://www.investing.com/news/sec-filings/myriad-genetics-reports-unauthorized-access-to-it-network-resumes-most-operations-93CH-5004615"}
+      ]
+    },
+    {
+      "org": "Star Petroleum Refining (SPRC, Thailand)",
+      "date": "2026-11-18",
+      "sectors": ["Energy"],
+      "severity": "Medium",
+      "summary": "Thai oil refiner Star Petroleum Refining told the Stock Exchange of Thailand it was hit by a cyberattack that gave attackers unauthorized access to company data.",
+      "impact": "Company data accessed; what and how much is still being investigated. SPRC says customer service and operations are not affected, and it can't yet assess any financial impact.",
+      "status": "Confirmed by SPRC. Investigation ongoing.",
+      "sources": [
+        {"name": "Kaohoon International", "url": "https://www.kaohooninternational.com/markets/594940"},
+        {"name": "Money & Banking Magazine", "url": "https://en.moneyandbanking.co.th/2026/288049/"}
+      ]
+    },
+    {
+      "org": "OPEN Inc. BizRobo! mini (automation software, Japan)",
+      "date": "2026-11-12",
+      "sectors": ["Tech"],
+      "severity": "Medium",
+      "summary": "An outside party got into the cloud environment that OPEN Inc. uses to run some of its services on Nov. 12, including the authentication server for its BizRobo! mini automation product. The company spotted a security alert on Nov. 16.",
+      "impact": "Logs show access to authentication IDs and passwords for about 560 customer companies (about 1,000 accounts). Other servers in the same environment were also accessed; impact on stored data is under investigation.",
+      "status": "Confirmed by OPEN Inc. Affected server isolated; emergency maintenance set for Nov. 21.",
+      "sources": [
+        {"name": "OPEN Inc. notice (Japanese)", "url": "https://open.co.jp/blog/202611181500/"}
       ]
     },
     {

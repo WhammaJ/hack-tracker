@@ -19,6 +19,16 @@
 <category>Business</category>
 </item>
 <item>
+<title>Star Petroleum Refining (SPRC, Thailand) — Confirmed Hack</title>
+<link>https://hacktracking.com/#star-petroleum-refining-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#star-petroleum-refining-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Thai oil refiner Star Petroleum Refining told the Stock Exchange of Thailand it was hit by a cyberattack that gave attackers unauthorized access to company data. Impact: Company data accessed; what and how much is still being investigated. SPRC says customer service and operations are not affected, and it can't yet assess any financial impact. Status: Confirmed by SPRC. Investigation ongoing. Sources: Kaohoon International (https://www.kaohooninternational.com/markets/594940); Money &amp; Banking Magazine (https://en.moneyandbanking.co.th/2026/288049/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Energy</category>
+</item>
+<item>
 <title>StubHub International (ticket resale) — Confirmed Hack</title>
 <link>https://hacktracking.com/#stubhub-international-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#stubhub-international-2026-11</guid>
@@ -37,6 +47,16 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Aviation</category>
+</item>
+<item>
+<title>Nvidia (ransomware gang claim) — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#nvidia-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#nvidia-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>The Gentlemen ransomware gang listed Nvidia as a victim on its leak site, claiming it would post data soon and giving the company about nine days to pay. It has not posted any samples. What people speculated: That the gang breached Nvidia and stole its data. Official explanation: Nvidia says it is "investigating an incident that may have affected a third-party partner" and has "found no indication that Nvidia systems or networks were affected." Impact: Unknown. The gang's data claim is unverified. Status: Under investigation. No evidence Nvidia's own systems were hacked. Sources: PCMag (https://uk.pcmag.com/security/168457/nvidia-probes-breach-of-partner-as-ransomware-group-claims-it-stole-data); Cybernews (https://cybernews.com/security/nvidia-the-gentlemen-ransomware-attack/); Newsweek (https://www.newsweek.com/hacking-gentlemen-breach-nvidia-12734362)</description>
+<category>Speculated / Potential Hack</category>
+<category>Medium</category>
+<category>Tech</category>
 </item>
 <item>
 <title>Equinor (energy company, Norway) — Confirmed Hack</title>
@@ -231,7 +251,7 @@
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); ITmedia NEWS (Japanese) (https://www.itmedia.co.jp/news/article/2611/18/2000003287/); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); NTT Solmare notice (Japanese) (https://www.nttsolmare.com/press/2026/1118.html); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -282,6 +302,16 @@
 <category>High</category>
 <category>Research</category>
 <category>Government</category>
+</item>
+<item>
+<title>OPEN Inc. BizRobo! mini (automation software, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#open-inc-bizrobo-mini-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#open-inc-bizrobo-mini-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>An outside party got into the cloud environment that OPEN Inc. uses to run some of its services on Nov. 12, including the authentication server for its BizRobo! mini automation product. The company spotted a security alert on Nov. 16. Impact: Logs show access to authentication IDs and passwords for about 560 customer companies (about 1,000 accounts). Other servers in the same environment were also accessed; impact on stored data is under investigation. Status: Confirmed by OPEN Inc. Affected server isolated; emergency maintenance set for Nov. 21. Sources: OPEN Inc. notice (Japanese) (https://open.co.jp/blog/202611181500/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
 </item>
 <item>
 <title>Lyko (beauty retailer, Sweden) — Confirmed Hack</title>
@@ -538,6 +568,17 @@
 <category>Government</category>
 </item>
 <item>
+<title>Value Design Value Card (prepaid e-money service, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#value-design-value-card-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#value-design-value-card-2026-10</guid>
+<pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+<description>Attackers exploited a web-server vulnerability at Value Design, a PayCloud Holdings subsidiary that runs the Value Card house e-money service for retailers, and took card ID numbers, PINs and balance data. On Nov. 18 the company said a second server, for a site it runs for business customers, was also hit on Oct. 19 and payment codes were taken from it. Impact: 1,424,748 Value Card records (card ID numbers, PINs and balances; 569,224 were issued cards) plus up to about 31,000 payment codes from the second server. The company says no names or other personal details were included; the leaked codes were invalidated Nov. 16. Status: Confirmed by Value Design and PayCloud Holdings. Investigation ongoing. Sources: PayCloud Holdings disclosure, Oct. 23 (Japanese, PDF) (https://www2.jpx.co.jp/disc/40150/140120261023555340.pdf); Value Design notice, Nov. 18 (Japanese) (https://www.valuedesign.jp/news/info/20261118); Nikkei (Japanese) (https://www.nikkei.com/article/DGXZQOUC1898S0Y6A111C2000000/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Tech</category>
+</item>
+<item>
 <title>ConnectWise (IT management software) — Confirmed Hack</title>
 <link>https://hacktracking.com/#connectwise-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#connectwise-2026-10</guid>
@@ -546,6 +587,17 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
+</item>
+<item>
+<title>NTT Solmare Comic Cmoa (e-book store, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ntt-solmare-comic-cmoa-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#ntt-solmare-comic-cmoa-2026-10</guid>
+<pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+<description>NTT Solmare shut down its Comic Cmoa e-book store on Oct. 15 after detecting possible unauthorized access to its servers, and later confirmed attackers got into its member information system and took data. The store has been brought back in stages, with a full reopening targeted for November. Impact: Registration data for 319 members (email, hashed password, nickname, birth date, gender) and up to about 4.2 million records from system log files (email, nickname, birth date, gender; no passwords). No card data or purchase history leaked, the company says. Status: Confirmed by NTT Solmare. Service partly restored. Sources: NTT Solmare report no. 4 (Japanese) (https://www.nttsolmare.com/press/2026/1021.html); NTT Solmare report no. 3 (Japanese) (https://www.nttsolmare.com/press/2026/1016-1.html); NTT Solmare KARTE notice, Nov. 18 (Japanese) (https://www.nttsolmare.com/press/2026/1118.html)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Media</category>
+<category>Retail</category>
 </item>
 <item>
 <title>Uber drivers (via Fireworks AI) — Confirmed Hack</title>
