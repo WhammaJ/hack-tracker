@@ -50,6 +50,17 @@
 <category>Business</category>
 </item>
 <item>
+<title>Mitsui Shopping Park app (Mitsui Fudosan, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#mitsui-shopping-park-app-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#mitsui-shopping-park-app-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Mitsui Fudosan and Mitsui Fudosan Retail Management said a third party gained unauthorized access to the Mitsui Shopping Park app and leaked part of its point-program member data. They found the access on Nov. 18 and suspended the app the same day. Impact: Member numbers, names, birth dates, addresses and email addresses. The companies say card data and passwords were not included; the number of affected members is still under investigation. Status: Confirmed by Mitsui Fudosan. App suspended; regulator notified; intrusion route under investigation. Sources: Mitsui Fudosan notice (Japanese, PDF) (https://www.mitsuifudosan.co.jp/corporate/news/2026/1119/download/sonota/20261119.pdf); Yomiuri Shimbun (Japanese) (https://www.yomiuri.co.jp/economy/20261119-GYT1T00326/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
+<category>Consumer</category>
+</item>
+<item>
 <title>KPMG Canada (accounting firm) — Confirmed Hack</title>
 <link>https://hacktracking.com/#kpmg-canada-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#kpmg-canada-2026-11</guid>
@@ -175,6 +186,16 @@
 <category>Education</category>
 </item>
 <item>
+<title>International Ice Hockey Federation (IIHF) website — Confirmed Hack</title>
+<link>https://hacktracking.com/#international-ice-hockey-federation-website-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#international-ice-hockey-federation-website-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Hackers replaced the IIHF's homepage with a pro-Russian image and message criticizing Russia's exclusion from international competition. The image was reportedly up for several minutes before the site was taken offline. Impact: Website defaced and then kept offline for restoration. No data theft has been reported. Status: Confirmed by the IIHF. Investigation ongoing; attackers not identified. Sources: The Record (https://therecord.media/russia-hockey-cyberattack-championships)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Sports</category>
+</item>
+<item>
 <title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#apple-services-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#apple-services-outage-2026-11</guid>
@@ -190,7 +211,7 @@
 <link>https://hacktracking.com/#nsa-classified-network-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-<description>The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages. What people speculated: An attack on a U.S. intelligence network. Official explanation: The NSA described it as scheduled maintenance; news reports say it happened during a software update to patch the system, with no evidence of a cyberattack. At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages. Impact: Temporary loss of the agency's internal classified communications network. Status: Official explanation given. No evidence of a hack. Sources: NSA statement (https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/); CBS News (https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/); CBS News (Nov. 18 hearing) (https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/)</description>
+<description>The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages, and was still out on Nov. 19, its third day. What people speculated: An attack on a U.S. intelligence network. Official explanation: The NSA described it as scheduled maintenance. Multiple U.S. officials told CNN it was not a cyberattack and appears tied to the agency's patching of recently disclosed vulnerabilities in PHP software; a senior administration official said the restoration work was going "slower than expected." At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages. Impact: Large parts of the NSA workforce sent home for days, with the headquarters campus closed for most employees until further notice as of Nov. 19 (CNN). The outage also hit NSA Georgia, which supports Middle East operations; officials say the agency's most sensitive intelligence systems kept working and backups were used. Status: Official explanation given. No evidence of a hack. Network still being restored. Sources: NSA statement (https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/); CNN via KESQ (https://kesq.com/news/national-politics/cnn-us-politics/2026/11/19/nsa-outage-disrupts-key-intel-hub-that-supports-middle-east-intelligence-and-operations-sources-say/); CBS News (Nov. 18 hearing) (https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/)</description>
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Government</category>
@@ -248,6 +269,17 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
+</item>
+<item>
+<title>Lighter (crypto exchange) — Confirmed Hack</title>
+<link>https://hacktracking.com/#lighter-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#lighter-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>An attacker drained funds from market-maker accounts on Lighter, a decentralized perpetual futures exchange, after the accounts' API keys were exposed. Lighter says the affected accounts used signing code outside its official software kits that reused cryptographic nonces, letting the attacker rebuild private keys from public signatures and move funds out through a public pool. Impact: Blockchain investigators traced about $10.4 million in USDC withdrawn; other researchers' estimate of $15.5 million is unconfirmed by Lighter. Lighter's security council returned about $5 million to the affected trader. Withdrawals were paused, then resumed the same day. Status: Confirmed by Lighter, which says its protocol, smart contracts, infrastructure and official SDKs were not compromised. Sources: CoinDesk (https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit); Crypto Briefing (https://cryptobriefing.com/lighter-api-key-security-exploit/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Finance</category>
+<category>Crypto</category>
 </item>
 <item>
 <title>Transport for London (Oyster photocards) — Confirmed Hack</title>
@@ -366,7 +398,7 @@
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies announcing leaks as of Nov. 19. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); J.League notice (Japanese) (https://www.jleague.jp/news/article/35384/); NHK (Sharp, Japanese) (https://news.web.nhk/newsweb/na/nd-20261119de78404)</description>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies, including Uniform Next and Mainichi Shimbun, announcing leaks as of Nov. 19. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); NHK (Sharp, Japanese) (https://news.web.nhk/newsweb/na/nd-20261119de78404); Mainichi Shimbun notice (Japanese) (https://www.mainichi.co.jp/info/news/20261119.html)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
@@ -732,6 +764,17 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>WS Audiology (hearing aid maker, parent of Widex and Signia) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ws-audiology-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#ws-audiology-2026-10</guid>
+<pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+<description>WS Audiology said attackers gained unauthorized access to its customer relationship management environment and certain operational IT systems. It took some internal and customer-facing systems offline to contain the incident, disrupting the Widex MOMENT app, Widex Compass Cloud and Signia TeleCare for days. Impact: Hearing aids themselves were not affected, but some users lost app-based controls and clinics lost remote-care tools while systems were restored in phases. On Nov. 18 the CEO said the financial impact would be limited, citing a fast response and cyber insurance. Status: Confirmed by WS Audiology. Systems restored; investigation ongoing. Sources: WS Audiology statement (https://www.wsa.com/press-release/information-about-it-security-incident/); HearingTracker (https://www.hearingtracker.com/news/ws-audiology-investigates-cybersecurity-incident-affecting-it-systems); MedWatch (https://medwatch.com/News/hearing_health/article19847924.ece)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+<category>Manufacturing</category>
 </item>
 <item>
 <title>University of Texas at Arlington — Confirmed Hack</title>
