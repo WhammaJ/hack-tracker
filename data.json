@@ -471,6 +471,55 @@
   ],
   "confirmed": [
     {
+      "org": "Money Forward (fintech, Japan, via Notion and Fireworks AI)",
+      "date": "2026-11-19",
+      "sectors": [
+        "Finance",
+        "Tech"
+      ],
+      "severity": "Low",
+      "summary": "Money Forward said some Notion AI chat records from three of its group companies may have leaked after hackers broke into Fireworks AI, the provider Notion used to process its AI features. Notion told the company on Nov. 10. Money Forward says its own services and systems were not accessed.",
+      "impact": "Personal information on 4,797 customers and business contacts (names, email addresses, internal system IDs) plus some employee names and emails, from chat records created Oct. 5 to 24. No passwords or card data involved; no misuse found.",
+      "status": "Confirmed by Money Forward. Reported to Japan's Personal Information Protection Commission; affected people being notified.",
+      "sources": [
+        {
+          "name": "Money Forward notice (Japanese)",
+          "url": "https://corp.moneyforward.com/news/info/20261119-mf-press-2/"
+        },
+        {
+          "name": "TechCrunch (Fireworks/Notion)",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        }
+      ]
+    },
+    {
+      "org": "Quantum Systems (military drone maker, Germany)",
+      "date": "2026-11-12",
+      "updated": "2026-11-13",
+      "sectors": [
+        "Manufacturing",
+        "Tech"
+      ],
+      "severity": "High",
+      "summary": "Quantum Systems, which builds reconnaissance drones used by Germany's military and Ukraine, said it found an active cyberattack by hostile actors at the end of October. According to Der Spiegel and the Financial Times, attackers planted a malicious file disguised as an update to its QBase mission-planning software on the company's update server; it reached some customer servers, including German military ones, but not the drones.",
+      "impact": "German armed forces grounded their Quantum Systems drones as a precaution and left them out of an exercise; the drones have since returned to flight. The company says there is no risk in operating its systems.",
+      "status": "Confirmed by Quantum Systems. Contained; German military counterintelligence, domestic intelligence and the federal cybersecurity agency are investigating. Attackers not publicly identified.",
+      "sources": [
+        {
+          "name": "Quantum Systems statement",
+          "url": "https://quantum-systems.com/news/cyberattack-defeated/"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/"
+        },
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658"
+        }
+      ]
+    },
+    {
       "org": "Binance (crypto exchange)",
       "date": "2026-10-29",
       "sectors": [

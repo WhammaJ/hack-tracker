@@ -177,6 +177,17 @@
 <category>Retail</category>
 </item>
 <item>
+<title>Money Forward (fintech, Japan, via Notion and Fireworks AI) — Confirmed Hack</title>
+<link>https://hacktracking.com/#money-forward-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#money-forward-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Money Forward said some Notion AI chat records from three of its group companies may have leaked after hackers broke into Fireworks AI, the provider Notion used to process its AI features. Notion told the company on Nov. 10. Money Forward says its own services and systems were not accessed. Impact: Personal information on 4,797 customers and business contacts (names, email addresses, internal system IDs) plus some employee names and emails, from chat records created Oct. 5 to 24. No passwords or card data involved; no misuse found. Status: Confirmed by Money Forward. Reported to Japan's Personal Information Protection Commission; affected people being notified. Sources: Money Forward notice (Japanese) (https://corp.moneyforward.com/news/info/20261119-mf-press-2/); TechCrunch (Fireworks/Notion) (https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Finance</category>
+<category>Tech</category>
+</item>
+<item>
 <title>Kyash (payments app, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#kyash-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#kyash-2026-10</guid>
@@ -543,6 +554,17 @@
 <category>Critical</category>
 <category>Retail</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>Quantum Systems (military drone maker, Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#quantum-systems-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#quantum-systems-2026-11</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Quantum Systems, which builds reconnaissance drones used by Germany's military and Ukraine, said it found an active cyberattack by hostile actors at the end of October. According to Der Spiegel and the Financial Times, attackers planted a malicious file disguised as an update to its QBase mission-planning software on the company's update server; it reached some customer servers, including German military ones, but not the drones. Impact: German armed forces grounded their Quantum Systems drones as a precaution and left them out of an exercise; the drones have since returned to flight. The company says there is no risk in operating its systems. Status: Confirmed by Quantum Systems. Contained; German military counterintelligence, domestic intelligence and the federal cybersecurity agency are investigating. Attackers not publicly identified. Sources: Quantum Systems statement (https://quantum-systems.com/news/cyberattack-defeated/); BleepingComputer (https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/); The Register (https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Manufacturing</category>
+<category>Tech</category>
 </item>
 <item>
 <title>Workday HR platform outage — Speculated / Potential Hack</title>
