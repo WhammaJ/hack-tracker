@@ -19,6 +19,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Critical
    Sectors: Retail, Consumer
+   Countries: JP
    Summary: Japanese online fashion retailer ZOZO says data it kept in KARTE, the PLAID marketing service hacked on Nov. 13, leaked. PLAID's investigation showed on Nov. 15 that part of ZOZO's customer data had been taken from PLAID's databases; ZOZO announced it on Nov. 20.
    Impact: About 15.18 million ZOZOTOWN customers (including former members): internal member IDs, age, gender and postal code; for about 47,000 of them also display names, email addresses and phone numbers. About 13.93 million WEAR by ZOZO members' internal IDs, age and gender. About 24,000 brand staff records (member IDs, company names and names). ZOZO says passwords were not stored in KARTE and no card data leak has been found.
    Status: Confirmed by ZOZO. No secondary damage found so far; affected people being notified.
@@ -32,6 +33,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Critical
    Sectors: Tech, Finance, Retail
+   Countries: JP
    Summary: Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. On Nov. 20 PLAID said about 2,200 client companies in total (counting overlaps) had data leaked or possibly leaked.
    Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. ZOZO: about 15.18 million ZOZOTOWN and 13.93 million WEAR member records (see separate entry). Tokyo Gas also confirmed customer data leaked, with numbers still under investigation. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.
    Status: Confirmed by PLAID and affected companies. PLAID says about 2,200 client companies (2,220 counting overlaps) may be affected, including 570 whose linked customer data may have leaked; it plans to give clients detailed data from Nov. 24, expects to restart KARTE in mid-January, and now forecasts a full-year net loss of about ¥2 billion (Nikkei).
@@ -46,6 +48,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Critical
    Sectors: Tech, Aviation, Finance, Consumer
+   Countries: JP
    Summary: Tokyo-based Yumir Link found on Oct. 16 that attackers had broken into its Cuenote FC bulk email delivery service. It says they exploited a program vulnerability to steal its support staff's credentials, planted malicious programs on servers to pull data straight from databases, and hijacked logged-in customers' sessions to download address lists through the admin screen. Companies that send mail through Cuenote FC have been announcing leaks since late October.
    Impact: Yumir Link says 47,864,147 delivery-list records (counting overlaps; email addresses, plus names, member IDs and other fields for some) were taken from 49 client systems, and 190 contract-holder records in its Cuenote BASE portal were exposed. Clients reporting leaks include JR Central, JR West and JR Kyushu (about 170,000 Smart EX and Express Reservation members), istyle (@cosme, about 2.8 million customers) and Bandai Namco (346,247 Gundam Base members). On Nov. 20 low-cost airline Peach Aviation said 8,997,106 records of names, birth dates, gender, addresses, phone numbers, email addresses and itineraries leaked; no card or passport data.
    Status: Confirmed by Yumir Link and affected clients. Yumir Link says it was not ransomware and most services are running again; final investigation results pending. Peach reported to Japan's privacy regulator and is notifying customers.
@@ -60,6 +63,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Finance, Tech
+   Countries: JP
    Summary: Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients.
    Impact: Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data.
    Status: Confirmed by Infcurion and the Payどん banks. No misuse of the data found so far; investigation ongoing and no restart date set.
@@ -74,6 +78,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Education
+   Countries: KR
    Summary: Jeonju University says its online liberal arts course service (AHA) was hacked at about 11:42 p.m. on Nov. 16. It confirmed the leak about 16 hours later, blocked outside access and reported it to regulators. It came a day after the Jeonbuk education office's school bus system breach.
    Impact: About 180,000 records, including about 25,000 resident registration numbers, of current and former students, staff and old website members. Leaked items include passwords, addresses, phone numbers and disability status.
    Status: Confirmed by Jeonju University. Reported to the Personal Information Protection Commission, KISA and the Ministry of Education.
@@ -86,6 +91,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Healthcare
+   Countries: KR
    Summary: Senior care company Caring says an outside attacker bypassed authentication and got into an internal data lookup tool between Aug. 11 and Sept. 3. It closed the hole on Sept. 4 and at first thought no personal data was viewed, but a later review found the attacker had looked up records using existing accounts. It confirmed the leak on Nov. 17 and reported it to KISA.
    Impact: Elderly clients, guardians, care workers, some job seekers and staff. Names, birth dates, addresses and contact details, long-term care numbers and grades, and for some clients health details such as major illnesses, blood pressure and cognitive function. Some resident registration numbers, account numbers and passwords written in free-text notes also leaked. Total number not disclosed.
    Status: Confirmed by Caring. Affected people being notified; investigation ongoing.
@@ -98,6 +104,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Energy
+   Countries: NO
    Summary: Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it.
    Impact: Some IT systems affected; staff may have trouble reaching corporate apps and IT services. Equinor says there are still no signs data was leaked, the attack did not involve a computer virus, and oil and gas production is running as normal.
    Status: Confirmed by Equinor. On Nov. 20 it said the attack had been stopped, production is running as normal, and there is no indication data was stolen or altered or that employees, partners or suppliers were affected. Reported to police; attackers not named.
@@ -112,6 +119,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Energy, Manufacturing
+   Countries: JP
    Summary: Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. In a second report on Nov. 20 the company said the attacker most likely got in at about 1:30 a.m. on Nov. 15 by getting past the login on its VPN device, probably by trying passwords on an account that did not have multi-factor authentication, and then encrypted some virtual servers. It cut its systems off from outside networks on Nov. 17 and shut down production systems at its Saitama plant and two production subsidiaries.
    Impact: Production and shipment of smart meters and other products suspended at the Saitama R&D and Manufacturing Center, Iwate Osaki Electric and Osaki Platech, with no restart date. On Nov. 19 Osaki found technical information that appears to come from its systems posted on a site believed to belong to the attacker; what else may have leaked is still under investigation. Osaki says its smart meters themselves were not affected and its backups are intact. Financial impact unknown.
    Status: Confirmed by Osaki Electric, which reported it to police. Sankei reports the company was contacted by a party believed to be the attacker and says it will not negotiate. Recovery from backups under way; work to restart in stages once systems are confirmed safe.
@@ -126,6 +134,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Government
+   Countries: JP
    Summary: Japan's Digital Agency says someone other than the intended recipients accessed files on the file-sharing service in its Government Solution Service (GSS), which government agencies use to share large files such as meeting materials with each other and outside parties. It detected the access on Nov. 12, cut the service off from outside networks and stopped it.
    Impact: Access confirmed from July 30 to Nov. 12, 2026. Some uploaded files may have leaked, and the agency says they are expected to include personal information. Number and contents of files not disclosed; no secondary damage confirmed.
    Status: Confirmed by the Digital Agency. Reported to the Personal Information Protection Commission; investigating with police and outside specialists.
@@ -140,6 +149,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Retail, Food
+   Countries: BE, LU, IE, GB, SE
    Summary: In the early hours of Nov. 2, a second wave of attacks hit internet-connected refrigeration controls at supermarkets and food businesses in at least 10 European countries, switching fridges and freezers into defrost mode. Around 40 Delhaize stores in Belgium and Luxembourg and 13 SuperValu stores in Ireland were among those hit, and three British meat suppliers were affected through vulnerable Copeland XWEB controllers.
    Impact: Freezer temperatures reportedly rose as high as 50C, forcing retailers to throw away food. In the UK, the affected meat suppliers' units were empty, so no meat was lost. On Nov. 20 it emerged that a UK government and National Cyber Security Centre operation had quietly fixed a separate vulnerability in RDM refrigeration controllers before it could be exploited in UK stores.
    Status: Confirmed as cyberattacks by affected companies, including Sabcobel (which runs Delhaize's systems) and SuperValu owner Musgrave. Belgian federal prosecutors are investigating. No one has claimed responsibility, and authorities have not attributed this wave.
@@ -154,6 +164,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Education, Research
+   Countries: KR
    Summary: South Korean research university POSTECH says an outside attacker exploited security flaws in its research equipment portal and IT service portal between 12:30 and 3:30 a.m. on Nov. 13, got administrator rights and viewed personal data. The break-in came to light while staff looked into an illegal cryptocurrency mining program found on a lab GPU server.
    Impact: 19,500 university account IDs with encrypted passwords and 478 records of IDs, email addresses and affiliations. On Nov. 20 it found a further 25,551 records (names, emails, departments, positions and office extensions) leaked from its university business portal. No resident registration or passport numbers.
    Status: Confirmed by POSTECH, which forced a password reset for all accounts and reported to the Personal Information Protection Commission and Ministry of Education.
@@ -168,6 +179,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Retail, Consumer
+   Countries: KR
    Summary: Korean online grocer Kurly says an outside attacker got into its systems on Nov. 17 by an abnormal method, stole authentication credentials and used them to reach internal business systems. It blocked the intrusion and reported it to authorities on Nov. 18.
    Impact: Personal data of 10,699 people in its curator (influencer) program: names, user IDs, phone numbers, email addresses and social media details, plus bank account numbers and resident or business registration numbers for some. Membership numbers of two regular customers also leaked.
    Status: Confirmed by Kurly, whose CEO apologized. Offering affected curators 50,000 to 150,000 won and promising full compensation for any resulting losses.
@@ -181,6 +193,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Business, Finance, Retail
+   Countries: KR
    Summary: Meta M, which runs customer service centers for about 150 companies, says an outside party broke into its systems early on Nov. 12, and phone numbers and counseling conversations were viewed or taken from some systems. Clients including crypto exchange Coinone, resale app Bunjang and Mega MGC Coffee have reported leaks.
    Impact: Varies by client. Coinone says up to 11 kinds of information customers gave during support calls may have leaked, including names, phone numbers, resident registration numbers, account numbers, passwords and wallet addresses. Bunjang says 49 phone numbers leaked; Mega MGC Coffee says 30. As of Nov. 20 about 10 client companies had reported leaks to regulators (Herald Business).
    Status: Confirmed by Meta M and affected clients. Reported to KISA; KISA and the Personal Information Protection Commission are investigating.
@@ -194,6 +207,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Aviation, Travel
+   Countries: NO
    Summary: Norwegian says one of its external IT suppliers was hit by a cyberattack and malicious code was placed on parts of its website for a limited time on the afternoon and evening of Monday, Nov. 16. It found out on Nov. 18 and switched off the affected technology.
    Impact: About 5,000 customers who used the website in that window; card numbers, expiry dates and CVC codes may be exposed. Norwegian emailed them asking them to block their cards.
    Status: Confirmed by Norwegian. Says the breach has been stopped and the website is safe to use. Separate from the Amadeus booking data leak.
@@ -207,6 +221,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Government
+   Countries: CH
    Summary: Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure. On Nov. 20 the canton said forensic analysis showed the attackers got into a database of work permits for cross-border commuters and stole data.
    Impact: Around 20 cantonal applications on six servers affected, including the tax calculator; servers are being reinstalled. Emergency and rescue services' IT was not affected. The canton says 97,000 records were stolen covering cross-border commuter permits (G permits) applied for since Nov. 28, 2016: names, home addresses, birth dates, marital status, job titles and federal migration system (ZEMIS) ID numbers, plus contact details of employers in the canton. The permit application platform is offline.
    Status: Confirmed by the Cantonal Chancellery. Criminal complaint filed against unknown persons; Switzerland's cybersecurity office, the data protection supervisor, the foreign ministry and the German and French embassies informed. Analysis ongoing.
@@ -221,6 +236,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Government
+   Countries: US
    Summary: Charleston County's IT team spotted unusual network activity on Nov. 16 and the county has confirmed data was copied from its systems. The South Carolina Law Enforcement Division (SLED) has deemed the incident criminal and is assisting the investigation.
    Impact: Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected.
    Status: Confirmed by Charleston County. SLED criminal investigation under way, with state and federal partners.
@@ -233,6 +249,7 @@ CONFIRMED HACKS
    Date: Nov 20, 2026
    Severity: Medium
    Sectors: Government
+   Countries: NZ
    Summary: The New Zealand Defence Force says its website provider notified it on the morning of Friday, Nov. 20 of unauthorized access to its website systems. It took the affected public websites offline and began a forensic investigation.
    Impact: Preliminary findings show a database for the Force4Families Defence Discounts scheme was accessed, containing registered users' names and email addresses. Affected people have been contacted; full extent still being determined.
    Status: Confirmed by NZDF. Privacy Commissioner informed; investigation ongoing.
@@ -246,6 +263,7 @@ CONFIRMED HACKS
    Updated: Nov 20
    Severity: Medium
    Sectors: Finance, Healthcare
+   Countries: KR
    Summary: Korean insurance broker AMC (에이엠씨손해보험중개) says outsiders downloaded insurance claim lists and member lists from its AMC air claims app between Nov. 5 and 15. It found the downloads during a security check on Nov. 18, shut the service down the same day and reported it to authorities.
    Impact: Personal data of employees at some client companies: names, employer, full or partial resident registration numbers, relationship to the policyholder and coverage period; for people who filed claims, possibly diagnoses, treatment details and accident descriptions. Number of people and client companies not disclosed.
    Status: Confirmed by AMC in a notice on its website. Claims app suspended; cause and intrusion route under investigation.
@@ -257,6 +275,7 @@ CONFIRMED HACKS
    Date: Nov 20, 2026
    Severity: Low
    Sectors: Tech, Business
+   Countries: JP
    Summary: Tokyo marketing-communications company WOW WORLD says a third party broke into some servers used to run its services and took out part of the client-company data stored on them. It blocked the access and is investigating how the attackers got in.
    Impact: About 49,000 records (counting duplicates), mainly email addresses, belonging to four client companies, which will notify affected people. No card data or My Number IDs confirmed leaked. Services continue.
    Status: Confirmed by WOW WORLD (first report). Reported to authorities; investigation ongoing.
@@ -268,6 +287,7 @@ CONFIRMED HACKS
    Date: Nov 20, 2026
    Severity: Low
    Sectors: Finance
+   Countries: AU
    Summary: Bell Financial Group told the Australian stock exchange on Nov. 20 that there had been unauthorized access to a limited number of its IT systems, and that it believes some clients' data was accessed.
    Impact: Some client data likely accessed; the company has not said what data or how many clients. It says client assets are safe and it is operating as usual.
    Status: Confirmed by Bell Financial, which says the incident is contained. The Australian Cyber Security Centre and Australian Federal Police have been notified.
@@ -281,6 +301,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: High
    Sectors: Government
+   Countries: EU
    Summary: The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Spokesperson Thomas Regnier called it an "AI-generated cyber campaign" first detected on Oct. 22. POLITICO reported that CERT-EU linked the attackers to ARTEX, an open-source AI hacking platform; the Commission has not named the tool.
    Impact: The Commission says it temporarily took several applications offline as a protective measure and most have since been restored. Personnel systems, including payroll, leave requests and medical reimbursements, were reportedly disrupted for more than 10 days. The Commission says it has notified affected individuals and found no evidence of a data breach affecting staff as a whole. No ransom demand is known.
    Status: Confirmed by the European Commission on Nov. 19. Investigation ongoing; not attributed to any actor.
@@ -308,6 +329,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: High
    Sectors: Finance
+   Countries: US
    Summary: JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program.
    Impact: JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week.
    Status: Vendor attack confirmed by JPMorgan Chase. Investigation ongoing; the gang's wider claims are unverified.
@@ -320,6 +342,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: High
    Sectors: Finance
+   Countries: US
    Summary: Mastercard said it was recently informed of an incident at a third-party provider that exposed a limited amount of information from a subset of cardholders enrolled in a specific benefit program. The ransomware gang n0n, which also listed Visa and JPMorgan Chase, had listed Mastercard on its leak site and published a dataset after its ransom deadline passed.
    Impact: Mastercard says the exposed data was a limited amount of email addresses, not payment information, and there is no impact to its payment network or the ability to use cards. Cybernews says the leaked dataset has about 2,000 entries, poorly formatted and possibly test data; Reuters says it includes marketing data on customers in North America, the Middle East and Africa. Neither has verified it.
    Status: Third-party incident confirmed by Mastercard, which says the exposure has been contained. The provider has not been named.
@@ -334,6 +357,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: High
    Sectors: Healthcare, Consumer
+   Countries: JP
    Summary: SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data.
    Impact: In a Nov. 18 SEC filing, SBC said basic personal information on about 1,624,000 people was taken from its database (names, contact details, birth dates, patient card numbers, member IDs, passwords and survey responses, not all items for everyone), plus 255,416 booking requests, 217,769 website inquiries and smaller sets of treatment-monitor and review records. It says about 20,000 employee account records (names, IDs, passwords) were also stolen, including bank account and tax information for 459 employees. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken.
    Status: Confirmed by SBC Medical Group and Tribeau. Reported to Japan's privacy regulator and police; investigation ongoing.
@@ -348,6 +372,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: High
    Sectors: Finance, Travel
+   Countries: JP
    Summary: PocketChange, which runs airport and station kiosks that swap leftover foreign cash for e-money and gift codes, says attackers exploited a vulnerability in a third-party internal business system on Oct. 26, then broke into its operating systems on Nov. 13 and used stolen credentials to reach an old monitoring system of its Pokepay (Enterprise) e-money platform on Nov. 14.
    Impact: Up to 31,462 PocketChange user records (names, phone numbers or emails, member numbers, and passport numbers for up to 24,086), up to 116,361 Pokepay user records (registration details such as phone numbers), 820 merchants' details including bank accounts, codes and PINs for some issued prepaid gift cards, and 58 full card numbers with names from old error logs. The company says no fraudulent transactions have been confirmed.
    Status: Confirmed by PocketChange. Kiosks nationwide suspended since Nov. 17 with no restart date; Pokepay restored Nov. 18; reported to Japan's privacy regulator.
@@ -360,6 +385,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: High
    Sectors: Tech
+   Countries: US
    Summary: Broadcom patched a critical VMware vCenter Server authentication bypass on Nov. 19. Google's Mandiant says a suspected Chinese state-sponsored group it tracks as Armory Castle (formerly UNC5221) had been exploiting it as a zero-day since early September, after first breaking in through BeyondTrust Remote Support appliances.
    Impact: Mandiant observed the attackers creating vCenter administrator accounts, stealing the server's directory database and using tools that can forge authentication tokens to get past multifactor authentication. Number of victims not disclosed.
    Status: Patched by Broadcom (VMSA-2026-0009) as an emergency update. Exploitation documented by Mandiant and Google Threat Intelligence Group; Broadcom has not confirmed exploitation itself.
@@ -372,6 +398,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Nonprofit
+   Countries: NZ
    Summary: New Zealand environmental advocacy group Forest & Bird says hackers got into its systems and accessed supporters' details. It was alerted on the evening of Nov. 18, and a forensic search of its website found malicious files hidden there to read data.
    Impact: Mainly names, phone numbers and email addresses. The group says a "small subset" of people may also have had payment card details, birth dates and physical addresses taken. Number of people affected not yet known.
    Status: Confirmed by Forest & Bird. Unauthorized access blocked and malicious files removed; NZ Police, the National Cyber Security Centre and the Privacy Commissioner notified. Investigation ongoing.
@@ -384,6 +411,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Finance, Business
+   Countries: CA
    Summary: KPMG Canada confirmed a data breach in which client tax documents were compromised, and is contacting affected clients. It is the latest in a string of breaches at Canadian professional services firms, including several big Bay Street law firms.
    Impact: Client tax documents. KPMG has not said how many clients or files were affected or how the attackers got in. It says its monitoring shows the data is not available online or being misused.
    Status: Confirmed by KPMG Canada. Clients being contacted.
@@ -396,6 +424,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: Medium
    Sectors: Finance, Business
+   Countries: JP
    Summary: Fukuoka Bank said a third party gained unauthorized access to a data analysis tool used by FFG Industries, a Fukuoka Financial Group company, to compile data from its ordering systems. The tool was set up and run by an outside contractor, and some information in the database it connected to may have leaked.
    Impact: 1,221 business clients potentially affected: company names and addresses, contact names, email addresses and phone numbers, login IDs and hashed passwords, and meeting records. The bank says its core banking system and account information were not affected and no misuse has been found.
    Status: Confirmed by Fukuoka Bank on Nov. 19. Cause, entry route and full scope still under investigation.
@@ -408,6 +437,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Logistics, Retail
+   Countries: JP
    Summary: An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops, REALITY Studios, Toei Animation's online lottery shop and Calpis's butter online shop have since warned their customers.
    Impact: Recipient names, addresses, phone numbers, email addresses and product details from shipments requested Apr. 8 to Nov. 8, 2026. Total count still under investigation; Kashima Antlers alone reports 40,844 affected people and Toei Animation 3,358. No credit card numbers.
    Status: Confirmed by Openlogi and client companies. Access route blocked Nov. 9.
@@ -422,6 +452,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Tech, Education
+   Countries: JP
    Summary: Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see.
    Impact: About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data.
    Status: Confirmed by Atlas. Temporary block in place since Nov. 12, permanent fix expected Nov. 20; reported to police and Japan's privacy regulator.
@@ -434,6 +465,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Healthcare
+   Countries: DE
    Summary: A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt.
    Impact: The emergency room was out of service until the evening of Nov. 16; planned treatments continued. Digital treatment plans were still affected afterward. By Nov. 18 the operating rooms were fully working again, and postponed operations were being made up that week. The hospital has not said whether patient data was affected.
    Status: Attack confirmed by the hospital and the Greiz district. State criminal police and prosecutors are investigating, and police are investigating a suspect. No group has claimed it.
@@ -448,6 +480,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Government
+   Countries: US
    Summary: The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.
    Impact: City Hall and the Assessor's Office remain closed to the public with no reopening date. The main library reopened Nov. 19 on a separate network, but its Wi-Fi, public computers, printing and phones are still down and the Wescott Road branch is closed. The city phone system, in-person card payments, some online portals and mapping services were also disrupted. The city says some city data was affected but most was not accessed.
    Status: Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked.
@@ -462,6 +495,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Consumer, Retail
+   Countries: JP
    Summary: Kosé says attackers abused an access-control flaw in the booking system for in-store experiences and lessons at its Maison KOSÉ Ginza and Omotesando shops, sending a rapid stream of requests on Nov. 9 to read members' personal data. On Nov. 19 it disclosed a second leak: customer data it kept in PLAID's KARTE marketing service was taken in the KARTE breach.
    Impact: Booking system: 28,098 customers' names, email addresses, phone numbers, postal codes, addresses, birth dates and gender; no passwords or card data. KARTE: 139,990 ADDICTION brand-site members' names in kana only.
    Status: Confirmed by Kosé. Booking system suspended; reported to police and Japan's privacy regulator.
@@ -475,6 +509,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Medium
    Sectors: Government, Consumer
+   Countries: US
    Summary: Three Northeast Ohio library systems say attackers got into patron account data through outside vendors that handle customer accounts, checkouts and room reservations. Cuyahoga County Public Library says the incident happened Nov. 15, was discovered the next day and is one of several affecting libraries and vendor systems across the country. The vendors have not been named.
    Impact: Names, home addresses, email addresses, phone numbers, birth dates, usernames and library card numbers (and home branch at two systems). Akron-Summit says, as far as it knows, all its cardholders were affected. The libraries say plain-text passwords and borrowing histories were not accessed. Cuyahoga County and Akron-Summit took their mobile apps offline.
    Status: Confirmed by the libraries. Vendors investigating with outside cybersecurity specialists; patrons urged to reset PINs and passwords.
@@ -488,6 +523,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: Low
    Sectors: Finance, Tech
+   Countries: JP
    Summary: Money Forward said some Notion AI chat records from three of its group companies may have leaked after hackers broke into Fireworks AI, the provider Notion used to process its AI features. Notion told the company on Nov. 10. Money Forward says its own services and systems were not accessed.
    Impact: Personal information on 4,797 customers and business contacts (names, email addresses, internal system IDs) plus some employee names and emails, from chat records created Oct. 5 to 24. No passwords or card data involved; no misuse found.
    Status: Confirmed by Money Forward. Reported to Japan's Personal Information Protection Commission; affected people being notified.
@@ -501,6 +537,7 @@ CONFIRMED HACKS
    Updated: Nov 19
    Severity: Low
    Sectors: Finance
+   Countries: JP
    Summary: Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed.
    Impact: Up to 11,996 customers: internal IDs, plus account status and some payment merchant, date and amount details for most of them, and login, top-up or transfer history, device IDs or IP addresses for 310. No names, addresses, phone numbers, emails, card or bank details, or passwords.
    Status: Confirmed by Kyash. Affected customers being emailed.
@@ -512,6 +549,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: Low
    Sectors: Tech, Consumer
+   Countries: DE
    Summary: Steinberg, maker of the Cubase music software, says attackers used email and password pairs likely leaked from other, unrelated breaches to break into a limited number of Steinberg accounts (credential stuffing).
    Impact: A limited number of accounts accessed; no count given. Steinberg found no sign account data was changed or software licenses moved or deleted, and accounts with two-factor authentication were not affected. Its own credential database was not compromised.
    Status: Confirmed by Steinberg. Passwords of affected accounts reset; customers being notified.
@@ -523,6 +561,7 @@ CONFIRMED HACKS
    Date: Nov 19, 2026
    Severity: Low
    Sectors: Travel, Business
+   Countries: JP
    Summary: USEN-ALMEX said attackers hit the system-integration API of PreCheck-in, its online pre-check-in service for hotels, with continuous access starting Nov. 14. It found the unauthorized access on Nov. 15 and shut the service down on Nov. 16. Hotel operators using it, including Solare Hotels and Resorts, are notifying guests.
    Impact: 283 reservations at 26 hotels likely viewed and leaked: names, addresses, phone numbers and email addresses. The company says passport images and credit card data were not included and no secondary damage has been found.
    Status: Confirmed by USEN-ALMEX. Service suspended; investigation ongoing.
@@ -536,6 +575,7 @@ CONFIRMED HACKS
    Updated: Nov 18
    Severity: Critical
    Sectors: Tech, Retail, Finance
+   Countries: US, GB, SE
    Summary: Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached.
    Impact: Per Report URI, the malware swapped crypto wallet addresses, skimmed payment cards, stole cookies and screenshots, and tried to deliver iOS exploit kits to iPhones and iPads; at least $7,000 in crypto was traced as stolen. Most of the malicious code was removed the same day.
    Status: Confirmed by Optimizely. In a Nov. 18 update it said under 5% of its customers were affected, the flaw (in its Web Experimentation sign-up flow) was closed within three hours of detection, and all injected code has been removed.
@@ -549,6 +589,7 @@ CONFIRMED HACKS
    Date: Nov 18, 2026
    Severity: High
    Sectors: Energy, Manufacturing, Healthcare
+   Countries: US
    Summary: Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems.
    Impact: Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record).
    Status: Confirmed by Ukrainian law enforcement. Four suspects face up to 15 years in prison; 66 searches carried out and cash, devices and bank cards seized. Ransomware strain not named.
@@ -561,6 +602,7 @@ CONFIRMED HACKS
    Updated: Nov 18
    Severity: High
    Sectors: Finance
+   Countries: IE
    Summary: An attacker exploited a flaw in the online banking platform Wellington IT provides to Irish credit unions and pulled saved payee records in early October. Credit unions were only told in mid-November.
    Impact: About 40 credit unions affected, roughly a quarter of the country's total. Saved payee names, IBANs, BICs, addresses and payment references potentially exposed. Officials say member balances were not accessed and no financial losses have been reported.
    Status: Confirmed by Wellington IT, affected credit unions and Ireland's government. Flaw closed. Wellington IT says it is working with the Data Protection Commission, NCSC and Garda cyber crime bureau; investigation ongoing.
@@ -575,6 +617,7 @@ CONFIRMED HACKS
    Updated: Nov 18
    Severity: Medium
    Sectors: Government
+   Countries: DE
    Summary: Police say unknown attackers got into parts of the IT systems of Neuried, a town in Baden-Württemberg, and left a message there. The mayor discovered the attack on Nov. 17 and the affected systems were shut down as a precaution.
    Impact: Town hall not reachable by email. Police say early findings show data was taken, but what and how much is unclear.
    Status: Confirmed by police and the municipality. Investigation ongoing.
@@ -587,6 +630,7 @@ CONFIRMED HACKS
    Updated: Nov 18
    Severity: Medium
    Sectors: Education
+   Countries: US
    Summary: A cyber incident knocked out the district's communications systems and much of its technology, including phones and internet access, and forced all Perry Local buildings to close on Monday, Nov. 16. On Nov. 18 the district said its investigation found malware caused the incident.
    Impact: All schools closed for a day. The district says there is no evidence personally identifiable information was released. Schools reopened Nov. 17 after critical systems were restored.
    Status: Confirmed by the district (malware). Ohio Cyber Integration Center contacted and the Ohio Cyber Reserve engaged.
@@ -599,6 +643,7 @@ CONFIRMED HACKS
    Date: Nov 18, 2026
    Severity: Medium
    Sectors: Retail, Consumer
+   Countries: JP
    Summary: Mitsui Fudosan and Mitsui Fudosan Retail Management said a third party gained unauthorized access to the Mitsui Shopping Park app and leaked part of its point-program member data. They found the access on Nov. 18 and suspended the app the same day.
    Impact: Member numbers, names, birth dates, addresses and email addresses. The companies say card data and passwords were not included; the number of affected members is still under investigation.
    Status: Confirmed by Mitsui Fudosan. App suspended; regulator notified; intrusion route under investigation.
@@ -611,6 +656,7 @@ CONFIRMED HACKS
    Date: Nov 18, 2026
    Severity: Medium
    Sectors: Telecom, Government
+   Countries: DE
    Summary: Stadtwerke Wittenberg confirmed that criminals attacked the systems of its regional internet and phone provider Wittenberg-Net overnight into Wednesday, Nov. 18, causing a widespread outage around Wittenberg in Saxony-Anhalt. All relevant systems were taken offline as a precaution.
    Impact: About 8,000 households and many public facilities, including the Wittenberg city and district administrations, temporarily lost landline phone and internet service or had limited service. Most connections are back online; work on some systems continues.
    Status: Confirmed by Stadtwerke Wittenberg. Recovery ongoing.
@@ -622,6 +668,7 @@ CONFIRMED HACKS
    Date: Nov 18, 2026
    Severity: Medium
    Sectors: Energy
+   Countries: TH
    Summary: Thai oil refiner Star Petroleum Refining told the Stock Exchange of Thailand it was hit by a cyberattack that gave attackers unauthorized access to company data.
    Impact: Company data accessed; what and how much is still being investigated. SPRC says customer service and operations are not affected, and it can't yet assess any financial impact.
    Status: Confirmed by SPRC. Investigation ongoing.
@@ -645,6 +692,7 @@ CONFIRMED HACKS
    Date: Nov 18, 2026
    Severity: Medium
    Sectors: Aviation
+   Countries: ET
    Summary: Ethiopian Airlines emailed members of its ShebaMiles frequent-flyer program warning that some customer information may have been exposed in a recent cyberattack it called "of limited scope."
    Impact: The airline says there is currently no evidence financial information was accessed. It has not said when the intrusion happened, what data was involved or how many people are affected.
    Status: Confirmed by Ethiopian Airlines. Investigation ongoing with authorities.
@@ -657,6 +705,7 @@ CONFIRMED HACKS
    Updated: Nov 18
    Severity: Medium
    Sectors: Tech
+   Countries: US
    Summary: The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor.
    Impact: Infoblox says there's no indication its products, cloud services or software updates were involved. The Register reports, citing an internal email, that employee personal details (including Social Security numbers and direct-deposit details) and some customers' network configuration backups were taken; Infoblox has not said how many customers are affected.
    Status: Confirmed by Infoblox. Investigation ongoing.
@@ -670,6 +719,7 @@ CONFIRMED HACKS
    Updated: Nov 17
    Severity: High
    Sectors: Retail, Consumer
+   Countries: JP
    Summary: Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.
    Impact: Up to 37.62 million potentially affected records (names, contact details, dates of birth); Nitori says the count includes duplicates and is not the number of people. No passwords or card numbers.
    Status: Confirmed by Nitori, which says attackers extracted data through a vulnerability in an online-shop admin server. How much leaked is still undetermined.
@@ -684,6 +734,7 @@ CONFIRMED HACKS
    Updated: Nov 17
    Severity: Medium
    Sectors: Travel, Consumer, Tech
+   Countries: KR
    Summary: An outsider got into the ticketing system run by accesso, the reservation vendor for LEGOLAND Korea Resort and SEA LIFE Busan Aquarium, on Nov. 14 by exploiting a weakness, and looked up some annual pass holders' details. Both attractions posted notices on Nov. 16 warning customers their data may have leaked.
    Impact: Some annual (season) pass holders' names, encrypted birth dates, addresses, email addresses, phone numbers and annual pass barcode numbers. Number of people affected still under investigation; no evidence card or bank data was exposed.
    Status: Confirmed by LEGOLAND Korea and SEA LIFE Busan. accesso removed the vulnerable endpoint and blocked the source addresses; investigation ongoing.
@@ -696,6 +747,7 @@ CONFIRMED HACKS
    Date: Nov 17, 2026
    Severity: Medium
    Sectors: Government, Healthcare
+   Countries: JP
    Summary: Japan's Ministry of Health, Labour and Welfare said NTT Data, which runs and maintains its system for tracking drug supply shortages, reported unauthorized access by a third party. Traces show some stored data was viewed and someone tried to alter it, and a suspicious file was uploaded to the reporting system.
    Impact: Names and contact details of some drug company staff may have leaked; full scope still under investigation. The system was shut down on Nov. 17 and the reporting system stays offline for now.
    Status: Confirmed by the health ministry. Attacker IPs blocked and the file deleted; investigation ongoing.
@@ -709,6 +761,7 @@ CONFIRMED HACKS
    Updated: Nov 17
    Severity: Low
    Sectors: Healthcare
+   Countries: US
    Summary: Kern Medical, the public hospital run by the Kern County Hospital Authority, says it found unusual activity on Sept. 17 involving unauthorized access to a database, and that an unauthorized third party copied files with patient information. It announced the breach on Nov. 16.
    Impact: Patients' names, addresses, birth dates, medical record numbers, dates of service and health insurance information, plus Social Security numbers in limited cases. Number of people not disclosed.
    Status: Confirmed by Kern Medical, which reported it to the FBI's IC3 and is notifying patients; one year of credit monitoring offered where SSNs were involved.
@@ -721,6 +774,7 @@ CONFIRMED HACKS
    Date: Nov 17, 2026
    Severity: Low
    Sectors: Retail, Consumer
+   Countries: JP
    Summary: Unauthorized access to an outside company that handles SOFT99's online-shop orders and shipping leaked customer order information.
    Impact: About 3,813 people (3,728 orders): names, addresses, phone numbers, emails and order details. No card data. All online shops temporarily closed.
    Status: Confirmed by SOFT99. Police and regulator notified.
@@ -732,6 +786,7 @@ CONFIRMED HACKS
    Date: Nov 17, 2026
    Severity: Low
    Sectors: Education
+   Countries: US
    Summary: The district's superintendent told families the district was hit by a ransomware attack that may have involved a data breach.
    Impact: District laptops and other Windows devices suspended as a precaution; internet, Chromebooks and phones still usable. Whether personal information was accessed is still being determined.
    Status: Confirmed by the district. Investigation ongoing with cybersecurity specialists.
@@ -765,6 +820,7 @@ CONFIRMED HACKS
    Date: Nov 16, 2026
    Severity: High
    Sectors: Government
+   Countries: KR
    Summary: South Korea's Ministry of the Interior and Safety said hackers got into the government's administrative email system by going through vulnerable local government networks and exploiting a flaw in its single sign-on (SSO) login system.
    Impact: Abnormal access to about 300 government email accounts found so far. The breach was reported to the privacy regulator and affected people were notified.
    Status: Confirmed by South Korea's government. Joint investigation with NIS and KISA ongoing.
@@ -778,6 +834,7 @@ CONFIRMED HACKS
    Updated: Nov 16
    Severity: Medium
    Sectors: Government
+   Countries: LT, EU
    Summary: Lithuania's customs agency says attackers gained unauthorized access to BAP, the portal people and businesses use to log in to customs and some European Commission customs systems. It shut the portal down after detecting the attack on Nov. 10. Its chief called it a targeted, sophisticated attack that tried to go deeper into more sensitive systems.
    Impact: Possible data breach affecting several hundred people and businesses who logged in on Nov. 9-10; local media say names, addresses, phone numbers, emails and personal ID numbers may be exposed. Access to EU customs systems including ICS2 was disrupted for some users.
    Status: Confirmed by Lithuanian Customs. Services partly restored as of Nov. 16; attackers and vulnerability not identified.
@@ -801,6 +858,7 @@ CONFIRMED HACKS
    Date: Nov 16, 2026
    Severity: Medium
    Sectors: Transportation, Government
+   Countries: GB
    Summary: Transport for London said it spotted suspicious activity on its Oyster photocard website on Nov. 16, after photocard holders got unexpected emails asking them to create an account they already had. It took the photocard system offline and says unauthorized access to customers' web account details resulted.
    Impact: About 265,000 photocard customers' names, email and home addresses, phone numbers, dates of birth and security questions and answers were compromised. TfL says no passwords, bank or payment card details, journey information, or names and birth dates of children with Zip Oyster cards were taken. The photocard website stays offline, so cards can't be applied for or renewed online.
    Status: Confirmed by TfL. Reported to the ICO. Investigation ongoing.
@@ -813,6 +871,7 @@ CONFIRMED HACKS
    Date: Nov 16, 2026
    Severity: Low
    Sectors: Manufacturing
+   Countries: TW
    Summary: Wieson Technologies says it discovered on Nov. 16 that some of its information system servers had been hit by a cyberattack, and it isolated the affected servers and network equipment.
    Impact: The company says the incident is limited to part of its information systems, core systems and daily operations are running normally, and preliminary checks found no signs of data exfiltration. It is restoring data from backups.
    Status: Confirmed by Wieson Technologies. Investigation into cause and scope ongoing.
@@ -824,6 +883,7 @@ CONFIRMED HACKS
    Date: Nov 15, 2026
    Severity: Low
    Sectors: Education, Government
+   Countries: KR
    Summary: South Korea's Jeonbuk provincial education office said its school bus management system was hacked on the evening of Nov. 15. It learned of the leak after being alerted by the Ministry of Education's cyber safety center, shut the system down and asked police to investigate.
    Impact: Personal data of about 9,900 people leaked, including students' names and addresses, guardians' contact numbers and bus plate numbers. The parent app for live bus tracking and boarding alerts is offline.
    Status: Confirmed by the Jeonbuk Office of Education. Police investigating; victims notified.
@@ -835,6 +895,7 @@ CONFIRMED HACKS
    Date: Nov 15, 2026
    Severity: Low
    Sectors: Media
+   Countries: JP
    Summary: KARTE, a marketing service run by PLAID that Nikkei uses, was accessed without authorization, and some Nikkei Online Edition user data it handled may have leaked.
    Impact: Email addresses, phone numbers, gender and birth year/month, which Nikkei says had been processed so they can't be restored to their original form. No card data.
    Status: Confirmed by Nikkei.
@@ -858,6 +919,7 @@ CONFIRMED HACKS
    Date: Nov 13, 2026
    Severity: Critical
    Sectors: Retail, Consumer
+   Countries: JP
    Summary: Unauthorized access to KARTE, a marketing service run by PLAID that DHC used for direct mail and similar messages, leaked DHC customer account information linked to it. PLAID notified DHC on Nov. 13.
    Impact: About 19.11 million customer account records (names, email addresses, birth dates and more). DHC says online-shop passwords and card data were not included and no secondary damage has been confirmed.
    Status: Confirmed by DHC. Regulator to be notified.
@@ -870,6 +932,7 @@ CONFIRMED HACKS
    Updated: Nov 13
    Severity: High
    Sectors: Travel, Aviation, Tech
+   Countries: ES, NO, SE
    Summary: Spanish travel booking platform Amadeus reported a security incident in which an unauthorized actor had access to its systems for at least three years, Norway's National Security Authority (NSM) says. Amadeus says a vulnerability in its booking display system made certain booking data accessible; it was closed on Sept. 23, 2026. The breach became known in Norway on Oct. 27.
    Impact: Depending on the booking: identity and itinerary, passport number and nationality, contact details, ticket and flight numbers, seats and free-text notes. Norwegian told Norway's data protection authority 144,249 Norwegian and Widerøe passengers are affected; NRK reports SAS has said 350,000 of its passengers in four countries are affected. NSM says travel of 75 Norwegian public and private organizations was exposed. No payment data reported taken.
    Status: Confirmed by Amadeus, NSM and affected airlines. Amadeus says the attacker no longer has access.
@@ -884,6 +947,7 @@ CONFIRMED HACKS
    Updated: Nov 13
    Severity: High
    Sectors: Manufacturing, Tech
+   Countries: DE
    Summary: Quantum Systems, which builds reconnaissance drones used by Germany's military and Ukraine, said it found an active cyberattack by hostile actors at the end of October. According to Der Spiegel and the Financial Times, attackers planted a malicious file disguised as an update to its QBase mission-planning software on the company's update server; it reached some customer servers, including German military ones, but not the drones.
    Impact: German armed forces grounded their Quantum Systems drones as a precaution and left them out of an exercise; the drones have since returned to flight. The company says there is no risk in operating its systems.
    Status: Confirmed by Quantum Systems. Contained; German military counterintelligence, domestic intelligence and the federal cybersecurity agency are investigating. Attackers not publicly identified.
@@ -898,6 +962,7 @@ CONFIRMED HACKS
    Updated: Nov 13
    Severity: Medium
    Sectors: Government
+   Countries: US
    Summary: The city of Columbia found suspicious activity on its network on Oct. 20 and later confirmed it was a ransomware attack that hit several public-facing services and involved sensitive data on the city's network.
    Impact: MyColaSC, business licensing, planning and development, parks and recreation reservations, GIS and Animal Services went offline; police, fire, 911, Columbia Water and online payments were not affected. All affected applications were restored by Nov. 13. The city has not said what data was accessed or how many people were affected.
    Status: Ransomware attack confirmed by the city. The South Carolina Law Enforcement Division (SLED) is running a criminal investigation.
@@ -923,6 +988,7 @@ CONFIRMED HACKS
    Date: Nov 12, 2026
    Severity: High
    Sectors: Research, Government
+   Countries: JP
    Summary: An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it.
    Impact: Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted.
    Status: Confirmed by RIKEN. Investigation ongoing.
@@ -934,6 +1000,7 @@ CONFIRMED HACKS
    Date: Nov 12, 2026
    Severity: Medium
    Sectors: Tech
+   Countries: JP
    Summary: An outside party got into the cloud environment that OPEN Inc. uses to run some of its services on Nov. 12, including the authentication server for its BizRobo! mini automation product. The company spotted a security alert on Nov. 16.
    Impact: Logs show access to authentication IDs and passwords for about 560 customer companies (about 1,000 accounts). Other servers in the same environment were also accessed; impact on stored data is under investigation.
    Status: Confirmed by OPEN Inc. Affected server isolated; emergency maintenance set for Nov. 21.
@@ -945,6 +1012,7 @@ CONFIRMED HACKS
    Date: Nov 12, 2026
    Severity: Medium
    Sectors: Retail, Consumer
+   Countries: SE
    Summary: Unauthorized parties got into a small, isolated part of Swedish beauty retailer Lyko's systems and accessed customer data. Lyko says it stopped the breach within an hour and fixed the security hole.
    Impact: About 60,000 customers across Lyko's markets (36,000 in Sweden): names, addresses and phone numbers. Order information for 95 customers. No ID numbers, payment details or passwords.
    Status: Confirmed by Lyko. Reported to Sweden's privacy regulator (IMY).
@@ -958,6 +1026,7 @@ CONFIRMED HACKS
    Updated: Nov 12
    Severity: Medium
    Sectors: Healthcare
+   Countries: CA
    Summary: Sunnybrook, a major Toronto hospital, says unauthorized individuals accessed part of its network on Oct. 29 and that data, including some personal health information, was stolen.
    Impact: Number of people and exact data still being determined. The hospital says there is no evidence of widespread access to its electronic medical record or its staff, financial or donor databases. Patient care continued uninterrupted.
    Status: Confirmed by Sunnybrook, which reported it to law enforcement and Ontario's Information and Privacy Commissioner. Affected people will be notified.
@@ -970,6 +1039,7 @@ CONFIRMED HACKS
    Date: Nov 11, 2026
    Severity: Critical
    Sectors: Finance
+   Countries: JP
    Summary: Attackers got into a test-environment system at Rakuten Securities on Nov. 11 and customer data held there may have been taken. The company detected the intrusion on Nov. 16 and blocked it.
    Impact: Login IDs and customer codes for up to about 11.25 million accounts; names, birth dates, addresses, phone numbers, emails, employers, withdrawal bank accounts, and self-reported income and assets for up to about 4.47 million accounts. Rakuten says passwords and PINs were not leaked and no unauthorized trades have been found.
    Status: Confirmed by Rakuten Securities. Investigation ongoing.
@@ -994,6 +1064,7 @@ CONFIRMED HACKS
    Date: Nov 11, 2026
    Severity: Medium
    Sectors: Tech, Consumer
+   Countries: JP
    Summary: Attackers logged into 201 accounts using passwords stolen elsewhere, then exploited a flaw in a scheduling feature to pull customer job details.
    Impact: Up to 366,850 records with customer addresses, phone numbers and request details. No names, emails, passwords or card numbers.
    Status: Confirmed by Meetsmore. Flaw fixed.
@@ -1017,6 +1088,7 @@ CONFIRMED HACKS
    Updated: Nov 10
    Severity: High
    Sectors: Retail, Food
+   Countries: FR
    Summary: On Oct. 11 and 12, attackers took over the remote controls of refrigeration systems at more than 700 retail sites in France, pushing fridges and freezers into abnormal, indefinite defrost cycles and switching off temperature alarms. France has blamed Iran.
    Impact: Hundreds of supermarkets lost perishable stock; the French government says the attacks caused significant material damage, sparked fires and spoiled food worth tens of millions of euros.
    Status: Confirmed by the French government, which on Nov. 9 attributed the attacks to Shahid Kaveh, a cyber unit of Iran's Islamic Revolutionary Guard Corps, and summoned Iran's ambassador. The Paris prosecutor opened an investigation and requested international arrest warrants for two Shahid Kaveh officials.
@@ -1029,6 +1101,7 @@ CONFIRMED HACKS
    Date: Nov 9, 2026
    Severity: High
    Sectors: Education, Research
+   Countries: US
    Summary: Vanderbilt University in Nashville said on Nov. 9 it was responding to an active cyberattack affecting university devices, systems and cloud-based services, and told everyone to shut down university devices and get off campus Wi-Fi. The BYOD ransomware gang has claimed the attack; that claim has not been confirmed by the university.
    Impact: Most systems were restricted for days. As of Nov. 18 almost all systems are back, but Microsoft OneDrive, SharePoint and Teams remain disabled, Box is due back by Nov. 20, and the university is contacting people with compromised laptops in batches. BYOD claims it stole Social Security numbers, names, email addresses and other data; Vanderbilt says it does not yet know what data, if any, was accessed.
    Status: Confirmed by Vanderbilt. Working with federal law enforcement; investigation ongoing.
@@ -1042,6 +1115,7 @@ CONFIRMED HACKS
    Date: Nov 9, 2026
    Severity: Medium
    Sectors: Tech
+   Countries: CZ
    Summary: Apify, a Czech web scraping and browser automation platform, said an unauthorized third party got into parts of its internal systems on Nov. 9-10. It cut off the access, rotated internal secrets and API tokens, reset all sessions and revoked some third-party OAuth connections, including GitHub.
    Impact: Affected customers' API tokens and proxy passwords rotated; some told to reset two-factor authentication because codes may have been exposed. Apify says passwords are safe and it has found no sign that account data on the platform was affected.
    Status: Confirmed by Apify. Investigation ongoing.
@@ -1053,6 +1127,7 @@ CONFIRMED HACKS
    Date: Nov 9, 2026
    Severity: Medium
    Sectors: Healthcare
+   Countries: US
    Summary: A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER.
    Impact: Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation.
    Status: Confirmed by the hospital. Law enforcement involved. Investigation ongoing.
@@ -1075,6 +1150,7 @@ CONFIRMED HACKS
    Date: Nov 6, 2026
    Severity: High
    Sectors: Transportation, Logistics, Government
+   Countries: BR
    Summary: A cyberattack hit the Santos Port Authority (APS), the state-owned company that runs Brazil's largest port, knocking its online systems partly offline after a power outage at its headquarters. APS later confirmed a ransom demand. Brazil's Federal Police are investigating.
    Impact: Port authority systems partly down for days; operators reported delays and manual scheduling, arrival records and billing. Terminals and ship movements kept running. APS says it does not know whether data was accessed.
    Status: Confirmed by the port authority. Recovery ongoing; attacker not officially named.
@@ -1087,6 +1163,7 @@ CONFIRMED HACKS
    Date: Nov 6, 2026
    Severity: Medium
    Sectors: Telecom
+   Countries: SG
    Summary: Singapore mobile carrier M1 disclosed a data breach it identified on October 30 involving customer information. It says the breach has been contained.
    Impact: Customer names, NRIC/FIN numbers, dates of birth, mobile numbers, email addresses and addresses. M1 says no payment card, banking or account access was compromised; it has not said how many customers are affected.
    Status: Confirmed by M1. Customers being notified.
@@ -1098,6 +1175,7 @@ CONFIRMED HACKS
    Date: Nov 5, 2026
    Severity: Medium
    Sectors: Finance, Tech
+   Countries: IN
    Summary: Hackers got into three cloud servers belonging to an unnamed Gurugram-based digital payments firm on the night of Nov. 5-6, ran malicious scripts and abused its payout API to send money out of its escrow account, police say. Two men from Ludhiana have been arrested.
    Impact: About ₹25.67 crore (police figure) taken in 265 unauthorized payments to 156 bank accounts; about ₹1.5 crore frozen so far.
    Status: Confirmed by Gurugram police. Two arrests; money trail and how the servers were breached still under investigation.
@@ -1109,6 +1187,7 @@ CONFIRMED HACKS
    Date: Nov 4, 2026
    Severity: Critical
    Sectors: Finance
+   Countries: FR
    Summary: Attackers got in through the platform of one of the bank's service providers and used Crédit Mutuel Arkéa's own account to send money to other banks, which was then converted into cryptocurrency. The bank suspended some transactions as a precaution and its app was unavailable for several hours.
    Impact: More than €100 million taken, an order of magnitude the bank confirms (Le Télégramme reports €118 million; the bank has not confirmed that figure). Part of the money has been blocked or recovered. The bank says no customer accounts were used and customers' funds are not affected; some transfers were delayed.
    Status: Confirmed by Crédit Mutuel Arkéa. Paris prosecutor's office opened an investigation, led by France's anti-cybercrime office (OFAC). Recovery efforts ongoing.
@@ -1122,6 +1201,7 @@ CONFIRMED HACKS
    Date: Nov 4, 2026
    Severity: High
    Sectors: Telecom, Consumer
+   Countries: JP
    Summary: NTT Docomo detected unauthorized outside access to its Docomo Online Shop and My docomo account site on Nov. 4 and shut down procedures on both early Nov. 5. The company later confirmed that some customer information was taken through the access.
    Impact: Up to about 300,000 customers, including former subscribers: names, birth dates, addresses, phone numbers, email addresses, ID document numbers and plan details, plus bank account details for some. Docomo says no card data was leaked and plans to compensate affected people.
    Status: Confirmed by NTT Docomo. Most My docomo procedures back since Nov. 9; online shop still in emergency maintenance as of Nov. 18. Investigation ongoing.
@@ -1135,6 +1215,7 @@ CONFIRMED HACKS
    Date: Nov 4, 2026
    Severity: High
    Sectors: Consumer
+   Countries: US
    Summary: 2RedBeans (Embrace Inc.) said an unauthorized party got into one of its internal systems on Nov. 4 and copied member information before the access was detected and shut off on Nov. 5.
    Impact: About 1.3 million member accounts: names, gender, age and birth date, location, profile answers, profile photos (including unapproved ones), email addresses, verified phone numbers, IP addresses, and reports and feedback with any attached screenshots. The company says passwords, payment details, government ID numbers and private messages were not involved.
    Status: Confirmed by 2RedBeans. Reported to the FBI's IC3; review ongoing.
@@ -1146,6 +1227,7 @@ CONFIRMED HACKS
    Date: Nov 4, 2026
    Severity: Medium
    Sectors: Media
+   Countries: UA
    Summary: Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.
    Impact: Four fake emails sent to readers and fake posts on the site (removed). Payment data not at risk.
    Status: Confirmed by The Kyiv Independent.
@@ -1158,6 +1240,7 @@ CONFIRMED HACKS
    Date: Nov 4, 2026
    Severity: Medium
    Sectors: Media
+   Countries: SG
    Summary: SPH Media, publisher of The Straits Times, found cyberattacks on five of its systems between Nov. 4 and Nov. 8, which it believes were carried out by the same threat actor. It says software bugs and system configuration played a part.
    Impact: About 9% of its database exposed, mostly email addresses plus some names, mailing addresses and phone numbers. No payment card, banking or account access data compromised.
    Status: Confirmed by SPH Media. Reported to Singapore authorities and police.
@@ -1170,6 +1253,7 @@ CONFIRMED HACKS
    Date: Nov 3, 2026
    Severity: Low
    Sectors: Aviation, Government
+   Countries: BW
    Summary: Botswana's state-owned airline said unauthorized parties got into some of its internal systems in what it described as a suspected ransomware attack.
    Impact: Affected systems hold employee and internal information. The airline says passenger bookings, aircraft systems and flight operations were not affected. It has not said whether data was copied.
    Status: Confirmed by Air Botswana. Investigation ongoing; authorities engaged.
@@ -1193,6 +1277,7 @@ CONFIRMED HACKS
    Date: Nov 2, 2026
    Severity: Medium
    Sectors: Healthcare
+   Countries: US
    Summary: Myriad Genetics detected unauthorized access to its IT network and temporarily suspended testing operations and order management systems while it contained the activity.
    Impact: Testing temporarily paused. The company is still assessing whether patient records were accessed. Most systems back to normal.
    Status: Confirmed by Myriad Genetics (SEC filing). Investigation ongoing.
@@ -1216,6 +1301,7 @@ CONFIRMED HACKS
    Date: Nov 1, 2026
    Severity: Medium
    Sectors: Government
+   Countries: UA
    Summary: Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.
    Impact: Several fake alerts sent to users' phones before being cleared about an hour later.
    Status: Confirmed by Ukraine's government.
@@ -1240,6 +1326,7 @@ CONFIRMED HACKS
    Date: Oct 28, 2026
    Severity: Critical
    Sectors: Tech, Consumer
+   Countries: JP
    Summary: Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.
    Impact: 81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people).
    Status: Confirmed by ARARA. Investigation ongoing.
@@ -1265,6 +1352,7 @@ CONFIRMED HACKS
    Date: Oct 26, 2026
    Severity: Medium
    Sectors: Education
+   Countries: US
    Summary: Hackers broke into University of Texas at Arlington systems in late October. The school took down MachForms, its online forms portal for event registration, service requests and surveys, and later confirmed that personal information was stolen. The Qilin ransomware gang claimed the attack.
    Impact: Personal information of students and employees stolen; the school has not said what data or how many people. MachForms still offline as of Nov. 13.
    Status: Confirmed by the university. Qilin's claim not confirmed by the school.
@@ -1277,6 +1365,7 @@ CONFIRMED HACKS
    Date: Oct 23, 2026
    Severity: Medium
    Sectors: Transportation, Logistics
+   Countries: US
    Summary: J.B. Hunt confirmed it is investigating unauthorized access to certain information in an isolated part of its technology systems. The WhiteArmor extortion group claims it stole data from J.B. Hunt as well as Ryder and Echo Global Logistics; those two have not publicly confirmed an incident.
    Impact: Systems stayed operational. What was taken has not been disclosed; employees have filed multiple proposed class action lawsuits. The date shown is when ransomware trackers recorded the attack.
    Status: Confirmed by J.B. Hunt. Investigation ongoing.
@@ -1289,6 +1378,7 @@ CONFIRMED HACKS
    Date: Oct 21, 2026
    Severity: Medium
    Sectors: Education, Government
+   Countries: US
    Summary: Ransom messages appeared on district laptops saying attackers had extracted sensitive data and encrypted critical files, and demanding contact within 72 hours to negotiate. The district took its internet offline, knocking out phones and email.
    Impact: The attackers claim to have taken personal information of current and former students, staff and contractors; the district says affected systems held data such as Social Security numbers, driver's license numbers, health insurance numbers and limited medical information. Nearly a month later, network access, camera feeds and other systems were still not fully restored.
    Status: Confirmed by the district, which is working with the FBI, Virginia State Police and CISA and offering free credit monitoring. Network rebuild ongoing.
@@ -1302,6 +1392,7 @@ CONFIRMED HACKS
    Date: Oct 19, 2026
    Severity: High
    Sectors: Finance, Tech
+   Countries: JP
    Summary: Attackers exploited a web-server vulnerability at Value Design, a PayCloud Holdings subsidiary that runs the Value Card house e-money service for retailers, and took card ID numbers, PINs and balance data. On Nov. 18 the company said a second server, for a site it runs for business customers, was also hit on Oct. 19 and payment codes were taken from it.
    Impact: 1,424,748 Value Card records (card ID numbers, PINs and balances; 569,224 were issued cards) plus up to about 31,000 payment codes from the second server. The company says no names or other personal details were included; the leaked codes were invalidated Nov. 16.
    Status: Confirmed by Value Design and PayCloud Holdings. Investigation ongoing.
@@ -1327,6 +1418,7 @@ CONFIRMED HACKS
    Date: Oct 15, 2026
    Severity: High
    Sectors: Media, Retail
+   Countries: JP
    Summary: NTT Solmare shut down its Comic Cmoa e-book store on Oct. 15 after detecting possible unauthorized access to its servers, and later confirmed attackers got into its member information system and took data. The store has been brought back in stages, with a full reopening targeted for November.
    Impact: Registration data for 319 members (email, hashed password, nickname, birth date, gender) and up to about 4.2 million records from system log files (email, nickname, birth date, gender; no passwords). No card data or purchase history leaked, the company says.
    Status: Confirmed by NTT Solmare. Service partly restored.
@@ -1340,6 +1432,7 @@ CONFIRMED HACKS
    Date: Oct 9, 2026
    Severity: Medium
    Sectors: Tech, Consumer
+   Countries: US
    Summary: Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.
    Impact: 149,346 Uber drivers notified (names, addresses, birth dates, license numbers).
    Status: Confirmed by Uber, Fireworks AI and Notion.
@@ -1352,6 +1445,7 @@ CONFIRMED HACKS
    Date: Oct 8, 2026
    Severity: Medium
    Sectors: Retail, Consumer
+   Countries: US
    Summary: Card-skimming code was planted on Fandango's website checkout page and sent payment details typed in by customers to the attackers.
    Impact: Card numbers, CVV codes, expiration dates, billing ZIP codes and email addresses for purchases made October 8-11, 2026. Fandango has not said how many customers were affected.
    Status: Confirmed by Fandango. Notices sent.
@@ -1363,6 +1457,7 @@ CONFIRMED HACKS
    Date: Oct 7, 2026
    Severity: High
    Sectors: Tech, Government
+   Countries: JP
    Summary: Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.
    Impact: 495 companies and local governments disrupted.
    Status: Confirmed by IDC Frontier. No ransom paid.
@@ -1375,6 +1470,7 @@ CONFIRMED HACKS
    Date: Sep 18, 2026
    Severity: Low
    Sectors: Media
+   Countries: JP
    Summary: Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.
    Impact: HR and business-partner records from 2001 to August 2022 may be included; reader and payment systems were separate.
    Status: Confirmed by The Japan Times.
@@ -1386,6 +1482,7 @@ CONFIRMED HACKS
    Date: Sep 4, 2026
    Severity: Critical
    Sectors: Finance
+   Countries: US
    Summary: An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.
    Impact: 30 million people (state attorney general filings).
    Status: Confirmed. Notices sent.
@@ -1398,6 +1495,7 @@ CONFIRMED HACKS
    Date: Sept 2026
    Severity: Critical
    Sectors: Tech, Consumer
+   Countries: US
    Summary: A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.
    Impact: 13 million people per a state filing; hackers claimed about 153 million records.
    Status: Confirmed by IDScan.net.
@@ -1410,6 +1508,7 @@ CONFIRMED HACKS
    Date: Aug 27, 2026
    Severity: Medium
    Sectors: Government
+   Countries: US
    Summary: The ATF declared a "major incident" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.
    Impact: One standalone system; data taken not disclosed.
    Status: Confirmed by ATF. Investigation ongoing.
@@ -1422,6 +1521,7 @@ CONFIRMED HACKS
    Date: Aug 25, 2026
    Severity: High
    Sectors: Healthcare, Manufacturing
+   Countries: US
    Summary: A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.
    Impact: Global operations disrupted until about September 9; expected material hit to 2026 results.
    Status: Confirmed by Boston Scientific. Recovered.
@@ -1434,6 +1534,7 @@ CONFIRMED HACKS
    Date: Jul 16, 2026
    Severity: High
    Sectors: Food, Manufacturing
+   Countries: US
    Summary: A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.
    Impact: U.S. production suspended; most production resumed by July 27.
    Status: Confirmed by Coca-Cola (SEC filing).
@@ -1446,6 +1547,7 @@ CONFIRMED HACKS
    Date: June 2026
    Severity: Medium
    Sectors: Tech
+   Countries: US
    Summary: Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.
    Impact: Close to 200 customer companies affected (TechCrunch); business contact and sales data.
    Status: Confirmed by Klue and affected companies.
@@ -1458,6 +1560,7 @@ CONFIRMED HACKS
    Date: May 17, 2026
    Severity: Critical
    Sectors: Healthcare
+   Countries: US
    Summary: Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.
    Impact: 15 million people (HHS filing).
    Status: Confirmed. Notices sent.
@@ -1495,6 +1598,7 @@ CONFIRMED HACKS
    Date: 2026
    Severity: High
    Sectors: Utilities, Government
+   Countries: US
    Summary: U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.
    Impact: Operational disruption at affected utilities; no single total published.
    Status: Confirmed by CISA, FBI, EPA and NSA advisories.
@@ -1507,6 +1611,7 @@ CONFIRMED HACKS
    Date: April 2026
    Severity: Critical
    Sectors: Government
+   Countries: US
    Summary: The FBI declared a "major cyber incident" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.
    Impact: Possible exposure of surveillance-target information; full scope not disclosed.
    Status: Confirmed by the FBI. Investigation ongoing.
@@ -1531,6 +1636,7 @@ CONFIRMED HACKS
    Date: 2026
    Severity: High
    Sectors: Government
+   Countries: EU
    Summary: Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.
    Impact: About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU).
    Status: Confirmed by CERT-EU and the Commission.
@@ -1543,6 +1649,7 @@ CONFIRMED HACKS
    Date: Feb 25, 2026
    Severity: High
    Sectors: Tech, Government
+   Countries: US
    Summary: Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.
    Impact: Unknown number of networks; Cisco Talos said the campaign went back to at least 2023.
    Status: Confirmed by Cisco and CISA (Emergency Directive 26-03).
@@ -1555,6 +1662,7 @@ CONFIRMED HACKS
    Date: Dec 29, 2025
    Severity: High
    Sectors: Energy, Government
+   Countries: PL
    Summary: A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.
    Impact: Communications disrupted at some grid connection points; power and heat generation did not stop.
    Status: Confirmed by CERT Polska and the Polish government.
@@ -1567,6 +1675,7 @@ CONFIRMED HACKS
    Date: Sept 2025
    Severity: High
    Sectors: Manufacturing
+   Countries: GB
    Summary: A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.
    Impact: £196 million in costs reported for the quarter; production halted for weeks.
    Status: Confirmed by JLR. Recovered. (Older event, still in the news.)
@@ -1582,6 +1691,7 @@ SPECULATED / POTENTIAL HACKS
    Updated: Nov 20
    Severity: High
    Sectors: Government
+   Countries: US
    Summary: The National Security Agency's internal top-secret network, NSANet, went down right on the heels of a week of big outages and stayed disrupted for nearly four days. It was restored on Nov. 20.
    What people speculated: An attack on a U.S. intelligence network.
    Official explanation: The NSA described it as scheduled maintenance. Multiple U.S. officials told CNN it was not a cyberattack and appears tied to the agency's patching of recently disclosed vulnerabilities in PHP software; a senior administration official said the restoration work was going "slower than expected." At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages.
@@ -1598,6 +1708,7 @@ SPECULATED / POTENTIAL HACKS
    Updated: Nov 19
    Severity: High
    Sectors: Finance
+   Countries: US
    Summary: Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; on Nov. 19 the bank confirmed a separate attack on its vendors, which it says is unrelated to the outage.
    What people speculated: A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.
    Official explanation: Chase blamed a temporary software bug in on-premise hardware and said there was no evidence of a cyberattack. On Nov. 19 the bank confirmed a separate cyberattack on third-party vendors (see the confirmed list) and said there is "no connection" between it and the service disruption.
@@ -1613,6 +1724,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 19, 2026
    Severity: Low
    Sectors: Education
+   Countries: US
    Summary: Cleveland Independent School District near Houston restricted access to its networks and technology services after detecting suspicious activity. Schools stayed open, but visitor access was limited because the electronic visitor system was down.
    What people speculated: A cyberattack on district systems.
    Official explanation: The district describes it as an attempted cybersecurity intrusion and says a full breach of its systems has not been confirmed.
@@ -1627,6 +1739,7 @@ SPECULATED / POTENTIAL HACKS
    Updated: Nov 18
    Severity: Critical
    Sectors: Aviation, Government
+   Countries: US
    Summary: The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.
    What people speculated: A hack or coordinated attack on air traffic control, possibly connected to the Microsoft outage the day before.
    Official explanation: The FAA says it has "no indication that this was a cyberattack or an outside nefarious actor." Its explanation: after a contractor installed a new router at a radio site in El Dorado, Arkansas, data flooded the FAA's legacy network (with a second problem site in Amarillo, Texas). Officials said it was not related to the Microsoft outage. On Nov. 18, the Director of National Intelligence and an FBI deputy director told Congress they had found no indication of malicious cyber activity behind the recent string of outages.
@@ -1642,6 +1755,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 18, 2026
    Severity: Medium
    Sectors: Tech
+   Countries: US
    Summary: The Gentlemen ransomware gang listed Nvidia as a victim on its leak site, claiming it would post data soon and giving the company about nine days to pay. It has not posted any samples.
    What people speculated: That the gang breached Nvidia and stole its data.
    Official explanation: Nvidia says it is "investigating an incident that may have affected a third-party partner" and has "found no indication that Nvidia systems or networks were affected."
@@ -1657,6 +1771,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 17, 2026
    Severity: High
    Sectors: Tech, Consumer
+   Countries: US
    Summary: iCloud sign-in, the App Store, Apple Music, Apple Pay, AppleCare and Apple retail store systems went down for hours, the latest in a week of big U.S. outages.
    What people speculated: Another hit in a coordinated cyberattack behind the Microsoft, FAA, Chase and NSA outages.
    Official explanation: Apple said an internal update caused the outages and that it was not a cyberattack. The U.S. Director of National Intelligence also said the recent string of outages was not a cyberattack or a coordinated nation-state effort.
@@ -1672,6 +1787,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 17, 2026
    Severity: Medium
    Sectors: Travel, Consumer
+   Countries: US
    Summary: Marriott.com and the Bonvoy app wouldn't let members sign in for several hours, knocking out mobile check-in and digital room keys for some guests.
    What people speculated: Part of a wave of attacks behind the week's other outages.
    Official explanation: Marriott said it resolved a technical issue and its review found no indication it was cybersecurity-related.
@@ -1686,6 +1802,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 16, 2026
    Severity: High
    Sectors: Government, Agriculture
+   Countries: US
    Summary: Many USDA applications, including financial tools used for payments to farmers, have been offline over several days. Nextgov/FCW and Government Executive report an internal USDA email saying its security operations center "uncovered a security incident" that required resetting all database passwords and applications. Some staff have also had VPN problems.
    Impact: Staff unable to reach client-facing applications for loan and aid notices and statuses; intermittent outages expected through the week. Not known who was behind it or whether any data was taken.
    Status: USDA has not publicly commented. Cause and scope not officially disclosed.
@@ -1697,6 +1814,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 16, 2026
    Severity: Medium
    Sectors: Aviation
+   Countries: US
    Summary: Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff.
    What people speculated: Another attack on U.S. aviation, linked to the FAA ground stop.
    Official explanation: United said it was a technology issue, resolved in about an hour and a half, with no indication of a cyberattack or link to the ground stop.
@@ -1712,6 +1830,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 13, 2026
    Severity: High
    Sectors: Tech, Business
+   Countries: US
    Summary: Workday's HR platform went down for most of a day starting the afternoon of Nov. 13, leaving employees at customer organizations unable to clock in or out, see pay information, request time off or file for benefits. It hit one day after the Microsoft 365 outage and the same day as the FAA ground stop, during a run of big outages that drew hack theories online.
    What people speculated: A cyberattack, possibly connected to the other outages that week.
    Official explanation: Workday said the outage was not related to a cybersecurity incident. Its status notice said tenanted services at its disaster recovery site unexpectedly connected to production databases while it was validating a weekly maintenance window, leaving data inconsistent, so it put all WD1 production tenants into maintenance.
@@ -1727,6 +1846,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 12, 2026
    Severity: Critical
    Sectors: Tech
+   Countries: US
    Summary: Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked.
    What people speculated: A cyberattack on Microsoft's cloud.
    Official explanation: Microsoft's preliminary post-incident report calls it "a technical issue not related to cyber or AI/agents": a hidden bug from a July update, extra traffic after a Teams failover, and about 14% of gateway servers already offline combined to freeze its gateway servers.
@@ -1743,6 +1863,7 @@ SPECULATED / POTENTIAL HACKS
    Updated: Nov 11
    Severity: Low
    Sectors: Education
+   Countries: US
    Summary: The New Plymouth School District shut down its network, school computers and Google accounts after detecting what it called a cyber threat within its network, and canceled classes for two days.
    What people speculated: A cyberattack on the district's network; the district warned families to delete suspicious emails that appeared to come from the district or its schools.
    Official explanation: The district calls it a potential cyber threat and says there is no evidence any data was compromised. Systems were shut down out of caution while it restores the network and checks devices.
@@ -1758,6 +1879,7 @@ SPECULATED / POTENTIAL HACKS
    Updated: Nov 4
    Severity: Medium
    Sectors: Government, Food
+   Countries: US
    Summary: In late August, refrigeration at at least six on-base grocery stores (commissaries) across the U.S. failed at nearly the same time. At one, freezers were put into defrost mode overnight and food melted.
    What people speculated: A cyberattack on the commissaries' refrigeration controls, similar to the attacks that later hit French and European supermarket freezers.
    Official explanation: Reuters reported on Oct. 29 that the Pentagon is treating the malfunctions as a suspected hack, citing four officials. The Pentagon says a Cyber Command unit is working with law enforcement partners, and Army CID's Cyber Field Office is working with French law enforcement. As of Nov. 4, officials had not confirmed whether anything malicious happened.
@@ -1772,6 +1894,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jul 28, 2026
    Severity: Medium
    Sectors: Aviation
+   Countries: US
    Summary: The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.
    What people speculated: A cyberattack, possibly part of a wider campaign that week.
    Official explanation: American described a technology issue affecting connectivity for some systems. It has not named a cause, and there is no public evidence of an attack.
@@ -1786,6 +1909,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jul 26, 2026
    Severity: Medium
    Sectors: Gaming, Tech
+   Countries: US
    Summary: Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks.
    What people speculated: An attack on Microsoft's gaming network during a cluster of outages.
    Official explanation: Microsoft's Xbox CTO said a licensing service that Xbox depends on began failing.
@@ -1799,6 +1923,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jul 24, 2026
    Severity: Low
    Sectors: Gaming
+   Countries: JP
    Summary: PlayStation Network accounts, gaming, the store and other features were down for about five hours.
    What people speculated: A hack of Sony's network.
    Official explanation: Sony has not published a root cause. Some outlets speculated about a cloud provider problem, which Sony did not confirm.
@@ -1812,6 +1937,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jan 14, 2026
    Severity: High
    Sectors: Telecom
+   Countries: US
    Summary: Verizon customers across the U.S. lost wireless service for hours.
    What people speculated: A cyberattack on the phone network.
    Official explanation: Verizon blamed a "software issue"; reports cited law-enforcement sources saying there was no indication of a cyberattack. Verizon offered affected customers a $20 credit.
@@ -1826,6 +1952,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Nov 18, 2025
    Severity: High
    Sectors: Tech
+   Countries: US
    Summary: Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack.
    What people speculated: A huge DDoS (traffic-flood) attack.
    Official explanation: Cloudflare's postmortem says a database permission change made a configuration file for its bot-blocking system double in size, which crashed its core proxy software.
@@ -1840,6 +1967,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Oct 20, 2025
    Severity: Critical
    Sectors: Tech
+   Countries: US
    Summary: A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.
    What people speculated: A cyberattack or DNS hijacking.
    Official explanation: AWS traced it to a hidden race condition in DynamoDB's automated DNS management that left a key DNS record empty. There was no sign of malicious activity.
@@ -1854,6 +1982,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jul 24, 2025
    Severity: High
    Sectors: Telecom, Tech
+   Countries: US
    Summary: SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack.
    What people speculated: A cyberattack on the satellite network.
    Official explanation: SpaceX said a failed software upgrade to its ground-based network systems caused the outage.
@@ -1868,6 +1997,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Apr 28, 2025
    Severity: Critical
    Sectors: Energy, Government
+   Countries: ES, PT
    Summary: Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.
    What people speculated: A cyberattack on the power grid.
    Official explanation: Spain's government report (June 2025) and the European grid operators' expert panel final report (March 2026) found no evidence of a cyberattack. They blame voltage control problems and a chain of generator disconnections.
@@ -1882,6 +2012,7 @@ SPECULATED / POTENTIAL HACKS
    Date: Jul 19, 2024
    Severity: Critical
    Sectors: Tech, Aviation
+   Countries: US
    Summary: A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.
    What people speculated: A global cyberattack.
    Official explanation: CrowdStrike said the same day it was not a cyberattack. A faulty content update for its Falcon sensor caused Windows machines to crash.

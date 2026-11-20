@@ -7,6 +7,9 @@
       "sectors": [
         "Education"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Low",
       "summary": "Cleveland Independent School District near Houston restricted access to its networks and technology services after detecting suspicious activity. Schools stayed open, but visitor access was limited because the electronic visitor system was down.",
       "speculation": "A cyberattack on district systems.",
@@ -27,6 +30,9 @@
       "sectors": [
         "Aviation",
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Critical",
       "summary": "The FAA halted departures across the U.S. for more than four hours after its air traffic communications network became unstable. It came one day after the big Microsoft outage, so many people asked whether the two were linked or whether someone had hacked the system.",
@@ -54,6 +60,9 @@
       "date": "2026-11-12",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Critical",
       "summary": "Outlook email and other Microsoft 365 services went down worldwide for most of a business day, one of the largest outages in the company's history. Microsoft publicly pushed back on speculation that it had been hacked.",
@@ -83,6 +92,9 @@
         "Tech",
         "Aviation"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Critical",
       "summary": "A single update from security company CrowdStrike crashed Windows computers around the world, grounding flights and knocking banks, hospitals and broadcasters offline. It is still the go-to comparison whenever a big outage hits.",
       "speculation": "A global cyberattack.",
@@ -105,6 +117,9 @@
       "date": "2025-10-20",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Critical",
       "summary": "A failure in Amazon's biggest cloud region took down a long list of apps and websites for hours, leading many people to wonder if it was an attack on internet infrastructure.",
@@ -130,6 +145,10 @@
         "Energy",
         "Government"
       ],
+      "countries": [
+        "ES",
+        "PT"
+      ],
       "severity": "Critical",
       "summary": "Nearly all of mainland Spain and Portugal lost power. In the first hours, a cyberattack was one of the theories openly discussed.",
       "speculation": "A cyberattack on the power grid.",
@@ -152,6 +171,9 @@
       "date": "2025-11-18",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "Cloudflare, which sits in front of a huge share of websites, broke much of the web for several hours, including ChatGPT. Even Cloudflare's own team first suspected a massive DDoS attack.",
@@ -176,6 +198,9 @@
       "sectors": [
         "Tech",
         "Consumer"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "iCloud sign-in, the App Store, Apple Music, Apple Pay, AppleCare and Apple retail store systems went down for hours, the latest in a week of big U.S. outages.",
@@ -205,6 +230,9 @@
         "Tech",
         "Business"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Workday's HR platform went down for most of a day starting the afternoon of Nov. 13, leaving employees at customer organizations unable to clock in or out, see pay information, request time off or file for benefits. It hit one day after the Microsoft 365 outage and the same day as the FAA ground stop, during a run of big outages that drew hack theories online.",
       "speculation": "A cyberattack, possibly connected to the other outages that week.",
@@ -233,6 +261,9 @@
       "sectors": [
         "Finance"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Chase's online banking slowed and transactions were delayed for hours, with knock-on delays at other banks. It was the fourth big U.S. outage in five days, which fed questions about a coordinated attack. On Nov 17 a new ransomware gang, n0n, listed JPMorgan Chase on its leak site, claiming it stole data; on Nov. 19 the bank confirmed a separate attack on its vendors, which it says is unrelated to the outage.",
       "speculation": "A cyberattack on the banking system, possibly linked to the Microsoft and FAA outages.",
@@ -260,6 +291,9 @@
       "sectors": [
         "Telecom"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Verizon customers across the U.S. lost wireless service for hours.",
       "speculation": "A cyberattack on the phone network.",
@@ -283,6 +317,9 @@
       "updated": "2026-11-20",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "The National Security Agency's internal top-secret network, NSANet, went down right on the heels of a week of big outages and stayed disrupted for nearly four days. It was restored on Nov. 20.",
@@ -312,6 +349,9 @@
         "Telecom",
         "Tech"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "SpaceX's Starlink satellite internet went down worldwide for hours, prompting talk of an attack.",
       "speculation": "A cyberattack on the satellite network.",
@@ -336,6 +376,9 @@
         "Government",
         "Agriculture"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Many USDA applications, including financial tools used for payments to farmers, have been offline over several days. Nextgov/FCW and Government Executive report an internal USDA email saying its security operations center \"uncovered a security incident\" that required resetting all database passwords and applications. Some staff have also had VPN problems.",
       "impact": "Staff unable to reach client-facing applications for loan and aid notices and statuses; intermittent outages expected through the week. Not known who was behind it or whether any data was taken.",
@@ -352,6 +395,9 @@
       "date": "2026-11-18",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "The Gentlemen ransomware gang listed Nvidia as a victim on its leak site, claiming it would post data soon and giving the company about nine days to pay. It has not posted any samples.",
@@ -379,6 +425,9 @@
       "date": "2026-11-16",
       "sectors": [
         "Aviation"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Three days after the FAA ground stop, a United system outage delayed departures because pilots couldn't get final aircraft weight data needed for takeoff.",
@@ -408,6 +457,9 @@
         "Travel",
         "Consumer"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Medium",
       "summary": "Marriott.com and the Bonvoy app wouldn't let members sign in for several hours, knocking out mobile check-in and digital room keys for some guests.",
       "speculation": "Part of a wave of attacks behind the week's other outages.",
@@ -430,6 +482,9 @@
       "date": "2026-07-28",
       "sectors": [
         "Aviation"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "The FAA briefly stopped all American Airlines departures nationwide after an IT problem. It came during a week of several big outages.",
@@ -455,6 +510,9 @@
         "Gaming",
         "Tech"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Medium",
       "summary": "Xbox players couldn't sign in, buy or launch games for many hours; even some disc games failed license checks.",
       "speculation": "An attack on Microsoft's gaming network during a cluster of outages.",
@@ -473,6 +531,9 @@
       "date": "2026-07-24",
       "sectors": [
         "Gaming"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Low",
       "summary": "PlayStation Network accounts, gaming, the store and other features were down for about five hours.",
@@ -551,6 +612,9 @@
       "sectors": [
         "Healthcare"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Low",
       "summary": "Kern Medical, the public hospital run by the Kern County Hospital Authority, says it found unusual activity on Sept. 17 involving unauthorized access to a database, and that an unauthorized third party copied files with patient information. It announced the breach on Nov. 16.",
       "impact": "Patients' names, addresses, birth dates, medical record numbers, dates of service and health insurance information, plus Social Security numbers in limited cases. Number of people not disclosed.",
@@ -573,6 +637,9 @@
       "sectors": [
         "Education",
         "Research"
+      ],
+      "countries": [
+        "KR"
       ],
       "severity": "Medium",
       "summary": "South Korean research university POSTECH says an outside attacker exploited security flaws in its research equipment portal and IT service portal between 12:30 and 3:30 a.m. on Nov. 13, got administrator rights and viewed personal data. The break-in came to light while staff looked into an illegal cryptocurrency mining program found on a lab GPU server.",
@@ -602,6 +669,9 @@
         "Consumer",
         "Tech"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "Medium",
       "summary": "An outsider got into the ticketing system run by accesso, the reservation vendor for LEGOLAND Korea Resort and SEA LIFE Busan Aquarium, on Nov. 14 by exploiting a weakness, and looked up some annual pass holders' details. Both attractions posted notices on Nov. 16 warning customers their data may have leaked.",
       "impact": "Some annual (season) pass holders' names, encrypted birth dates, addresses, email addresses, phone numbers and annual pass barcode numbers. Number of people affected still under investigation; no evidence card or bank data was exposed.",
@@ -625,6 +695,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Critical",
       "summary": "Japanese online fashion retailer ZOZO says data it kept in KARTE, the PLAID marketing service hacked on Nov. 13, leaked. PLAID's investigation showed on Nov. 15 that part of ZOZO's customer data had been taken from PLAID's databases; ZOZO announced it on Nov. 20.",
       "impact": "About 15.18 million ZOZOTOWN customers (including former members): internal member IDs, age, gender and postal code; for about 47,000 of them also display names, email addresses and phone numbers. About 13.93 million WEAR by ZOZO members' internal IDs, age and gender. About 24,000 brand staff records (member IDs, company names and names). ZOZO says passwords were not stored in KARTE and no card data leak has been found.",
@@ -647,6 +720,9 @@
       "sectors": [
         "Finance",
         "Tech"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients.",
@@ -675,6 +751,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "Medium",
       "summary": "Korean online grocer Kurly says an outside attacker got into its systems on Nov. 17 by an abnormal method, stole authentication credentials and used them to reach internal business systems. It blocked the intrusion and reported it to authorities on Nov. 18.",
       "impact": "Personal data of 10,699 people in its curator (influencer) program: names, user IDs, phone numbers, email addresses and social media details, plus bank account numbers and resident or business registration numbers for some. Membership numbers of two regular customers also leaked.",
@@ -699,6 +778,9 @@
         "Finance",
         "Retail"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "Medium",
       "summary": "Meta M, which runs customer service centers for about 150 companies, says an outside party broke into its systems early on Nov. 12, and phone numbers and counseling conversations were viewed or taken from some systems. Clients including crypto exchange Coinone, resale app Bunjang and Mega MGC Coffee have reported leaks.",
       "impact": "Varies by client. Coinone says up to 11 kinds of information customers gave during support calls may have leaked, including names, phone numbers, resident registration numbers, account numbers, passwords and wallet addresses. Bunjang says 49 phone numbers leaked; Mega MGC Coffee says 30. As of Nov. 20 about 10 client companies had reported leaks to regulators (Herald Business).",
@@ -721,6 +803,9 @@
       "sectors": [
         "Education"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "High",
       "summary": "Jeonju University says its online liberal arts course service (AHA) was hacked at about 11:42 p.m. on Nov. 16. It confirmed the leak about 16 hours later, blocked outside access and reported it to regulators. It came a day after the Jeonbuk education office's school bus system breach.",
       "impact": "About 180,000 records, including about 25,000 resident registration numbers, of current and former students, staff and old website members. Leaked items include passwords, addresses, phone numbers and disability status.",
@@ -738,6 +823,9 @@
       "updated": "2026-11-20",
       "sectors": [
         "Healthcare"
+      ],
+      "countries": [
+        "KR"
       ],
       "severity": "High",
       "summary": "Senior care company Caring says an outside attacker bypassed authentication and got into an internal data lookup tool between Aug. 11 and Sept. 3. It closed the hole on Sept. 4 and at first thought no personal data was viewed, but a later review found the attacker had looked up records using existing accounts. It confirmed the leak on Nov. 17 and reported it to KISA.",
@@ -757,6 +845,9 @@
       "sectors": [
         "Aviation",
         "Travel"
+      ],
+      "countries": [
+        "NO"
       ],
       "severity": "Medium",
       "summary": "Norwegian says one of its external IT suppliers was hit by a cyberattack and malicious code was placed on parts of its website for a limited time on the afternoon and evening of Monday, Nov. 16. It found out on Nov. 18 and switched off the affected technology.",
@@ -781,6 +872,9 @@
         "Manufacturing",
         "Healthcare"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems.",
       "impact": "Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record).",
@@ -799,6 +893,10 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "LT",
+        "EU"
+      ],
       "severity": "Medium",
       "summary": "Lithuania's customs agency says attackers gained unauthorized access to BAP, the portal people and businesses use to log in to customs and some European Commission customs systems. It shut the portal down after detecting the attack on Nov. 10. Its chief called it a targeted, sophisticated attack that tried to go deeper into more sensitive systems.",
       "impact": "Possible data breach affecting several hundred people and businesses who logged in on Nov. 9-10; local media say names, addresses, phone numbers, emails and personal ID numbers may be exposed. Access to EU customs systems including ICS2 was disrupted for some users.",
@@ -816,6 +914,9 @@
       "updated": "2026-11-18",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "DE"
       ],
       "severity": "Medium",
       "summary": "Police say unknown attackers got into parts of the IT systems of Neuried, a town in Baden-Württemberg, and left a message there. The mayor discovered the attack on Nov. 17 and the affected systems were shut down as a precaution.",
@@ -836,6 +937,11 @@
         "Travel",
         "Aviation",
         "Tech"
+      ],
+      "countries": [
+        "ES",
+        "NO",
+        "SE"
       ],
       "severity": "High",
       "summary": "Spanish travel booking platform Amadeus reported a security incident in which an unauthorized actor had access to its systems for at least three years, Norway's National Security Authority (NSM) says. Amadeus says a vulnerability in its booking display system made certain booking data accessible; it was closed on Sept. 23, 2026. The breach became known in Norway on Oct. 27.",
@@ -863,6 +969,9 @@
       "sectors": [
         "Nonprofit"
       ],
+      "countries": [
+        "NZ"
+      ],
       "severity": "Medium",
       "summary": "New Zealand environmental advocacy group Forest & Bird says hackers got into its systems and accessed supporters' details. It was alerted on the evening of Nov. 18, and a forensic search of its website found malicious files hidden there to read data.",
       "impact": "Mainly names, phone numbers and email addresses. The group says a \"small subset\" of people may also have had payment card details, birth dates and physical addresses taken. Number of people affected not yet known.",
@@ -880,6 +989,9 @@
       "updated": "2026-11-18",
       "sectors": [
         "Education"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "A cyber incident knocked out the district's communications systems and much of its technology, including phones and internet access, and forced all Perry Local buildings to close on Monday, Nov. 16. On Nov. 18 the district said its investigation found malware caused the incident.",
@@ -903,6 +1015,9 @@
         "Finance",
         "Tech"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Low",
       "summary": "Money Forward said some Notion AI chat records from three of its group companies may have leaked after hackers broke into Fireworks AI, the provider Notion used to process its AI features. Notion told the company on Nov. 10. Money Forward says its own services and systems were not accessed.",
       "impact": "Personal information on 4,797 customers and business contacts (names, email addresses, internal system IDs) plus some employee names and emails, from chat records created Oct. 5 to 24. No passwords or card data involved; no misuse found.",
@@ -925,6 +1040,9 @@
       "sectors": [
         "Manufacturing",
         "Tech"
+      ],
+      "countries": [
+        "DE"
       ],
       "severity": "High",
       "summary": "Quantum Systems, which builds reconnaissance drones used by Germany's military and Ukraine, said it found an active cyberattack by hostile actors at the end of October. According to Der Spiegel and the Financial Times, attackers planted a malicious file disguised as an update to its QBase mission-planning software on the company's update server; it reached some customer servers, including German military ones, but not the drones.",
@@ -952,6 +1070,7 @@
         "Finance",
         "Crypto"
       ],
+      "countries": [],
       "severity": "Critical",
       "summary": "Hackers drained about $6.3 billion in crypto from Binance's hot wallets, the largest crypto theft on record. Blockchain analysts traced it to North Korea's TraderTraitor group.",
       "impact": "About $6.3 billion stolen. Binance says it covered all losses and resumed withdrawals.",
@@ -976,6 +1095,9 @@
       "date": "2026-11-04",
       "sectors": [
         "Finance"
+      ],
+      "countries": [
+        "FR"
       ],
       "severity": "Critical",
       "summary": "Attackers got in through the platform of one of the bank's service providers and used Crédit Mutuel Arkéa's own account to send money to other banks, which was then converted into cryptocurrency. The bank suspended some transactions as a precaution and its app was unavailable for several hours.",
@@ -1004,6 +1126,7 @@
         "Education",
         "Tech"
       ],
+      "countries": [],
       "severity": "Critical",
       "summary": "The ShinyHunters gang stole data from Canvas, the school platform used by thousands of schools and universities, then defaced login pages during finals. Instructure later reached an agreement with the hackers.",
       "impact": "Names, emails, student IDs and some private messages. Hackers claimed 275 million users; TechCrunch reported more than 30 million students and staff.",
@@ -1030,6 +1153,9 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Critical",
       "summary": "The FBI declared a \"major cyber incident\" and notified Congress after a suspected China-linked breach of a system tied to wiretaps and surveillance targets.",
       "impact": "Possible exposure of surveillance-target information; full scope not disclosed.",
@@ -1052,6 +1178,7 @@
         "Healthcare",
         "Manufacturing"
       ],
+      "countries": [],
       "severity": "Critical",
       "summary": "Iran-linked hackers (Handala) took over admin accounts and remotely wiped tens of thousands of company devices, disrupting operations for weeks.",
       "impact": "Roughly 80,000 devices wiped (BleepingComputer); fully operational again about three weeks later.",
@@ -1074,6 +1201,7 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [],
       "severity": "Critical",
       "summary": "Chinese state-linked hackers stole credentials from ConnectWise's cloud backup service and used them to get into customers' Microsoft 365 accounts, spying on thousands of companies.",
       "impact": "Customer Microsoft 365 tenants (email and files) potentially accessed; Cloud Backup taken offline.",
@@ -1097,6 +1225,7 @@
         "Consumer",
         "Tech"
       ],
+      "countries": [],
       "severity": "Critical",
       "summary": "Expedia Group, owner of Expedia, Hotels.com and Vrbo, confirmed attackers reached its systems through a compromised third-party data platform provider in a supply chain attack that hit several companies. The n0n extortion group claims it stole more than 1 TB of Expedia data. Security researchers had described a similar attack using access tied to the Qubole data platform; Expedia has not named the vendor.",
       "impact": "Not disclosed by Expedia. n0n claims (unverified) hundreds of millions of account records and about 830 million rows of loyalty program data, plus traveler profiles and trip records.",
@@ -1120,6 +1249,11 @@
         "Tech",
         "Retail",
         "Finance"
+      ],
+      "countries": [
+        "US",
+        "GB",
+        "SE"
       ],
       "severity": "Critical",
       "summary": "Attackers exploited a flaw in Optimizely's Web Experimentation platform to inject malicious JavaScript into scripts that run on customers' websites. Researchers at Report URI found the code on 178 organizations' sites, including big names like Salesforce, Zoom, HSBC, CNN and Ikea, so visitors to those sites were exposed without the companies themselves being breached.",
@@ -1149,6 +1283,9 @@
         "Finance",
         "Retail"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Critical",
       "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. On Nov. 20 PLAID said about 2,200 client companies in total (counting overlaps) had data leaked or possibly leaked.",
       "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. ZOZO: about 15.18 million ZOZOTOWN and 13.93 million WEAR member records (see separate entry). Tokyo Gas also confirmed customer data leaked, with numbers still under investigation. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
@@ -1173,6 +1310,9 @@
       "date": "2026-11-11",
       "sectors": [
         "Finance"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Critical",
       "summary": "Attackers got into a test-environment system at Rakuten Securities on Nov. 11 and customer data held there may have been taken. The company detected the intrusion on Nov. 16 and blocked it.",
@@ -1200,6 +1340,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Critical",
       "summary": "Unauthorized access to KARTE, a marketing service run by PLAID that DHC used for direct mail and similar messages, leaked DHC customer account information linked to it. PLAID notified DHC on Nov. 13.",
       "impact": "About 19.11 million customer account records (names, email addresses, birth dates and more). DHC says online-shop passwords and card data were not included and no secondary damage has been confirmed.",
@@ -1216,6 +1359,9 @@
       "date": "2026-05-17",
       "sectors": [
         "Healthcare"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Critical",
       "summary": "Hackers were inside DentaQuest's network for several days and stole personal and health data. It is the largest healthcare breach reported to U.S. regulators this year.",
@@ -1239,6 +1385,9 @@
         "Tech",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Critical",
       "summary": "Attackers broke into a Japanese newsletter service used by hundreds of brands, including SEGA, and took subscriber email lists.",
       "impact": "81,329,467 email addresses from up to about 380 client companies (company count; addresses, not people).",
@@ -1259,6 +1408,9 @@
       "date": "2026-09-04",
       "sectors": [
         "Finance"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Critical",
       "summary": "An intruder got into DriveWealth's network, which powers investing features in many apps, and accessed customer data including Social Security numbers.",
@@ -1283,6 +1435,9 @@
         "Tech",
         "Consumer"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Critical",
       "summary": "A company that scans driver's licenses for bars, stores and other businesses confirmed hackers copied ID data from its cloud. Hackers advertised photos of more than 150 million North American drivers.",
       "impact": "13 million people per a state filing; hackers claimed about 153 million records.",
@@ -1305,6 +1460,9 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "EU"
+      ],
       "severity": "High",
       "summary": "Hackers poisoned an update of Trivy, a popular security tool, to steal a European Commission cloud key, then took data from its cloud accounts.",
       "impact": "About 340 GB of data, including personal data and email content; data of 30 EU entities exposed (CERT-EU).",
@@ -1326,6 +1484,9 @@
       "updated": "2026-11-19",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "EU"
       ],
       "severity": "High",
       "summary": "The European Commission confirmed a cyberattack on Sysper, the internal HR platform staff use for salary information, leave requests, timesheets and training sign-ups. Spokesperson Thomas Regnier called it an \"AI-generated cyber campaign\" first detected on Oct. 22. POLITICO reported that CERT-EU linked the attackers to ARTEX, an open-source AI hacking platform; the Commission has not named the tool.",
@@ -1353,6 +1514,9 @@
         "Energy",
         "Government"
       ],
+      "countries": [
+        "PL"
+      ],
       "severity": "High",
       "summary": "A coordinated, destructive attack hit more than 30 wind and solar farms and a major combined heat and power plant. Poland's CERT linked it to Russian state hackers.",
       "impact": "Communications disrupted at some grid connection points; power and heat generation did not stop.",
@@ -1376,6 +1540,9 @@
         "Utilities",
         "Government"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "U.S. agencies warned that Iran-affiliated hackers were breaking into internet-exposed control equipment (PLCs) at water and wastewater systems and other critical infrastructure, causing operational disruption.",
       "impact": "Operational disruption at affected utilities; no single total published.",
@@ -1397,6 +1564,9 @@
       "updated": "2026-11-20",
       "sectors": [
         "Energy"
+      ],
+      "countries": [
+        "NO"
       ],
       "severity": "High",
       "summary": "Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it.",
@@ -1423,6 +1593,9 @@
       "sectors": [
         "Energy",
         "Manufacturing"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. In a second report on Nov. 20 the company said the attacker most likely got in at about 1:30 a.m. on Nov. 15 by getting past the login on its VPN device, probably by trying passwords on an account that did not have multi-factor authentication, and then encrypted some virtual servers. It cut its systems off from outside networks on Nov. 17 and shut down production systems at its Saitama plant and two production subsidiaries.",
@@ -1451,6 +1624,7 @@
       "sectors": [
         "Finance"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific.",
       "impact": "Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details.",
@@ -1476,6 +1650,9 @@
       "sectors": [
         "Finance"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program.",
       "impact": "JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week.",
@@ -1496,6 +1673,9 @@
       "date": "2026-11-19",
       "sectors": [
         "Finance"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "Mastercard said it was recently informed of an incident at a third-party provider that exposed a limited amount of information from a subset of cardholders enrolled in a specific benefit program. The ransomware gang n0n, which also listed Visa and JPMorgan Chase, had listed Mastercard on its leak site and published a dataset after its ransom deadline passed.",
@@ -1522,6 +1702,9 @@
       "sectors": [
         "Healthcare",
         "Consumer"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data.",
@@ -1550,6 +1733,9 @@
       "sectors": [
         "Finance"
       ],
+      "countries": [
+        "IE"
+      ],
       "severity": "High",
       "summary": "An attacker exploited a flaw in the online banking platform Wellington IT provides to Irish credit unions and pulled saved payee records in early October. Credit unions were only told in mid-November.",
       "impact": "About 40 credit unions affected, roughly a quarter of the country's total. Saved payee names, IBANs, BICs, addresses and payment references potentially exposed. Officials say member balances were not accessed and no financial losses have been reported.",
@@ -1575,6 +1761,7 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "N-able said unknown attackers gained unauthorized access to a server in its Mail Assure and SpamExperts hosted cloud. A service disruption that started Nov. 16 was first traced to configuration and service dependencies, but the company later determined it was caused by the security incident and disabled management interfaces and APIs.",
       "impact": "Management portal, APIs, quarantine and logging offline for Mail Assure and SpamExperts in the Americas, APAC and Europe; mail flow and filtering kept running. N-able says it has no evidence so far that customer data or tenant mailboxes were accessed.",
@@ -1592,6 +1779,7 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "Barracuda said an attacker used a cloud access key it had given a third-party vendor for a past project, and never retired, to get into about 10 of its cloud accounts over 44 hours on Nov. 1-2. The attacker moved through its data analytics environment, source-code repositories and Kubernetes clusters and went after cryptocurrency secrets. Barracuda says the intrusion matched the ARTEX AI penetration-testing framework.",
       "impact": "About 10 cloud accounts accessed. The attacker reached a system storing customer integration credentials for Barracuda XDR; Barracuda found no evidence they were taken but asked potentially affected Managed XDR customers to revoke and recreate them.",
@@ -1609,6 +1797,7 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "GitBook says an attacker used a flaw in its SSO login flow to create sessions as GitBook staff, then reached its internal code repositories, a Cloudflare API key and production secrets that gave full infrastructure access. GitBook says the attack appears aimed at one of its customers.",
       "impact": "GitBook took its app offline for about 16 hours (Nov. 2-3) and rotated every infrastructure and customer-managed secret. It is treating all customer data as exposed, including API tokens, integration secrets, Git Sync secrets and authenticated docs. GitBook says billing information and passwords were not compromised and it found no evidence other customers' content was modified.",
@@ -1625,6 +1814,9 @@
       "date": "2026-11-16",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "KR"
       ],
       "severity": "High",
       "summary": "South Korea's Ministry of the Interior and Safety said hackers got into the government's administrative email system by going through vulnerable local government networks and exploiting a flaw in its single sign-on (SSO) login system.",
@@ -1648,6 +1840,9 @@
       "sectors": [
         "Retail",
         "Consumer"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "Japan's biggest furniture chain found intruders in a company system and says customer and order records may have been stolen.",
@@ -1675,6 +1870,7 @@
         "Transportation",
         "Logistics"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "The shipping giant confirmed that a threat actor breached a legacy system belonging to a company it previously acquired and stole data. The WhiteArmor ransomware group claimed the attack and threatened to release about 100GB of data, demanding $5 million (attacker's claim).",
       "impact": "Maersk says the incident is isolated to a local system, current evidence indicates no sensitive data was disclosed, and shipping operations are not disrupted.",
@@ -1693,6 +1889,9 @@
         "Transportation",
         "Logistics",
         "Government"
+      ],
+      "countries": [
+        "BR"
       ],
       "severity": "High",
       "summary": "A cyberattack hit the Santos Port Authority (APS), the state-owned company that runs Brazil's largest port, knocking its online systems partly offline after a power outage at its headquarters. APS later confirmed a ransom demand. Brazil's Federal Police are investigating.",
@@ -1716,6 +1915,9 @@
         "Tech",
         "Government"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "Attackers exploited unknown flaws in Cisco's SD-WAN network gear to get admin control. CISA ordered federal agencies to patch within two days and hunt for intruders.",
       "impact": "Unknown number of networks; Cisco Talos said the campaign went back to at least 2023.",
@@ -1737,6 +1939,9 @@
       "sectors": [
         "Healthcare",
         "Manufacturing"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "A cyberattack knocked out Boston Scientific's global network, halting manufacturing, orders and shipping for about two weeks.",
@@ -1760,6 +1965,7 @@
         "Travel",
         "Consumer"
       ],
+      "countries": [],
       "severity": "High",
       "summary": "Attackers tricked their way into an employee account and copied customer data. ShinyHunters claimed the attack; Carnival hasn't named a group.",
       "impact": "5,995,277 people; data may include government ID numbers.",
@@ -1781,6 +1987,9 @@
       "sectors": [
         "Finance",
         "Tech"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "Attackers exploited a web-server vulnerability at Value Design, a PayCloud Holdings subsidiary that runs the Value Card house e-money service for retailers, and took card ID numbers, PINs and balance data. On Nov. 18 the company said a second server, for a site it runs for business customers, was also hit on Oct. 19 and payment codes were taken from it.",
@@ -1808,6 +2017,9 @@
         "Media",
         "Retail"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "High",
       "summary": "NTT Solmare shut down its Comic Cmoa e-book store on Oct. 15 after detecting possible unauthorized access to its servers, and later confirmed attackers got into its member information system and took data. The store has been brought back in stages, with a full reopening targeted for November.",
       "impact": "Registration data for 319 members (email, hashed password, nickname, birth date, gender) and up to about 4.2 million records from system log files (email, nickname, birth date, gender; no passwords). No card data or purchase history leaked, the company says.",
@@ -1834,6 +2046,9 @@
         "Telecom",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "High",
       "summary": "NTT Docomo detected unauthorized outside access to its Docomo Online Shop and My docomo account site on Nov. 4 and shut down procedures on both early Nov. 5. The company later confirmed that some customer information was taken through the access.",
       "impact": "Up to about 300,000 customers, including former subscribers: names, birth dates, addresses, phone numbers, email addresses, ID document numbers and plan details, plus bank account details for some. Docomo says no card data was leaked and plans to compensate affected people.",
@@ -1859,6 +2074,9 @@
       "sectors": [
         "Consumer"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "2RedBeans (Embrace Inc.) said an unauthorized party got into one of its internal systems on Nov. 4 and copied member information before the access was detected and shut off on Nov. 5.",
       "impact": "About 1.3 million member accounts: names, gender, age and birth date, location, profile answers, profile photos (including unapproved ones), email addresses, verified phone numbers, IP addresses, and reports and feedback with any attached screenshots. The company says passwords, payment details, government ID numbers and private messages were not involved.",
@@ -1876,6 +2094,9 @@
       "dateLabel": "Sept 2025",
       "sectors": [
         "Manufacturing"
+      ],
+      "countries": [
+        "GB"
       ],
       "severity": "High",
       "summary": "A cyberattack forced JLR to shut down car production for about six weeks. It later reported a heavy loss tied to the attack.",
@@ -1899,6 +2120,9 @@
         "Food",
         "Manufacturing"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "High",
       "summary": "A ransomware attack on production systems forced Coca-Cola to pause fairlife milk production at all four U.S. plants.",
       "impact": "U.S. production suspended; most production resumed by July 27.",
@@ -1920,6 +2144,9 @@
       "sectors": [
         "Education",
         "Research"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "High",
       "summary": "Vanderbilt University in Nashville said on Nov. 9 it was responding to an active cyberattack affecting university devices, systems and cloud-based services, and told everyone to shut down university devices and get off campus Wi-Fi. The BYOD ransomware gang has claimed the attack; that claim has not been confirmed by the university.",
@@ -1947,6 +2174,9 @@
         "Tech",
         "Government"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "High",
       "summary": "Ransomware hit a SoftBank-group cloud provider, encrypting customer virtual servers used by companies and local governments.",
       "impact": "495 companies and local governments disrupted.",
@@ -1969,6 +2199,9 @@
         "Research",
         "Government"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "High",
       "summary": "An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it.",
       "impact": "Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted.",
@@ -1987,6 +2220,7 @@
         "Finance",
         "Crypto"
       ],
+      "countries": [],
       "severity": "Medium",
       "summary": "An attacker drained funds from market-maker accounts on Lighter, a decentralized perpetual futures exchange, after the accounts' API keys were exposed. Lighter says the affected accounts used signing code outside its official software kits that reused cryptographic nonces, letting the attacker rebuild private keys from public signatures and move funds out through a public pool.",
       "impact": "Blockchain investigators traced about $10.4 million in USDC withdrawn; other researchers' estimate of $15.5 million is unconfirmed by Lighter. Lighter's security council returned about $5 million to the affected trader. Withdrawals were paused, then resumed the same day.",
@@ -2009,6 +2243,7 @@
         "Healthcare",
         "Manufacturing"
       ],
+      "countries": [],
       "severity": "Medium",
       "summary": "WS Audiology said attackers gained unauthorized access to its customer relationship management environment and certain operational IT systems. It took some internal and customer-facing systems offline to contain the incident, disrupting the Widex MOMENT app, Widex Compass Cloud and Signia TeleCare for days.",
       "impact": "Hearing aids themselves were not affected, but some users lost app-based controls and clinics lost remote-care tools while systems were restored in phases. On Nov. 18 the CEO said the financial impact would be limited, citing a fast response and cyber insurance.",
@@ -2035,6 +2270,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "Mitsui Fudosan and Mitsui Fudosan Retail Management said a third party gained unauthorized access to the Mitsui Shopping Park app and leaked part of its point-program member data. They found the access on Nov. 18 and suspended the app the same day.",
       "impact": "Member numbers, names, birth dates, addresses and email addresses. The companies say card data and passwords were not included; the number of affected members is still under investigation.",
@@ -2056,6 +2294,9 @@
       "sectors": [
         "Transportation",
         "Government"
+      ],
+      "countries": [
+        "GB"
       ],
       "severity": "Medium",
       "summary": "Transport for London said it spotted suspicious activity on its Oyster photocard website on Nov. 16, after photocard holders got unexpected emails asking them to create an account they already had. It took the photocard system offline and says unauthorized access to customers' web account details resulted.",
@@ -2080,6 +2321,9 @@
         "Finance",
         "Business"
       ],
+      "countries": [
+        "CA"
+      ],
       "severity": "Medium",
       "summary": "KPMG Canada confirmed a data breach in which client tax documents were compromised, and is contacting affected clients. It is the latest in a string of breaches at Canadian professional services firms, including several big Bay Street law firms.",
       "impact": "Client tax documents. KPMG has not said how many clients or files were affected or how the attackers got in. It says its monitoring shows the data is not available online or being misused.",
@@ -2102,6 +2346,9 @@
         "Finance",
         "Business"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "Fukuoka Bank said a third party gained unauthorized access to a data analysis tool used by FFG Industries, a Fukuoka Financial Group company, to compile data from its ordering systems. The tool was set up and run by an outside contractor, and some information in the database it connected to may have leaked.",
       "impact": "1,221 business clients potentially affected: company names and addresses, contact names, email addresses and phone numbers, login IDs and hashed passwords, and meeting records. The bank says its core banking system and account information were not affected and no misuse has been found.",
@@ -2119,6 +2366,9 @@
       "sectors": [
         "Education",
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Ransom messages appeared on district laptops saying attackers had extracted sensitive data and encrypted critical files, and demanding contact within 72 hours to negotiate. The district took its internet offline, knocking out phones and email.",
@@ -2144,6 +2394,9 @@
       "date": "2026-11-15",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "CH"
       ],
       "severity": "Medium",
       "summary": "Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure. On Nov. 20 the canton said forensic analysis showed the attackers got into a database of work permits for cross-border commuters and stole data.",
@@ -2172,6 +2425,9 @@
         "Telecom",
         "Government"
       ],
+      "countries": [
+        "DE"
+      ],
       "severity": "Medium",
       "summary": "Stadtwerke Wittenberg confirmed that criminals attacked the systems of its regional internet and phone provider Wittenberg-Net overnight into Wednesday, Nov. 18, causing a widespread outage around Wittenberg in Saxony-Anhalt. All relevant systems were taken offline as a precaution.",
       "impact": "About 8,000 households and many public facilities, including the Wittenberg city and district administrations, temporarily lost landline phone and internet service or had limited service. Most connections are back online; work on some systems continues.",
@@ -2188,6 +2444,9 @@
       "date": "2026-08-27",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "The ATF declared a \"major incident\" after a breach of a standalone system holding information on targets of its investigations. A ransomware gang (Qilin) claimed it; ATF has not confirmed who did it.",
@@ -2211,6 +2470,9 @@
         "Government",
         "Healthcare"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "Japan's Ministry of Health, Labour and Welfare said NTT Data, which runs and maintains its system for tracking drug supply shortages, reported unauthorized access by a third party. Traces show some stored data was viewed and someone tried to alter it, and a suspicious file was uploaded to the reporting system.",
       "impact": "Names and contact details of some drug company staff may have leaked; full scope still under investigation. The system was shut down on Nov. 17 and the reporting system stays offline for now.",
@@ -2233,6 +2495,9 @@
         "Finance",
         "Tech"
       ],
+      "countries": [
+        "IN"
+      ],
       "severity": "Medium",
       "summary": "Hackers got into three cloud servers belonging to an unnamed Gurugram-based digital payments firm on the night of Nov. 5-6, ran malicious scripts and abused its payout API to send money out of its escrow account, police say. Two men from Ludhiana have been arrested.",
       "impact": "About ₹25.67 crore (police figure) taken in 265 unauthorized payments to 156 bank accounts; about ₹1.5 crore frozen so far.",
@@ -2251,6 +2516,7 @@
         "Consumer",
         "Finance"
       ],
+      "countries": [],
       "severity": "Medium",
       "summary": "Crypto hardware wallet maker Trezor says its shipping partner Skladon had unauthorized access to its systems on Nov. 7, and the attacker exported Trezor customer shipping data. Skladon notified Trezor on Nov. 15.",
       "impact": "About 27,000 orders placed between Aug. 9 and Nov. 7, 2026: full names, phone numbers, delivery addresses, email addresses and order details. Trezor says its own systems were not compromised and no wallet backups, PINs or passphrases were involved, and it warns customers to watch for scams.",
@@ -2268,6 +2534,9 @@
       "sectors": [
         "Transportation",
         "Logistics"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "J.B. Hunt confirmed it is investigating unauthorized access to certain information in an isolated part of its technology systems. The WhiteArmor extortion group claims it stole data from J.B. Hunt as well as Ryder and Echo Global Logistics; those two have not publicly confirmed an incident.",
@@ -2290,6 +2559,9 @@
       "sectors": [
         "Telecom"
       ],
+      "countries": [
+        "SG"
+      ],
       "severity": "Medium",
       "summary": "Singapore mobile carrier M1 disclosed a data breach it identified on October 30 involving customer information. It says the breach has been contained.",
       "impact": "Customer names, NRIC/FIN numbers, dates of birth, mobile numbers, email addresses and addresses. M1 says no payment card, banking or account access was compromised; it has not said how many customers are affected.",
@@ -2307,6 +2579,9 @@
       "dateLabel": "June 2026",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Hackers used an old Klue credential to steal access keys, then pulled sales/CRM data from many Klue customers, including security companies like HackerOne and LastPass.",
@@ -2329,6 +2604,9 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [
+        "CZ"
+      ],
       "severity": "Medium",
       "summary": "Apify, a Czech web scraping and browser automation platform, said an unauthorized third party got into parts of its internal systems on Nov. 9-10. It cut off the access, rotated internal secrets and API tokens, reset all sessions and revoked some third-party OAuth connections, including GitHub.",
       "impact": "Affected customers' API tokens and proxy passwords rotated; some told to reset two-factor authentication because codes may have been exposed. Apify says passwords are safe and it has found no sign that account data on the platform was affected.",
@@ -2345,6 +2623,9 @@
       "date": "2026-11-02",
       "sectors": [
         "Healthcare"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Myriad Genetics detected unauthorized access to its IT network and temporarily suspended testing operations and order management systems while it contained the activity.",
@@ -2367,6 +2648,9 @@
       "sectors": [
         "Energy"
       ],
+      "countries": [
+        "TH"
+      ],
       "severity": "Medium",
       "summary": "Thai oil refiner Star Petroleum Refining told the Stock Exchange of Thailand it was hit by a cyberattack that gave attackers unauthorized access to company data.",
       "impact": "Company data accessed; what and how much is still being investigated. SPRC says customer service and operations are not affected, and it can't yet assess any financial impact.",
@@ -2388,6 +2672,9 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "An outside party got into the cloud environment that OPEN Inc. uses to run some of its services on Nov. 12, including the authentication server for its BizRobo! mini automation product. The company spotted a security alert on Nov. 16.",
       "impact": "Logs show access to authentication IDs and passwords for about 560 customer companies (about 1,000 accounts). Other servers in the same environment were also accessed; impact on stored data is under investigation.",
@@ -2406,6 +2693,9 @@
       "sectors": [
         "Logistics",
         "Retail"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Medium",
       "summary": "An outside party broke into systems at Openlogi, a Japanese warehouse and shipping service used by online stores, on Nov. 8-9 and took shipping data. Store clients including Kashima Antlers FC, United Arrows' overseas shops, REALITY Studios, Toei Animation's online lottery shop and Calpis's butter online shop have since warned their customers.",
@@ -2433,6 +2723,9 @@
         "Tech",
         "Education"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see.",
       "impact": "About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data.",
@@ -2451,6 +2744,9 @@
       "sectors": [
         "Tech",
         "Consumer"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Hackers breached Fireworks AI, a tech provider, and used stolen credentials to reach Uber data. Notion was also affected.",
@@ -2474,6 +2770,7 @@
       "sectors": [
         "Tech"
       ],
+      "countries": [],
       "severity": "Medium",
       "summary": "Cursor said attackers used an access key stolen from its provider Fireworks AI to copy stored data, then used credentials found in that data to get into other internal systems. On Oct. 29 they used a stolen credential to put malicious copies of a popular extension on Cursor's extension marketplace for about 11 hours.",
       "impact": "Up to about 5,000 developers may have downloaded the malicious extension, which tried to install hidden SSH backdoors. Cursor says fewer than 0.05% of users had stored coding traces exposed and some customer support data, contact details and archived non-production code were taken.",
@@ -2491,6 +2788,7 @@
       "sectors": [
         "Consumer"
       ],
+      "countries": [],
       "severity": "Medium",
       "summary": "StubHub International, the non-U.S. ticket resale business run by Ticketbis, told customers it detected unauthorized access to certain systems between late October and early November.",
       "impact": "Customer names, email addresses, phone numbers and country or region settings may have been exposed. The company says it found no evidence passwords, banking information or payment card details were accessed. It has not said how many customers were affected.",
@@ -2507,6 +2805,9 @@
       "date": "2026-11-18",
       "sectors": [
         "Aviation"
+      ],
+      "countries": [
+        "ET"
       ],
       "severity": "Medium",
       "summary": "Ethiopian Airlines emailed members of its ShebaMiles frequent-flyer program warning that some customer information may have been exposed in a recent cyberattack it called \"of limited scope.\"",
@@ -2526,6 +2827,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Medium",
       "summary": "Card-skimming code was planted on Fandango's website checkout page and sent payment details typed in by customers to the attackers.",
       "impact": "Card numbers, CVV codes, expiration dates, billing ZIP codes and email addresses for purchases made October 8-11, 2026. Fandango has not said how many customers were affected.",
@@ -2543,6 +2847,9 @@
       "updated": "2026-11-18",
       "sectors": [
         "Tech"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "The networking and security company confirmed hackers accessed company information through a compromised third-party data migration vendor.",
@@ -2566,6 +2873,9 @@
         "Tech",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Medium",
       "summary": "Attackers logged into 201 accounts using passwords stolen elsewhere, then exploited a flaw in a scheduling feature to pull customer job details.",
       "impact": "Up to 366,850 records with customer addresses, phone numbers and request details. No names, emails, passwords or card numbers.",
@@ -2583,6 +2893,9 @@
       "sectors": [
         "Retail",
         "Consumer"
+      ],
+      "countries": [
+        "SE"
       ],
       "severity": "Medium",
       "summary": "Unauthorized parties got into a small, isolated part of Swedish beauty retailer Lyko's systems and accessed customer data. Lyko says it stopped the breach within an hour and fixed the security hole.",
@@ -2605,6 +2918,9 @@
       "sectors": [
         "Healthcare"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Medium",
       "summary": "A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER.",
       "impact": "Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation.",
@@ -2621,6 +2937,9 @@
       "date": "2026-11-14",
       "sectors": [
         "Healthcare"
+      ],
+      "countries": [
+        "DE"
       ],
       "severity": "Medium",
       "summary": "A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt.",
@@ -2648,6 +2967,9 @@
       "sectors": [
         "Education"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Medium",
       "summary": "Hackers broke into University of Texas at Arlington systems in late October. The school took down MachForms, its online forms portal for event registration, service requests and surveys, and later confirmed that personal information was stolen. The Qilin ransomware gang claimed the attack.",
       "impact": "Personal information of students and employees stolen; the school has not said what data or how many people. MachForms still offline as of Nov. 13.",
@@ -2668,6 +2990,9 @@
       "date": "2026-11-16",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Charleston County's IT team spotted unusual network activity on Nov. 16 and the county has confirmed data was copied from its systems. The South Carolina Law Enforcement Division (SLED) has deemed the incident criminal and is assisting the investigation.",
@@ -2691,6 +3016,9 @@
       "updated": "2026-11-19",
       "sectors": [
         "Government"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.",
@@ -2717,6 +3045,9 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "UA"
+      ],
       "severity": "Medium",
       "summary": "Hackers pushed fake nuclear and chemical attack warnings to users of Ukraine's air raid alert app. President Zelensky called it a Russian cyberattack.",
       "impact": "Several fake alerts sent to users' phones before being cleared about an hour later.",
@@ -2733,6 +3064,9 @@
       "date": "2026-11-04",
       "sectors": [
         "Media"
+      ],
+      "countries": [
+        "UA"
       ],
       "severity": "Medium",
       "summary": "Hackers got into the newsroom's website system and newsletter service, posting and emailing fake claims about Zelensky and Putin. The outlet suspects Russia.",
@@ -2754,6 +3088,9 @@
       "date": "2026-11-04",
       "sectors": [
         "Media"
+      ],
+      "countries": [
+        "SG"
       ],
       "severity": "Medium",
       "summary": "SPH Media, publisher of The Straits Times, found cyberattacks on five of its systems between Nov. 4 and Nov. 8, which it believes were carried out by the same threat actor. It says software bugs and system configuration played a part.",
@@ -2777,6 +3114,9 @@
         "Education",
         "Government"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "Low",
       "summary": "South Korea's Jeonbuk provincial education office said its school bus management system was hacked on the evening of Nov. 15. It learned of the leak after being alerted by the Ministry of Education's cyber safety center, shut the system down and asked police to investigate.",
       "impact": "Personal data of about 9,900 people leaked, including students' names and addresses, guardians' contact numbers and bus plate numbers. The parent app for live bus tracking and boarding alerts is offline.",
@@ -2793,6 +3133,9 @@
       "date": "2026-09-18",
       "sectors": [
         "Media"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Low",
       "summary": "Ransomware hit an old administrative file server at The Japan Times' group, and data the attacker claimed to have stolen was later posted online.",
@@ -2811,6 +3154,9 @@
       "sectors": [
         "Media"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Low",
       "summary": "KARTE, a marketing service run by PLAID that Nikkei uses, was accessed without authorization, and some Nikkei Online Edition user data it handled may have leaked.",
       "impact": "Email addresses, phone numbers, gender and birth year/month, which Nikkei says had been processed so they can't be restored to their original form. No card data.",
@@ -2828,6 +3174,7 @@
       "sectors": [
         "Business"
       ],
+      "countries": [],
       "severity": "Low",
       "summary": "The global market research firm found a breach of one internal information system and filed a complaint with authorities.",
       "impact": "One internal system. Ipsos says operations weren't affected and the scope is still under investigation.",
@@ -2846,6 +3193,9 @@
         "Retail",
         "Consumer"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "Low",
       "summary": "Unauthorized access to an outside company that handles SOFT99's online-shop orders and shipping leaked customer order information.",
       "impact": "About 3,813 people (3,728 orders): names, addresses, phone numbers, emails and order details. No card data. All online shops temporarily closed.",
@@ -2862,6 +3212,9 @@
       "date": "2026-10-28",
       "sectors": [
         "Finance"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Low",
       "summary": "Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed.",
@@ -2882,6 +3235,9 @@
         "Tech",
         "Consumer"
       ],
+      "countries": [
+        "DE"
+      ],
       "severity": "Low",
       "summary": "Steinberg, maker of the Cubase music software, says attackers used email and password pairs likely leaked from other, unrelated breaches to break into a limited number of Steinberg accounts (credential stuffing).",
       "impact": "A limited number of accounts accessed; no count given. Steinberg found no sign account data was changed or software licenses moved or deleted, and accounts with two-factor authentication were not affected. Its own credential database was not compromised.",
@@ -2898,6 +3254,9 @@
       "date": "2026-11-16",
       "sectors": [
         "Manufacturing"
+      ],
+      "countries": [
+        "TW"
       ],
       "severity": "Low",
       "summary": "Wieson Technologies says it discovered on Nov. 16 that some of its information system servers had been hit by a cyberattack, and it isolated the affected servers and network equipment.",
@@ -2916,6 +3275,9 @@
       "sectors": [
         "Aviation",
         "Government"
+      ],
+      "countries": [
+        "BW"
       ],
       "severity": "Low",
       "summary": "Botswana's state-owned airline said unauthorized parties got into some of its internal systems in what it described as a suspected ransomware attack.",
@@ -2938,6 +3300,9 @@
       "sectors": [
         "Education"
       ],
+      "countries": [
+        "US"
+      ],
       "severity": "Low",
       "summary": "The district's superintendent told families the district was hit by a ransomware attack that may have involved a data breach.",
       "impact": "District laptops and other Windows devices suspended as a precaution; internet, Chromebooks and phones still usable. Whether personal information was accessed is still being determined.",
@@ -2955,6 +3320,9 @@
       "sectors": [
         "Travel",
         "Business"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Low",
       "summary": "USEN-ALMEX said attackers hit the system-integration API of PreCheck-in, its online pre-check-in service for hotels, with continuous access starting Nov. 14. It found the unauthorized access on Nov. 15 and shut the service down on Nov. 16. Hotel operators using it, including Solare Hotels and Resorts, are notifying guests.",
@@ -2977,6 +3345,7 @@
       "sectors": [
         "Sports"
       ],
+      "countries": [],
       "severity": "Low",
       "summary": "Hackers replaced the IIHF's homepage with a pro-Russian image and message criticizing Russia's exclusion from international competition. The image was reportedly up for several minutes before the site was taken offline.",
       "impact": "Website defaced and then kept offline for restoration. No data theft has been reported.",
@@ -2995,6 +3364,9 @@
       "sectors": [
         "Consumer",
         "Retail"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Medium",
       "summary": "Kosé says attackers abused an access-control flaw in the booking system for in-store experiences and lessons at its Maison KOSÉ Ginza and Omotesando shops, sending a rapid stream of requests on Nov. 9 to read members' personal data. On Nov. 19 it disclosed a second leak: customer data it kept in PLAID's KARTE marketing service was taken in the KARTE breach.",
@@ -3018,6 +3390,9 @@
       "sectors": [
         "Finance",
         "Travel"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "High",
       "summary": "PocketChange, which runs airport and station kiosks that swap leftover foreign cash for e-money and gift codes, says attackers exploited a vulnerability in a third-party internal business system on Oct. 26, then broke into its operating systems on Nov. 13 and used stolen credentials to reach an old monitoring system of its Pokepay (Enterprise) e-money platform on Nov. 14.",
@@ -3043,6 +3418,9 @@
         "Aviation",
         "Finance",
         "Consumer"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Critical",
       "summary": "Tokyo-based Yumir Link found on Oct. 16 that attackers had broken into its Cuenote FC bulk email delivery service. It says they exploited a program vulnerability to steal its support staff's credentials, planted malicious programs on servers to pull data straight from databases, and hijacked logged-in customers' sessions to download address lists through the admin screen. Companies that send mail through Cuenote FC have been announcing leaks since late October.",
@@ -3070,6 +3448,9 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "JP"
+      ],
       "severity": "High",
       "summary": "Japan's Digital Agency says someone other than the intended recipients accessed files on the file-sharing service in its Government Solution Service (GSS), which government agencies use to share large files such as meeting materials with each other and outside parties. It detected the access on Nov. 12, cut the service off from outside networks and stopped it.",
       "impact": "Access confirmed from July 30 to Nov. 12, 2026. Some uploaded files may have leaked, and the agency says they are expected to include personal information. Number and contents of files not disclosed; no secondary damage confirmed.",
@@ -3095,6 +3476,9 @@
       "sectors": [
         "Government"
       ],
+      "countries": [
+        "NZ"
+      ],
       "severity": "Medium",
       "summary": "The New Zealand Defence Force says its website provider notified it on the morning of Friday, Nov. 20 of unauthorized access to its website systems. It took the affected public websites offline and began a forensic investigation.",
       "impact": "Preliminary findings show a database for the Force4Families Defence Discounts scheme was accessed, containing registered users' names and email addresses. Affected people have been contacted; full extent still being determined.",
@@ -3117,6 +3501,9 @@
       "sectors": [
         "Government",
         "Consumer"
+      ],
+      "countries": [
+        "US"
       ],
       "severity": "Medium",
       "summary": "Three Northeast Ohio library systems say attackers got into patron account data through outside vendors that handle customer accounts, checkouts and room reservations. Cuyahoga County Public Library says the incident happened Nov. 15, was discovered the next day and is one of several affecting libraries and vendor systems across the country. The vendors have not been named.",
@@ -3145,6 +3532,9 @@
         "Finance",
         "Healthcare"
       ],
+      "countries": [
+        "KR"
+      ],
       "severity": "Medium",
       "summary": "Korean insurance broker AMC (에이엠씨손해보험중개) says outsiders downloaded insurance claim lists and member lists from its AMC air claims app between Nov. 5 and 15. It found the downloads during a security check on Nov. 18, shut the service down the same day and reported it to authorities.",
       "impact": "Personal data of employees at some client companies: names, employer, full or partial resident registration numbers, relationship to the policyholder and coverage period; for people who filed claims, possibly diagnoses, treatment details and accident descriptions. Number of people and client companies not disclosed.",
@@ -3162,6 +3552,9 @@
       "sectors": [
         "Tech",
         "Business"
+      ],
+      "countries": [
+        "JP"
       ],
       "severity": "Low",
       "summary": "Tokyo marketing-communications company WOW WORLD says a third party broke into some servers used to run its services and took out part of the client-company data stored on them. It blocked the access and is investigating how the attackers got in.",
@@ -3207,15 +3600,9 @@
       "countries": [
         "BE",
         "LU",
-        "NL",
-        "SE",
         "IE",
-        "EE",
-        "FI",
-        "IT",
-        "PT",
-        "DE",
-        "GB"
+        "GB",
+        "SE"
       ],
       "sectors": [
         "Retail",
@@ -3321,7 +3708,9 @@
     {
       "org": "VMware vCenter zero-day attacks (CVE-2026-123890)",
       "date": "2026-11-19",
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "sectors": [
         "Tech"
       ],

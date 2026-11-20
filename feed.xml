@@ -17,6 +17,7 @@
 <category>Critical</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>PLAID KARTE customers (MUFG Bank, JINS, Shimamura and others, Japan) — Confirmed Hack</title>
@@ -29,6 +30,7 @@
 <category>Tech</category>
 <category>Finance</category>
 <category>Retail</category>
+<category>JP</category>
 </item>
 <item>
 <title>Yumir Link Cuenote FC (email delivery service, Japan; Peach Aviation, JR Central and others) — Confirmed Hack</title>
@@ -42,6 +44,7 @@
 <category>Aviation</category>
 <category>Finance</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay) — Confirmed Hack</title>
@@ -53,6 +56,7 @@
 <category>High</category>
 <category>Finance</category>
 <category>Tech</category>
+<category>JP</category>
 </item>
 <item>
 <title>Jeonju University (South Korea) — Confirmed Hack</title>
@@ -63,6 +67,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Education</category>
+<category>KR</category>
 </item>
 <item>
 <title>Caring (senior care company, South Korea) — Confirmed Hack</title>
@@ -73,6 +78,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Healthcare</category>
+<category>KR</category>
 </item>
 <item>
 <title>Equinor (energy company, Norway) — Confirmed Hack</title>
@@ -83,6 +89,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Energy</category>
+<category>NO</category>
 </item>
 <item>
 <title>Osaki Electric (smart meter maker, Japan) — Confirmed Hack</title>
@@ -94,6 +101,7 @@
 <category>High</category>
 <category>Energy</category>
 <category>Manufacturing</category>
+<category>JP</category>
 </item>
 <item>
 <title>Japan Digital Agency government file-sharing service (GSS) — Confirmed Hack</title>
@@ -104,6 +112,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
+<category>JP</category>
 </item>
 <item>
 <title>European supermarket refrigeration systems (Delhaize, SuperValu, ICA and others) — Confirmed Hack</title>
@@ -115,6 +124,11 @@
 <category>High</category>
 <category>Retail</category>
 <category>Food</category>
+<category>BE</category>
+<category>LU</category>
+<category>IE</category>
+<category>GB</category>
+<category>SE</category>
 </item>
 <item>
 <title>NSA classified network (NSANet) — Speculated / Potential Hack</title>
@@ -125,6 +139,7 @@
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>POSTECH (Pohang University of Science and Technology, South Korea) — Confirmed Hack</title>
@@ -136,6 +151,7 @@
 <category>Medium</category>
 <category>Education</category>
 <category>Research</category>
+<category>KR</category>
 </item>
 <item>
 <title>Kurly (online grocery, South Korea) — Confirmed Hack</title>
@@ -147,6 +163,7 @@
 <category>Medium</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>KR</category>
 </item>
 <item>
 <title>Meta M (call center outsourcer, South Korea; Coinone, Bunjang, Mega MGC Coffee) — Confirmed Hack</title>
@@ -159,6 +176,7 @@
 <category>Business</category>
 <category>Finance</category>
 <category>Retail</category>
+<category>KR</category>
 </item>
 <item>
 <title>Norwegian (airline website card skimming) — Confirmed Hack</title>
@@ -170,6 +188,7 @@
 <category>Medium</category>
 <category>Aviation</category>
 <category>Travel</category>
+<category>NO</category>
 </item>
 <item>
 <title>Canton of Basel-Country administration (Switzerland) — Confirmed Hack</title>
@@ -180,6 +199,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>CH</category>
 </item>
 <item>
 <title>Charleston County Government (South Carolina) — Confirmed Hack</title>
@@ -190,6 +210,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>New Zealand Defence Force websites (Force4Families discounts) — Confirmed Hack</title>
@@ -200,6 +221,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>NZ</category>
 </item>
 <item>
 <title>AMC Insurance Brokerage claims app AMC air (South Korea) — Confirmed Hack</title>
@@ -211,6 +233,7 @@
 <category>Medium</category>
 <category>Finance</category>
 <category>Healthcare</category>
+<category>KR</category>
 </item>
 <item>
 <title>WOW WORLD (marketing communications service, Japan) — Confirmed Hack</title>
@@ -222,6 +245,7 @@
 <category>Low</category>
 <category>Tech</category>
 <category>Business</category>
+<category>JP</category>
 </item>
 <item>
 <title>Bell Financial Group (stockbroker, Australia) — Confirmed Hack</title>
@@ -232,6 +256,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Finance</category>
+<category>AU</category>
 </item>
 <item>
 <title>European Commission HR system (Sysper) — Confirmed Hack</title>
@@ -242,6 +267,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
+<category>EU</category>
 </item>
 <item>
 <title>Visa (via third-party provider) — Confirmed Hack</title>
@@ -262,6 +288,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
+<category>US</category>
 </item>
 <item>
 <title>Mastercard (via third-party provider) — Confirmed Hack</title>
@@ -272,6 +299,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
+<category>US</category>
 </item>
 <item>
 <title>SBC Medical Group (Shonan Beauty Clinic operator, Japan) — Confirmed Hack</title>
@@ -283,6 +311,7 @@
 <category>High</category>
 <category>Healthcare</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>PocketChange (currency exchange kiosks and Pokepay, Japan) — Confirmed Hack</title>
@@ -294,6 +323,7 @@
 <category>High</category>
 <category>Finance</category>
 <category>Travel</category>
+<category>JP</category>
 </item>
 <item>
 <title>VMware vCenter zero-day attacks (CVE-2026-123890) — Confirmed Hack</title>
@@ -304,6 +334,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
@@ -314,6 +345,7 @@
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Finance</category>
+<category>US</category>
 </item>
 <item>
 <title>Forest &amp; Bird (conservation group, New Zealand) — Confirmed Hack</title>
@@ -324,6 +356,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Nonprofit</category>
+<category>NZ</category>
 </item>
 <item>
 <title>KPMG Canada (accounting firm) — Confirmed Hack</title>
@@ -335,6 +368,7 @@
 <category>Medium</category>
 <category>Finance</category>
 <category>Business</category>
+<category>CA</category>
 </item>
 <item>
 <title>FFG Industries (Fukuoka Financial Group company, Japan) — Confirmed Hack</title>
@@ -346,6 +380,7 @@
 <category>Medium</category>
 <category>Finance</category>
 <category>Business</category>
+<category>JP</category>
 </item>
 <item>
 <title>Openlogi (shipping and fulfillment service, Japan) — Confirmed Hack</title>
@@ -357,6 +392,7 @@
 <category>Medium</category>
 <category>Logistics</category>
 <category>Retail</category>
+<category>JP</category>
 </item>
 <item>
 <title>Atlas Confit (academic conference system, Japan) — Confirmed Hack</title>
@@ -368,6 +404,7 @@
 <category>Medium</category>
 <category>Tech</category>
 <category>Education</category>
+<category>JP</category>
 </item>
 <item>
 <title>Greiz-Ronneburg district hospital (Germany) — Confirmed Hack</title>
@@ -378,6 +415,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>DE</category>
 </item>
 <item>
 <title>City of South Portland (Maine) — Confirmed Hack</title>
@@ -388,6 +426,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Kosé (cosmetics maker, Japan) — Confirmed Hack</title>
@@ -399,6 +438,7 @@
 <category>Medium</category>
 <category>Consumer</category>
 <category>Retail</category>
+<category>JP</category>
 </item>
 <item>
 <title>Ohio public libraries (Cuyahoga County, Akron-Summit County, Westlake Porter; via vendors) — Confirmed Hack</title>
@@ -410,6 +450,7 @@
 <category>Medium</category>
 <category>Government</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>Money Forward (fintech, Japan, via Notion and Fireworks AI) — Confirmed Hack</title>
@@ -421,6 +462,7 @@
 <category>Low</category>
 <category>Finance</category>
 <category>Tech</category>
+<category>JP</category>
 </item>
 <item>
 <title>Kyash (payments app, Japan) — Confirmed Hack</title>
@@ -431,6 +473,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Finance</category>
+<category>JP</category>
 </item>
 <item>
 <title>Steinberg (music software accounts) — Confirmed Hack</title>
@@ -442,6 +485,7 @@
 <category>Low</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>DE</category>
 </item>
 <item>
 <title>USEN-ALMEX PreCheck-in (hotel online check-in service, Japan) — Confirmed Hack</title>
@@ -453,6 +497,7 @@
 <category>Low</category>
 <category>Travel</category>
 <category>Business</category>
+<category>JP</category>
 </item>
 <item>
 <title>Cleveland ISD network disruption (Texas) — Speculated / Potential Hack</title>
@@ -463,6 +508,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Low</category>
 <category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>Optimizely (website experimentation platform) — Confirmed Hack</title>
@@ -475,6 +521,9 @@
 <category>Tech</category>
 <category>Retail</category>
 <category>Finance</category>
+<category>US</category>
+<category>GB</category>
+<category>SE</category>
 </item>
 <item>
 <title>FAA: nationwide ground stop — Speculated / Potential Hack</title>
@@ -486,6 +535,7 @@
 <category>Critical</category>
 <category>Aviation</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Ransomware network extorting U.S. firms (Ukraine arrests) — Confirmed Hack</title>
@@ -498,6 +548,7 @@
 <category>Energy</category>
 <category>Manufacturing</category>
 <category>Healthcare</category>
+<category>US</category>
 </item>
 <item>
 <title>Irish credit unions (via Wellington IT) — Confirmed Hack</title>
@@ -508,6 +559,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
+<category>IE</category>
 </item>
 <item>
 <title>Municipality of Neuried (Germany) — Confirmed Hack</title>
@@ -518,6 +570,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>DE</category>
 </item>
 <item>
 <title>Perry Local Schools (Stark County, Ohio) — Confirmed Hack</title>
@@ -528,6 +581,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>Mitsui Shopping Park app (Mitsui Fudosan, Japan) — Confirmed Hack</title>
@@ -539,6 +593,7 @@
 <category>Medium</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Wittenberg-Net (regional internet provider, Germany) — Confirmed Hack</title>
@@ -550,6 +605,7 @@
 <category>Medium</category>
 <category>Telecom</category>
 <category>Government</category>
+<category>DE</category>
 </item>
 <item>
 <title>Star Petroleum Refining (SPRC, Thailand) — Confirmed Hack</title>
@@ -560,6 +616,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Energy</category>
+<category>TH</category>
 </item>
 <item>
 <title>StubHub International (ticket resale) — Confirmed Hack</title>
@@ -580,6 +637,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Aviation</category>
+<category>ET</category>
 </item>
 <item>
 <title>Infoblox (network security company) — Confirmed Hack</title>
@@ -590,6 +648,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>Nvidia (ransomware gang claim) — Speculated / Potential Hack</title>
@@ -600,6 +659,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
@@ -611,6 +671,7 @@
 <category>High</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Apple services outage (iCloud, App Store, Apple Pay) — Speculated / Potential Hack</title>
@@ -622,6 +683,7 @@
 <category>High</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>accesso ticketing system (LEGOLAND Korea Resort and SEA LIFE Busan) — Confirmed Hack</title>
@@ -634,6 +696,7 @@
 <category>Travel</category>
 <category>Consumer</category>
 <category>Tech</category>
+<category>KR</category>
 </item>
 <item>
 <title>Japan health ministry drug supply system — Confirmed Hack</title>
@@ -645,6 +708,7 @@
 <category>Medium</category>
 <category>Government</category>
 <category>Healthcare</category>
+<category>JP</category>
 </item>
 <item>
 <title>Marriott Bonvoy sign-in outage — Speculated / Potential Hack</title>
@@ -656,6 +720,7 @@
 <category>Medium</category>
 <category>Travel</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>Kern Medical (hospital, Bakersfield, California) — Confirmed Hack</title>
@@ -666,6 +731,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Healthcare</category>
+<category>US</category>
 </item>
 <item>
 <title>SOFT99 (car care products, Japan) — Confirmed Hack</title>
@@ -677,6 +743,7 @@
 <category>Low</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Wilmington School District 209U (Illinois) — Confirmed Hack</title>
@@ -687,6 +754,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>International Ice Hockey Federation (IIHF) website — Confirmed Hack</title>
@@ -717,6 +785,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
+<category>KR</category>
 </item>
 <item>
 <title>U.S. Department of Agriculture applications — Speculated / Potential Hack</title>
@@ -728,6 +797,7 @@
 <category>High</category>
 <category>Government</category>
 <category>Agriculture</category>
+<category>US</category>
 </item>
 <item>
 <title>Lithuanian Customs (user portal) — Confirmed Hack</title>
@@ -738,6 +808,8 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>LT</category>
+<category>EU</category>
 </item>
 <item>
 <title>Lighter (crypto exchange) — Confirmed Hack</title>
@@ -760,6 +832,7 @@
 <category>Medium</category>
 <category>Transportation</category>
 <category>Government</category>
+<category>GB</category>
 </item>
 <item>
 <title>United Airlines system outage — Speculated / Potential Hack</title>
@@ -770,6 +843,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Medium</category>
 <category>Aviation</category>
+<category>US</category>
 </item>
 <item>
 <title>Wieson Technologies (connector maker, Taiwan) — Confirmed Hack</title>
@@ -780,6 +854,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Manufacturing</category>
+<category>TW</category>
 </item>
 <item>
 <title>Jeonbuk Office of Education school bus system (South Korea) — Confirmed Hack</title>
@@ -791,6 +866,7 @@
 <category>Low</category>
 <category>Education</category>
 <category>Government</category>
+<category>KR</category>
 </item>
 <item>
 <title>Nikkei (via PLAID KARTE marketing service) — Confirmed Hack</title>
@@ -801,6 +877,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Media</category>
+<category>JP</category>
 </item>
 <item>
 <title>Cursor (code editor, via Fireworks AI) — Confirmed Hack</title>
@@ -822,6 +899,7 @@
 <category>Critical</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Amadeus booking system (via Norwegian, Widerøe, SAS) — Confirmed Hack</title>
@@ -834,6 +912,9 @@
 <category>Travel</category>
 <category>Aviation</category>
 <category>Tech</category>
+<category>ES</category>
+<category>NO</category>
+<category>SE</category>
 </item>
 <item>
 <title>Quantum Systems (military drone maker, Germany) — Confirmed Hack</title>
@@ -845,6 +926,7 @@
 <category>High</category>
 <category>Manufacturing</category>
 <category>Tech</category>
+<category>DE</category>
 </item>
 <item>
 <title>Workday HR platform outage — Speculated / Potential Hack</title>
@@ -856,6 +938,7 @@
 <category>High</category>
 <category>Tech</category>
 <category>Business</category>
+<category>US</category>
 </item>
 <item>
 <title>City of Columbia (South Carolina) — Confirmed Hack</title>
@@ -866,6 +949,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Expedia Group (travel) — Confirmed Hack</title>
@@ -888,6 +972,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Critical</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>RIKEN Fugaku supercomputer (Japan) — Confirmed Hack</title>
@@ -899,6 +984,7 @@
 <category>High</category>
 <category>Research</category>
 <category>Government</category>
+<category>JP</category>
 </item>
 <item>
 <title>OPEN Inc. BizRobo! mini (automation software, Japan) — Confirmed Hack</title>
@@ -909,6 +995,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>JP</category>
 </item>
 <item>
 <title>Lyko (beauty retailer, Sweden) — Confirmed Hack</title>
@@ -920,6 +1007,7 @@
 <category>Medium</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>SE</category>
 </item>
 <item>
 <title>Sunnybrook Health Sciences Centre (hospital, Toronto) — Confirmed Hack</title>
@@ -930,6 +1018,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>CA</category>
 </item>
 <item>
 <title>Rakuten Securities (online brokerage, Japan) — Confirmed Hack</title>
@@ -940,6 +1029,7 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Finance</category>
+<category>JP</category>
 </item>
 <item>
 <title>Maersk (shipping) — Confirmed Hack</title>
@@ -962,6 +1052,7 @@
 <category>Medium</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>Ipsos (market research) — Confirmed Hack</title>
@@ -982,6 +1073,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Low</category>
 <category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>French supermarket refrigeration systems (700+ stores) — Confirmed Hack</title>
@@ -993,6 +1085,7 @@
 <category>High</category>
 <category>Retail</category>
 <category>Food</category>
+<category>FR</category>
 </item>
 <item>
 <title>Vanderbilt University — Confirmed Hack</title>
@@ -1004,6 +1097,7 @@
 <category>High</category>
 <category>Education</category>
 <category>Research</category>
+<category>US</category>
 </item>
 <item>
 <title>Apify (web scraping platform) — Confirmed Hack</title>
@@ -1014,6 +1108,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>CZ</category>
 </item>
 <item>
 <title>Monadnock Community Hospital (New Hampshire) — Confirmed Hack</title>
@@ -1024,6 +1119,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>US</category>
 </item>
 <item>
 <title>Trezor customers (via shipping partner Skladon) — Confirmed Hack</title>
@@ -1047,6 +1143,7 @@
 <category>Transportation</category>
 <category>Logistics</category>
 <category>Government</category>
+<category>BR</category>
 </item>
 <item>
 <title>M1 (mobile carrier, Singapore) — Confirmed Hack</title>
@@ -1057,6 +1154,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Telecom</category>
+<category>SG</category>
 </item>
 <item>
 <title>Digital payments firm (Gurugram, India) — Confirmed Hack</title>
@@ -1068,6 +1166,7 @@
 <category>Medium</category>
 <category>Finance</category>
 <category>Tech</category>
+<category>IN</category>
 </item>
 <item>
 <title>Credit Mutuel Arkea (bank, France) — Confirmed Hack</title>
@@ -1078,6 +1177,7 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Finance</category>
+<category>FR</category>
 </item>
 <item>
 <title>NTT Docomo (mobile carrier, Japan) — Confirmed Hack</title>
@@ -1089,6 +1189,7 @@
 <category>High</category>
 <category>Telecom</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>2RedBeans (dating site) — Confirmed Hack</title>
@@ -1099,6 +1200,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>The Kyiv Independent (news outlet) — Confirmed Hack</title>
@@ -1109,6 +1211,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Media</category>
+<category>UA</category>
 </item>
 <item>
 <title>SPH Media (news publisher, Singapore) — Confirmed Hack</title>
@@ -1119,6 +1222,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Media</category>
+<category>SG</category>
 </item>
 <item>
 <title>U.S. military commissary freezers — Speculated / Potential Hack</title>
@@ -1130,6 +1234,7 @@
 <category>Medium</category>
 <category>Government</category>
 <category>Food</category>
+<category>US</category>
 </item>
 <item>
 <title>Air Botswana — Confirmed Hack</title>
@@ -1141,6 +1246,7 @@
 <category>Low</category>
 <category>Aviation</category>
 <category>Government</category>
+<category>BW</category>
 </item>
 <item>
 <title>GitBook (documentation platform) — Confirmed Hack</title>
@@ -1161,6 +1267,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>US</category>
 </item>
 <item>
 <title>Barracuda (security company cloud) — Confirmed Hack</title>
@@ -1181,6 +1288,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>UA</category>
 </item>
 <item>
 <title>Binance (crypto exchange) — Confirmed Hack</title>
@@ -1203,6 +1311,7 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>JP</category>
 </item>
 <item>
 <title>WS Audiology (hearing aid maker, parent of Widex and Signia) — Confirmed Hack</title>
@@ -1224,6 +1333,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>J.B. Hunt (trucking) — Confirmed Hack</title>
@@ -1235,6 +1345,7 @@
 <category>Medium</category>
 <category>Transportation</category>
 <category>Logistics</category>
+<category>US</category>
 </item>
 <item>
 <title>Richmond Public Schools (Virginia) — Confirmed Hack</title>
@@ -1246,6 +1357,7 @@
 <category>Medium</category>
 <category>Education</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Value Design Value Card (prepaid e-money service, Japan) — Confirmed Hack</title>
@@ -1257,6 +1369,7 @@
 <category>High</category>
 <category>Finance</category>
 <category>Tech</category>
+<category>JP</category>
 </item>
 <item>
 <title>ConnectWise (IT management software) — Confirmed Hack</title>
@@ -1278,6 +1391,7 @@
 <category>High</category>
 <category>Media</category>
 <category>Retail</category>
+<category>JP</category>
 </item>
 <item>
 <title>Uber drivers (via Fireworks AI) — Confirmed Hack</title>
@@ -1289,6 +1403,7 @@
 <category>Medium</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>Fandango (movie tickets) — Confirmed Hack</title>
@@ -1300,6 +1415,7 @@
 <category>Medium</category>
 <category>Retail</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>IDC Frontier cloud (Japan) — Confirmed Hack</title>
@@ -1311,6 +1427,7 @@
 <category>High</category>
 <category>Tech</category>
 <category>Government</category>
+<category>JP</category>
 </item>
 <item>
 <title>The Japan Times (news outlet) — Confirmed Hack</title>
@@ -1321,6 +1438,7 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Media</category>
+<category>JP</category>
 </item>
 <item>
 <title>DriveWealth (brokerage tech) — Confirmed Hack</title>
@@ -1331,6 +1449,7 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Finance</category>
+<category>US</category>
 </item>
 <item>
 <title>IDScan.net (ID verification) — Confirmed Hack</title>
@@ -1342,6 +1461,7 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
+<category>US</category>
 </item>
 <item>
 <title>ATF (U.S. firearms agency) — Confirmed Hack</title>
@@ -1352,6 +1472,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Boston Scientific (medical devices) — Confirmed Hack</title>
@@ -1363,6 +1484,7 @@
 <category>High</category>
 <category>Healthcare</category>
 <category>Manufacturing</category>
+<category>US</category>
 </item>
 <item>
 <title>American Airlines nationwide ground stop — Speculated / Potential Hack</title>
@@ -1373,6 +1495,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Medium</category>
 <category>Aviation</category>
+<category>US</category>
 </item>
 <item>
 <title>Xbox sign-in and game library outage — Speculated / Potential Hack</title>
@@ -1384,6 +1507,7 @@
 <category>Medium</category>
 <category>Gaming</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>PlayStation Network outage — Speculated / Potential Hack</title>
@@ -1394,6 +1518,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Low</category>
 <category>Gaming</category>
+<category>JP</category>
 </item>
 <item>
 <title>fairlife / Coca-Cola — Confirmed Hack</title>
@@ -1405,6 +1530,7 @@
 <category>High</category>
 <category>Food</category>
 <category>Manufacturing</category>
+<category>US</category>
 </item>
 <item>
 <title>Klue (market research software) — Confirmed Hack</title>
@@ -1415,6 +1541,7 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>DentaQuest (dental benefits) — Confirmed Hack</title>
@@ -1425,6 +1552,7 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Healthcare</category>
+<category>US</category>
 </item>
 <item>
 <title>Instructure (Canvas learning platform) — Confirmed Hack</title>
@@ -1458,6 +1586,7 @@
 <category>High</category>
 <category>Utilities</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>FBI surveillance system — Confirmed Hack</title>
@@ -1468,6 +1597,7 @@
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Stryker (medical technology) — Confirmed Hack</title>
@@ -1489,6 +1619,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
+<category>EU</category>
 </item>
 <item>
 <title>Cisco SD-WAN zero-day attacks — Confirmed Hack</title>
@@ -1500,6 +1631,7 @@
 <category>High</category>
 <category>Tech</category>
 <category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Verizon nationwide wireless outage — Speculated / Potential Hack</title>
@@ -1510,6 +1642,7 @@
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Telecom</category>
+<category>US</category>
 </item>
 <item>
 <title>Poland's energy sector — Confirmed Hack</title>
@@ -1521,6 +1654,7 @@
 <category>High</category>
 <category>Energy</category>
 <category>Government</category>
+<category>PL</category>
 </item>
 <item>
 <title>Cloudflare global outage — Speculated / Potential Hack</title>
@@ -1531,6 +1665,7 @@
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>Amazon Web Services (US-EAST-1) — Speculated / Potential Hack</title>
@@ -1541,6 +1676,7 @@
 <category>Speculated / Potential Hack</category>
 <category>Critical</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>Jaguar Land Rover — Confirmed Hack</title>
@@ -1551,6 +1687,7 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Manufacturing</category>
+<category>GB</category>
 </item>
 <item>
 <title>Starlink global outage — Speculated / Potential Hack</title>
@@ -1562,6 +1699,7 @@
 <category>High</category>
 <category>Telecom</category>
 <category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>Spain &amp; Portugal blackout — Speculated / Potential Hack</title>
@@ -1573,6 +1711,8 @@
 <category>Critical</category>
 <category>Energy</category>
 <category>Government</category>
+<category>ES</category>
+<category>PT</category>
 </item>
 <item>
 <title>CrowdStrike / Windows global IT outage — Speculated / Potential Hack</title>
@@ -1584,5 +1724,6 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Aviation</category>
+<category>US</category>
 </item>
 </channel></rss>

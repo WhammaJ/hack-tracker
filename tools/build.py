@@ -25,6 +25,82 @@ TEMPLATE_PATH = ROOT / "tools" / "template.html"
 SITE = "https://hacktracking.com"
 SEV = {"Critical": 0, "High": 1, "Medium": 2, "Low": 3}
 
+# Officially assigned ISO 3166-1 alpha-2 codes. "EU" is also allowed
+# for European Union institutions (an exceptionally reserved code).
+ISO_3166_1_ALPHA2 = frozenset(
+    """AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ
+    BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ
+    CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ
+    DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR
+    GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY
+    HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP
+    KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY
+    MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ
+    NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY
+    QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ
+    TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ
+    VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW""".split()
+)
+ALLOWED_COUNTRY_CODES = ISO_3166_1_ALPHA2 | {"EU"}
+COUNTRY_LABELS = {
+    "AU": "Australia", "BE": "Belgium", "BR": "Brazil", "BW": "Botswana",
+    "CA": "Canada", "CH": "Switzerland", "CZ": "Czechia", "DE": "Germany",
+    "ES": "Spain", "ET": "Ethiopia", "EU": "European Union", "FR": "France",
+    "GB": "United Kingdom", "IE": "Ireland", "IN": "India", "JP": "Japan",
+    "KR": "South Korea", "LT": "Lithuania", "LU": "Luxembourg", "NO": "Norway",
+    "NZ": "New Zealand", "PL": "Poland", "PT": "Portugal", "SE": "Sweden",
+    "SG": "Singapore", "TH": "Thailand", "TW": "Taiwan", "UA": "Ukraine",
+    "US": "United States",
+}
+
+
+def normalize_countries(entry):
+    """Return a validated list of country codes; treat a missing field as empty."""
+    countries = entry.get("countries", [])
+    if countries is None:
+        countries = []
+    if not isinstance(countries, list):
+        sys.exit(f"countries must be a list for {entry.get('org')}: {countries!r}")
+    seen = set()
+    clean = []
+    for code in countries:
+        if not isinstance(code, str):
+            sys.exit(f"Bad country code for {entry.get('org')}: {code!r}")
+        code = code.strip()
+        if code == "UK":
+            sys.exit(f"Use GB, not UK, for {entry.get('org')}")
+        if not re.fullmatch(r"[A-Z]{2}", code):
+            sys.exit(f"Country codes must be ISO 3166-1 alpha-2 (or EU) for {entry.get('org')}: {code!r}")
+        if code not in ALLOWED_COUNTRY_CODES:
+            sys.exit(f"Unknown country code {code} for {entry.get('org')}")
+        if code in seen:
+            sys.exit(f"Duplicate country code {code} for {entry.get('org')}")
+        seen.add(code)
+        clean.append(code)
+    entry["countries"] = clean
+    return clean
+
+
+def flag_emoji(code):
+    if code == "EU":
+        return "🇪🇺"
+    return "".join(chr(0x1F1E6 + ord(ch) - ord("A")) for ch in code)
+
+
+def country_chips(codes):
+    if not codes:
+        return ""
+    chips = []
+    for code in codes:
+        label = COUNTRY_LABELS.get(code, code)
+        chips.append(
+            f'<span class="country-chip" title="{esc(label)}">'
+            f'<span class="flag" aria-hidden="true">{flag_emoji(code)}</span>'
+            f'{esc(code)}</span>'
+        )
+    return f'<span class="countries">{"".join(chips)}</span>'
+
+
 FONT_MONO_BOLD = "/usr/share/fonts/truetype/sand-box/google/IBM Plex Mono/IBMPlexMono-Bold.ttf"
 FONT_MONO = "/usr/share/fonts/truetype/sand-box/google/IBM Plex Mono/IBMPlexMono-Regular.ttf"
 FONT_SANS = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -97,6 +173,7 @@ def assign_ids(data):
                 sys.exit(f"Bad date for {entry['org']}: {entry['date']}")
             if entry.get("updated") and not re.match(r"^\d{4}-\d{2}-\d{2}$", entry["updated"]):
                 sys.exit(f"Bad updated date for {entry['org']}: {entry['updated']}")
+            normalize_countries(entry)
             entry["_id"] = make_id(entry, used)
             entry["_kind"] = key
 
@@ -141,6 +218,8 @@ def search_blob(entry):
         entry.get("speculation"),
         entry.get("official"),
         " ".join(entry.get("sectors") or []),
+        " ".join(entry.get("countries") or []),
+        " ".join(COUNTRY_LABELS.get(c, c) for c in (entry.get("countries") or [])),
     ]
     return " ".join(p for p in parts if p)
 
@@ -217,6 +296,10 @@ def render_card(entry, rank, speculated):
         f'<span class="badge sector">{icon(SECTOR_ICONS.get(s, "hex"))}{esc(s)}</span>'
         for s in sectors
     )
+    countries = entry.get("countries") or []
+    chips = country_chips(countries)
+    if chips:
+        badges.append(chips)
     source_items = []
     for src in entry.get("sources") or []:
         source_items.append(
@@ -264,7 +347,8 @@ def render_card(entry, rank, speculated):
             f'<time class="fresh" datetime="{esc(upd)}">'
             f'{icon("refresh")}Updated {esc(display_updated(upd))}</time>'
         )
-    return f'''      <article class="card {esc(sev)}{top}" id="{esc(eid)}" data-severity="{esc(sev)}" data-sectors="{esc(",".join(sectors))}" data-search="{esc(search_blob(entry))}">
+    us_attr = "1" if "US" in countries else "0"
+    return f'''      <article class="card {esc(sev)}{top}" id="{esc(eid)}" data-severity="{esc(sev)}" data-sectors="{esc(",".join(sectors))}" data-countries="{esc(",".join(countries))}" data-us="{us_attr}" data-search="{esc(search_blob(entry))}">
         <svg class="card-cube" aria-hidden="true" focusable="false"><use href="#cube"/></svg>
         <div class="card-head">
           <span class="rank" aria-label="Rank {rank}"><small>#</small>{rank}</span>
@@ -378,6 +462,8 @@ def json_ld(data):
 
     def sectors_plus(entry, speculated):
         words = list(entry.get("sectors") or [])
+        words.extend(entry.get("countries") or [])
+        words.extend(COUNTRY_LABELS.get(c, c) for c in (entry.get("countries") or []))
         words.append(entry.get("severity") or "")
         words.append("speculated outage" if speculated else "confirmed hack")
         return [w for w in words if w]
@@ -520,6 +606,8 @@ def build_index(data):
         "{{LAST_UPDATED_DISPLAY}}": last_updated_display(data["lastUpdated"]),
         "{{CONFIRMED_COUNT}}": str(len(data["confirmed"])),
         "{{SPECULATED_COUNT}}": str(len(data["speculated"])),
+        "{{CONFIRMED_COUNT_US}}": str(sum(1 for e in data["confirmed"] if "US" in (e.get("countries") or []))),
+        "{{SPECULATED_COUNT_US}}": str(sum(1 for e in data["speculated"] if "US" in (e.get("countries") or []))),
         "{{CONFIRMED_CARDS}}": confirmed_cards,
         "{{SPECULATED_CARDS}}": speculated_cards,
     }
@@ -607,7 +695,7 @@ def build_feed(data):
         kind = "Speculated / Potential Hack" if speculated else "Confirmed Hack"
         title = f"{entry['org']} — {kind}"
         link = f"{SITE}/#{entry['_id']}"
-        cats = [kind, entry.get("severity") or ""] + list(entry.get("sectors") or [])
+        cats = [kind, entry.get("severity") or ""] + list(entry.get("sectors") or []) + list(entry.get("countries") or [])
         out.append("<item>")
         out.append(f"<title>{xml_escape(title)}</title>")
         out.append(f"<link>{xml_escape(link)}</link>")
@@ -702,6 +790,8 @@ def build_llms_full(data):
             lines.append(f"   Severity: {entry['severity']}")
             if entry.get("sectors"):
                 lines.append("   Sectors: " + ", ".join(entry["sectors"]))
+            if entry.get("countries"):
+                lines.append("   Countries: " + ", ".join(entry["countries"]))
             if entry.get("summary"):
                 lines.append("   Summary: " + entry["summary"])
             if speculated:

@@ -26,7 +26,26 @@
 <link rel="sitemap" type="application/xml" href="https://hacktracking.com/sitemap.xml">
 <link rel="preload" href="assets/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
-<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('has-js');</script>
+<script>
+document.documentElement.classList.remove('no-js');
+document.documentElement.classList.add('has-js');
+(function(){
+  try {
+    var p = (new URLSearchParams(location.search).get('region') || '').toLowerCase();
+    var region;
+    if (p === 'us' || p === 'usa') region = 'us';
+    else if (p === 'world' || p === 'worldwide') region = 'world';
+    else {
+      var saved = '';
+      try { saved = localStorage.getItem('hacktracker-region') || ''; } catch (err) {}
+      region = saved === 'world' ? 'world' : 'us';
+    }
+    document.documentElement.setAttribute('data-region', region);
+  } catch (e) {
+    document.documentElement.setAttribute('data-region', 'us');
+  }
+})();
+</script>
 <script type="application/ld+json">{{JSON_LD}}</script>
 </head>
 <body>
@@ -100,8 +119,8 @@
       <p class="updated">Last updated: <time datetime="{{LAST_UPDATED}}" id="updated">{{LAST_UPDATED_DISPLAY}}</time></p>
     </div>
     <ul class="hexes" aria-label="Tracker at a glance">
-      <li class="hex hex-crit"><a href="#confirmed-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4 4.6-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>{{CONFIRMED_COUNT}}</b><span>Confirmed</span></a></li>
-      <li class="hex hex-high"><a href="#speculated-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.5v.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1.2" fill="currentColor"/></svg><b>{{SPECULATED_COUNT}}</b><span>Speculated</span></a></li>
+      <li class="hex hex-crit"><a href="#confirmed-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4 4.6-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><b class="view-count" data-count-us="{{CONFIRMED_COUNT_US}}" data-count-world="{{CONFIRMED_COUNT}}">{{CONFIRMED_COUNT}}</b><span>Confirmed</span></a></li>
+      <li class="hex hex-high"><a href="#speculated-section"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .8-1 1.5v.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1.2" fill="currentColor"/></svg><b class="view-count" data-count-us="{{SPECULATED_COUNT_US}}" data-count-world="{{SPECULATED_COUNT}}">{{SPECULATED_COUNT}}</b><span>Speculated</span></a></li>
       <li class="hex hex-low"><a href="#about"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><b>2 hr</b><span>Updates</span></a></li>
     </ul>
   </div>
@@ -113,9 +132,17 @@
     <blockquote>Internet hacking is the unauthorized access, manipulation, or exploitation of digital devices, computer systems, and network connections. It happens when someone finds and uses a weakness in software, hardware, or human behavior to steal data, disrupt services, or take control of a system.</blockquote>
   </section>
 
+  <div class="region-bar">
+    <p class="region-kicker" id="region-kicker">Showing hacks in the United States</p>
+    <div class="region-toggle" id="region-toggle" role="group" aria-label="Region">
+      <button type="button" class="region-btn is-active" data-region="us" aria-pressed="true">USA</button>
+      <button type="button" class="region-btn" data-region="world" aria-pressed="false">Worldwide</button>
+    </div>
+  </div>
+
   <nav class="tabs" role="tablist" aria-label="Hack categories">
-    <a class="tab is-active" href="#confirmed-section" id="tab-confirmed" data-tab="confirmed" role="tab" aria-selected="true" aria-controls="confirmed-section">Confirmed Hacks <span class="count">{{CONFIRMED_COUNT}}</span></a>
-    <a class="tab" href="#speculated-section" id="tab-speculated" data-tab="speculated" role="tab" aria-selected="false" aria-controls="speculated-section">Speculated / Potential Hacks <span class="count">{{SPECULATED_COUNT}}</span></a>
+    <a class="tab is-active" href="#confirmed-section" id="tab-confirmed" data-tab="confirmed" role="tab" aria-selected="true" aria-controls="confirmed-section">Confirmed Hacks <span class="count view-count" data-count-us="{{CONFIRMED_COUNT_US}}" data-count-world="{{CONFIRMED_COUNT}}">{{CONFIRMED_COUNT}}</span></a>
+    <a class="tab" href="#speculated-section" id="tab-speculated" data-tab="speculated" role="tab" aria-selected="false" aria-controls="speculated-section">Speculated / Potential Hacks <span class="count view-count" data-count-us="{{SPECULATED_COUNT_US}}" data-count-world="{{SPECULATED_COUNT}}">{{SPECULATED_COUNT}}</span></a>
   </nav>
 
   <div class="controls">
@@ -156,6 +183,7 @@
     <ul>
       <li>The list is reviewed and updated about every two hours during the day, Eastern Time.</li>
       <li>Sorted by the most recent incident or news update first. An older entry that gets new information moves back up. Severity is a rough editorial rating, not an official score.</li>
+      <li>The lists default to incidents that affected U.S. organizations or people. Use the USA / Worldwide switch to see the full list.</li>
       <li>Covers roughly the past 12 months, plus a few older events that are still widely referenced. Always check the linked sources for the latest.</li>
     </ul>
     <p class="about-def-ref">The definition of hacking used on this site is at the top of the page, under <a href="#definition">What counts as hacking</a>.</p>
