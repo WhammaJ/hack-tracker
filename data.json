@@ -471,6 +471,46 @@
   ],
   "confirmed": [
     {
+      "org": "Forest & Bird (conservation group, New Zealand)",
+      "date": "2026-11-18",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Nonprofit"
+      ],
+      "severity": "Medium",
+      "summary": "New Zealand environmental advocacy group Forest & Bird says hackers got into its systems and accessed supporters' details. It was alerted on the evening of Nov. 18, and a forensic search of its website found malicious files hidden there to read data.",
+      "impact": "Mainly names, phone numbers and email addresses. The group says a \"small subset\" of people may also have had payment card details, birth dates and physical addresses taken. Number of people affected not yet known.",
+      "status": "Confirmed by Forest & Bird. Unauthorized access blocked and malicious files removed; NZ Police, the National Cyber Security Centre and the Privacy Commissioner notified. Investigation ongoing.",
+      "sources": [
+        {
+          "name": "RNZ",
+          "url": "https://www.rnz.co.nz/news/crime-and-justice/2709843/forest-and-bird-supporters-details-stolen-by-hackers"
+        }
+      ]
+    },
+    {
+      "org": "Perry Local Schools (Stark County, Ohio)",
+      "date": "2026-11-16",
+      "updated": "2026-11-18",
+      "sectors": [
+        "Education"
+      ],
+      "severity": "Medium",
+      "summary": "A cyber incident knocked out the district's communications systems and much of its technology, including phones and internet access, and forced all Perry Local buildings to close on Monday, Nov. 16. On Nov. 18 the district said its investigation found malware caused the incident.",
+      "impact": "All schools closed for a day. The district says there is no evidence personally identifiable information was released. Schools reopened Nov. 17 after critical systems were restored.",
+      "status": "Confirmed by the district (malware). Ohio Cyber Integration Center contacted and the Ohio Cyber Reserve engaged.",
+      "sources": [
+        {
+          "name": "WKYC",
+          "url": "https://www.wkyc.com/article/news/local/stark-county/perry-local-schools-district-malware-cyber-incident-closed-buildings-school-canceled/95-d5e54edc-dac1-4c9e-b200-ea446ce7a513"
+        },
+        {
+          "name": "Cleveland 19 News",
+          "url": "https://www.cleveland19.com/2026/11/19/stark-county-school-district-says-malware-caused-cyber-incident/"
+        }
+      ]
+    },
+    {
       "org": "Money Forward (fintech, Japan, via Notion and Fireworks AI)",
       "date": "2026-11-19",
       "sectors": [

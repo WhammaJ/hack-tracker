@@ -112,6 +112,16 @@
 <category>Government</category>
 </item>
 <item>
+<title>Forest &amp; Bird (conservation group, New Zealand) — Confirmed Hack</title>
+<link>https://hacktracking.com/#forest-bird-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#forest-bird-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>New Zealand environmental advocacy group Forest &amp; Bird says hackers got into its systems and accessed supporters' details. It was alerted on the evening of Nov. 18, and a forensic search of its website found malicious files hidden there to read data. Impact: Mainly names, phone numbers and email addresses. The group says a "small subset" of people may also have had payment card details, birth dates and physical addresses taken. Number of people affected not yet known. Status: Confirmed by Forest &amp; Bird. Unauthorized access blocked and malicious files removed; NZ Police, the National Cyber Security Centre and the Privacy Commissioner notified. Investigation ongoing. Sources: RNZ (https://www.rnz.co.nz/news/crime-and-justice/2709843/forest-and-bird-supporters-details-stolen-by-hackers)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Nonprofit</category>
+</item>
+<item>
 <title>KPMG Canada (accounting firm) — Confirmed Hack</title>
 <link>https://hacktracking.com/#kpmg-canada-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#kpmg-canada-2026-11</guid>
@@ -251,6 +261,16 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
+</item>
+<item>
+<title>Perry Local Schools (Stark County, Ohio) — Confirmed Hack</title>
+<link>https://hacktracking.com/#perry-local-schools-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#perry-local-schools-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>A cyber incident knocked out the district's communications systems and much of its technology, including phones and internet access, and forced all Perry Local buildings to close on Monday, Nov. 16. On Nov. 18 the district said its investigation found malware caused the incident. Impact: All schools closed for a day. The district says there is no evidence personally identifiable information was released. Schools reopened Nov. 17 after critical systems were restored. Status: Confirmed by the district (malware). Ohio Cyber Integration Center contacted and the Ohio Cyber Reserve engaged. Sources: WKYC (https://www.wkyc.com/article/news/local/stark-county/perry-local-schools-district-malware-cyber-incident-closed-buildings-school-canceled/95-d5e54edc-dac1-4c9e-b200-ea446ce7a513); Cleveland 19 News (https://www.cleveland19.com/2026/11/19/stark-county-school-district-says-malware-caused-cyber-incident/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
 </item>
 <item>
 <title>Mitsui Shopping Park app (Mitsui Fudosan, Japan) — Confirmed Hack</title>
