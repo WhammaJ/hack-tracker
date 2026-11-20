@@ -1045,7 +1045,7 @@
       ],
       "severity": "High",
       "summary": "SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data.",
-      "impact": "From SBC's database: customers' names, email addresses, phone numbers, addresses, birth dates, member IDs, passwords (which SBC says it stored unencrypted at the time), web booking and inquiry form contents, and staff account details. SBC listed more than 1 million further customers whose leaked data was limited to hard-to-identify items such as patient card numbers. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken.",
+      "impact": "In a Nov. 18 SEC filing, SBC said basic personal information on about 1,624,000 people was taken from its database (names, contact details, birth dates, patient card numbers, member IDs, passwords and survey responses, not all items for everyone), plus 255,416 booking requests, 217,769 website inquiries and smaller sets of treatment-monitor and review records. It says about 20,000 employee account records (names, IDs, passwords) were also stolen, including bank account and tax information for 459 employees. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken.",
       "status": "Confirmed by SBC Medical Group and Tribeau. Reported to Japan's privacy regulator and police; investigation ongoing.",
       "sources": [
         {
@@ -1053,10 +1053,15 @@
           "url": "https://prtimes.jp/main/html/rd/p/000000416.000097803.html"
         },
         {
-          "name": "Tribeau notice (Japanese)",
-          "url": "https://prtimes.jp/main/html/rd/p/000000067.000047703.html"
+          "name": "SBC Medical Group SEC filing release",
+          "url": "https://ir.sbc-holdings.com/sbc-medical-group-reports-cybersecurity-incidents-in-japan/"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
         }
-      ]
+      ],
+      "updated": "2026-11-19"
     },
     {
       "org": "Irish credit unions (via Wellington IT)",
@@ -1948,7 +1953,8 @@
           "name": "Atlas notice (Japanese)",
           "url": "https://www.atlas.jp/news/2026-11-19"
         }
-      ]
+      ],
+      "updated": "2026-11-19"
     },
     {
       "org": "Uber drivers (via Fireworks AI)",
@@ -2367,7 +2373,8 @@
           "name": "Kyash notice (Japanese)",
           "url": "https://www.kyash.co/information/20261119"
         }
-      ]
+      ],
+      "updated": "2026-11-19"
     },
     {
       "org": "Steinberg (music software accounts)",
@@ -2479,6 +2486,52 @@
         {
           "name": "The Record",
           "url": "https://therecord.media/russia-hockey-cyberattack-championships"
+        }
+      ]
+    },
+    {
+      "org": "Kosé (cosmetics maker, Japan)",
+      "date": "2026-11-09",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Consumer",
+        "Retail"
+      ],
+      "severity": "Medium",
+      "summary": "Kosé says attackers abused an access-control flaw in the booking system for in-store experiences and lessons at its Maison KOSÉ Ginza and Omotesando shops, sending a rapid stream of requests on Nov. 9 to read members' personal data. On Nov. 19 it disclosed a second leak: customer data it kept in PLAID's KARTE marketing service was taken in the KARTE breach.",
+      "impact": "Booking system: 28,098 customers' names, email addresses, phone numbers, postal codes, addresses, birth dates and gender; no passwords or card data. KARTE: 139,990 ADDICTION brand-site members' names in kana only.",
+      "status": "Confirmed by Kosé. Booking system suspended; reported to police and Japan's privacy regulator.",
+      "sources": [
+        {
+          "name": "Kosé notice, Maison KOSÉ (Japanese)",
+          "url": "https://koseholdings.co.jp/ja/kose/urgent/10275/"
+        },
+        {
+          "name": "Kosé notice, KARTE (Japanese)",
+          "url": "https://koseholdings.co.jp/ja/kose/urgent/10304/"
+        }
+      ]
+    },
+    {
+      "org": "PocketChange (currency exchange kiosks and Pokepay, Japan)",
+      "date": "2026-10-26",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Finance",
+        "Travel"
+      ],
+      "severity": "High",
+      "summary": "PocketChange, which runs airport and station kiosks that swap leftover foreign cash for e-money and gift codes, says attackers exploited a vulnerability in a third-party internal business system on Oct. 26, then broke into its operating systems on Nov. 13 and used stolen credentials to reach an old monitoring system of its Pokepay (Enterprise) e-money platform on Nov. 14.",
+      "impact": "Up to 31,462 PocketChange user records (names, phone numbers or emails, member numbers, and passport numbers for up to 24,086), up to 116,361 Pokepay user records (registration details such as phone numbers), 820 merchants' details including bank accounts, codes and PINs for some issued prepaid gift cards, and 58 full card numbers with names from old error logs. The company says no fraudulent transactions have been confirmed.",
+      "status": "Confirmed by PocketChange. Kiosks nationwide suspended since Nov. 17 with no restart date; Pokepay restored Nov. 18; reported to Japan's privacy regulator.",
+      "sources": [
+        {
+          "name": "PocketChange notice (Japanese)",
+          "url": "https://about.pocket-change.jp/news/2026-unauthorized-access-notice"
+        },
+        {
+          "name": "PocketChange service notice (Japanese)",
+          "url": "https://www.pocket-change.jp/ja/newsrelease20261119/"
         }
       ]
     }

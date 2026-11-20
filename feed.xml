@@ -70,6 +70,28 @@
 <category>Finance</category>
 </item>
 <item>
+<title>SBC Medical Group (Shonan Beauty Clinic operator, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#sbc-medical-group-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#sbc-medical-group-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data. Impact: In a Nov. 18 SEC filing, SBC said basic personal information on about 1,624,000 people was taken from its database (names, contact details, birth dates, patient card numbers, member IDs, passwords and survey responses, not all items for everyone), plus 255,416 booking requests, 217,769 website inquiries and smaller sets of treatment-monitor and review records. It says about 20,000 employee account records (names, IDs, passwords) were also stolen, including bank account and tax information for 459 employees. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken. Status: Confirmed by SBC Medical Group and Tribeau. Reported to Japan's privacy regulator and police; investigation ongoing. Sources: SBC Medical Group notice (Japanese) (https://prtimes.jp/main/html/rd/p/000000416.000097803.html); SBC Medical Group SEC filing release (https://ir.sbc-holdings.com/sbc-medical-group-reports-cybersecurity-incidents-in-japan/); BleepingComputer (https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Healthcare</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>PocketChange (currency exchange kiosks and Pokepay, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#pocketchange-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#pocketchange-2026-10</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>PocketChange, which runs airport and station kiosks that swap leftover foreign cash for e-money and gift codes, says attackers exploited a vulnerability in a third-party internal business system on Oct. 26, then broke into its operating systems on Nov. 13 and used stolen credentials to reach an old monitoring system of its Pokepay (Enterprise) e-money platform on Nov. 14. Impact: Up to 31,462 PocketChange user records (names, phone numbers or emails, member numbers, and passport numbers for up to 24,086), up to 116,361 Pokepay user records (registration details such as phone numbers), 820 merchants' details including bank accounts, codes and PINs for some issued prepaid gift cards, and 58 full card numbers with names from old error logs. The company says no fraudulent transactions have been confirmed. Status: Confirmed by PocketChange. Kiosks nationwide suspended since Nov. 17 with no restart date; Pokepay restored Nov. 18; reported to Japan's privacy regulator. Sources: PocketChange notice (Japanese) (https://about.pocket-change.jp/news/2026-unauthorized-access-notice); PocketChange service notice (Japanese) (https://www.pocket-change.jp/ja/newsrelease20261119/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Travel</category>
+</item>
+<item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-online-banking-2026-11</guid>
@@ -123,6 +145,17 @@
 <category>Retail</category>
 </item>
 <item>
+<title>Atlas Confit (academic conference system, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#atlas-confit-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#atlas-confit-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see. Impact: About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data. Status: Confirmed by Atlas. Temporary block in place since Nov. 12, permanent fix expected Nov. 20; reported to police and Japan's privacy regulator. Sources: Atlas notice (Japanese) (https://www.atlas.jp/news/2026-11-19)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+<category>Education</category>
+</item>
+<item>
 <title>City of South Portland (Maine) — Confirmed Hack</title>
 <link>https://hacktracking.com/#city-of-south-portland-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#city-of-south-portland-2026-11</guid>
@@ -131,6 +164,27 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
+</item>
+<item>
+<title>Kosé (cosmetics maker, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#kos-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#kos-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Kosé says attackers abused an access-control flaw in the booking system for in-store experiences and lessons at its Maison KOSÉ Ginza and Omotesando shops, sending a rapid stream of requests on Nov. 9 to read members' personal data. On Nov. 19 it disclosed a second leak: customer data it kept in PLAID's KARTE marketing service was taken in the KARTE breach. Impact: Booking system: 28,098 customers' names, email addresses, phone numbers, postal codes, addresses, birth dates and gender; no passwords or card data. KARTE: 139,990 ADDICTION brand-site members' names in kana only. Status: Confirmed by Kosé. Booking system suspended; reported to police and Japan's privacy regulator. Sources: Kosé notice, Maison KOSÉ (Japanese) (https://koseholdings.co.jp/ja/kose/urgent/10275/); Kosé notice, KARTE (Japanese) (https://koseholdings.co.jp/ja/kose/urgent/10304/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Consumer</category>
+<category>Retail</category>
+</item>
+<item>
+<title>Kyash (payments app, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#kyash-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#kyash-2026-10</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed. Impact: Up to 11,996 customers: internal IDs, plus account status and some payment merchant, date and amount details for most of them, and login, top-up or transfer history, device IDs or IP addresses for 310. No names, addresses, phone numbers, emails, card or bank details, or passwords. Status: Confirmed by Kyash. Affected customers being emailed. Sources: Kyash notice (Japanese) (https://www.kyash.co/information/20261119)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Finance</category>
 </item>
 <item>
 <title>Steinberg (music software accounts) — Confirmed Hack</title>
@@ -346,17 +400,6 @@
 <category>Sports</category>
 </item>
 <item>
-<title>SBC Medical Group (Shonan Beauty Clinic operator, Japan) — Confirmed Hack</title>
-<link>https://hacktracking.com/#sbc-medical-group-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#sbc-medical-group-2026-11</guid>
-<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-<description>SBC Medical Group, which runs Shonan Beauty Clinic and other cosmetic and medical clinics in Japan, said attackers got into one of its customer databases after hammering the system from overseas with about 770,000 attempts overnight. It found the intrusion on Nov. 16 and cut the server off the network. Separately, attackers logged into the clinics' accounts on the outside booking service Tribeau (トリビュー) and took reservation data. Impact: From SBC's database: customers' names, email addresses, phone numbers, addresses, birth dates, member IDs, passwords (which SBC says it stored unencrypted at the time), web booking and inquiry form contents, and staff account details. SBC listed more than 1 million further customers whose leaked data was limited to hard-to-identify items such as patient card numbers. From Tribeau: data on 12,641 people who booked and 6,804 who were treated (names in kana, phone numbers, ages, requested procedures, and for treated customers procedure names, dates and prices). SBC says electronic medical records were not taken. Status: Confirmed by SBC Medical Group and Tribeau. Reported to Japan's privacy regulator and police; investigation ongoing. Sources: SBC Medical Group notice (Japanese) (https://prtimes.jp/main/html/rd/p/000000416.000097803.html); Tribeau notice (Japanese) (https://prtimes.jp/main/html/rd/p/000000067.000047703.html)</description>
-<category>Confirmed Hack</category>
-<category>High</category>
-<category>Healthcare</category>
-<category>Consumer</category>
-</item>
-<item>
 <title>N-able Mail Assure and SpamExperts (email security cloud) — Confirmed Hack</title>
 <link>https://hacktracking.com/#n-able-mail-assure-and-spamexperts-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#n-able-mail-assure-and-spamexperts-2026-11</guid>
@@ -554,17 +597,6 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Tech</category>
-</item>
-<item>
-<title>Atlas Confit (academic conference system, Japan) — Confirmed Hack</title>
-<link>https://hacktracking.com/#atlas-confit-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#atlas-confit-2026-11</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
-<description>Atlas, which runs the Confit system that Japanese academic societies use for conferences, says an attacker abroad exploited a flaw in how one optional feature checked users and their permissions, likely found by scanning broadly for weaknesses with AI or similar tools, and pulled presenter information it should not have been able to see. Impact: About 10,000 records covering 62 academic societies: presentation titles, presenter names, affiliations and presenter email addresses. No payment card, driver's license or My Number data. Status: Confirmed by Atlas. Temporary block in place since Nov. 12, permanent fix expected Nov. 20; reported to police and Japan's privacy regulator. Sources: Atlas notice (Japanese) (https://www.atlas.jp/news/2026-11-19)</description>
-<category>Confirmed Hack</category>
-<category>Medium</category>
-<category>Tech</category>
-<category>Education</category>
 </item>
 <item>
 <title>Lyko (beauty retailer, Sweden) — Confirmed Hack</title>
@@ -817,16 +849,6 @@
 <category>Critical</category>
 <category>Tech</category>
 <category>Consumer</category>
-</item>
-<item>
-<title>Kyash (payments app, Japan) — Confirmed Hack</title>
-<link>https://hacktracking.com/#kyash-2026-10</link>
-<guid isPermaLink="true">https://hacktracking.com/#kyash-2026-10</guid>
-<pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
-<description>Kyash says an outsider got into one of its internal web tools for about two and a half hours on Oct. 28 because of an access-control flaw, and may have taken internal documents that included some customer information. It says the Kyash app and card systems were not accessed. Impact: Up to 11,996 customers: internal IDs, plus account status and some payment merchant, date and amount details for most of them, and login, top-up or transfer history, device IDs or IP addresses for 310. No names, addresses, phone numbers, emails, card or bank details, or passwords. Status: Confirmed by Kyash. Affected customers being emailed. Sources: Kyash notice (Japanese) (https://www.kyash.co/information/20261119)</description>
-<category>Confirmed Hack</category>
-<category>Low</category>
-<category>Finance</category>
 </item>
 <item>
 <title>WS Audiology (hearing aid maker, parent of Widex and Signia) — Confirmed Hack</title>
