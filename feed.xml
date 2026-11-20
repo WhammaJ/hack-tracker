@@ -106,6 +106,17 @@
 <category>Government</category>
 </item>
 <item>
+<title>European supermarket refrigeration systems (Delhaize, SuperValu, ICA and others) — Confirmed Hack</title>
+<link>https://hacktracking.com/#european-supermarket-refrigeration-systems-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#european-supermarket-refrigeration-systems-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>In the early hours of Nov. 2, a second wave of attacks hit internet-connected refrigeration controls at supermarkets and food businesses in at least 10 European countries, switching fridges and freezers into defrost mode. Around 40 Delhaize stores in Belgium and Luxembourg and 13 SuperValu stores in Ireland were among those hit, and three British meat suppliers were affected through vulnerable Copeland XWEB controllers. Impact: Freezer temperatures reportedly rose as high as 50C, forcing retailers to throw away food. In the UK, the affected meat suppliers' units were empty, so no meat was lost. On Nov. 20 it emerged that a UK government and National Cyber Security Centre operation had quietly fixed a separate vulnerability in RDM refrigeration controllers before it could be exploited in UK stores. Status: Confirmed as cyberattacks by affected companies, including Sabcobel (which runs Delhaize's systems) and SuperValu owner Musgrave. Belgian federal prosecutors are investigating. No one has claimed responsibility, and authorities have not attributed this wave. Sources: BBC News (https://www.bbc.com/news/articles/cwy8lm1m59mvo); The Record (https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks); The Guardian (Nov. 20) (https://www.theguardian.com/technology/2026/nov/20/cybersecurity-operation-thwarts-attack-on-uk-supermarket-fridges-and-freezers)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Retail</category>
+<category>Food</category>
+</item>
+<item>
 <title>NSA classified network (NSANet) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#nsa-classified-network-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
@@ -213,6 +224,16 @@
 <category>Business</category>
 </item>
 <item>
+<title>Bell Financial Group (stockbroker, Australia) — Confirmed Hack</title>
+<link>https://hacktracking.com/#bell-financial-group-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#bell-financial-group-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Bell Financial Group told the Australian stock exchange on Nov. 20 that there had been unauthorized access to a limited number of its IT systems, and that it believes some clients' data was accessed. Impact: Some client data likely accessed; the company has not said what data or how many clients. It says client assets are safe and it is operating as usual. Status: Confirmed by Bell Financial, which says the incident is contained. The Australian Cyber Security Centre and Australian Federal Police have been notified. Sources: Bell Financial ASX release (PDF) (https://announcements.asx.com.au/asxpdf/20261120/pdf/076tz17bd60wwg.pdf); CNA (Reuters) (https://www.channelnewsasia.com/business/australias-bell-financial-says-some-client-data-likely-accessed-in-cyber-incident-6567421)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Finance</category>
+</item>
+<item>
 <title>European Commission HR system (Sysper) — Confirmed Hack</title>
 <link>https://hacktracking.com/#european-commission-hr-system-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#european-commission-hr-system-2026-10</guid>
@@ -273,6 +294,16 @@
 <category>High</category>
 <category>Finance</category>
 <category>Travel</category>
+</item>
+<item>
+<title>VMware vCenter zero-day attacks (CVE-2026-123890) — Confirmed Hack</title>
+<link>https://hacktracking.com/#vmware-vcenter-zero-day-attacks-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#vmware-vcenter-zero-day-attacks-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Broadcom patched a critical VMware vCenter Server authentication bypass on Nov. 19. Google's Mandiant says a suspected Chinese state-sponsored group it tracks as Armory Castle (formerly UNC5221) had been exploiting it as a zero-day since early September, after first breaking in through BeyondTrust Remote Support appliances. Impact: Mandiant observed the attackers creating vCenter administrator accounts, stealing the server's directory database and using tools that can forge authentication tokens to get past multifactor authentication. Number of victims not disclosed. Status: Patched by Broadcom (VMSA-2026-0009) as an emergency update. Exploitation documented by Mandiant and Google Threat Intelligence Group; Broadcom has not confirmed exploitation itself. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
 </item>
 <item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
@@ -337,6 +368,16 @@
 <category>Medium</category>
 <category>Tech</category>
 <category>Education</category>
+</item>
+<item>
+<title>Greiz-Ronneburg district hospital (Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt. Impact: The emergency room was out of service until the evening of Nov. 16; planned treatments continued. Digital treatment plans were still affected afterward. By Nov. 18 the operating rooms were fully working again, and postponed operations were being made up that week. The hospital has not said whether patient data was affected. Status: Attack confirmed by the hospital and the Greiz district. State criminal police and prosecutors are investigating, and police are investigating a suspect. No group has claimed it. Sources: MDR (https://www.mdr.de/nachrichten/thueringen/ost-thueringen/greiz/krankenhaus-notaufnahme-,greiz-hackerangriff-100.html); Landkreis Greiz (https://www.landkreis-greiz.de/aktuelles/news-detailseite/notaufnahme-nimmt-wieder-patienten-auf); Freie Presse (Nov. 19) (https://www.freiepresse.de/vogtland/reichenbach/kreiskrankenhaus-greiz-operationssaele-nach-hackerangriff-wieder-voll-funktionsfaehig-artikel14488687)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
 </item>
 <item>
 <title>City of South Portland (Maine) — Confirmed Hack</title>
@@ -772,16 +813,6 @@
 <category>Tech</category>
 </item>
 <item>
-<title>Greiz-Ronneburg district hospital (Germany) — Confirmed Hack</title>
-<link>https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#greiz-ronneburg-district-hospital-2026-11</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
-<description>A hacker attack on Kreiskrankenhaus Greiz-Ronneburg in Thuringia caused a system failure noticed on the evening of Nov. 14. The district says the hospital received an extortion message on Nov. 15 and calls the attack an extortion attempt. Impact: The emergency room was out of service until the evening of Nov. 16; planned treatments continued. Digital treatment plans were still affected afterward. The hospital has not said whether patient data was affected. Status: Attack confirmed by the hospital and the Greiz district. State criminal police and prosecutors are investigating, and police are investigating a suspect. No group has claimed it. Sources: MDR (https://www.mdr.de/nachrichten/thueringen/ost-thueringen/greiz/krankenhaus-notaufnahme-,greiz-hackerangriff-100.html); Landkreis Greiz (https://www.landkreis-greiz.de/aktuelles/news-detailseite/notaufnahme-nimmt-wieder-patienten-auf)</description>
-<category>Confirmed Hack</category>
-<category>Medium</category>
-<category>Healthcare</category>
-</item>
-<item>
 <title>DHC (cosmetics, Japan, via PLAID KARTE) — Confirmed Hack</title>
 <link>https://hacktracking.com/#dhc-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#dhc-2026-11</guid>
@@ -825,6 +856,16 @@
 <category>High</category>
 <category>Tech</category>
 <category>Business</category>
+</item>
+<item>
+<title>City of Columbia (South Carolina) — Confirmed Hack</title>
+<link>https://hacktracking.com/#city-of-columbia-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#city-of-columbia-2026-10</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>The city of Columbia found suspicious activity on its network on Oct. 20 and later confirmed it was a ransomware attack that hit several public-facing services and involved sensitive data on the city's network. Impact: MyColaSC, business licensing, planning and development, parks and recreation reservations, GIS and Animal Services went offline; police, fire, 911, Columbia Water and online payments were not affected. All affected applications were restored by Nov. 13. The city has not said what data was accessed or how many people were affected. Status: Ransomware attack confirmed by the city. The South Carolina Law Enforcement Division (SLED) is running a criminal investigation. Sources: City of Columbia (https://columbiasc.gov/city-of-columbia-provides-update-on-cybersecurity-incident/); WACH (https://wach.com/news/local/2026-10-24-city-of-columbia-confirms-ransomware-attack-disrupting-online-services-sled-investigation-cybersecurity-fbi); The Post and Courier (Nov. 13) (https://www.postandcourier.com/columbia/news/city-of-columbia-sc-cyper-hack-update/article_91c7de0d-115e-40d3-9800-663bc3fe067d.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
 </item>
 <item>
 <title>Expedia Group (travel) — Confirmed Hack</title>
@@ -881,6 +922,16 @@
 <category>Consumer</category>
 </item>
 <item>
+<title>Sunnybrook Health Sciences Centre (hospital, Toronto) — Confirmed Hack</title>
+<link>https://hacktracking.com/#sunnybrook-health-sciences-centre-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#sunnybrook-health-sciences-centre-2026-10</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>Sunnybrook, a major Toronto hospital, says unauthorized individuals accessed part of its network on Oct. 29 and that data, including some personal health information, was stolen. Impact: Number of people and exact data still being determined. The hospital says there is no evidence of widespread access to its electronic medical record or its staff, financial or donor databases. Patient care continued uninterrupted. Status: Confirmed by Sunnybrook, which reported it to law enforcement and Ontario's Information and Privacy Commissioner. Affected people will be notified. Sources: Sunnybrook statement (https://sunnybrook.ca/2026/11/cyber-investigation/); Canadian Security Intelligence (https://securitynews.ca/articles/sunnybrook-health-information-stolen-cyber-incident)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+</item>
+<item>
 <title>Rakuten Securities (online brokerage, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#rakuten-securities-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#rakuten-securities-2026-11</guid>
@@ -921,6 +972,27 @@
 <category>Confirmed Hack</category>
 <category>Low</category>
 <category>Business</category>
+</item>
+<item>
+<title>New Plymouth School District (Idaho) — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#new-plymouth-school-district-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#new-plymouth-school-district-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>The New Plymouth School District shut down its network, school computers and Google accounts after detecting what it called a cyber threat within its network, and canceled classes for two days. What people speculated: A cyberattack on the district's network; the district warned families to delete suspicious emails that appeared to come from the district or its schools. Official explanation: The district calls it a potential cyber threat and says there is no evidence any data was compromised. Systems were shut down out of caution while it restores the network and checks devices. Impact: Classes canceled Nov. 11 and 12; school was set to resume as scheduled Nov. 16. Status: District investigating. No breach confirmed. Sources: New Plymouth School District update (https://www.npschools.us/apps/news/article/2254949?categoryId=18269); Idaho Press (https://www.idahopress.com/news/local/new-plymouth-school-district-shuts-down-network-after-threat/article_a74c363d-cd52-4f97-94ed-a218ea5067dc.html)</description>
+<category>Speculated / Potential Hack</category>
+<category>Low</category>
+<category>Education</category>
+</item>
+<item>
+<title>French supermarket refrigeration systems (700+ stores) — Confirmed Hack</title>
+<link>https://hacktracking.com/#french-supermarket-refrigeration-systems-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#french-supermarket-refrigeration-systems-2026-10</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+<description>On Oct. 11 and 12, attackers took over the remote controls of refrigeration systems at more than 700 retail sites in France, pushing fridges and freezers into abnormal, indefinite defrost cycles and switching off temperature alarms. France has blamed Iran. Impact: Hundreds of supermarkets lost perishable stock; the French government says the attacks caused significant material damage, sparked fires and spoiled food worth tens of millions of euros. Status: Confirmed by the French government, which on Nov. 9 attributed the attacks to Shahid Kaveh, a cyber unit of Iran's Islamic Revolutionary Guard Corps, and summoned Iran's ambassador. The Paris prosecutor opened an investigation and requested international arrest warrants for two Shahid Kaveh officials. Sources: France Diplomatie (attribution statement) (https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france); AFP (https://www.afp.com/en/france-vows-tough-response-freezer-cyberattack-blamed-iran)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Retail</category>
+<category>Food</category>
 </item>
 <item>
 <title>Vanderbilt University — Confirmed Hack</title>
@@ -1047,6 +1119,17 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Media</category>
+</item>
+<item>
+<title>U.S. military commissary freezers — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#u-s-military-commissary-freezers-2026-08</link>
+<guid isPermaLink="true">https://hacktracking.com/#u-s-military-commissary-freezers-2026-08</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+<description>In late August, refrigeration at at least six on-base grocery stores (commissaries) across the U.S. failed at nearly the same time. At one, freezers were put into defrost mode overnight and food melted. What people speculated: A cyberattack on the commissaries' refrigeration controls, similar to the attacks that later hit French and European supermarket freezers. Official explanation: Reuters reported on Oct. 29 that the Pentagon is treating the malfunctions as a suspected hack, citing four officials. The Pentagon says a Cyber Command unit is working with law enforcement partners, and Army CID's Cyber Field Office is working with French law enforcement. As of Nov. 4, officials had not confirmed whether anything malicious happened. Impact: Meat, dairy, produce and frozen food spoiled or pulled from sale at at least six commissaries. The Pentagon has not said how many stores were affected or how much food was lost. Status: Under investigation. Cause not officially determined. Sources: Military Times (Reuters) (https://www.militarytimes.com/pentagon/2026/10/29/pentagon-treating-military-base-freezer-malfunctions-as-suspected-cyberattack-officials-say/); Stars and Stripes (https://www.stripes.com/theaters/us/2026-11-04/cyber-attacks-commissary-freezers-23362522.html)</description>
+<category>Speculated / Potential Hack</category>
+<category>Medium</category>
+<category>Government</category>
+<category>Food</category>
 </item>
 <item>
 <title>Air Botswana — Confirmed Hack</title>
