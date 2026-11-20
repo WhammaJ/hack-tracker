@@ -1,6 +1,25 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "speculated": [
+    {
+      "org": "Cleveland ISD network disruption (Texas)",
+      "date": "2026-11-19",
+      "sectors": [
+        "Education"
+      ],
+      "severity": "Low",
+      "summary": "Cleveland Independent School District near Houston restricted access to its networks and technology services after detecting suspicious activity. Schools stayed open, but visitor access was limited because the electronic visitor system was down.",
+      "speculation": "A cyberattack on district systems.",
+      "official": "The district describes it as an attempted cybersecurity intrusion and says a full breach of its systems has not been confirmed.",
+      "impact": "Some district technology services offline; no restoration timeline given.",
+      "status": "Under investigation. Breach not confirmed.",
+      "sources": [
+        {
+          "name": "KHOU",
+          "url": "https://www.khou.com/article/news/local/network-disruption-cleveland-isd-texas/285-b0841a37-3083-40cb-8d57-8e218144d49b"
+        }
+      ]
+    },
     {
       "org": "FAA: nationwide ground stop",
       "date": "2026-11-13",
@@ -471,6 +490,222 @@
   ],
   "confirmed": [
     {
+      "org": "Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay)",
+      "date": "2026-11-19",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Finance",
+        "Tech"
+      ],
+      "severity": "High",
+      "summary": "Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients.",
+      "impact": "Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data.",
+      "status": "Confirmed by Infcurion and the Payどん banks. No misuse of the data found so far; investigation ongoing and no restart date set.",
+      "sources": [
+        {
+          "name": "Infcurion notice (Japanese)",
+          "url": "https://infcurion.com/news/news-20261120_001/"
+        },
+        {
+          "name": "CNET Japan (Japanese)",
+          "url": "https://japan.cnet.com/article/35255235/"
+        },
+        {
+          "name": "Jiji Press (Japanese)",
+          "url": "https://sp.m.jiji.com/article/show/3916405"
+        }
+      ]
+    },
+    {
+      "org": "Kurly (online grocery, South Korea)",
+      "date": "2026-11-17",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Retail",
+        "Consumer"
+      ],
+      "severity": "Medium",
+      "summary": "Korean online grocer Kurly says an outside attacker got into its systems on Nov. 17 by an abnormal method, stole authentication credentials and used them to reach internal business systems. It blocked the intrusion and reported it to authorities on Nov. 18.",
+      "impact": "Personal data of 10,699 people in its curator (influencer) program: names, user IDs, phone numbers, email addresses and social media details, plus bank account numbers and resident or business registration numbers for some. Membership numbers of two regular customers also leaked.",
+      "status": "Confirmed by Kurly, whose CEO apologized. Offering affected curators 50,000 to 150,000 won and promising full compensation for any resulting losses.",
+      "sources": [
+        {
+          "name": "Yonhap (Korean)",
+          "url": "https://www.yna.co.kr/view/AKR20261120157051030"
+        },
+        {
+          "name": "MoneyToday",
+          "url": "https://www.mt.co.kr/en/living/2026/11/20/2026112017320311063"
+        }
+      ]
+    },
+    {
+      "org": "Meta M (call center outsourcer, South Korea; Coinone, Bunjang, Mega MGC Coffee)",
+      "date": "2026-11-12",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Business",
+        "Finance",
+        "Retail"
+      ],
+      "severity": "Medium",
+      "summary": "Meta M, which runs customer service centers for about 150 companies, says an outside party broke into its systems early on Nov. 12, and phone numbers and counseling conversations were viewed or taken from some systems. Clients including crypto exchange Coinone, resale app Bunjang and Mega MGC Coffee have reported leaks.",
+      "impact": "Varies by client. Coinone says up to 11 kinds of information customers gave during support calls may have leaked, including names, phone numbers, resident registration numbers, account numbers, passwords and wallet addresses. Bunjang says 49 phone numbers leaked; Mega MGC Coffee says 30. As of Nov. 20 about 10 client companies had reported leaks to regulators (Herald Business).",
+      "status": "Confirmed by Meta M and affected clients. Reported to KISA; KISA and the Personal Information Protection Commission are investigating.",
+      "sources": [
+        {
+          "name": "ZDNet Korea (Korean)",
+          "url": "https://zdnet.co.kr/view/?no=20261117221104"
+        },
+        {
+          "name": "Herald Business (Korean)",
+          "url": "https://biz.heraldcorp.com/article/10943647"
+        }
+      ]
+    },
+    {
+      "org": "Jeonju University (South Korea)",
+      "date": "2026-11-16",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Education"
+      ],
+      "severity": "High",
+      "summary": "Jeonju University says its online liberal arts course service (AHA) was hacked at about 11:42 p.m. on Nov. 16. It confirmed the leak about 16 hours later, blocked outside access and reported it to regulators. It came a day after the Jeonbuk education office's school bus system breach.",
+      "impact": "About 180,000 records, including about 25,000 resident registration numbers, of current and former students, staff and old website members. Leaked items include passwords, addresses, phone numbers and disability status.",
+      "status": "Confirmed by Jeonju University. Reported to the Personal Information Protection Commission, KISA and the Ministry of Education.",
+      "sources": [
+        {
+          "name": "Pressian (Korean)",
+          "url": "https://www.pressian.com/pages/articles/2026112013244886504"
+        }
+      ]
+    },
+    {
+      "org": "Caring (senior care company, South Korea)",
+      "date": "2026-08-11",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Healthcare"
+      ],
+      "severity": "High",
+      "summary": "Senior care company Caring says an outside attacker bypassed authentication and got into an internal data lookup tool between Aug. 11 and Sept. 3. It closed the hole on Sept. 4 and at first thought no personal data was viewed, but a later review found the attacker had looked up records using existing accounts. It confirmed the leak on Nov. 17 and reported it to KISA.",
+      "impact": "Elderly clients, guardians, care workers, some job seekers and staff. Names, birth dates, addresses and contact details, long-term care numbers and grades, and for some clients health details such as major illnesses, blood pressure and cognitive function. Some resident registration numbers, account numbers and passwords written in free-text notes also leaked. Total number not disclosed.",
+      "status": "Confirmed by Caring. Affected people being notified; investigation ongoing.",
+      "sources": [
+        {
+          "name": "ZDNet Korea (Korean)",
+          "url": "https://zdnet.co.kr/view/?no=20261120163843"
+        }
+      ]
+    },
+    {
+      "org": "Norwegian (airline website card skimming)",
+      "date": "2026-11-16",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Aviation",
+        "Travel"
+      ],
+      "severity": "Medium",
+      "summary": "Norwegian says one of its external IT suppliers was hit by a cyberattack and malicious code was placed on parts of its website for a limited time on the afternoon and evening of Monday, Nov. 16. It found out on Nov. 18 and switched off the affected technology.",
+      "impact": "About 5,000 customers who used the website in that window; card numbers, expiry dates and CVC codes may be exposed. Norwegian emailed them asking them to block their cards.",
+      "status": "Confirmed by Norwegian. Says the breach has been stopped and the website is safe to use. Separate from the Amadeus booking data leak.",
+      "sources": [
+        {
+          "name": "Finansavisen (Norwegian)",
+          "url": "https://www.finansavisen.no/transport/2026/11/19/8397241/datainnbrudd-hos-norwegian-leverandor"
+        },
+        {
+          "name": "The Local Norway",
+          "url": "https://www.thelocal.no/20261120/norwegian-airline-warns-thousands-of-customers-over-data-breach"
+        }
+      ]
+    },
+    {
+      "org": "Ransomware network extorting U.S. firms (Ukraine arrests)",
+      "date": "2026-11-18",
+      "sectors": [
+        "Energy",
+        "Manufacturing",
+        "Healthcare"
+      ],
+      "severity": "High",
+      "summary": "Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems.",
+      "impact": "Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record).",
+      "status": "Confirmed by Ukrainian law enforcement. Four suspects face up to 15 years in prison; 66 searches carried out and cash, devices and bank cards seized. Ransomware strain not named.",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/ukraine-ransomware-arrests-cyber"
+        }
+      ]
+    },
+    {
+      "org": "Lithuanian Customs (user portal)",
+      "date": "2026-11-10",
+      "updated": "2026-11-16",
+      "sectors": [
+        "Government"
+      ],
+      "severity": "Medium",
+      "summary": "Lithuania's customs agency says attackers gained unauthorized access to BAP, the portal people and businesses use to log in to customs and some European Commission customs systems. It shut the portal down after detecting the attack on Nov. 10. Its chief called it a targeted, sophisticated attack that tried to go deeper into more sensitive systems.",
+      "impact": "Possible data breach affecting several hundred people and businesses who logged in on Nov. 9-10; local media say names, addresses, phone numbers, emails and personal ID numbers may be exposed. Access to EU customs systems including ICS2 was disrupted for some users.",
+      "status": "Confirmed by Lithuanian Customs. Services partly restored as of Nov. 16; attackers and vulnerability not identified.",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/lithuania-customs-agency-cyberattack"
+        }
+      ]
+    },
+    {
+      "org": "Municipality of Neuried (Germany)",
+      "date": "2026-11-17",
+      "updated": "2026-11-18",
+      "sectors": [
+        "Government"
+      ],
+      "severity": "Medium",
+      "summary": "Police say unknown attackers got into parts of the IT systems of Neuried, a town in Baden-Württemberg, and left a message there. The mayor discovered the attack on Nov. 17 and the affected systems were shut down as a precaution.",
+      "impact": "Town hall not reachable by email. Police say early findings show data was taken, but what and how much is unclear.",
+      "status": "Confirmed by police and the municipality. Investigation ongoing.",
+      "sources": [
+        {
+          "name": "tagesschau (SWR, German)",
+          "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-cyberangriff-legt-gemeinde-neuried-lahm-100.html"
+        }
+      ]
+    },
+    {
+      "org": "Amadeus booking system (via Norwegian, Widerøe, SAS)",
+      "date": "2026-10-27",
+      "updated": "2026-11-13",
+      "sectors": [
+        "Travel",
+        "Aviation",
+        "Tech"
+      ],
+      "severity": "High",
+      "summary": "Spanish travel booking platform Amadeus reported a security incident in which an unauthorized actor had access to its systems for at least three years, Norway's National Security Authority (NSM) says. Amadeus says a vulnerability in its booking display system made certain booking data accessible; it was closed on Sept. 23, 2026. The breach became known in Norway on Oct. 27.",
+      "impact": "Depending on the booking: identity and itinerary, passport number and nationality, contact details, ticket and flight numbers, seats and free-text notes. Norwegian told Norway's data protection authority 144,249 Norwegian and Widerøe passengers are affected; NRK reports SAS has said 350,000 of its passengers in four countries are affected. NSM says travel of 75 Norwegian public and private organizations was exposed. No payment data reported taken.",
+      "status": "Confirmed by Amadeus, NSM and affected airlines. Amadeus says the attacker no longer has access.",
+      "sources": [
+        {
+          "name": "NSM (Norwegian)",
+          "url": "https://nsm.no/aktuelt/reiseopplysninger-kompromittert-hos-spansk-leverandor"
+        },
+        {
+          "name": "NRK (Norwegian)",
+          "url": "https://www.nrk.no/artikkel/over-144000-norwegian-og-wideroe-passasjerer-rammet-av-datainnbrudd-1532879"
+        },
+        {
+          "name": "The Local Norway",
+          "url": "https://www.thelocal.no/20261113/more-than-140000-travellers-with-norwegian-affected-by-data-leak"
+        }
+      ]
+    },
+    {
       "org": "Forest & Bird (conservation group, New Zealand)",
       "date": "2026-11-18",
       "updated": "2026-11-19",
@@ -757,28 +992,28 @@
     {
       "org": "PLAID KARTE customers (MUFG Bank, JINS, Shimamura and others, Japan)",
       "date": "2026-11-13",
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "sectors": [
         "Tech",
         "Finance",
         "Retail"
       ],
       "severity": "Critical",
-      "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since.",
-      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
-      "status": "Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies, including Uniform Next and Mainichi Shimbun, announcing leaks as of Nov. 19.",
+      "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. On Nov. 20 PLAID said about 2,200 client companies in total (counting overlaps) had data leaked or possibly leaked.",
+      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
+      "status": "Confirmed by PLAID and affected companies. PLAID says about 2,200 client companies (2,220 counting overlaps) may be affected, including 570 whose linked customer data may have leaked; it plans to give clients detailed data from Nov. 24, expects to restart KARTE in mid-January, and now forecasts a full-year net loss of about ¥2 billion (Nikkei).",
       "sources": [
         {
-          "name": "MUFG Bank notice (Japanese, PDF)",
-          "url": "https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf"
+          "name": "NHK (Japanese)",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261120de79350"
         },
         {
-          "name": "NHK (Sharp, Japanese)",
-          "url": "https://news.web.nhk/newsweb/na/nd-20261119de78404"
+          "name": "Nikkei (Japanese)",
+          "url": "https://www.nikkei.com/article/DGXZQOUC204SK0Q6A121C2000000/"
         },
         {
-          "name": "Mainichi Shimbun notice (Japanese)",
-          "url": "https://www.mainichi.co.jp/info/news/20261119.html"
+          "name": "Nikkei on SMBC (Japanese)",
+          "url": "https://www.nikkei.com/article/DGXZQOUB208VL0Q6A121C2000000/"
         }
       ]
     },
@@ -1008,14 +1243,14 @@
     {
       "org": "Equinor (energy company, Norway)",
       "date": "2026-11-17",
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "sectors": [
         "Energy"
       ],
       "severity": "High",
       "summary": "Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it.",
       "impact": "Some IT systems affected; staff may have trouble reaching corporate apps and IT services. Equinor says there are still no signs data was leaked, the attack did not involve a computer virus, and oil and gas production is running as normal.",
-      "status": "Confirmed by Equinor. On Nov. 19 it said the attack was still ongoing and does not appear to be specifically targeting Equinor; work to stop it and restore systems continues, and the matter has been reported to police.",
+      "status": "Confirmed by Equinor. On Nov. 20 it said the attack had been stopped, production is running as normal, and there is no indication data was stolen or altered or that employees, partners or suppliers were affected. Reported to police; attackers not named.",
       "sources": [
         {
           "name": "Equinor statement",

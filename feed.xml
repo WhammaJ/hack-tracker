@@ -5,19 +5,94 @@
 <link>https://hacktracking.com/</link>
 <description>Confirmed hacking incidents and outages people suspected were hacks, with official explanations and sources.</description>
 <language>en</language>
-<lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>PLAID KARTE customers (MUFG Bank, JINS, Shimamura and others, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#plaid-karte-customers-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#plaid-karte-customers-2026-11</guid>
-<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. KARTE still offline with no restart date as of Nov. 18; more companies, including Uniform Next and Mainichi Shimbun, announcing leaks as of Nov. 19. Sources: MUFG Bank notice (Japanese, PDF) (https://www.bk.mufg.jp/news/news2026/pdf/news1118.pdf); NHK (Sharp, Japanese) (https://news.web.nhk/newsweb/na/nd-20261119de78404); Mainichi Shimbun notice (Japanese) (https://www.mainichi.co.jp/info/news/20261119.html)</description>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. On Nov. 20 PLAID said about 2,200 client companies in total (counting overlaps) had data leaked or possibly leaked. Impact: Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them. Status: Confirmed by PLAID and affected companies. PLAID says about 2,200 client companies (2,220 counting overlaps) may be affected, including 570 whose linked customer data may have leaked; it plans to give clients detailed data from Nov. 24, expects to restart KARTE in mid-January, and now forecasts a full-year net loss of about ¥2 billion (Nikkei). Sources: NHK (Japanese) (https://news.web.nhk/newsweb/na/nd-20261120de79350); Nikkei (Japanese) (https://www.nikkei.com/article/DGXZQOUC204SK0Q6A121C2000000/); Nikkei on SMBC (Japanese) (https://www.nikkei.com/article/DGXZQOUB208VL0Q6A121C2000000/)</description>
 <category>Confirmed Hack</category>
 <category>Critical</category>
 <category>Tech</category>
 <category>Finance</category>
 <category>Retail</category>
+</item>
+<item>
+<title>Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay) — Confirmed Hack</title>
+<link>https://hacktracking.com/#infcurion-wallet-station-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#infcurion-wallet-station-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients. Impact: Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data. Status: Confirmed by Infcurion and the Payどん banks. No misuse of the data found so far; investigation ongoing and no restart date set. Sources: Infcurion notice (Japanese) (https://infcurion.com/news/news-20261120_001/); CNET Japan (Japanese) (https://japan.cnet.com/article/35255235/); Jiji Press (Japanese) (https://sp.m.jiji.com/article/show/3916405)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Tech</category>
+</item>
+<item>
+<title>Jeonju University (South Korea) — Confirmed Hack</title>
+<link>https://hacktracking.com/#jeonju-university-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#jeonju-university-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Jeonju University says its online liberal arts course service (AHA) was hacked at about 11:42 p.m. on Nov. 16. It confirmed the leak about 16 hours later, blocked outside access and reported it to regulators. It came a day after the Jeonbuk education office's school bus system breach. Impact: About 180,000 records, including about 25,000 resident registration numbers, of current and former students, staff and old website members. Leaked items include passwords, addresses, phone numbers and disability status. Status: Confirmed by Jeonju University. Reported to the Personal Information Protection Commission, KISA and the Ministry of Education. Sources: Pressian (Korean) (https://www.pressian.com/pages/articles/2026112013244886504)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Education</category>
+</item>
+<item>
+<title>Caring (senior care company, South Korea) — Confirmed Hack</title>
+<link>https://hacktracking.com/#caring-2026-08</link>
+<guid isPermaLink="true">https://hacktracking.com/#caring-2026-08</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Senior care company Caring says an outside attacker bypassed authentication and got into an internal data lookup tool between Aug. 11 and Sept. 3. It closed the hole on Sept. 4 and at first thought no personal data was viewed, but a later review found the attacker had looked up records using existing accounts. It confirmed the leak on Nov. 17 and reported it to KISA. Impact: Elderly clients, guardians, care workers, some job seekers and staff. Names, birth dates, addresses and contact details, long-term care numbers and grades, and for some clients health details such as major illnesses, blood pressure and cognitive function. Some resident registration numbers, account numbers and passwords written in free-text notes also leaked. Total number not disclosed. Status: Confirmed by Caring. Affected people being notified; investigation ongoing. Sources: ZDNet Korea (Korean) (https://zdnet.co.kr/view/?no=20261120163843)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Healthcare</category>
+</item>
+<item>
+<title>Equinor (energy company, Norway) — Confirmed Hack</title>
+<link>https://hacktracking.com/#equinor-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it. Impact: Some IT systems affected; staff may have trouble reaching corporate apps and IT services. Equinor says there are still no signs data was leaked, the attack did not involve a computer virus, and oil and gas production is running as normal. Status: Confirmed by Equinor. On Nov. 20 it said the attack had been stopped, production is running as normal, and there is no indication data was stolen or altered or that employees, partners or suppliers were affected. Reported to police; attackers not named. Sources: Equinor statement (https://www.equinor.com/news/20261711-equinor-detected-cyber-attack); Reuters via StreetInsider (https://www.streetinsider.com/Reuters/Equinor+says+cyberattack+still+ongoing+but+output+unaffected/27372659.html); The Record (https://therecord.media/norway-equinor-cyberattack-energy)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Energy</category>
+</item>
+<item>
+<title>Kurly (online grocery, South Korea) — Confirmed Hack</title>
+<link>https://hacktracking.com/#kurly-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#kurly-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Korean online grocer Kurly says an outside attacker got into its systems on Nov. 17 by an abnormal method, stole authentication credentials and used them to reach internal business systems. It blocked the intrusion and reported it to authorities on Nov. 18. Impact: Personal data of 10,699 people in its curator (influencer) program: names, user IDs, phone numbers, email addresses and social media details, plus bank account numbers and resident or business registration numbers for some. Membership numbers of two regular customers also leaked. Status: Confirmed by Kurly, whose CEO apologized. Offering affected curators 50,000 to 150,000 won and promising full compensation for any resulting losses. Sources: Yonhap (Korean) (https://www.yna.co.kr/view/AKR20261120157051030); MoneyToday (https://www.mt.co.kr/en/living/2026/11/20/2026112017320311063)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>Meta M (call center outsourcer, South Korea; Coinone, Bunjang, Mega MGC Coffee) — Confirmed Hack</title>
+<link>https://hacktracking.com/#meta-m-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#meta-m-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Meta M, which runs customer service centers for about 150 companies, says an outside party broke into its systems early on Nov. 12, and phone numbers and counseling conversations were viewed or taken from some systems. Clients including crypto exchange Coinone, resale app Bunjang and Mega MGC Coffee have reported leaks. Impact: Varies by client. Coinone says up to 11 kinds of information customers gave during support calls may have leaked, including names, phone numbers, resident registration numbers, account numbers, passwords and wallet addresses. Bunjang says 49 phone numbers leaked; Mega MGC Coffee says 30. As of Nov. 20 about 10 client companies had reported leaks to regulators (Herald Business). Status: Confirmed by Meta M and affected clients. Reported to KISA; KISA and the Personal Information Protection Commission are investigating. Sources: ZDNet Korea (Korean) (https://zdnet.co.kr/view/?no=20261117221104); Herald Business (Korean) (https://biz.heraldcorp.com/article/10943647)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Business</category>
+<category>Finance</category>
+<category>Retail</category>
+</item>
+<item>
+<title>Norwegian (airline website card skimming) — Confirmed Hack</title>
+<link>https://hacktracking.com/#norwegian-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#norwegian-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Norwegian says one of its external IT suppliers was hit by a cyberattack and malicious code was placed on parts of its website for a limited time on the afternoon and evening of Monday, Nov. 16. It found out on Nov. 18 and switched off the affected technology. Impact: About 5,000 customers who used the website in that window; card numbers, expiry dates and CVC codes may be exposed. Norwegian emailed them asking them to block their cards. Status: Confirmed by Norwegian. Says the breach has been stopped and the website is safe to use. Separate from the Amadeus booking data leak. Sources: Finansavisen (Norwegian) (https://www.finansavisen.no/transport/2026/11/19/8397241/datainnbrudd-hos-norwegian-leverandor); The Local Norway (https://www.thelocal.no/20261120/norwegian-airline-warns-thousands-of-customers-over-data-breach)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Aviation</category>
+<category>Travel</category>
 </item>
 <item>
 <title>European Commission HR system (Sysper) — Confirmed Hack</title>
@@ -28,16 +103,6 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
-</item>
-<item>
-<title>Equinor (energy company, Norway) — Confirmed Hack</title>
-<link>https://hacktracking.com/#equinor-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
-<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-<description>Norway's state-controlled oil and gas giant said it detected an ongoing cyberattack against some of its IT systems and was working to neutralise it. Impact: Some IT systems affected; staff may have trouble reaching corporate apps and IT services. Equinor says there are still no signs data was leaked, the attack did not involve a computer virus, and oil and gas production is running as normal. Status: Confirmed by Equinor. On Nov. 19 it said the attack was still ongoing and does not appear to be specifically targeting Equinor; work to stop it and restore systems continues, and the matter has been reported to police. Sources: Equinor statement (https://www.equinor.com/news/20261711-equinor-detected-cyber-attack); Reuters via StreetInsider (https://www.streetinsider.com/Reuters/Equinor+says+cyberattack+still+ongoing+but+output+unaffected/27372659.html); The Record (https://therecord.media/norway-equinor-cyberattack-energy)</description>
-<category>Confirmed Hack</category>
-<category>High</category>
-<category>Energy</category>
 </item>
 <item>
 <title>Visa (via third-party provider) — Confirmed Hack</title>
@@ -230,6 +295,16 @@
 <category>Business</category>
 </item>
 <item>
+<title>Cleveland ISD network disruption (Texas) — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#cleveland-isd-network-disruption-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#cleveland-isd-network-disruption-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Cleveland Independent School District near Houston restricted access to its networks and technology services after detecting suspicious activity. Schools stayed open, but visitor access was limited because the electronic visitor system was down. What people speculated: A cyberattack on district systems. Official explanation: The district describes it as an attempted cybersecurity intrusion and says a full breach of its systems has not been confirmed. Impact: Some district technology services offline; no restoration timeline given. Status: Under investigation. Breach not confirmed. Sources: KHOU (https://www.khou.com/article/news/local/network-disruption-cleveland-isd-texas/285-b0841a37-3083-40cb-8d57-8e218144d49b)</description>
+<category>Speculated / Potential Hack</category>
+<category>Low</category>
+<category>Education</category>
+</item>
+<item>
 <title>Optimizely (website experimentation platform) — Confirmed Hack</title>
 <link>https://hacktracking.com/#optimizely-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#optimizely-2026-11</guid>
@@ -253,6 +328,18 @@
 <category>Government</category>
 </item>
 <item>
+<title>Ransomware network extorting U.S. firms (Ukraine arrests) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems. Impact: Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record). Status: Confirmed by Ukrainian law enforcement. Four suspects face up to 15 years in prison; 66 searches carried out and cash, devices and bank cards seized. Ransomware strain not named. Sources: The Record (https://therecord.media/ukraine-ransomware-arrests-cyber)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Energy</category>
+<category>Manufacturing</category>
+<category>Healthcare</category>
+</item>
+<item>
 <title>Irish credit unions (via Wellington IT) — Confirmed Hack</title>
 <link>https://hacktracking.com/#irish-credit-unions-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#irish-credit-unions-2026-10</guid>
@@ -261,6 +348,16 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Finance</category>
+</item>
+<item>
+<title>Municipality of Neuried (Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#municipality-of-neuried-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#municipality-of-neuried-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Police say unknown attackers got into parts of the IT systems of Neuried, a town in Baden-Württemberg, and left a message there. The mayor discovered the attack on Nov. 17 and the affected systems were shut down as a precaution. Impact: Town hall not reachable by email. Police say early findings show data was taken, but what and how much is unclear. Status: Confirmed by police and the municipality. Investigation ongoing. Sources: tagesschau (SWR, German) (https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-cyberangriff-legt-gemeinde-neuried-lahm-100.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
 </item>
 <item>
 <title>Perry Local Schools (Stark County, Ohio) — Confirmed Hack</title>
@@ -462,6 +559,16 @@
 <category>Agriculture</category>
 </item>
 <item>
+<title>Lithuanian Customs (user portal) — Confirmed Hack</title>
+<link>https://hacktracking.com/#lithuanian-customs-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#lithuanian-customs-2026-11</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+<description>Lithuania's customs agency says attackers gained unauthorized access to BAP, the portal people and businesses use to log in to customs and some European Commission customs systems. It shut the portal down after detecting the attack on Nov. 10. Its chief called it a targeted, sophisticated attack that tried to go deeper into more sensitive systems. Impact: Possible data breach affecting several hundred people and businesses who logged in on Nov. 9-10; local media say names, addresses, phone numbers, emails and personal ID numbers may be exposed. Access to EU customs systems including ICS2 was disrupted for some users. Status: Confirmed by Lithuanian Customs. Services partly restored as of Nov. 16; attackers and vulnerability not identified. Sources: The Record (https://therecord.media/lithuania-customs-agency-cyberattack)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+</item>
+<item>
 <title>Lighter (crypto exchange) — Confirmed Hack</title>
 <link>https://hacktracking.com/#lighter-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#lighter-2026-11</guid>
@@ -574,6 +681,18 @@
 <category>Critical</category>
 <category>Retail</category>
 <category>Consumer</category>
+</item>
+<item>
+<title>Amadeus booking system (via Norwegian, Widerøe, SAS) — Confirmed Hack</title>
+<link>https://hacktracking.com/#amadeus-booking-system-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#amadeus-booking-system-2026-10</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Spanish travel booking platform Amadeus reported a security incident in which an unauthorized actor had access to its systems for at least three years, Norway's National Security Authority (NSM) says. Amadeus says a vulnerability in its booking display system made certain booking data accessible; it was closed on Sept. 23, 2026. The breach became known in Norway on Oct. 27. Impact: Depending on the booking: identity and itinerary, passport number and nationality, contact details, ticket and flight numbers, seats and free-text notes. Norwegian told Norway's data protection authority 144,249 Norwegian and Widerøe passengers are affected; NRK reports SAS has said 350,000 of its passengers in four countries are affected. NSM says travel of 75 Norwegian public and private organizations was exposed. No payment data reported taken. Status: Confirmed by Amadeus, NSM and affected airlines. Amadeus says the attacker no longer has access. Sources: NSM (Norwegian) (https://nsm.no/aktuelt/reiseopplysninger-kompromittert-hos-spansk-leverandor); NRK (Norwegian) (https://www.nrk.no/artikkel/over-144000-norwegian-og-wideroe-passasjerer-rammet-av-datainnbrudd-1532879); The Local Norway (https://www.thelocal.no/20261113/more-than-140000-travellers-with-norwegian-affected-by-data-leak)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Travel</category>
+<category>Aviation</category>
+<category>Tech</category>
 </item>
 <item>
 <title>Quantum Systems (military drone maker, Germany) — Confirmed Hack</title>
