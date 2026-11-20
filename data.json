@@ -602,6 +602,34 @@
           "url": "https://www.idahopress.com/news/local/new-plymouth-school-district-shuts-down-network-after-threat/article_a74c363d-cd52-4f97-94ed-a218ea5067dc.html"
         }
       ]
+    },
+    {
+      "org": "Paychex (ransomware gang claim)",
+      "date": "2026-11-17",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Business",
+        "Finance"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "A cybercrime group called Inception listed payroll company Paychex on its leak site around Nov. 17 and later marked the data as leaked. On Nov. 19 a former employee filed a proposed class action in Monroe County, N.Y., based on the group's claims.",
+      "speculation": "That Inception broke into Paychex's network and stole about 68 GB of company data.",
+      "official": "Paychex had not publicly acknowledged a breach as of the lawsuit filing and did not immediately respond to reporters.",
+      "impact": "Unverified. The lawsuit says the claimed data includes employee Social Security numbers and bank account details, HR and benefits rosters naming about 1,000 people, client agreements and IT system diagrams.",
+      "status": "Not confirmed by Paychex. Lawsuit filed; the group's claims are unverified.",
+      "sources": [
+        {
+          "name": "NY Daily Record",
+          "url": "https://nydailyrecord.com/2026/11/20/paychex-class-action-lawsuit-data-breach-new-york/"
+        },
+        {
+          "name": "WHEC",
+          "url": "https://www.whec.com/top-news/class-action-lawsuit-filed-against-paychex-over-alleged-data-breach/"
+        }
+      ]
     }
   ],
   "confirmed": [
@@ -1654,7 +1682,7 @@
         "US"
       ],
       "severity": "High",
-      "summary": "JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program.",
+      "summary": "JPMorgan Chase said third parties that provide services to the bank were targeted in a cyberattack and that the attackers accessed certain marketing data held by those vendors. The ransomware gang n0n, which had listed the bank on its leak site, dumped data on Nov. 19 that Cybernews says is tied to the bank's invitation-only Reserve card program. BleepingComputer reports that n0n claimed an attack on cloud data analytics company Qubole on Nov. 11 and that Qubole is suspected to be the provider involved; JPMorgan, Visa and Mastercard have not named it.",
       "impact": "JPMorgan says the marketing data may include some customer names and email addresses. Cybernews researchers found about 16,000 customer email addresses, some phone numbers and account IDs, and more than 100 bank employee email addresses in the leak. The bank says the attack has no connection to the service disruption some customers had earlier in the week.",
       "status": "Vendor attack confirmed by JPMorgan Chase. Investigation ongoing; the gang's wider claims are unverified.",
       "sources": [
@@ -1665,8 +1693,13 @@
         {
           "name": "Cybernews",
           "url": "https://cybernews.com/security/jpmorgan-chase-data-leak-non-ransomware-gang/"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Mastercard (via third-party provider)",
@@ -3722,6 +3755,198 @@
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+        }
+      ]
+    },
+    {
+      "org": "Samsung Ads (via advertising data vendor, North America)",
+      "date": "2026-11-19",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Tech",
+        "Media"
+      ],
+      "countries": [
+        "US",
+        "KR"
+      ],
+      "severity": "Medium",
+      "summary": "The n0n ransomware gang dumped 220MB of data it claims belongs to Samsung on its leak site after its deadline ran out. Samsung confirmed a cyber incident at a third-party vendor that supported advertising data processing for its North America Service Business (Samsung Ads), and says the vendor's preliminary investigation indicates some Samsung information may have been affected.",
+      "impact": "Cybernews researchers found about 150,000 Samsung smart TV viewing events from 2024 (timestamps, viewing durations, device details, cities, ZIP codes and TV provider names, but not what individuals watched), about 42,600 political advertising records from September to October 2026, AI ad-model training data and two internal documents. Samsung has not confirmed what data was taken.",
+      "status": "Vendor incident confirmed by Samsung, which is working with the vendor to determine the scope. The vendor has not been named; the gang's claims are unverified.",
+      "sources": [
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/security/samsung-smart-tv-data-breach/"
+        },
+        {
+          "name": "Android Headlines",
+          "url": "https://www.androidheadlines.com/2026/11/samsung-confirms-data-breach-as-hackers-dump-220mb-of-data.html"
+        }
+      ]
+    },
+    {
+      "org": "8-Digits Team ransomware group (extradition from Italy)",
+      "date": "2026-11-16",
+      "sectors": [
+        "Healthcare",
+        "Education"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "High",
+      "summary": "The U.S. Justice Department said Roman Khlynovskiy, 43, a Kazakh national, was extradited from Italy and appeared in federal court in Knoxville, Tennessee, charged over his alleged role in the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware that broke into networks of U.S. schools, hospitals and healthcare providers, stole data and demanded payment not to release it.",
+      "impact": "Victims in at least six states, according to the indictment. Prosecutors say the group boasted of holding more than 50 TB of data with more than 70 million confidential health records, and that its demands totaled more than $500 million.",
+      "status": "Charges announced by the Justice Department; he faces up to 27 years if convicted. An indictment is an allegation and he is presumed innocent. Italian, Ukrainian and Lithuanian authorities assisted.",
+      "sources": [
+        {
+          "name": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/alleged-member-8-digits-team-ransomware-group-extradited-italy-role-major-data-extortion"
+        }
+      ]
+    },
+    {
+      "org": "N-able N-central servers (zero-day attacks)",
+      "date": "2026-11-09",
+      "updated": "2026-11-16",
+      "sectors": [
+        "Tech"
+      ],
+      "countries": [
+        "US",
+        "ZA",
+        "CA",
+        "GB",
+        "DE",
+        "FR",
+        "SE"
+      ],
+      "severity": "High",
+      "summary": "After a researcher published proof-of-concept exploits for more than 30 unpatched flaws in N-able's N-central remote management software, N-able took its hosted N-central environments offline on Nov. 9 and rushed out hotfixes. Attackers then exploited a newer flaw chain, 4EverAble2Shell, to get root access on exposed servers; N-able confirmed it is being used against customers who had not turned off the Legacy API.",
+      "impact": "Security firm Huntback says one attacker installed cryptocurrency mining software on 21 N-central servers, 19 of them already on Hotfix 2, located in the U.S., South Africa, Canada, the U.K., Germany, France and Sweden. N-able said it saw no sign of compromise of its hosted servers. N-central servers manage customers' endpoints, so researchers warn a hit should be treated as a full compromise.",
+      "status": "Attacks confirmed by N-able, which has restricted some features and was rolling out another hotfix (HF3) starting Nov. 16. N-able says this is unrelated to its Mail Assure breach.",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
+        }
+      ]
+    },
+    {
+      "org": "RMS Cloud (hotel booking software, Australia)",
+      "date": "2026-10-26",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Travel",
+        "Tech"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "severity": "Medium",
+      "summary": "Hotel and holiday park reservation software provider RMS says it found unauthorized access to a limited part of its environment on Oct. 26. Guests then got WhatsApp, text and email scams quoting their real booking details and asking for card payments.",
+      "impact": "A subset of guest booking information, including guest contact details and reservation details. RMS says credit card and payment details were not involved. Australian accommodation businesses including Kimberley hotels reported guests being targeted.",
+      "status": "Confirmed by RMS. Contained by Nov. 2; as of Nov. 20 RMS is notifying customers whose guest data is confirmed affected. ACSC and the OAIC have been notified.",
+      "sources": [
+        {
+          "name": "RMS status page",
+          "url": "https://status.rmscloud.com/incidents/dvjkt59rsfpp"
+        },
+        {
+          "name": "ABC News (Australia)",
+          "url": "https://www.abc.net.au/news/2026-11-03/rms-data-breach-kimberley-accommodation-bookings/107328710"
+        }
+      ]
+    },
+    {
+      "org": "Bookeasy (tourism booking platform, Australia; national park bookings)",
+      "date": "2026-11-11",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Travel",
+        "Government"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "severity": "Medium",
+      "summary": "Bookeasy, which runs national park camping and permit bookings for Queensland, Victoria, South Australia and the ACT plus tourism sites like VisitCanberra, detected unauthorized activity on its platform. Park customers then received phishing emails and WhatsApp messages.",
+      "impact": "Customers' names, addresses, email addresses, phone numbers and booking information may have been accessed; Bookeasy says no access to credit card details has been found. The ACT government emailed about 6,000 users. Parks Victoria and the ACT temporarily suspended bookings.",
+      "status": "Confirmed by Bookeasy. On Nov. 20 it said containment is complete and validated by outside experts, the OAIC and ACSC have been notified, and the incident is not connected to the RMS breach.",
+      "sources": [
+        {
+          "name": "ABC News (Australia)",
+          "url": "https://www.abc.net.au/news/2026-11-12/queensland-parks-booking-system-hacked/107376788"
+        },
+        {
+          "name": "ABC News (ACT)",
+          "url": "https://www.abc.net.au/news/2026-11-14/campers-personal-data-compromised-via-bookeasy-platform-hack/107386186"
+        },
+        {
+          "name": "Bookeasy status update",
+          "url": "https://www.bookeasy.com/bookeasy-status-update/"
+        }
+      ]
+    },
+    {
+      "org": "Coles Group (supermarkets, Australia)",
+      "date": "2026-11-16",
+      "sectors": [
+        "Retail"
+      ],
+      "countries": [
+        "AU"
+      ],
+      "severity": "Low",
+      "summary": "Coles disclosed a cyber security incident in an ASX filing and said it is working with global cyber security experts to contain and secure its IT environment. It has not said what happened.",
+      "impact": "Coles says it has found no evidence that customer, team or supplier data was compromised or removed. Stores and online shopping kept running; some Liquorland click-and-collect issues were being looked into.",
+      "status": "Incident confirmed by Coles, which is working with the Australian Cyber Security Centre. Investigation ongoing.",
+      "sources": [
+        {
+          "name": "iTnews",
+          "url": "https://www.itnews.com.au/news/coles-group-investigating-a-cyber-incident-630361"
+        },
+        {
+          "name": "ABC News (Australia)",
+          "url": "https://www.abc.net.au/news/2026-11-16/coles-investigates-cybersecurity-breach-but-little-detail/107390824"
+        },
+        {
+          "name": "Coles Group updates",
+          "url": "https://www.colesgroup.com.au/updates/"
+        }
+      ]
+    },
+    {
+      "org": "Oneonta City School District (New York)",
+      "date": "2026-10-23",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Education"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "The Oneonta City School District closed schools for two days after a ransomware attack. An email account calling itself Shiba ransomware claimed the attack on Oct. 27 and threatened to publish records of students, parents and staff. In a Nov. 18 message, the superintendent said the forensic investigation is finished and investigators are now reviewing the data.",
+      "impact": "Classes canceled Oct. 23 and Oct. 26. The district has not yet determined whether any personal information was affected; it says it will notify anyone who is.",
+      "status": "Ransomware attack confirmed by the district. Data review ongoing with no timeline; local, state and federal law enforcement investigating.",
+      "sources": [
+        {
+          "name": "WSKG",
+          "url": "https://www.wskg.org/regional-news/2026-10-23/oneonta-city-schools-close-following-ransomware-attack"
+        },
+        {
+          "name": "The Daily Star",
+          "url": "https://www.thedailystar.com/news/local_news/city-schools-still-assessing-cyberattack/article_3c46508c-e73b-41f0-a97f-31b88c289adc.html"
         }
       ]
     }
