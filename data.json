@@ -636,7 +636,7 @@
     {
       "org": "Kern Medical (hospital, Bakersfield, California)",
       "date": "2026-09-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "sectors": [
         "Healthcare"
       ],
@@ -644,9 +644,9 @@
         "US"
       ],
       "severity": "Low",
-      "summary": "Kern Medical, the public hospital run by the Kern County Hospital Authority, says it found unusual activity on Sept. 17 involving unauthorized access to a database, and that an unauthorized third party copied files with patient information. It announced the breach on Nov. 16.",
+      "summary": "Kern Medical, the public hospital run by the Kern County Hospital Authority, says it found unusual activity on Sept. 17 and that an unauthorized third party copied files with patient information. According to its breach notice as reported by HIPAA Journal, an attacker posing as IT staff phoned an employee and tricked them into changing their account login settings, then got into that employee's Microsoft 365 and storage account and copied data on Sept. 16–17. It announced the breach on Nov. 16.",
       "impact": "Patients' names, addresses, birth dates, medical record numbers, dates of service and health insurance information, plus Social Security numbers in limited cases. Number of people not disclosed.",
-      "status": "Confirmed by Kern Medical, which reported it to the FBI's IC3 and is notifying patients; one year of credit monitoring offered where SSNs were involved.",
+      "status": "Confirmed by Kern Medical, which reported it to the FBI's IC3, reset the account's credentials, tightened authentication and monitoring, and is notifying patients; one year of credit monitoring offered where SSNs were involved.",
       "sources": [
         {
           "name": "Kern Medical media notice (PDF)",
@@ -655,6 +655,10 @@
         {
           "name": "BakersfieldNow",
           "url": "https://bakersfieldnow.com/news/local/kern-medical-reports-unauthorized-access-to-patient-information-offering-assistance-kern-county-california-hospital-breach-notification-healthcare"
+        },
+        {
+          "name": "HIPAA Journal",
+          "url": "https://www.hipaajournal.com/data-breach-southwire-kern-medical-uchealth/"
         }
       ]
     },
@@ -1797,14 +1801,19 @@
       "countries": [],
       "severity": "High",
       "summary": "N-able said unknown attackers gained unauthorized access to a server in its Mail Assure and SpamExperts hosted cloud. A service disruption that started Nov. 16 was first traced to configuration and service dependencies, but the company later determined it was caused by the security incident and disabled management interfaces and APIs.",
-      "impact": "Management portal, APIs, quarantine and logging offline for Mail Assure and SpamExperts in the Americas, APAC and Europe; mail flow and filtering kept running. N-able says it has no evidence so far that customer data or tenant mailboxes were accessed.",
-      "status": "Confirmed by N-able. Restoration still underway as of Nov. 19; investigation ongoing.",
+      "impact": "Management portal, APIs, quarantine and logging offline for Mail Assure and SpamExperts in the Americas, APAC and Europe; mail flow and filtering kept running. N-able says the incident was isolated to a single web server where the attacker may have been able to access certain credentials stored on the platform, and that it has no evidence so far that customer data or tenant mailboxes were accessed.",
+      "status": "Confirmed by N-able, which took the server offline, rotated internal credentials, revoked customer API tokens, invalidated OAuth tokens and reset local users' passwords. As of Nov. 20 remediation was progressing but portal and API access was still disabled; investigation ongoing.",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Barracuda (security company cloud)",
@@ -2237,14 +2246,19 @@
       ],
       "severity": "High",
       "summary": "An outsider broke into the internal network that runs Japan's Fugaku supercomputer through a public status dashboard, tampered with internal servers, and took or may have taken user data. RIKEN shut Fugaku down to contain it.",
-      "impact": "Up to 4,597 Fugaku and RIKYU users' names, email addresses and user IDs, plus credentials users had stored for other systems (such as SSH keys). Fugaku operations suspended and all jobs halted.",
-      "status": "Confirmed by RIKEN. Investigation ongoing.",
+      "impact": "4,222 Fugaku users' names, email addresses and user IDs, plus details they entered when registering (addresses, affiliations, phone numbers and other attributes) and records of which type of ID document they used for verification. RIKEN also found that 430 private keys users had stored for connecting to other systems (such as other supercomputers and clouds) were gathered and moved, 233 of them without a passphrase. Fugaku operations suspended and all jobs halted.",
+      "status": "Confirmed by RIKEN. On Nov. 20 it said it had found traces of the intruder accessing the user data and is treating it as leaked; no misuse found beyond some connections made with stolen keys. Users are being contacted individually and asked to revoke and reissue keys. Police in Saitama and Hyogo briefed; Fugaku will restart only after public services are separated from the management network and servers rebuilt.",
       "sources": [
         {
           "name": "RIKEN notice",
           "url": "https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html"
+        },
+        {
+          "name": "RIKEN second report (Japanese)",
+          "url": "https://www.riken.jp/pr/news/2026/20261120_1/index.html"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Lighter (crypto exchange)",
@@ -3947,6 +3961,201 @@
         {
           "name": "The Daily Star",
           "url": "https://www.thedailystar.com/news/local_news/city-schools-still-assessing-cyberattack/article_3c46508c-e73b-41f0-a97f-31b88c289adc.html"
+        }
+      ]
+    },
+    {
+      "org": "Bell Canada (telecom)",
+      "date": "2026-11-17",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Telecom"
+      ],
+      "countries": [
+        "CA"
+      ],
+      "severity": "Medium",
+      "summary": "Bell confirmed that what it called an \"agentic\" threat actor got into some of its systems on Tuesday, Nov. 17, including one used for ordering and supplying telecommunication networks, and stole some enterprise (business) client data. Bell says it quickly contained the attack.",
+      "impact": "Business contact information such as names, corporate email addresses and phone numbers, plus IP addresses. Bell says files and PDFs with more sensitive information were not affected and there was no impact to customer services. Number of affected clients not disclosed.",
+      "status": "Confirmed by Bell, which is contacting affected customers, has shared indicators of compromise with enterprise customers and the Canadian Centre for Cyber Security, and has contacted the RCMP. No one has claimed responsibility.",
+      "sources": [
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/business/bell-agentic-cyber-attack-9.7430468"
+        }
+      ]
+    },
+    {
+      "org": "Culture Experience (TSUTAYA store operations, Japan)",
+      "date": "2026-11-09",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Retail",
+        "Media"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "severity": "Medium",
+      "summary": "Culture Experience, which runs Japan's TSUTAYA bookstore and media chain business, said it found signs of unauthorized access by a third party to some systems in a data center it uses on Nov. 9 and cut those systems off from the data center. It announced the incident on Nov. 20.",
+      "impact": "Some data in the data center may have leaked; what and how much is still under investigation. The company says the data center does not hold personal information of ordinary TSUTAYA customers. The system shutdown has delayed deliveries to some TSUTAYA stores, and some products are unavailable.",
+      "status": "Confirmed by Culture Experience. Cause and scope under investigation; no date for full recovery.",
+      "sources": [
+        {
+          "name": "TSUTAYA notice (Japanese)",
+          "url": "https://tsutaya.tsite.jp/information/6067"
+        },
+        {
+          "name": "Security Measures Lab (Japanese)",
+          "url": "https://rocket-boys.co.jp/security-measures-lab/culture_experience_tsutaya_cyberattack_inventory_delay/"
+        }
+      ]
+    },
+    {
+      "org": "Southwire (wire and cable maker, employee health plan)",
+      "date": "2026-01-29",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Manufacturing",
+        "Healthcare"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Southwire, the Carrollton, Georgia, maker of electrical wire and cable, is notifying members of its employee health and welfare plan that an unauthorized third party had access to its computer systems between November 2025 and January 2026 and took files. It spotted the suspicious activity on Jan. 29, 2026.",
+      "impact": "Plan members' names, addresses, birth dates, Social Security numbers, medical information and health plan information. Number of people not disclosed.",
+      "status": "Confirmed by Southwire. Letters mailed in November 2026; 24 months of credit monitoring offered. No misuse found.",
+      "sources": [
+        {
+          "name": "HIPAA Journal",
+          "url": "https://www.hipaajournal.com/data-breach-southwire-kern-medical-uchealth/"
+        }
+      ]
+    },
+    {
+      "org": "UCHealth (University of Colorado Health)",
+      "date": "2026-07-27",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Healthcare"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Low",
+      "summary": "UCHealth, the nonprofit health system based in Aurora, Colorado, said someone got into two employee email accounts in Microsoft's cloud. Suspicious activity was found on July 27, 2026; it announced the breach in November.",
+      "impact": "Names, Social Security numbers, billing information and health information. Total not disclosed; the Texas attorney general was told 873 Texas residents were affected.",
+      "status": "Confirmed by UCHealth, which says the breach was limited to two accounts. Credit monitoring offered.",
+      "sources": [
+        {
+          "name": "HIPAA Journal",
+          "url": "https://www.hipaajournal.com/data-breach-southwire-kern-medical-uchealth/"
+        }
+      ]
+    },
+    {
+      "org": "Dexcom (glucose monitor maker)",
+      "date": "2026-11-02",
+      "updated": "2026-11-13",
+      "sectors": [
+        "Healthcare",
+        "Tech"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Dexcom, the U.S. maker of continuous glucose monitors, says an unauthorized third party used social engineering to get into certain employee accounts and download files. It determined on Nov. 2 that customers' information may have been involved and began notifying people on Nov. 13.",
+      "impact": "Varies by person: names, addresses, birth dates and health information such as pharmacy, provider, prescription numbers and certain diagnoses, according to the notice filed in California; Washington's attorney general lists Social Security and driver's license numbers among the data for 728 Washington residents. Total number not stated in these filings.",
+      "status": "Confirmed by Dexcom, which revoked the compromised accounts and says it has no sign the information was misused.",
+      "sources": [
+        {
+          "name": "Dexcom notice (California AG, PDF)",
+          "url": "https://oag.ca.gov/system/files/ELN-28930%20Dexcom.pdf"
+        },
+        {
+          "name": "Washington State Attorney General",
+          "url": "https://www.atg.wa.gov/dexcom-inc"
+        }
+      ]
+    },
+    {
+      "org": "University of Copenhagen (Denmark)",
+      "date": "2026-10-20",
+      "updated": "2026-10-28",
+      "sectors": [
+        "Education"
+      ],
+      "countries": [
+        "DK"
+      ],
+      "severity": "High",
+      "summary": "The University of Copenhagen said hackers exploited a configuration error in a test environment and got into a database of information about the university's users. Staff detected suspicious activity on Oct. 20 and the attack was stopped; the university says the hacker did not reach other systems.",
+      "impact": "About 525,000 current and former students and staff: names, contact details, university usernames and emails, nationality, gender and affiliation, plus encrypted CPR (national ID) numbers that the university says could likely be decrypted because the information needed to do so was also taken. PIN codes for about 20,000 people's ID cards were compromised and reissued. No health or research data believed accessed.",
+      "status": "Confirmed by the university. Reported to police and the Danish Data Protection Agency; affected people notified. Attacker and motive unknown.",
+      "sources": [
+        {
+          "name": "University of Copenhagen news",
+          "url": "https://news.ku.dk/all_news/2026/10/university-of-copenhagen-hit-by-cyber-attack/"
+        },
+        {
+          "name": "University of Copenhagen breach page",
+          "url": "https://www.ku.dk/en/personal-data-breach"
+        }
+      ]
+    },
+    {
+      "org": "Leipzig University (Germany)",
+      "date": "2026-10-28",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Education",
+        "Research"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "severity": "High",
+      "summary": "Leipzig University's IT systems have been largely offline since a cyberattack on Oct. 28. On Nov. 20 the rector said forensic analysis found the attackers had reached 112 virtual servers that departments and institutes rent from the university computing center, for example for research projects.",
+      "impact": "The university says it must assume data on those 112 servers may have been taken and cannot rule out misuse, though it has seen no sign of publication. It says core systems such as AlmaWeb, Moodle, network drives and the mail server were not affected. Around 30,000 students and staff have been hit by the outage of internet services (MDR).",
+      "status": "Confirmed by the university, which is listing potentially affected data on its website. Wi-Fi is due back from Nov. 23, with other services restored in stages.",
+      "sources": [
+        {
+          "name": "Leipzig University statement (German)",
+          "url": "https://www.uni-leipzig.de/statement-der-rektorin-zur-moeglichen-betroffenheit-von-daten/"
+        },
+        {
+          "name": "MDR (German)",
+          "url": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/news-datenleck-rektorin-cybercrime,hackerangriff-universitaet-100.html"
+        }
+      ]
+    },
+    {
+      "org": "Scattered Spider phishing and SIM-swap ring (Tyler Buchanan sentenced)",
+      "date": "2026-11-17",
+      "updated": "2026-11-18",
+      "sectors": [
+        "Tech",
+        "Telecom",
+        "Crypto"
+      ],
+      "countries": [
+        "US",
+        "GB"
+      ],
+      "severity": "Medium",
+      "summary": "Tyler Buchanan, 24, of Dundee, Scotland, was sentenced on Nov. 17 by a federal judge in Santa Ana, California, to six years in prison. From September 2021 to April 2023 he and co-conspirators sent hundreds of phishing texts to employees of at least a dozen tech, telecom and crypto companies, used stolen logins to get into company systems, and then used SIM swaps to break into individuals' crypto accounts. He is the last of five defendants in the case, which has been linked to the Scattered Spider hacking group.",
+      "impact": "At least $11.6 million in cryptocurrency stolen from victims across the U.S., according to prosecutors; the largest single theft was $1.67 million. Company data taken included confidential work information, account credentials, names, emails and phone numbers (BBC).",
+      "status": "Sentenced after pleading guilty to conspiracy to commit wire fraud and aggravated identity theft; restitution hearing set for Dec. 11. Co-defendants already sentenced.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm87987w1qz5o"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
         }
       ]
     }
