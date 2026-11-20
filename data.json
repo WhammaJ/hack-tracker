@@ -1990,15 +1990,24 @@
         "Government"
       ],
       "severity": "Medium",
-      "summary": "Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure.",
-      "impact": "Around 20 cantonal applications on six servers affected, including the tax calculator; servers are being reinstalled. Emergency and rescue services' IT was not affected.",
-      "status": "Confirmed by the Cantonal Chancellery. Recovery ongoing.",
+      "summary": "Unidentified attackers have been hitting the IT infrastructure of the Swiss canton of Basel-Country since Sunday, Nov. 15, the Cantonal Chancellery said. Some servers were cut off from the internet as a countermeasure. On Nov. 20 the canton said forensic analysis showed the attackers got into a database of work permits for cross-border commuters and stole data.",
+      "impact": "Around 20 cantonal applications on six servers affected, including the tax calculator; servers are being reinstalled. Emergency and rescue services' IT was not affected. The canton says 97,000 records were stolen covering cross-border commuter permits (G permits) applied for since Nov. 28, 2016: names, home addresses, birth dates, marital status, job titles and federal migration system (ZEMIS) ID numbers, plus contact details of employers in the canton. The permit application platform is offline.",
+      "status": "Confirmed by the Cantonal Chancellery. Criminal complaint filed against unknown persons; Switzerland's cybersecurity office, the data protection supervisor, the foreign ministry and the German and French embassies informed. Analysis ongoing.",
       "sources": [
+        {
+          "name": "Canton of Basel-Country (German)",
+          "url": "https://www.baselland.ch/politik-und-behorden/besondere-behoerden/landeskanzlei/medienmitteilungen/cyberangriff-auf-die-it-infrastruktur-der-kantonalen-verwaltung-fuehrte-zu-datenabfluss"
+        },
+        {
+          "name": "Nau.ch (German)",
+          "url": "https://www.nau.ch/ort/liestal/kanton-basel-landschaft-hacker-erbeuten-97000-datensatze-von-grenzgangern-67204958"
+        },
         {
           "name": "Swissinfo (Keystone-SDA)",
           "url": "https://www.swissinfo.ch/eng/swiss-politics/basel-area-administrative-authorities-hit-by-cyberattacks/92405333"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Wittenberg-Net (regional internet provider, Germany)",
@@ -2519,16 +2528,16 @@
       ],
       "severity": "Medium",
       "summary": "The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity.",
-      "impact": "City Hall, Assessing and the Library remain closed to the public. The city phone system, in-person card payments, some online portals and mapping services are still disrupted. On Nov. 18 the city said most city data was not compromised but it is still working to verify what was accessed.",
+      "impact": "City Hall and the Assessor's Office remain closed to the public with no reopening date. The main library reopened Nov. 19 on a separate network, but its Wi-Fi, public computers, printing and phones are still down and the Wescott Road branch is closed. The city phone system, in-person card payments, some online portals and mapping services were also disrupted. The city says some city data was affected but most was not accessed.",
       "status": "Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked.",
       "sources": [
         {
           "name": "City of South Portland",
-          "url": "https://www.southportland.gov/m/newsflash/Home/Detail/619"
+          "url": "https://www.southportland.gov/m/newsflash/Home/Detail/622"
         },
         {
           "name": "WMTW",
-          "url": "https://www.wmtw.com/article/most-city-data-safe-south-portland-maine-offices-closed-cyberattack/74468058"
+          "url": "https://www.wmtw.com/article/south-portland-maine-library-reopens-progress-city-hall-cyberattack/74481703"
         },
         {
           "name": "Portland Press Herald",
@@ -2856,6 +2865,146 @@
         {
           "name": "PocketChange service notice (Japanese)",
           "url": "https://www.pocket-change.jp/ja/newsrelease20261119/"
+        }
+      ]
+    },
+    {
+      "org": "Yumir Link Cuenote FC (email delivery service, Japan; Peach Aviation, JR Central and others)",
+      "date": "2026-10-16",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Tech",
+        "Aviation",
+        "Finance",
+        "Consumer"
+      ],
+      "severity": "Critical",
+      "summary": "Tokyo-based Yumir Link found on Oct. 16 that attackers had broken into its Cuenote FC bulk email delivery service. It says they exploited a program vulnerability to steal its support staff's credentials, planted malicious programs on servers to pull data straight from databases, and hijacked logged-in customers' sessions to download address lists through the admin screen. Companies that send mail through Cuenote FC have been announcing leaks since late October.",
+      "impact": "Yumir Link says 47,864,147 delivery-list records (counting overlaps; email addresses, plus names, member IDs and other fields for some) were taken from 49 client systems, and 190 contract-holder records in its Cuenote BASE portal were exposed. Clients reporting leaks include JR Central, JR West and JR Kyushu (about 170,000 Smart EX and Express Reservation members), istyle (@cosme, about 2.8 million customers) and Bandai Namco (346,247 Gundam Base members). On Nov. 20 low-cost airline Peach Aviation said 8,997,106 records of names, birth dates, gender, addresses, phone numbers, email addresses and itineraries leaked; no card or passport data.",
+      "status": "Confirmed by Yumir Link and affected clients. Yumir Link says it was not ransomware and most services are running again; final investigation results pending. Peach reported to Japan's privacy regulator and is notifying customers.",
+      "sources": [
+        {
+          "name": "ITmedia NEWS (Japanese)",
+          "url": "https://www.itmedia.co.jp/news/article/2611/11/2000003114/"
+        },
+        {
+          "name": "Aviation Wire on Peach (Japanese)",
+          "url": "https://www.aviationwire.jp/archives/354926"
+        },
+        {
+          "name": "TECH+ (Japanese)",
+          "url": "https://news.mynavi.jp/techplus/article/20261028-5209023/"
+        }
+      ]
+    },
+    {
+      "org": "Japan Digital Agency government file-sharing service (GSS)",
+      "date": "2026-11-12",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "severity": "High",
+      "summary": "Japan's Digital Agency says someone other than the intended recipients accessed files on the file-sharing service in its Government Solution Service (GSS), which government agencies use to share large files such as meeting materials with each other and outside parties. It detected the access on Nov. 12, cut the service off from outside networks and stopped it.",
+      "impact": "Access confirmed from July 30 to Nov. 12, 2026. Some uploaded files may have leaked, and the agency says they are expected to include personal information. Number and contents of files not disclosed; no secondary damage confirmed.",
+      "status": "Confirmed by the Digital Agency. Reported to the Personal Information Protection Commission; investigating with police and outside specialists.",
+      "sources": [
+        {
+          "name": "Digital Agency notice (Japanese)",
+          "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986"
+        },
+        {
+          "name": "ITmedia NEWS (Japanese)",
+          "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003381/"
+        },
+        {
+          "name": "Yomiuri Shimbun (Japanese)",
+          "url": "https://www.yomiuri.co.jp/politics/20261120-GYT1T00361/"
+        }
+      ]
+    },
+    {
+      "org": "New Zealand Defence Force websites (Force4Families discounts)",
+      "date": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "severity": "Medium",
+      "summary": "The New Zealand Defence Force says its website provider notified it on the morning of Friday, Nov. 20 of unauthorized access to its website systems. It took the affected public websites offline and began a forensic investigation.",
+      "impact": "Preliminary findings show a database for the Force4Families Defence Discounts scheme was accessed, containing registered users' names and email addresses. Affected people have been contacted; full extent still being determined.",
+      "status": "Confirmed by NZDF. Privacy Commissioner informed; investigation ongoing.",
+      "sources": [
+        {
+          "name": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business_media/2711202/new-zealand-defence-force-confirms-database-compromised-websites-removed-from-service"
+        },
+        {
+          "name": "1News",
+          "url": "https://www.1news.co.nz/2026/11/20/nz-defence-force-database-compromised-websites-taken-down/"
+        }
+      ]
+    },
+    {
+      "org": "Ohio public libraries (Cuyahoga County, Akron-Summit County, Westlake Porter; via vendors)",
+      "date": "2026-11-15",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Government",
+        "Consumer"
+      ],
+      "severity": "Medium",
+      "summary": "Three Northeast Ohio library systems say attackers got into patron account data through outside vendors that handle customer accounts, checkouts and room reservations. Cuyahoga County Public Library says the incident happened Nov. 15, was discovered the next day and is one of several affecting libraries and vendor systems across the country. The vendors have not been named.",
+      "impact": "Names, home addresses, email addresses, phone numbers, birth dates, usernames and library card numbers (and home branch at two systems). Akron-Summit says, as far as it knows, all its cardholders were affected. The libraries say plain-text passwords and borrowing histories were not accessed. Cuyahoga County and Akron-Summit took their mobile apps offline.",
+      "status": "Confirmed by the libraries. Vendors investigating with outside cybersecurity specialists; patrons urged to reset PINs and passwords.",
+      "sources": [
+        {
+          "name": "News 5 Cleveland",
+          "url": "https://www.news5cleveland.com/news/local-news/we-follow-through/northeast-ohio-libraries-urge-patrons-to-reset-passwords-after-cybersecurity-breach"
+        },
+        {
+          "name": "Ideastream Public Media",
+          "url": "https://www.ideastream.org/community/2026-11-18/cuyahoga-county-public-library-says-customer-data-exposed-in-cybersecurity-incident"
+        },
+        {
+          "name": "Akron Beacon Journal",
+          "url": "https://www.beaconjournal.com/story/news/local/2026/11/19/what-to-know-about-cybersecurity-attack-on-akron-summit-public-county-library/92860669007/"
+        }
+      ]
+    },
+    {
+      "org": "AMC Insurance Brokerage claims app AMC air (South Korea)",
+      "date": "2026-11-05",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Finance",
+        "Healthcare"
+      ],
+      "severity": "Medium",
+      "summary": "Korean insurance broker AMC (에이엠씨손해보험중개) says outsiders downloaded insurance claim lists and member lists from its AMC air claims app between Nov. 5 and 15. It found the downloads during a security check on Nov. 18, shut the service down the same day and reported it to authorities.",
+      "impact": "Personal data of employees at some client companies: names, employer, full or partial resident registration numbers, relationship to the policyholder and coverage period; for people who filed claims, possibly diagnoses, treatment details and accident descriptions. Number of people and client companies not disclosed.",
+      "status": "Confirmed by AMC in a notice on its website. Claims app suspended; cause and intrusion route under investigation.",
+      "sources": [
+        {
+          "name": "DailySecu (Korean)",
+          "url": "https://www.dailysecu.com/news/articleView.html?idxno=209643"
+        }
+      ]
+    },
+    {
+      "org": "WOW WORLD (marketing communications service, Japan)",
+      "date": "2026-11-20",
+      "sectors": [
+        "Tech",
+        "Business"
+      ],
+      "severity": "Low",
+      "summary": "Tokyo marketing-communications company WOW WORLD says a third party broke into some servers used to run its services and took out part of the client-company data stored on them. It blocked the access and is investigating how the attackers got in.",
+      "impact": "About 49,000 records (counting duplicates), mainly email addresses, belonging to four client companies, which will notify affected people. No card data or My Number IDs confirmed leaked. Services continue.",
+      "status": "Confirmed by WOW WORLD (first report). Reported to authorities; investigation ongoing.",
+      "sources": [
+        {
+          "name": "WOW WORLD notice (Japanese)",
+          "url": "https://www.wow-world.co.jp/release/001621.html"
         }
       ]
     }
