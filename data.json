@@ -280,24 +280,24 @@
     {
       "org": "NSA classified network (NSANet)",
       "date": "2026-11-17",
-      "updated": "2026-11-19",
+      "updated": "2026-11-20",
       "sectors": [
         "Government"
       ],
       "severity": "High",
-      "summary": "The National Security Agency's internal top-secret network went down, right on the heels of a week of big outages, and was still out on Nov. 19, its third day.",
+      "summary": "The National Security Agency's internal top-secret network, NSANet, went down right on the heels of a week of big outages and stayed disrupted for nearly four days. It was restored on Nov. 20.",
       "speculation": "An attack on a U.S. intelligence network.",
       "official": "The NSA described it as scheduled maintenance. Multiple U.S. officials told CNN it was not a cyberattack and appears tied to the agency's patching of recently disclosed vulnerabilities in PHP software; a senior administration official said the restoration work was going \"slower than expected.\" At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages.",
-      "impact": "Large parts of the NSA workforce sent home for days, with the headquarters campus closed for most employees until further notice as of Nov. 19 (CNN). The outage also hit NSA Georgia, which supports Middle East operations; officials say the agency's most sensitive intelligence systems kept working and backups were used.",
-      "status": "Official explanation given. No evidence of a hack. Network still being restored.",
+      "impact": "Large parts of the NSA workforce sent home for days. The outage also hit NSA Georgia, which supports Middle East operations; officials say the agency's most sensitive intelligence systems kept working and backups were used. On Nov. 20 NSA told staff it was operating under \"normal conditions with exceptions,\" with staggered building openings to avoid a login surge.",
+      "status": "Network restored Nov. 20. Officials attribute it to patching problems; no evidence of a hack.",
       "sources": [
         {
           "name": "NSA statement",
           "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/"
         },
         {
-          "name": "CNN via KESQ",
-          "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/11/19/nsa-outage-disrupts-key-intel-hub-that-supports-middle-east-intelligence-and-operations-sources-say/"
+          "name": "The Record (Nov. 20)",
+          "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions"
         },
         {
           "name": "CBS News (Nov. 18 hearing)",
@@ -489,6 +489,102 @@
     }
   ],
   "confirmed": [
+    {
+      "org": "Kern Medical (hospital, Bakersfield, California)",
+      "date": "2026-09-17",
+      "updated": "2026-11-17",
+      "sectors": [
+        "Healthcare"
+      ],
+      "severity": "Low",
+      "summary": "Kern Medical, the public hospital run by the Kern County Hospital Authority, says it found unusual activity on Sept. 17 involving unauthorized access to a database, and that an unauthorized third party copied files with patient information. It announced the breach on Nov. 16.",
+      "impact": "Patients' names, addresses, birth dates, medical record numbers, dates of service and health insurance information, plus Social Security numbers in limited cases. Number of people not disclosed.",
+      "status": "Confirmed by Kern Medical, which reported it to the FBI's IC3 and is notifying patients; one year of credit monitoring offered where SSNs were involved.",
+      "sources": [
+        {
+          "name": "Kern Medical media notice (PDF)",
+          "url": "https://bakersfieldnow.com/resources/pdf/d0ed6dcd-a228-4338-b6fc-a827ae8da96a-KCHAMedicalBreachNotification11.16.26.pdf"
+        },
+        {
+          "name": "BakersfieldNow",
+          "url": "https://bakersfieldnow.com/news/local/kern-medical-reports-unauthorized-access-to-patient-information-offering-assistance-kern-county-california-hospital-breach-notification-healthcare"
+        }
+      ]
+    },
+    {
+      "org": "POSTECH (Pohang University of Science and Technology, South Korea)",
+      "date": "2026-11-13",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Education",
+        "Research"
+      ],
+      "severity": "Medium",
+      "summary": "South Korean research university POSTECH says an outside attacker exploited security flaws in its research equipment portal and IT service portal between 12:30 and 3:30 a.m. on Nov. 13, got administrator rights and viewed personal data. The break-in came to light while staff looked into an illegal cryptocurrency mining program found on a lab GPU server.",
+      "impact": "19,500 university account IDs with encrypted passwords and 478 records of IDs, email addresses and affiliations. On Nov. 20 it found a further 25,551 records (names, emails, departments, positions and office extensions) leaked from its university business portal. No resident registration or passport numbers.",
+      "status": "Confirmed by POSTECH, which forced a password reset for all accounts and reported to the Personal Information Protection Commission and Ministry of Education.",
+      "sources": [
+        {
+          "name": "POSTECH notice (Korean)",
+          "url": "https://www.postech.ac.kr/kor/newscenter/notice.do?articleNo=56080&mode=view"
+        },
+        {
+          "name": "POSTECH second notice (Korean)",
+          "url": "https://postech.ac.kr/kor/newscenter/notice.do?article.offset=0&articleLimit=10&articleNo=56100&mode=view"
+        },
+        {
+          "name": "Boan News (Korean)",
+          "url": "https://www.boannews.com/news/articleView.html?idxno=147412"
+        }
+      ]
+    },
+    {
+      "org": "accesso ticketing system (LEGOLAND Korea Resort and SEA LIFE Busan)",
+      "date": "2026-11-14",
+      "updated": "2026-11-17",
+      "sectors": [
+        "Travel",
+        "Consumer",
+        "Tech"
+      ],
+      "severity": "Medium",
+      "summary": "An outsider got into the ticketing system run by accesso, the reservation vendor for LEGOLAND Korea Resort and SEA LIFE Busan Aquarium, on Nov. 14 by exploiting a weakness, and looked up some annual pass holders' details. Both attractions posted notices on Nov. 16 warning customers their data may have leaked.",
+      "impact": "Some annual (season) pass holders' names, encrypted birth dates, addresses, email addresses, phone numbers and annual pass barcode numbers. Number of people affected still under investigation; no evidence card or bank data was exposed.",
+      "status": "Confirmed by LEGOLAND Korea and SEA LIFE Busan. accesso removed the vulnerable endpoint and blocked the source addresses; investigation ongoing.",
+      "sources": [
+        {
+          "name": "Boan News (Korean)",
+          "url": "https://www.boannews.com/news/articleView.html?idxno=147332"
+        },
+        {
+          "name": "Chosun Biz (Korean)",
+          "url": "https://biz.chosun.com/topics/topics_social/2026/11/17/GN467YC7TFB5BAPXPLR5AIEIUI/"
+        }
+      ]
+    },
+    {
+      "org": "ZOZO (ZOZOTOWN and WEAR, Japan, via PLAID KARTE)",
+      "date": "2026-11-13",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Retail",
+        "Consumer"
+      ],
+      "severity": "Critical",
+      "summary": "Japanese online fashion retailer ZOZO says data it kept in KARTE, the PLAID marketing service hacked on Nov. 13, leaked. PLAID's investigation showed on Nov. 15 that part of ZOZO's customer data had been taken from PLAID's databases; ZOZO announced it on Nov. 20.",
+      "impact": "About 15.18 million ZOZOTOWN customers (including former members): internal member IDs, age, gender and postal code; for about 47,000 of them also display names, email addresses and phone numbers. About 13.93 million WEAR by ZOZO members' internal IDs, age and gender. About 24,000 brand staff records (member IDs, company names and names). ZOZO says passwords were not stored in KARTE and no card data leak has been found.",
+      "status": "Confirmed by ZOZO. No secondary damage found so far; affected people being notified.",
+      "sources": [
+        {
+          "name": "ZOZO notice (Japanese)",
+          "url": "https://corp.zozo.com/information/20261120-482917/"
+        },
+        {
+          "name": "Nikkei (Japanese)",
+          "url": "https://www.nikkei.com/article/DGXZQOUC20APN0Q6A121C2000000/"
+        }
+      ]
+    },
     {
       "org": "Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay)",
       "date": "2026-11-19",
@@ -1000,7 +1096,7 @@
       ],
       "severity": "Critical",
       "summary": "Attackers exploited a vulnerability in servers run by PLAID, the Tokyo company behind the KARTE customer-data marketing service, stole credentials used to connect to its systems and databases, and read data out. They also took over a PLAID account to get into the admin console. PLAID shut down all KARTE services on Nov. 13, and companies that use KARTE have been announcing leaks of their own customers' data since. On Nov. 20 PLAID said about 2,200 client companies in total (counting overlaps) had data leaked or possibly leaked.",
-      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
+      "impact": "Varies by company. MUFG Bank: about 6.5 million records of gender, age and region (no names or contact details). JINS: up to about 18.29 million accounts (email, surname, birth date and more). Shimamura: about 7 million members' birth dates, gender, prefecture and postal code. RIZAP: up to about 4.32 million email addresses. J.League: about 2.38 million ticketing records (internal user IDs, birth dates, gender, prefecture and city). Stripe International: about 150,000 STRIPE CLUB records with email addresses and member IDs. Wacoal: internal IDs, ages, birth dates and gender possibly leaked (count still under investigation). NTT Solmare: up to about 1.17 million MangaPlaza records and up to about 130,000 Comic Cmoa records (hashed member numbers, birth dates, gender and more). Sharp: up to about 3.26 million online store customers' ages, birth dates and other details (NHK). Uniform Next: up to about 1.7 million customer records (company names, names, email addresses, phone numbers, postal codes, job types and industries; no passwords, card data or addresses). Sumitomo Mitsui Banking Corp. (SMBC): up to about 14 million records of birth dates, gender and whether a phone number is registered (not linked to names; Nikkei). Goldwin: about 3.67 million Goldwin Members email addresses, birth dates, gender, prefecture and activity data (no names, card data or passwords). Mainichi Shimbun: about 140,000 Mainichi Shimbun Digital members' surnames, plus ages, plan names, point-club IDs or email addresses for some. ZOZO: about 15.18 million ZOZOTOWN and 13.93 million WEAR member records (see separate entry). Tokyo Gas also confirmed customer data leaked, with numbers still under investigation. PLAID also says credentials used to link KARTE to outside services leaked, and has asked customers to revoke them.",
       "status": "Confirmed by PLAID and affected companies. PLAID says about 2,200 client companies (2,220 counting overlaps) may be affected, including 570 whose linked customer data may have leaked; it plans to give clients detailed data from Nov. 24, expects to restart KARTE in mid-January, and now forecasts a full-year net loss of about ¥2 billion (Nikkei).",
       "sources": [
         {
@@ -1274,19 +1370,24 @@
         "Manufacturing"
       ],
       "severity": "High",
-      "summary": "Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. The company cut its systems off from outside networks and shut down production systems at its Saitama plant and two production subsidiaries.",
-      "impact": "Production and shipment of smart meters and other products suspended at the Saitama R&D and Manufacturing Center, Iwate Osaki Electric and Osaki Platech, with no restart date. Whether data was taken is still under investigation; the financial impact is unknown.",
-      "status": "Confirmed by Osaki Electric, which reported it to police. Sankei reports the company was contacted by a party believed to be the attacker and says it will not negotiate.",
+      "summary": "Ransomware encrypted data on servers at Osaki Electric, a major Japanese maker of smart electricity meters. In a second report on Nov. 20 the company said the attacker most likely got in at about 1:30 a.m. on Nov. 15 by getting past the login on its VPN device, probably by trying passwords on an account that did not have multi-factor authentication, and then encrypted some virtual servers. It cut its systems off from outside networks on Nov. 17 and shut down production systems at its Saitama plant and two production subsidiaries.",
+      "impact": "Production and shipment of smart meters and other products suspended at the Saitama R&D and Manufacturing Center, Iwate Osaki Electric and Osaki Platech, with no restart date. On Nov. 19 Osaki found technical information that appears to come from its systems posted on a site believed to belong to the attacker; what else may have leaked is still under investigation. Osaki says its smart meters themselves were not affected and its backups are intact. Financial impact unknown.",
+      "status": "Confirmed by Osaki Electric, which reported it to police. Sankei reports the company was contacted by a party believed to be the attacker and says it will not negotiate. Recovery from backups under way; work to restart in stages once systems are confirmed safe.",
       "sources": [
         {
           "name": "Osaki Electric notice (PDF)",
           "url": "https://www.osaki.co.jp/en/ir/news/auto_20261118582910/pdfFile.pdf"
         },
         {
+          "name": "Osaki Electric second report (Japanese, PDF)",
+          "url": "https://japanir.jp/wp-content/uploads/2026/11/6644-20261120-01.pdf"
+        },
+        {
           "name": "Sankei News (Japanese)",
           "url": "https://www.sankei.com/article/20261118-JU47FTW5VNLN3LZSFLYXYOBPC4/"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Visa (via third-party provider)",
@@ -2509,15 +2610,20 @@
         "Government"
       ],
       "severity": "Medium",
-      "summary": "Charleston County's IT team spotted unusual network activity and the county has confirmed data was removed from its systems. State police (SLED) are investigating on site.",
+      "summary": "Charleston County's IT team spotted unusual network activity on Nov. 16 and the county has confirmed data was copied from its systems. The South Carolina Law Enforcement Division (SLED) has deemed the incident criminal and is assisting the investigation.",
       "impact": "Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected.",
-      "status": "Confirmed by Charleston County. Investigation ongoing.",
+      "status": "Confirmed by Charleston County. SLED criminal investigation under way, with state and federal partners.",
       "sources": [
         {
           "name": "Moultrie News / Post and Courier",
           "url": "https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html"
+        },
+        {
+          "name": "South Carolina Public Radio",
+          "url": "https://www.southcarolinapublicradio.org/sc-news/2026-11-20/sled-opens-criminal-investigation-in-charleston-county-cyberattack"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "City of South Portland (Maine)",
