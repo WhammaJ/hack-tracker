@@ -222,6 +222,18 @@
 <category>US</category>
 </item>
 <item>
+<title>Revolve Group (online fashion retailer) — Confirmed Hack</title>
+<link>https://hacktracking.com/#revolve-group-2026-09</link>
+<guid isPermaLink="true">https://hacktracking.com/#revolve-group-2026-09</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Online fashion retailer Revolve, which runs Revolve.com and FWRD.com, told the SEC in an Oct. 29 filing that attackers got into several of its systems, including its online shopping platform, on Sept. 11 and used "automated means" to take customers' saved payment card details. A proposed class action filed Nov. 13 in federal court in Illinois says the breach affected about 1.5 million people. Impact: Names, contact information and addresses, payment card numbers and card expiration dates of customers who saved cards in their accounts. Revolve has not given a total; state attorney general filings cover at least 197,072 people, including 127,200 in Texas. The lawsuit puts the total at about 1.5 million. No operational disruption. Status: Confirmed by Revolve, which contained the activity, notified law enforcement and hired a cybersecurity firm. Attacker and entry method not disclosed. Proposed class action (Sarca v. Revolve Group) pending; its claims are allegations. Sources: The Record (https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards); SecurityWeek (https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/); ClassAction.org (https://www.classaction.org/news/class-action-lawsuit-alleges-revolve-group-failed-to-protect-customer-info-from-2026-data-breach)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Retail</category>
+<category>Consumer</category>
+<category>US</category>
+</item>
+<item>
 <title>NSA classified network (NSANet) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#nsa-classified-network-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
@@ -489,6 +501,42 @@
 <category>Gaming</category>
 <category>Consumer</category>
 <category>Tech</category>
+</item>
+<item>
+<title>Onosys (restaurant online ordering platform; Dion's) — Confirmed Hack</title>
+<link>https://hacktracking.com/#onosys-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#onosys-2026-10</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Onosys, an Ohio company that runs online ordering for multi-unit restaurant chains, emailed customers on Nov. 18 that it found unusual activity on its ordering platform in October and that card details entered between Oct. 10 and 13 may have been accessed or captured by an unauthorized actor. New Mexico pizza chain Dion's confirmed its online customers were affected; in-person and phone orders were not. Impact: Names, card numbers, expiration dates and security codes of online orders placed Oct. 10–13. A notice filed with the Texas attorney general lists 18,479 people affected. Other restaurant brands affected have not been named. Status: Confirmed by Onosys, which reported it to the payment networks, added security measures and is offering identity restoration help through IDX. Sources: Albuquerque Journal (https://www.abqjournal.com/business/dions-online-ordering-vendor-warns-customers-of-potential-data-breach/3166477); BreachIntel (Texas AG filing) (https://getbreachintel.com/breaches/nuonosys-inc)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
+<category>Food</category>
+<category>Tech</category>
+<category>US</category>
+</item>
+<item>
+<title>Hugendubel and LovelyBooks (bookseller and reader network, Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#hugendubel-and-lovelybooks-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#hugendubel-and-lovelybooks-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Munich bookseller Hugendubel and the reader social network LovelyBooks both said they were the target of a cyberattack overnight into Nov. 19. Hugendubel said its emergency plans kicked in and everything was taken offline. Impact: Hugendubel's online shop, service center and email down, and eBook downloads unavailable; lovelybooks.de offline. Both say it could take several days to restore systems. Hugendubel's bookstores open as normal. Both say no sensitive or personal customer data was affected as of Nov. 20. Status: Cyberattack confirmed by both companies. Attacker and method not disclosed; restoration ongoing. Sources: t-online (dpa, German) (https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101539386/hugendubel-hacker-legen-webseite-von-buchhaendler-lahm.html); TAG24 (German) (https://www.tag24.de/thema/internet/cyberangriffe-auf-hugendubel-und-lovelybooks-das-sind-die-folgen-3551171)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Retail</category>
+<category>Media</category>
+<category>DE</category>
+</item>
+<item>
+<title>East Asian universities (Cairn AI agent hacking campaign) — Confirmed Hack</title>
+<link>https://hacktracking.com/#east-asian-universities-2026-09</link>
+<guid isPermaLink="true">https://hacktracking.com/#east-asian-universities-2026-09</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Amazon Threat Intelligence says an attacker it assesses with moderate confidence to be Chinese-nexus used Cairn, an open-source autonomous AI penetration-testing framework, against universities in East Asia over about 48 hours starting Sept. 8. Given only target IP addresses and the goal "obtain shell access," the AI agents found a previously unknown path traversal flaw in an open-source medical imaging AI application and used it to get root access on one university server, then the same flaw was used to break into a second university. Impact: Root-level control of at least one university server and access into a second university network. Other attempts, including a 16-hour attack on an open Redis server and more than 30,000 password guesses, failed. Amazon has not named the universities or their country. Status: Confirmed by Amazon, which found the attacker's exposed Cairn server on Sept. 10, had the software maintainers fix the flaw, and worked with a government partner to notify the victims. Sources: AWS Security Blog (https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/); The Record (https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day); BleepingComputer (https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
+<category>Research</category>
 </item>
 <item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
@@ -873,6 +921,18 @@
 <category>US</category>
 </item>
 <item>
+<title>Expedia Group (travel) — Confirmed Hack</title>
+<link>https://hacktracking.com/#expedia-group-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#expedia-group-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Expedia Group, owner of Expedia, Hotels.com and Vrbo, confirmed attackers reached its systems through a compromised third-party data platform provider in a supply chain attack that hit several companies. The n0n extortion group claims it stole more than 1 TB of Expedia data. Security researchers had described a similar attack using access tied to the Qubole data platform; Expedia has not named the vendor. On Nov. 18 Expedia told The Seattle Times it was investigating, calling n0n's data claims "unverified claims from criminals," and said its platforms remain safe to use. Impact: Not disclosed by Expedia. n0n claims (unverified) hundreds of millions of account records and about 830 million rows of loyalty program data, plus traveler profiles and trip records. Status: Breach confirmed by Expedia. Scale and n0n's data claims unconfirmed; investigation ongoing. Law firm Ahdoot &amp; Wolfson says it is exploring a potential class action. Sources: Skift (https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/); Security Affairs (https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html); The Seattle Times (https://www.seattletimes.com/business/technology/starbucks-expedia-among-companies-targeted-by-russian-cyberattackers/)</description>
+<category>Confirmed Hack</category>
+<category>Critical</category>
+<category>Travel</category>
+<category>Consumer</category>
+<category>Tech</category>
+</item>
+<item>
 <title>Optimizely (website experimentation platform) — Confirmed Hack</title>
 <link>https://hacktracking.com/#optimizely-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#optimizely-2026-11</guid>
@@ -922,6 +982,18 @@
 <category>High</category>
 <category>Finance</category>
 <category>IE</category>
+</item>
+<item>
+<title>PayU Payments (payment firm, India) — Confirmed Hack</title>
+<link>https://hacktracking.com/#payu-payments-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#payu-payments-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>Gurugram police say attackers got into three cloud servers of payments company PayU on the night of Nov. 5–6, ran scripts that manipulated its payout system, registered 156 bank accounts as beneficiaries and moved about ₹25.67 crore out of its escrow account in 265 unauthorized payments. PayU filed a police complaint on Nov. 9. Impact: About ₹25.67 crore taken from PayU's escrow account; police have frozen ₹1.5 crore and are tracing the rest through further layers of accounts. Status: Confirmed by Gurugram police. Two men from Ludhiana, Punjab, accused of supplying a bank account used to receive the money, were arrested Nov. 15. Police say the attackers, suspected to be abroad, have not been identified and how the servers were breached is still under investigation. Sources: Times of India (https://timesofindia.indiatimes.com/city/gurgaon/payu-cloud-server-hacked-rs-25-crore-stolen-via-mule-accounts/articleshow/135970727.cms); Hindustan Times (https://www.hindustantimes.com/cities/gurugram-news/hackers-siphon-off-25-67-crore-from-gurugram-payments-firm-two-held-101795026794149.html)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Tech</category>
+<category>IN</category>
 </item>
 <item>
 <title>Municipality of Neuried (Germany) — Confirmed Hack</title>
@@ -1357,18 +1429,6 @@
 <category>Manufacturing</category>
 <category>Tech</category>
 <category>TW</category>
-</item>
-<item>
-<title>Expedia Group (travel) — Confirmed Hack</title>
-<link>https://hacktracking.com/#expedia-group-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#expedia-group-2026-11</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
-<description>Expedia Group, owner of Expedia, Hotels.com and Vrbo, confirmed attackers reached its systems through a compromised third-party data platform provider in a supply chain attack that hit several companies. The n0n extortion group claims it stole more than 1 TB of Expedia data. Security researchers had described a similar attack using access tied to the Qubole data platform; Expedia has not named the vendor. Impact: Not disclosed by Expedia. n0n claims (unverified) hundreds of millions of account records and about 830 million rows of loyalty program data, plus traveler profiles and trip records. Status: Breach confirmed by Expedia. Scale and n0n's data claims unconfirmed; investigation ongoing. Sources: Skift (https://skift.com/2026/11/12/expedia-confirms-cyberattack-through-third-party-vendor/); Security Affairs (https://securityaffairs.com/203062/cyber-crime/extortion-group-claims-theft-of-nearly-one-billion-expedia-traveler-records.html)</description>
-<category>Confirmed Hack</category>
-<category>Critical</category>
-<category>Travel</category>
-<category>Consumer</category>
-<category>Tech</category>
 </item>
 <item>
 <title>Microsoft 365 / Outlook global outage — Speculated / Potential Hack</title>
