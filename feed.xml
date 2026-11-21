@@ -104,6 +104,16 @@
 <category>JP</category>
 </item>
 <item>
+<title>Visa (via third-party provider) — Confirmed Hack</title>
+<link>https://hacktracking.com/#visa-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#visa-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific. Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details. SOCRadar, which parsed all 14 files in the published Visa and Mastercard archives, told The Register they contain mobile numbers, card BIN prefixes and airline, hotel and restaurant bookings, but no card numbers, CVVs, passwords, birth dates or home addresses; it says the leak is about 0.4% of what the gang claims to have. Status: Third-party incident confirmed by Visa. Gang has published data; its larger claims are unverified. Sources: Cybernews (data leak) (https://cybernews.com/security/visa-card-data-breach/); Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/); The Register (https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+</item>
+<item>
 <title>JPMorgan Chase (via third-party vendors) — Confirmed Hack</title>
 <link>https://hacktracking.com/#jpmorgan-chase-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#jpmorgan-chase-2026-11</guid>
@@ -180,7 +190,7 @@
 <link>https://hacktracking.com/#u-s-department-of-agriculture-applications-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#u-s-department-of-agriculture-applications-2026-11</guid>
 <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
-<description>Many USDA applications, including Farm Service Agency loan software, the NRCS ProTracts program that releases farmer payments, and other financial tools for farmers, were knocked offline for about a week. An internal USDA email reported by Nextgov/FCW said its security operations center "uncovered a security incident" that required resetting all database passwords and applications. On Nov. 20, Under Secretary of Agriculture Richard Fordyce told reporters the event was a "cyberthreat," not a "software update." Impact: Farmer loans, payments, crop insurance and disaster-relief tools disrupted; staff also had VPN problems. Fordyce said no personally identifiable information was involved and "no data was lost because the systems that protect against cybersecurity threats worked." NBC News, citing sources, reports the agency told employees hackers accessed the system that facilitates payments to farmers. The Dec. 11 ARC/PLC sign-up deadline is not being extended. Status: Confirmed as a cyberthreat by a USDA under secretary. Most systems expected back by close of business Nov. 20, with work continuing over the weekend. Attackers not named; USDA's press office has not released a statement. Sources: DTN (Nov. 20) (https://www.dtnpf.com/agriculture/web/ag/columns/washington-insider/article/2026/11/19/usda-loan-software-systems-face-amid); NBC News (https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497); Nextgov/FCW (https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/)</description>
+<description>Many USDA applications, including Farm Service Agency loan software, the NRCS ProTracts program that releases farmer payments, and other financial tools for farmers, were knocked offline for about a week. An internal USDA email reported by Nextgov/FCW said its security operations center "uncovered a security incident" that required resetting all database passwords and applications. On Nov. 20, Under Secretary of Agriculture Richard Fordyce told reporters the event was a "cyberthreat," not a "software update." Impact: Farmer loans, payments, crop insurance and disaster-relief tools disrupted; staff also had VPN problems. Fordyce said no personally identifiable information was involved and "no data was lost because the systems that protect against cybersecurity threats worked." NBC News, citing sources, reports the agency told employees hackers accessed the system that facilitates payments to farmers. The Dec. 11 ARC/PLC sign-up deadline is not being extended. ABC News, citing sources, reports the Farm Production and Conservation mission sent notice Nov. 16 of a security breach involving GIS mapping, payments and contracting systems. Status: Confirmed as a cyberthreat by a USDA under secretary. Most systems expected back by close of business Nov. 20, with work continuing over the weekend. Attackers not named; USDA's press office has not released a statement. Sources: DTN (Nov. 20) (https://www.dtnpf.com/agriculture/web/ag/columns/washington-insider/article/2026/11/19/usda-loan-software-systems-face-amid); NBC News (https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497); Nextgov/FCW (https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/)</description>
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Government</category>
@@ -197,6 +207,18 @@
 <category>High</category>
 <category>Healthcare</category>
 <category>Government</category>
+<category>US</category>
+</item>
+<item>
+<title>GoFundMe Pro (nonprofit fundraising platform, Salesforce integration) — Confirmed Hack</title>
+<link>https://hacktracking.com/#gofundme-pro-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#gofundme-pro-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>GoFundMe says an unauthorized third party made repeated attempts to access GoFundMe Pro and was able to gain access to personal donor and supporter information. On Nov. 11 Salesforce disabled the GoFundMe Pro connected app and managed packages after spotting suspicious use of access tokens tied to the provider; GoFundMe told customers the attacker accessed credentials for its Salesforce integration that may have been used to reach organizations' Salesforce records. Impact: Donor and supporter personal information; GoFundMe has not said how many people. Donation processing was not disrupted. Customers were told to rotate keys stored in Salesforce and review activity since Oct. 14. Status: Confirmed by GoFundMe, which notified law enforcement and began emailing affected individuals Nov. 19. Salesforce re-enabled the managed packages on Nov. 20, but the connected apps remain disabled pending remediation; Salesforce says the issue did not come from a flaw in its core platform. Sources: The NonProfit Times (https://thenonprofittimes.com/npt_articles/update-ai-bot-attacks-did-access-some-donor-data/); Salesforce Trust advisory (https://status.salesforce.com/generalmessages/20000272); Chronicle of Philanthropy (https://www.philanthropy.com/news/how-a-cyberattack-on-donorperfect-upended-year-end-giving-plans/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
+<category>Nonprofit</category>
 <category>US</category>
 </item>
 <item>
@@ -287,6 +309,17 @@
 <guid isPermaLink="true">https://hacktracking.com/#charleston-county-government-2026-11</guid>
 <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
 <description>Charleston County's IT team spotted unusual network activity on Nov. 16 and the county has confirmed data was copied from its systems. The South Carolina Law Enforcement Division (SLED) has deemed the incident criminal and is assisting the investigation. Impact: Data removed; the county is still determining whether personal or financial information was involved. Day-to-day operations not affected. Status: Confirmed by Charleston County. SLED criminal investigation under way, with state and federal partners. Sources: Moultrie News / Post and Courier (https://www.postandcourier.com/moultrie-news/news/charleston-co-comments-on-cybersecurity-attack/article_38ccf8e5-2ae0-470a-a900-48eaf6315a0a.html); South Carolina Public Radio (https://www.southcarolinapublicradio.org/sc-news/2026-11-20/sled-opens-criminal-investigation-in-charleston-county-cyberattack)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+<category>US</category>
+</item>
+<item>
+<title>City of South Portland (Maine) — Confirmed Hack</title>
+<link>https://hacktracking.com/#city-of-south-portland-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#city-of-south-portland-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity. Impact: City Hall and the Assessor's Office stay closed and won't reopen before Monday, Nov. 23. The main library reopened Nov. 19 and the Wescott Road branch on Nov. 20, but library public internet, computers, printing and phones are still down. The city phone system, in-person card payments, some online portals and mapping services were also disrupted. The city says some city data was affected but most was not accessed. Status: Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked. Sources: City of South Portland (https://www.southportland.gov/m/newsflash/Home/Detail/622); WMTW (https://www.wmtw.com/article/south-portland-maine-library-reopens-progress-city-hall-cyberattack/74481703); Portland Press Herald (Nov. 20) (https://www.pressherald.com/2026/11/20/south-portland-library-reopens-as-city-works-to-bring-systems-back-online-after-cyberattack/)</description>
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Government</category>
@@ -446,6 +479,18 @@
 <category>US</category>
 </item>
 <item>
+<title>Roll20 (online tabletop gaming platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#roll20-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#roll20-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Roll20 says an unauthorized third party got into its systems on the evening of Nov. 16. According to the notification email as reported by PrivacyAffairs, the attacker exploited a vulnerability in a system that processed animated image uploads to reach records in a database of account information. Roll20 began emailing affected users on Nov. 20. Impact: Fewer than 1% of Roll20 users; the company has not given a number. Names, email addresses and salted bcrypt password hashes, plus the last four digits of saved payment cards for a smaller group. Roll20 says full card numbers, security codes and billing addresses were not involved. Status: Confirmed by Roll20, which says it blocked the access, fixed the pathway and found no evidence the data was copied or misused. It believes the attack was part of a wider trend of automated attacks. Sources: Roll20 forum (security update) (https://app.roll20.net/forum/post/12855519/security-update-november-2026); PrivacyAffairs (https://www.privacyaffairs.com/roll20-data-breach/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Gaming</category>
+<category>Consumer</category>
+<category>Tech</category>
+</item>
+<item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#paychex-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#paychex-2026-11</guid>
@@ -527,16 +572,6 @@
 <category>EU</category>
 </item>
 <item>
-<title>Visa (via third-party provider) — Confirmed Hack</title>
-<link>https://hacktracking.com/#visa-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#visa-2026-11</guid>
-<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-<description>A new ransomware gang called n0n listed Visa on its leak site and set a 48-hour deadline to publish data it claims to have stolen. Visa confirmed an incident, but says it started at an unnamed third-party service provider in the Asia Pacific region. On Nov. 19 the gang published a dataset tied to Visa's premium dining and loyalty programs in Asia-Pacific. Impact: Visa says its own systems were not involved or impacted and there is no indication payment data such as card numbers was affected. The gang claims over 1.5 million cardholder interactions; Cybernews researchers who examined the leaked data found more than 6,000 premium Visa customers in it, with names, email addresses, phone numbers and booking details. Status: Third-party incident confirmed by Visa. Gang has published data; its larger claims are unverified. Sources: Cybernews (data leak) (https://cybernews.com/security/visa-card-data-breach/); Cybernews (https://cybernews.com/security/visa-jpmorgan-data-breach/); CISO Brief (https://cisobrief.com/visa-confirms-third-party-incident-as-n0n-ransomware-gang-also-lists-jpmorgan-chase/)</description>
-<category>Confirmed Hack</category>
-<category>High</category>
-<category>Finance</category>
-</item>
-<item>
 <title>Mastercard (via third-party provider) — Confirmed Hack</title>
 <link>https://hacktracking.com/#mastercard-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#mastercard-2026-11</guid>
@@ -581,6 +616,20 @@
 <category>High</category>
 <category>Tech</category>
 <category>US</category>
+</item>
+<item>
+<title>DonorPerfect (nonprofit fundraising platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#donorperfect-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#donorperfect-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>DonorPerfect, owned by SofterWare, says it was hit by a sophisticated cyberattack that entered through its marketing website. Staff noticed anomalies the week of Nov. 3, and on the evening of Nov. 10 the company took the platform offline for its more than 11,000 nonprofit customers. Company president Lauren Sheehan said other fundraising platforms were attacked by the same actor in the same period. Impact: Nonprofits lost access to donor data and donation forms during the year-end giving season; access returned in stages from Nov. 14 and about 99% of systems were restored by Nov. 16. The company says it has a high degree of confidence data was protected but has not yet determined what, if anything, was taken. Status: Cyberattack confirmed by DonorPerfect, which contacted the FBI and is investigating with cybersecurity experts. Attacker not named. Sources: Chronicle of Philanthropy (https://www.philanthropy.com/news/how-a-cyberattack-on-donorperfect-upended-year-end-giving-plans/); The NonProfit Times (https://thenonprofittimes.com/npt_articles/update-ai-bot-attacks-did-access-some-donor-data/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
+<category>Nonprofit</category>
+<category>US</category>
+<category>GB</category>
+<category>CA</category>
 </item>
 <item>
 <title>JPMorgan Chase online banking — Speculated / Potential Hack</title>
@@ -664,17 +713,6 @@
 <category>DE</category>
 </item>
 <item>
-<title>City of South Portland (Maine) — Confirmed Hack</title>
-<link>https://hacktracking.com/#city-of-south-portland-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#city-of-south-portland-2026-11</guid>
-<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-<description>The city shut down its network after discovering a cybersecurity issue; its preliminary assessment points to cybercriminal activity. Impact: City Hall and the Assessor's Office remain closed to the public with no reopening date. The main library reopened Nov. 19 on a separate network, but its Wi-Fi, public computers, printing and phones are still down and the Wescott Road branch is closed. The city phone system, in-person card payments, some online portals and mapping services were also disrupted. The city says some city data was affected but most was not accessed. Status: Confirmed by the city. Forensic review ongoing with state and federal agencies; the city has not said who was behind it or how its systems were attacked. Sources: City of South Portland (https://www.southportland.gov/m/newsflash/Home/Detail/622); WMTW (https://www.wmtw.com/article/south-portland-maine-library-reopens-progress-city-hall-cyberattack/74481703); Portland Press Herald (https://www.pressherald.com/2026/11/18/south-portland-city-services-remain-closed-after-cyberattack/)</description>
-<category>Confirmed Hack</category>
-<category>Medium</category>
-<category>Government</category>
-<category>US</category>
-</item>
-<item>
 <title>Kosé (cosmetics maker, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#kos-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#kos-2026-11</guid>
@@ -730,6 +768,28 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
+<title>Wilmington School District 209-U (Illinois) — Confirmed Hack</title>
+<link>https://hacktracking.com/#wilmington-school-district-209-u-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#wilmington-school-district-209-u-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Superintendent Kevin Feeney told families the Will County district "experienced a ransomware attack that may have involved a data breach" on Nov. 17. The district suspended use of its laptops and other Windows devices as a precaution. Impact: District Windows devices out of use with no restoration timeline; internet access, Chromebooks and cellphones still available and classes continuing. The district is still determining whether student or staff personal information was accessed. Status: Ransomware attack confirmed by the district, which is working with its cyber insurance team and outside cybersecurity specialists. Attacker and entry method not identified. Sources: Shaw Local (https://www.shawlocal.com/wilmington-area/2026/11/18/wilmington-school-district-209-u-investigates-ransomware-attack-possible-data-breach/); DysruptionHub (https://dysruptionhub.com/wilmington-illinois-schools-ransomware/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
+<category>US</category>
+</item>
+<item>
+<title>Vermont Valcour police dispatch and records system — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#vermont-valcour-police-dispatch-and-records-system-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#vermont-valcour-police-dispatch-and-records-system-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Vermont took Valcour, the dispatch and records management system used by 35 police and 62 fire and EMS agencies, offline after its vendor, CrossWind Technologies, reported a potential security threat on Nov. 16. Police are filing cases on paper and sharing information over the radio. What people speculated: A breach of the vendor's police software. Official explanation: State officials call it a potential security threat and are investigating its nature and scope with CrossWind. The FBI and the Vermont attorney general are investigating. The state's chief information officer said there was no evidence it is related to other recent incidents. Impact: Police records, in-car laptop functions and dispatch software unavailable statewide; 911 and emergency response not affected. No restoration timeline. Status: Under investigation. A hack has not been confirmed. Sources: WCAX (https://www.wcax.com/2026/11/19/fbi-joins-investigation-into-vermont-police-software-outage/); VTDigger (https://vtdigger.org/2026/11/18/vermont-officials-take-police-dispatch-and-records-system-offline-following-potential-security-threat/)</description>
+<category>Speculated / Potential Hack</category>
+<category>Medium</category>
+<category>Government</category>
 <category>US</category>
 </item>
 <item>
@@ -1285,6 +1345,18 @@
 <category>Healthcare</category>
 <category>Tech</category>
 <category>US</category>
+</item>
+<item>
+<title>TSMC (chipmaker, Taiwan; employee data via cloud provider) — Confirmed Hack</title>
+<link>https://hacktracking.com/#tsmc-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#tsmc-2026-11</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+<description>Taiwan Semiconductor Manufacturing Company told the U.S. Securities and Exchange Commission that data on current and former employees was stolen from one of its cloud service providers. The filing came after a hacker offered 6.9 GB of alleged TSMC employee data for sale on a cybercrime forum on Nov. 8. Impact: Current and former employees' information; the hacker claims it includes contact, identification and banking details (unverified). TSMC says no TSMC systems were compromised and the data is unrelated to its operations or customers. Status: Confirmed by TSMC, which says the data matches data stored with an unnamed cloud provider. It is notifying affected staff and working with the vendor, investigating authorities and an outside cybersecurity firm. Sources: The Record (https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Manufacturing</category>
+<category>Tech</category>
+<category>TW</category>
 </item>
 <item>
 <title>Expedia Group (travel) — Confirmed Hack</title>
