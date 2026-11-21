@@ -5,8 +5,55 @@
 <link>https://hacktracking.com/</link>
 <description>Confirmed hacking incidents and outages people suspected were hacks, with official explanations and sources.</description>
 <language>en</language>
-<lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 12:00:00 GMT</lastBuildDate>
 <atom:link href="https://hacktracking.com/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay) — Confirmed Hack</title>
+<link>https://hacktracking.com/#infcurion-wallet-station-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#infcurion-wallet-station-2026-11</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients. Impact: Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data. Status: Confirmed by Infcurion and the Payどん banks. Infcurion says there has been no new unauthorized access since it blocked the attacker on Nov. 19 and no misuse of the leaked data so far. From Nov. 20 it paused Wallet Station for its other clients for emergency checks; those checked so far showed no intrusion or leak and began restarting on Nov. 21, while service for the affected clients stays suspended with no restart date. Sources: Infcurion update, Nov. 21 (Japanese) (https://infcurion.com/news/news-20261121_001/); CNET Japan (Japanese) (https://japan.cnet.com/article/35255235/); Jiji Press (Japanese) (https://sp.m.jiji.com/article/show/3916405)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Tech</category>
+<category>JP</category>
+</item>
+<item>
+<title>GL.iNet (router and KVM maker, cloud remote management) — Confirmed Hack</title>
+<link>https://hacktracking.com/#gl-inet-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#gl-inet-2026-11</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>Router maker GL.iNet says an unauthorized party exploited a vulnerability in its cloud remote management service and installed malicious software on a subset of its routers and KVM devices. It identified the problem on Nov. 20 and says it closed the hole in its cloud service. Impact: Malicious software installed on an undisclosed number of GL.iNet routers and KVM (remote keyboard/video/mouse) devices. The company is still investigating possible impact on computers connected to affected KVM devices. Status: Confirmed by GL.iNet, which is notifying affected customers by email, preparing a firmware update and telling KVM users to factory reset their devices and check connected computers. Sources: GL.iNet security notice (https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Tech</category>
+<category>Consumer</category>
+</item>
+<item>
+<title>MoEngage (customer engagement platform, India; ZebPay) — Confirmed Hack</title>
+<link>https://hacktracking.com/#moengage-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#moengage-2026-10</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>Customer messaging platform MoEngage says that in late October an attacker used a compromised third-party vendor account to get into a limited part of its cloud infrastructure. It told customers about it in a Nov. 20 email and confirmed the breach on Nov. 21. Crypto exchange ZebPay told its users on Nov. 21 that information about some of them was taken from MoEngage. Impact: MoEngage says fewer than 1% of its customer accounts were affected. ZebPay says stolen data on some users includes contact details, online and device data and recent account activity; its own wallets, databases and trading systems were not affected. The Economic Times reported some businesses could not use MoEngage for nearly a week. Status: Confirmed by MoEngage and ZebPay. MoEngage says it contained and fixed the breach with outside experts; ZebPay reported it to authorities and warned users about impersonation scams. Sources: Moneycontrol (https://www.moneycontrol.com/news/business/startup/moengage-confirms-security-breach-says-customer-impact-limited-14086151.html); crypto.news (https://crypto.news/zebpay-moengage-security-breach/); The Economic Times (https://economictimes.indiatimes.com/tech/technology/moengage-faces-cyberattack-access-disrupted-for-some-customers/articleshow/136034444.cms)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+<category>Crypto</category>
+<category>IN</category>
+</item>
+<item>
+<title>YMCA of Singapore Youth For Causes portal — Confirmed Hack</title>
+<link>https://hacktracking.com/#ymca-of-singapore-youth-for-causes-portal-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#ymca-of-singapore-youth-for-causes-portal-2026-10</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>YMCA of Singapore says the online application portal for its Youth For Causes programme and the associated database were hit by a cybersecurity breach. It was alerted on Oct. 19 and had the portal vendor take the system offline that day, then brought in forensic investigators. It told participants and mentors on Nov. 21. Impact: Investigators could neither confirm nor rule out that personal data was accessed or copied. The database held participants' names, birth dates, contact details and schools, next-of-kin and teacher contacts, and mentors' and judges' contact details with full or partial NRIC numbers where collected. Status: Confirmed by YMCA of Singapore, which is notifying participants and mentors. Sources: CNA (https://www.channelnewsasia.com/singapore/ymca-youth-causes-cybersecurity-data-breach-6571441)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Nonprofit</category>
+<category>Education</category>
+<category>SG</category>
+</item>
 <item>
 <title>ZOZO (ZOZOTOWN and WEAR, Japan, via PLAID KARTE) — Confirmed Hack</title>
 <link>https://hacktracking.com/#zozo-2026-11</link>
@@ -44,18 +91,6 @@
 <category>Aviation</category>
 <category>Finance</category>
 <category>Consumer</category>
-<category>JP</category>
-</item>
-<item>
-<title>Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay) — Confirmed Hack</title>
-<link>https://hacktracking.com/#infcurion-wallet-station-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#infcurion-wallet-station-2026-11</guid>
-<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
-<description>Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients. Impact: Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data. Status: Confirmed by Infcurion and the Payどん banks. No misuse of the data found so far; investigation ongoing and no restart date set. Sources: Infcurion notice (Japanese) (https://infcurion.com/news/news-20261120_001/); CNET Japan (Japanese) (https://japan.cnet.com/article/35255235/); Jiji Press (Japanese) (https://sp.m.jiji.com/article/show/3916405)</description>
-<category>Confirmed Hack</category>
-<category>High</category>
-<category>Finance</category>
-<category>Tech</category>
 <category>JP</category>
 </item>
 <item>
@@ -239,6 +274,17 @@
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
 <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
 <description>The National Security Agency's internal top-secret network, NSANet, went down right on the heels of a week of big outages and stayed disrupted for nearly four days. It was restored on Nov. 20. What people speculated: An attack on a U.S. intelligence network. Official explanation: The NSA described it as scheduled maintenance. Multiple U.S. officials told CNN it was not a cyberattack and appears tied to the agency's patching of recently disclosed vulnerabilities in PHP software; a senior administration official said the restoration work was going "slower than expected." At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages. Impact: Large parts of the NSA workforce sent home for days. The outage also hit NSA Georgia, which supports Middle East operations; officials say the agency's most sensitive intelligence systems kept working and backups were used. On Nov. 20 NSA told staff it was operating under "normal conditions with exceptions," with staggered building openings to avoid a login surge. Status: Network restored Nov. 20. Officials attribute it to patching problems; no evidence of a hack. Sources: NSA statement (https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/); The Record (Nov. 20) (https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions); CBS News (Nov. 18 hearing) (https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/)</description>
+<category>Speculated / Potential Hack</category>
+<category>High</category>
+<category>Government</category>
+<category>US</category>
+</item>
+<item>
+<title>FBI National Crime Information Center (NCIC) database — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>CNN reported on Nov. 20, citing two people briefed on the investigation, that the FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database law enforcement uses to share warrants, criminal histories and background check information. The intrusion was discovered in recent days. What people speculated: That hackers got into the NCIC database. It is not known whether any data was accessed, changed or stolen. Official explanation: The FBI did not immediately respond to requests for comment from CNN or Reuters. Impact: Unknown. Status: Not publicly confirmed by the FBI. Reported by CNN based on unnamed sources. Sources: RNZ (CNN) (https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database); CNBC (Reuters) (https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html)</description>
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Government</category>
@@ -539,6 +585,17 @@
 <category>Research</category>
 </item>
 <item>
+<title>Austrian Foreign Ministry website — Confirmed Hack</title>
+<link>https://hacktracking.com/#austrian-foreign-ministry-website-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#austrian-foreign-ministry-website-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Austria's foreign ministry says its website, run by an outside service provider, was accessed without authorization on Nov. 12-13, during the global Microsoft outage. It detected the intrusion on Nov. 13 and stopped it. The ministry announced it on Nov. 20. Impact: Records with the names and work contact details of staff at ministry headquarters and at diplomatic missions abroad were viewed. Status: Confirmed by the ministry. It has not said who it suspects. Sources: The Straits Times (Reuters) (https://www.straitstimes.com/world/europe/austrian-foreign-ministry-says-its-website-was-hacked-staff-details-viewed)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+<category>AT</category>
+</item>
+<item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#paychex-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#paychex-2026-11</guid>
@@ -596,6 +653,17 @@
 <category>Tech</category>
 <category>Retail</category>
 <category>SK</category>
+</item>
+<item>
+<title>Staples Canada (staplesprint.ca print website) — Confirmed Hack</title>
+<link>https://hacktracking.com/#staples-canada-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#staples-canada-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Staples Canada says an unknown party got unauthorized access to its staplesprint.ca website between Nov. 1 and Nov. 5 and had access to certain customer personal information. It told affected customers by email and says its other websites were not affected. Impact: Some customers' personal information may have been accessed; Staples says no financial information was exposed. Number of customers not disclosed. Status: Confirmed by Staples Canada, which says it removed the attacker and is investigating the full scope. Sources: CBC News (https://www.cbc.ca/news/canada/staples-print-website-breach-9.7431120)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Retail</category>
+<category>CA</category>
 </item>
 <item>
 <title>Alagoas state government website (Brazil) — Speculated / Potential Hack</title>
@@ -918,6 +986,17 @@
 <category>Speculated / Potential Hack</category>
 <category>Low</category>
 <category>Education</category>
+<category>US</category>
+</item>
+<item>
+<title>Walmart and Sam's Club (hacker group claim) — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#walmart-and-sam-s-club-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#walmart-and-sam-s-club-2026-11</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>The group n0n, which also claimed the Visa, Mastercard and JPMorgan data, says it stole Walmart and Sam's Club data and posted it on the dark web. Cybernews researchers who reviewed the leaked set say it is far smaller than claimed. What people speculated: That n0n stole Walmart's U.S. staff directory and Sam's Club data including storefront maps, single sign-on configurations and product and review data. Official explanation: Walmart had not commented as of Cybernews' report. Impact: Unverified. Cybernews found about 78 employee names and email addresses plus product review counts, and no sign that Sam's Club member data was accessed. Status: Not confirmed by Walmart. The group's claims are unverified. Sources: Cybernews (https://cybernews.com/news/walmart-data-leak-claim/)</description>
+<category>Speculated / Potential Hack</category>
+<category>Low</category>
+<category>Retail</category>
 <category>US</category>
 </item>
 <item>
@@ -1520,6 +1599,17 @@
 <category>Business</category>
 </item>
 <item>
+<title>Front Systems (retail software, EG subsidiary) — Confirmed Hack</title>
+<link>https://hacktracking.com/#front-systems-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#front-systems-2026-11</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>Software group EG says an unauthorized party got into Front Systems, retail software owned by its subsidiary Front Systems AS, on the evening of Nov. 5 and had access for about four hours. The attacker extracted about 0.2% of the Front Systems production database before access was closed. Impact: EG says it must assume the data includes customer names and email addresses. Card data is not stored in the system. Status: Confirmed by EG. The vulnerability is closed, the incident was reported to police and the investigation is ongoing. Sources: EG press release (https://egsoftware.com/global/retail-wholesale/front-systems/press-releases/information-about-a-data-breach-at-front-systems)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Tech</category>
+<category>Retail</category>
+</item>
+<item>
 <title>New Plymouth School District (Idaho) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#new-plymouth-school-district-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#new-plymouth-school-district-2026-11</guid>
@@ -1552,6 +1642,17 @@
 <category>High</category>
 <category>Education</category>
 <category>Research</category>
+<category>US</category>
+</item>
+<item>
+<title>University Hospitals (Cleveland health system) — Confirmed Hack</title>
+<link>https://hacktracking.com/#university-hospitals-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#university-hospitals-2026-10</guid>
+<pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+<description>University Hospitals in northeast Ohio says it detected unusual activity on its servers on Oct. 22 and disconnected its systems from the internet as a precaution. MyChart and many of its websites stayed offline for about two weeks while it investigated and restored systems; MyChart came back on Nov. 7. Impact: Patients could not use MyChart for test results, appointments or messages for about two weeks; hospitals, emergency departments and physician offices stayed open. UH has not said whether any data was taken. Status: Cybersecurity incident confirmed by University Hospitals. Systems restored, though some MyChart features may still be limited while data is reconciled. Sources: University Hospitals notice (https://www.uhhospitals.org/cybersecurity-incident); Ideastream Public Media (https://www.ideastream.org/health/2026-11-09/university-hospitals-websites-mychart-restored-following-cybersecurity-incident); Cleveland 19 (https://www.cleveland19.com/2026/11/07/mychart-back-online-university-hospitals-after-cybersecurity-incident/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Healthcare</category>
 <category>US</category>
 </item>
 <item>
@@ -1711,6 +1812,17 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
+<title>Jerome School District (Idaho) — Confirmed Hack</title>
+<link>https://hacktracking.com/#jerome-school-district-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#jerome-school-district-2026-10</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+<description>A ransomware attack hit Jerome School District on Oct. 17, when internal alarms went off and teachers saw a ransomware message on their screens. The attack affected network access, school cameras, electronic door locks and heating and cooling, and schools closed for two days before reopening Oct. 21. Impact: Schools closed for two days. The district says attackers accessed some data and, because it did not pay, data could be published on the dark web. The ransom amount was not disclosed. Status: Confirmed by the district. It did not pay the ransom, on FBI guidance, and is working with outside experts to finish the investigation. Sources: GovTech (Times-News) (https://www.govtech.com/education/k-12/jerome-idaho-schools-disclose-ransomware-attack); Cybernews (https://cybernews.com/news/school-district-ransomware-attack-idaho-cameras-locks-hvac/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
 <category>US</category>
 </item>
 <item>

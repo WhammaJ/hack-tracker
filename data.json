@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "speculated": [
     {
       "org": "Cleveland ISD network disruption (Texas)",
@@ -681,6 +681,54 @@
           "url": "https://vtdigger.org/2026/11/18/vermont-officials-take-police-dispatch-and-records-system-offline-following-potential-security-threat/"
         }
       ]
+    },
+    {
+      "org": "FBI National Crime Information Center (NCIC) database",
+      "date": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "High",
+      "summary": "CNN reported on Nov. 20, citing two people briefed on the investigation, that the FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database law enforcement uses to share warrants, criminal histories and background check information. The intrusion was discovered in recent days.",
+      "speculation": "That hackers got into the NCIC database. It is not known whether any data was accessed, changed or stolen.",
+      "official": "The FBI did not immediately respond to requests for comment from CNN or Reuters.",
+      "impact": "Unknown.",
+      "status": "Not publicly confirmed by the FBI. Reported by CNN based on unnamed sources.",
+      "sources": [
+        {
+          "name": "RNZ (CNN)",
+          "url": "https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database"
+        },
+        {
+          "name": "CNBC (Reuters)",
+          "url": "https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html"
+        }
+      ]
+    },
+    {
+      "org": "Walmart and Sam's Club (hacker group claim)",
+      "date": "2026-11-19",
+      "sectors": [
+        "Retail"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Low",
+      "summary": "The group n0n, which also claimed the Visa, Mastercard and JPMorgan data, says it stole Walmart and Sam's Club data and posted it on the dark web. Cybernews researchers who reviewed the leaked set say it is far smaller than claimed.",
+      "speculation": "That n0n stole Walmart's U.S. staff directory and Sam's Club data including storefront maps, single sign-on configurations and product and review data.",
+      "official": "Walmart had not commented as of Cybernews' report.",
+      "impact": "Unverified. Cybernews found about 78 employee names and email addresses plus product review counts, and no sign that Sam's Club member data was accessed.",
+      "status": "Not confirmed by Walmart. The group's claims are unverified.",
+      "sources": [
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/news/walmart-data-leak-claim/"
+        }
+      ]
     }
   ],
   "confirmed": [
@@ -799,7 +847,7 @@
     {
       "org": "Infcurion Wallet Station (payment app platform, Japan; Payどん, AEON Pay)",
       "date": "2026-11-19",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "sectors": [
         "Finance",
         "Tech"
@@ -810,11 +858,11 @@
       "severity": "High",
       "summary": "Japanese fintech Infcurion says a third party broke into Wallet Station, the platform companies use to run their own smartphone payment apps, and personal data of app users leaked. It detected a flood of access on the night of Nov. 19, blocked the attacker's traffic, applied an emergency vulnerability patch and cut off service to the affected clients.",
       "impact": "Up to about 250,000 users' records. Payどん, the Kagoshima payment app run by four local banks, says 251,172 records leaked, including names, birth dates, email addresses, passwords, account information, point balances and transaction history; it stopped all services on the morning of Nov. 20. AEON Pay suspended some code payments and donations during emergency maintenance but says it has found no leak of its customers' data.",
-      "status": "Confirmed by Infcurion and the Payどん banks. No misuse of the data found so far; investigation ongoing and no restart date set.",
+      "status": "Confirmed by Infcurion and the Payどん banks. Infcurion says there has been no new unauthorized access since it blocked the attacker on Nov. 19 and no misuse of the leaked data so far. From Nov. 20 it paused Wallet Station for its other clients for emergency checks; those checked so far showed no intrusion or leak and began restarting on Nov. 21, while service for the affected clients stays suspended with no restart date.",
       "sources": [
         {
-          "name": "Infcurion notice (Japanese)",
-          "url": "https://infcurion.com/news/news-20261120_001/"
+          "name": "Infcurion update, Nov. 21 (Japanese)",
+          "url": "https://infcurion.com/news/news-20261121_001/"
         },
         {
           "name": "CNET Japan (Japanese)",
@@ -4716,6 +4764,195 @@
         {
           "name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/cities/gurugram-news/hackers-siphon-off-25-67-crore-from-gurugram-payments-firm-two-held-101795026794149.html"
+        }
+      ]
+    },
+    {
+      "org": "University Hospitals (Cleveland health system)",
+      "date": "2026-10-22",
+      "updated": "2026-11-09",
+      "sectors": [
+        "Healthcare"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "High",
+      "summary": "University Hospitals in northeast Ohio says it detected unusual activity on its servers on Oct. 22 and disconnected its systems from the internet as a precaution. MyChart and many of its websites stayed offline for about two weeks while it investigated and restored systems; MyChart came back on Nov. 7.",
+      "impact": "Patients could not use MyChart for test results, appointments or messages for about two weeks; hospitals, emergency departments and physician offices stayed open. UH has not said whether any data was taken.",
+      "status": "Cybersecurity incident confirmed by University Hospitals. Systems restored, though some MyChart features may still be limited while data is reconciled.",
+      "sources": [
+        {
+          "name": "University Hospitals notice",
+          "url": "https://www.uhhospitals.org/cybersecurity-incident"
+        },
+        {
+          "name": "Ideastream Public Media",
+          "url": "https://www.ideastream.org/health/2026-11-09/university-hospitals-websites-mychart-restored-following-cybersecurity-incident"
+        },
+        {
+          "name": "Cleveland 19",
+          "url": "https://www.cleveland19.com/2026/11/07/mychart-back-online-university-hospitals-after-cybersecurity-incident/"
+        }
+      ]
+    },
+    {
+      "org": "Jerome School District (Idaho)",
+      "date": "2026-10-17",
+      "updated": "2026-11-02",
+      "sectors": [
+        "Education"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "A ransomware attack hit Jerome School District on Oct. 17, when internal alarms went off and teachers saw a ransomware message on their screens. The attack affected network access, school cameras, electronic door locks and heating and cooling, and schools closed for two days before reopening Oct. 21.",
+      "impact": "Schools closed for two days. The district says attackers accessed some data and, because it did not pay, data could be published on the dark web. The ransom amount was not disclosed.",
+      "status": "Confirmed by the district. It did not pay the ransom, on FBI guidance, and is working with outside experts to finish the investigation.",
+      "sources": [
+        {
+          "name": "GovTech (Times-News)",
+          "url": "https://www.govtech.com/education/k-12/jerome-idaho-schools-disclose-ransomware-attack"
+        },
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/news/school-district-ransomware-attack-idaho-cameras-locks-hvac/"
+        }
+      ]
+    },
+    {
+      "org": "GL.iNet (router and KVM maker, cloud remote management)",
+      "date": "2026-11-20",
+      "updated": "2026-11-21",
+      "sectors": [
+        "Tech",
+        "Consumer"
+      ],
+      "countries": [],
+      "severity": "High",
+      "summary": "Router maker GL.iNet says an unauthorized party exploited a vulnerability in its cloud remote management service and installed malicious software on a subset of its routers and KVM devices. It identified the problem on Nov. 20 and says it closed the hole in its cloud service.",
+      "impact": "Malicious software installed on an undisclosed number of GL.iNet routers and KVM (remote keyboard/video/mouse) devices. The company is still investigating possible impact on computers connected to affected KVM devices.",
+      "status": "Confirmed by GL.iNet, which is notifying affected customers by email, preparing a firmware update and telling KVM users to factory reset their devices and check connected computers.",
+      "sources": [
+        {
+          "name": "GL.iNet security notice",
+          "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20"
+        }
+      ]
+    },
+    {
+      "org": "Austrian Foreign Ministry website",
+      "date": "2026-11-12",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "AT"
+      ],
+      "severity": "Medium",
+      "summary": "Austria's foreign ministry says its website, run by an outside service provider, was accessed without authorization on Nov. 12-13, during the global Microsoft outage. It detected the intrusion on Nov. 13 and stopped it. The ministry announced it on Nov. 20.",
+      "impact": "Records with the names and work contact details of staff at ministry headquarters and at diplomatic missions abroad were viewed.",
+      "status": "Confirmed by the ministry. It has not said who it suspects.",
+      "sources": [
+        {
+          "name": "The Straits Times (Reuters)",
+          "url": "https://www.straitstimes.com/world/europe/austrian-foreign-ministry-says-its-website-was-hacked-staff-details-viewed"
+        }
+      ]
+    },
+    {
+      "org": "MoEngage (customer engagement platform, India; ZebPay)",
+      "date": "2026-10-31",
+      "dateLabel": "Late Oct. 2026",
+      "updated": "2026-11-21",
+      "sectors": [
+        "Tech",
+        "Crypto"
+      ],
+      "countries": [
+        "IN"
+      ],
+      "severity": "Medium",
+      "summary": "Customer messaging platform MoEngage says that in late October an attacker used a compromised third-party vendor account to get into a limited part of its cloud infrastructure. It told customers about it in a Nov. 20 email and confirmed the breach on Nov. 21. Crypto exchange ZebPay told its users on Nov. 21 that information about some of them was taken from MoEngage.",
+      "impact": "MoEngage says fewer than 1% of its customer accounts were affected. ZebPay says stolen data on some users includes contact details, online and device data and recent account activity; its own wallets, databases and trading systems were not affected. The Economic Times reported some businesses could not use MoEngage for nearly a week.",
+      "status": "Confirmed by MoEngage and ZebPay. MoEngage says it contained and fixed the breach with outside experts; ZebPay reported it to authorities and warned users about impersonation scams.",
+      "sources": [
+        {
+          "name": "Moneycontrol",
+          "url": "https://www.moneycontrol.com/news/business/startup/moengage-confirms-security-breach-says-customer-impact-limited-14086151.html"
+        },
+        {
+          "name": "crypto.news",
+          "url": "https://crypto.news/zebpay-moengage-security-breach/"
+        },
+        {
+          "name": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com/tech/technology/moengage-faces-cyberattack-access-disrupted-for-some-customers/articleshow/136034444.cms"
+        }
+      ]
+    },
+    {
+      "org": "Staples Canada (staplesprint.ca print website)",
+      "date": "2026-11-01",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Retail"
+      ],
+      "countries": [
+        "CA"
+      ],
+      "severity": "Low",
+      "summary": "Staples Canada says an unknown party got unauthorized access to its staplesprint.ca website between Nov. 1 and Nov. 5 and had access to certain customer personal information. It told affected customers by email and says its other websites were not affected.",
+      "impact": "Some customers' personal information may have been accessed; Staples says no financial information was exposed. Number of customers not disclosed.",
+      "status": "Confirmed by Staples Canada, which says it removed the attacker and is investigating the full scope.",
+      "sources": [
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/canada/staples-print-website-breach-9.7431120"
+        }
+      ]
+    },
+    {
+      "org": "YMCA of Singapore Youth For Causes portal",
+      "date": "2026-10-19",
+      "updated": "2026-11-21",
+      "sectors": [
+        "Nonprofit",
+        "Education"
+      ],
+      "countries": [
+        "SG"
+      ],
+      "severity": "Low",
+      "summary": "YMCA of Singapore says the online application portal for its Youth For Causes programme and the associated database were hit by a cybersecurity breach. It was alerted on Oct. 19 and had the portal vendor take the system offline that day, then brought in forensic investigators. It told participants and mentors on Nov. 21.",
+      "impact": "Investigators could neither confirm nor rule out that personal data was accessed or copied. The database held participants' names, birth dates, contact details and schools, next-of-kin and teacher contacts, and mentors' and judges' contact details with full or partial NRIC numbers where collected.",
+      "status": "Confirmed by YMCA of Singapore, which is notifying participants and mentors.",
+      "sources": [
+        {
+          "name": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/ymca-youth-causes-cybersecurity-data-breach-6571441"
+        }
+      ]
+    },
+    {
+      "org": "Front Systems (retail software, EG subsidiary)",
+      "date": "2026-11-05",
+      "updated": "2026-11-11",
+      "sectors": [
+        "Tech",
+        "Retail"
+      ],
+      "countries": [],
+      "severity": "Low",
+      "summary": "Software group EG says an unauthorized party got into Front Systems, retail software owned by its subsidiary Front Systems AS, on the evening of Nov. 5 and had access for about four hours. The attacker extracted about 0.2% of the Front Systems production database before access was closed.",
+      "impact": "EG says it must assume the data includes customer names and email addresses. Card data is not stored in the system.",
+      "status": "Confirmed by EG. The vulnerability is closed, the incident was reported to police and the investigation is ongoing.",
+      "sources": [
+        {
+          "name": "EG press release",
+          "url": "https://egsoftware.com/global/retail-wholesale/front-systems/press-releases/information-about-a-data-breach-at-front-systems"
         }
       ]
     }
