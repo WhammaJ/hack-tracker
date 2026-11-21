@@ -65,6 +65,18 @@
 <category>US</category>
 </item>
 <item>
+<title>Travelsoft Orchestra (travel booking platform, France) — Confirmed Hack</title>
+<link>https://hacktracking.com/#travelsoft-orchestra-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#travelsoft-orchestra-2026-11</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>Travelsoft, which runs the Orchestra travel booking platform, says it spotted abnormal activity with illicit access on Orchestra during the night of Nov. 19–20 and shut down all of its systems. Dozens of B2B and B2C travel sites built on Orchestra went offline on Nov. 20, including Voyages E.Leclerc, Carrefour Voyages, Selectour and Havas Voyages, and agencies could not book through it. Impact: Online travel bookings disrupted across French travel agencies and tour operators; sites were still heavily disrupted on the morning of Nov. 21. Travelsoft says Orchestra does not host bank card data and could not yet say whether any data was leaked; its main concern is fraudulent bookings of packages and plane tickets. Status: Confirmed as a cyberattack by Travelsoft founder Christian Sabbagh. Services being restored gradually since the evening of Nov. 20; France's data protection authority (CNIL) notified. Attackers not named. Sources: L'Echo touristique (https://www.lechotouristique.com/digital/cyberattaque-d-orchestra-ce-que-l-on-sait)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Travel</category>
+<category>Tech</category>
+<category>FR</category>
+</item>
+<item>
 <title>YMCA of Singapore Youth For Causes portal — Confirmed Hack</title>
 <link>https://hacktracking.com/#ymca-of-singapore-youth-for-causes-portal-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#ymca-of-singapore-youth-for-causes-portal-2026-10</guid>
@@ -312,6 +324,17 @@
 <category>Confirmed Hack</category>
 <category>High</category>
 <category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
+<title>Otter Tail County (Minnesota) — Confirmed Hack</title>
+<link>https://hacktracking.com/#otter-tail-county-2026-08</link>
+<guid isPermaLink="true">https://hacktracking.com/#otter-tail-county-2026-08</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Otter Tail County says it detected a cyberattack on its network early on Aug. 1, and its investigation found that cybercriminals intermittently accessed the network between July 3 and Aug. 1 and copied county data. It posted a public notice on Nov. 16 because the size of the data made individual notices impractical. Impact: Data that may include names, addresses, birth dates, Social Security numbers, driver's license and ID numbers, financial account, medical and health insurance information, law enforcement report information, immigration ID and passport numbers, ITINs and fingerprints. Number of people not disclosed. Status: Confirmed by the county, which notified federal law enforcement and Minnesota IT Services, reset passwords enterprise-wide and is offering 12 months of free identity protection. Sources: Otter Tail County notice (https://ottertailcounty.gov/notice-of-data-security-incident/); InForum (https://www.inforum.com/news/minnesota/otter-tail-county-hit-by-cyberattack-personal-information-breached)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Government</category>
 <category>US</category>
 </item>
 <item>
@@ -651,6 +674,17 @@
 <category>Medium</category>
 <category>Government</category>
 <category>ES</category>
+</item>
+<item>
+<title>Nagashima Ohno &amp; Tsunematsu (law firm, Japan) — Confirmed Hack</title>
+<link>https://hacktracking.com/#nagashima-ohno-tsunematsu-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#nagashima-ohno-tsunematsu-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Japanese law firm Nagashima Ohno &amp; Tsunematsu says an unauthorized third party exploited a vulnerability to get into four web systems on a shared platform from an outside vendor: its Legal Lounge membership site, its NO&amp;T ALUMNI site, its lawyer recruitment site and a bulk email system. The access happened late on Nov. 9 into the morning of Nov. 10 (Japan time), and the firm announced it on Nov. 20. Impact: Names, affiliations, email addresses and hashed passwords of site members; alumni addresses, phone numbers and birth dates; recruitment applicants' education, qualifications and test results; and bulk email recipient details, including recipients tied to six client matters. Number of people not yet disclosed. The firm says it found no access to the systems it uses to handle client matters. Status: Confirmed by the firm, which suspended the four systems, reported to Japan's Personal Information Protection Commission and is consulting police. Investigation ongoing. Sources: Nagashima Ohno &amp; Tsunematsu notice (https://www.nagashima.com/en/topics/topic20261120/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Business</category>
+<category>JP</category>
 </item>
 <item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
@@ -1340,6 +1374,17 @@
 <category>JP</category>
 </item>
 <item>
+<title>Michigan State University — Confirmed Hack</title>
+<link>https://hacktracking.com/#michigan-state-university-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#michigan-state-university-2026-11</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+<description>Michigan State University told its community on Nov. 3 about a potential cybersecurity threat. In a Nov. 16 update, MSU said a preliminary assessment found that contact and demographic information for some current and former students and employees was potentially exposed. Impact: Contact and demographic information of some current and former students and employees potentially exposed; MSU has not said how many people or exactly which data. MSU says the campus community does not need to take action for now. Status: MSU confirmed the potential exposure and is investigating with cybersecurity partners and local, state and federal authorities, including the FBI. Attackers not named. Sources: MSU Technology (Nov. 16 update) (https://tech.msu.edu/news/2026/11/msu-cybersecurity-update); WILX News 10 (https://www.wilx.com/2026/11/17/msu-says-personal-information-some-students-employees-was-potentially-exposed-cybersecurity-threat/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Education</category>
+<category>US</category>
+</item>
+<item>
 <title>Marriott Bonvoy sign-in outage — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#marriott-bonvoy-sign-in-outage-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#marriott-bonvoy-sign-in-outage-2026-11</guid>
@@ -1700,6 +1745,17 @@
 <category>Tech</category>
 <category>Consumer</category>
 <category>JP</category>
+</item>
+<item>
+<title>Vanguard (investment manager, retirement plan clients) — Confirmed Hack</title>
+<link>https://hacktracking.com/#vanguard-2026-07</link>
+<guid isPermaLink="true">https://hacktracking.com/#vanguard-2026-07</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+<description>Vanguard says it was hit by a social engineering attack in which an imposter tricked an employee into giving access to corporate accounts, letting a third party get into files in a limited set of cloud applications between July 29 and 31. It determined around Oct. 16 that the files held client personal information and began notifying people in November. Impact: Names, Social Security numbers and/or birth dates, and in some cases other account or profile details, of certain clients, mainly people tied to its retirement plan business. Vanguard told Iowa regulators about 624 Iowa residents were affected; a national total was not given in that filing. No client accounts, recordkeeping or money-movement systems were accessed. Status: Confirmed by Vanguard, which is offering three years of credit monitoring. Proposed class actions filed in federal court in Pennsylvania on Nov. 6 and Nov. 11. Sources: Vanguard notice to Iowa Attorney General (PDF) (https://www.iowaattorneygeneral.gov/media/cms/11112026_Vanguard_87B014F6E554F.pdf); PSCA (https://www.psca.org/news/psca-news/2026/11/vanguard-faces-class-actions-over-retirement-data-breach/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Finance</category>
+<category>US</category>
 </item>
 <item>
 <title>Ipsos (market research) — Confirmed Hack</title>
