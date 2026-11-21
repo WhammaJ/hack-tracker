@@ -694,19 +694,24 @@
       "severity": "High",
       "summary": "CNN reported on Nov. 20, citing two people briefed on the investigation, that the FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database law enforcement uses to share warrants, criminal histories and background check information. The intrusion was discovered in recent days.",
       "speculation": "That hackers got into the NCIC database. It is not known whether any data was accessed, changed or stolen.",
-      "official": "The FBI did not immediately respond to requests for comment from CNN or Reuters.",
+      "official": "The FBI had no comment as of Nov. 21 and did not respond to requests from CNN, Reuters, NBC News or BleepingComputer. No group has claimed responsibility, and there is no indication so far that it is connected to the ShinyHunters breach of an FBI jobs portal in September.",
       "impact": "Unknown.",
-      "status": "Not publicly confirmed by the FBI. Reported by CNN based on unnamed sources.",
+      "status": "Not publicly confirmed by the FBI. Reported by CNN and then NBC News, citing unnamed people briefed on the investigation.",
       "sources": [
         {
-          "name": "RNZ (CNN)",
-          "url": "https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database"
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536"
         },
         {
           "name": "CNBC (Reuters)",
           "url": "https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
         }
-      ]
+      ],
+      "updated": "2026-11-21"
     },
     {
       "org": "Walmart and Sam's Club (hacker group claim)",
@@ -5172,6 +5177,78 @@
         {
           "name": "Coinigy notice",
           "url": "https://insights.coinigy.com/urgent-revoke-your-exchange-api-keys-connected-to-coinigy/"
+        }
+      ]
+    },
+    {
+      "org": "Microsoft Entra Connect Health (tenant metadata exposure)",
+      "date": "2026-11-09",
+      "updated": "2026-11-21",
+      "sectors": [
+        "Tech"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Microsoft notified affected organizations that unauthorized parties exploited a vulnerability in the Entra Connect Health API, a cloud service admins use to monitor on-premises identity infrastructure. The flaw was introduced on July 23, 2026, and Microsoft discovered it on Nov. 9.",
+      "impact": "Read-only access to tenant-level metadata, including email addresses of tenant technical contacts and administrator accounts, tenant IDs, display names, initial domains, country codes, license tiers, directory sync status and an expired certificate. Microsoft says no passwords, password hashes, authentication tokens, valid keys or Azure subscription data were exposed, and it found no unauthorized configuration changes. It has not said how many organizations were affected.",
+      "status": "Confirmed by Microsoft in notifications to affected tenants. A server-side fix was deployed Nov. 19 and the investigation concluded Nov. 20; no customer action is required to fix the flaw, but admins are urged to watch for targeted phishing.",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+        },
+        {
+          "name": "NEXSIGHT Cyber Wire (Japanese)",
+          "url": "https://cyber.nexsight.co/articles/2026/11/21/entra-connect-health-api-exposure-tenant-metadata-2026-11-21/"
+        }
+      ]
+    },
+    {
+      "org": "Santiam Hospital & Clinics (Salem Health, Oregon)",
+      "date": "2026-10-30",
+      "dateLabel": "Late Oct. 2026",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Healthcare"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Salem Health said a \"bad actor used deceptive social engineering tactics that resulted in unauthorized access\" at Santiam Hospital & Clinics in Stayton, Oregon, which merged into Salem Health in September. The breach was discovered in late October; the Anubis hacking group claimed it on Oct. 28.",
+      "impact": "Anubis claims it stole nearly 30,000 patient files plus internal financial records and communications; the hospital has not said how many patients were affected. Salem Health says only Santiam Hospital was impacted. Six proposed class-action lawsuits had been filed in Marion County Circuit Court as of Nov. 19.",
+      "status": "Confirmed by Salem Health, which says known risks have been contained and affected patients will be notified within 60 days. It declined to say whether a ransom was demanded.",
+      "sources": [
+        {
+          "name": "The Canyon Weekly (Nov. 19)",
+          "url": "https://www.canyonweekly.com/2026/11/19/patients-sue-after-data-breach-at-santiam-hospital/"
+        }
+      ]
+    },
+    {
+      "org": "NoName057(16) cyberattacks on Spain (Burgos arrest)",
+      "date": "2026-11-17",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "severity": "Medium",
+      "summary": "Spain's National Police arrested a man in Burgos accused of recruiting for and promoting the pro-Russian hacktivist group NoName057(16), including online calls to launch cyberattacks on state institutions. Police say he was the group's first established physical presence in Spain. The group is blamed for at least 447 cyberattacks in Spain since 2024 against institutions, banks and transport companies.",
+      "impact": "Searches turned up a semi-automatic rifle, carbines, shotguns, more than 5,000 rounds of ammunition, chemicals and three hardware crypto wallets holding bitcoin. The EU Council sanctioned NoName057(16) on Nov. 16.",
+      "status": "Confirmed by Spain's Interior Ministry. The suspect was released on provisional liberty with precautionary measures and remains under investigation for membership in a terrorist organization, glorifying terrorism and weapons possession.",
+      "sources": [
+        {
+          "name": "Spanish Interior Ministry (Spanish)",
+          "url": "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-frustra-la-implantacion-de-la-primera-celula-en-Espana-de-la-organizacion-ciberterrorista-NoName05716/"
+        },
+        {
+          "name": "El País (Spanish)",
+          "url": "https://elpais.com/espana/2026-11-20/detenido-en-burgos-con-un-arsenal-de-armas-de-fuego-y-machetes-un-instigador-de-la-organizacion-ciberterrorista-noname05716.html"
         }
       ]
     }

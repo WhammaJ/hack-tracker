@@ -31,6 +31,17 @@
 <category>Consumer</category>
 </item>
 <item>
+<title>FBI National Crime Information Center (NCIC) database — Speculated / Potential Hack</title>
+<link>https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>CNN reported on Nov. 20, citing two people briefed on the investigation, that the FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database law enforcement uses to share warrants, criminal histories and background check information. The intrusion was discovered in recent days. What people speculated: That hackers got into the NCIC database. It is not known whether any data was accessed, changed or stolen. Official explanation: The FBI had no comment as of Nov. 21 and did not respond to requests from CNN, Reuters, NBC News or BleepingComputer. No group has claimed responsibility, and there is no indication so far that it is connected to the ShinyHunters breach of an FBI jobs portal in September. Impact: Unknown. Status: Not publicly confirmed by the FBI. Reported by CNN and then NBC News, citing unnamed people briefed on the investigation. Sources: NBC News (https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536); CNBC (Reuters) (https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html); BleepingComputer (https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/)</description>
+<category>Speculated / Potential Hack</category>
+<category>High</category>
+<category>Government</category>
+<category>US</category>
+</item>
+<item>
 <title>MoEngage (customer engagement platform, India; ZebPay) — Confirmed Hack</title>
 <link>https://hacktracking.com/#moengage-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#moengage-2026-10</guid>
@@ -41,6 +52,17 @@
 <category>Tech</category>
 <category>Crypto</category>
 <category>IN</category>
+</item>
+<item>
+<title>Microsoft Entra Connect Health (tenant metadata exposure) — Confirmed Hack</title>
+<link>https://hacktracking.com/#microsoft-entra-connect-health-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#microsoft-entra-connect-health-2026-11</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+<description>Microsoft notified affected organizations that unauthorized parties exploited a vulnerability in the Entra Connect Health API, a cloud service admins use to monitor on-premises identity infrastructure. The flaw was introduced on July 23, 2026, and Microsoft discovered it on Nov. 9. Impact: Read-only access to tenant-level metadata, including email addresses of tenant technical contacts and administrator accounts, tenant IDs, display names, initial domains, country codes, license tiers, directory sync status and an expired certificate. Microsoft says no passwords, password hashes, authentication tokens, valid keys or Azure subscription data were exposed, and it found no unauthorized configuration changes. It has not said how many organizations were affected. Status: Confirmed by Microsoft in notifications to affected tenants. A server-side fix was deployed Nov. 19 and the investigation concluded Nov. 20; no customer action is required to fix the flaw, but admins are urged to watch for targeted phishing. Sources: BleepingComputer (https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/); NEXSIGHT Cyber Wire (Japanese) (https://cyber.nexsight.co/articles/2026/11/21/entra-connect-health-api-exposure-tenant-metadata-2026-11-21/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Tech</category>
+<category>US</category>
 </item>
 <item>
 <title>YMCA of Singapore Youth For Causes portal — Confirmed Hack</title>
@@ -298,17 +320,6 @@
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
 <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
 <description>The National Security Agency's internal top-secret network, NSANet, went down right on the heels of a week of big outages and stayed disrupted for nearly four days. It was restored on Nov. 20. What people speculated: An attack on a U.S. intelligence network. Official explanation: The NSA described it as scheduled maintenance. Multiple U.S. officials told CNN it was not a cyberattack and appears tied to the agency's patching of recently disclosed vulnerabilities in PHP software; a senior administration official said the restoration work was going "slower than expected." At a Nov. 18 House hearing, U.S. intelligence and FBI officials said they had seen no indication of malicious cyber activity in the recent outages. Impact: Large parts of the NSA workforce sent home for days. The outage also hit NSA Georgia, which supports Middle East operations; officials say the agency's most sensitive intelligence systems kept working and backups were used. On Nov. 20 NSA told staff it was operating under "normal conditions with exceptions," with staggered building openings to avoid a login surge. Status: Network restored Nov. 20. Officials attribute it to patching problems; no evidence of a hack. Sources: NSA statement (https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/); The Record (Nov. 20) (https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions); CBS News (Nov. 18 hearing) (https://www.cbsnews.com/news/network-outages-cyber-malicious-activity-homeland-security-hearing/)</description>
-<category>Speculated / Potential Hack</category>
-<category>High</category>
-<category>Government</category>
-<category>US</category>
-</item>
-<item>
-<title>FBI National Crime Information Center (NCIC) database — Speculated / Potential Hack</title>
-<link>https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#fbi-national-crime-information-center-database-2026-11</guid>
-<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
-<description>CNN reported on Nov. 20, citing two people briefed on the investigation, that the FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database law enforcement uses to share warrants, criminal histories and background check information. The intrusion was discovered in recent days. What people speculated: That hackers got into the NCIC database. It is not known whether any data was accessed, changed or stolen. Official explanation: The FBI did not immediately respond to requests for comment from CNN or Reuters. Impact: Unknown. Status: Not publicly confirmed by the FBI. Reported by CNN based on unnamed sources. Sources: RNZ (CNN) (https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database); CNBC (Reuters) (https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html)</description>
 <category>Speculated / Potential Hack</category>
 <category>High</category>
 <category>Government</category>
@@ -631,6 +642,17 @@
 <category>US</category>
 </item>
 <item>
+<title>NoName057(16) cyberattacks on Spain (Burgos arrest) — Confirmed Hack</title>
+<link>https://hacktracking.com/#noname057-cyberattacks-on-spain-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#noname057-cyberattacks-on-spain-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Spain's National Police arrested a man in Burgos accused of recruiting for and promoting the pro-Russian hacktivist group NoName057(16), including online calls to launch cyberattacks on state institutions. Police say he was the group's first established physical presence in Spain. The group is blamed for at least 447 cyberattacks in Spain since 2024 against institutions, banks and transport companies. Impact: Searches turned up a semi-automatic rifle, carbines, shotguns, more than 5,000 rounds of ammunition, chemicals and three hardware crypto wallets holding bitcoin. The EU Council sanctioned NoName057(16) on Nov. 16. Status: Confirmed by Spain's Interior Ministry. The suspect was released on provisional liberty with precautionary measures and remains under investigation for membership in a terrorist organization, glorifying terrorism and weapons possession. Sources: Spanish Interior Ministry (Spanish) (https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-frustra-la-implantacion-de-la-primera-celula-en-Espana-de-la-organizacion-ciberterrorista-NoName05716/); El País (Spanish) (https://elpais.com/espana/2026-11-20/detenido-en-burgos-con-un-arsenal-de-armas-de-fuego-y-machetes-un-instigador-de-la-organizacion-ciberterrorista-noname05716.html)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Government</category>
+<category>ES</category>
+</item>
+<item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#paychex-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#paychex-2026-11</guid>
@@ -942,6 +964,17 @@
 <category>Confirmed Hack</category>
 <category>Medium</category>
 <category>Education</category>
+<category>US</category>
+</item>
+<item>
+<title>Santiam Hospital &amp; Clinics (Salem Health, Oregon) — Confirmed Hack</title>
+<link>https://hacktracking.com/#santiam-hospital-clinics-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#santiam-hospital-clinics-2026-10</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+<description>Salem Health said a "bad actor used deceptive social engineering tactics that resulted in unauthorized access" at Santiam Hospital &amp; Clinics in Stayton, Oregon, which merged into Salem Health in September. The breach was discovered in late October; the Anubis hacking group claimed it on Oct. 28. Impact: Anubis claims it stole nearly 30,000 patient files plus internal financial records and communications; the hospital has not said how many patients were affected. Salem Health says only Santiam Hospital was impacted. Six proposed class-action lawsuits had been filed in Marion County Circuit Court as of Nov. 19. Status: Confirmed by Salem Health, which says known risks have been contained and affected patients will be notified within 60 days. It declined to say whether a ransom was demanded. Sources: The Canyon Weekly (Nov. 19) (https://www.canyonweekly.com/2026/11/19/patients-sue-after-data-breach-at-santiam-hospital/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
 <category>US</category>
 </item>
 <item>
