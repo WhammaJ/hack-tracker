@@ -116,6 +116,19 @@
 <category>KR</category>
 </item>
 <item>
+<title>Ransomware network extorting U.S. firms (Ukraine arrests) — Confirmed Hack</title>
+<link>https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems. Ukrainian authorities have since linked the four to the Chaos ransomware operation, which Computer Weekly reports grew out of the Royal/BlackSuit lineage; they are accused of a 2024 attack on Maxxis under the BlackSuit name before switching to Chaos. Impact: Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record). Court documents describe ransoms of about $11.5 million across the Maxxis, Newpark and Warren Oil attacks (Computer Weekly). Status: Confirmed by Ukrainian law enforcement. Four suspects held in pretrial detention, expected until Jan. 1, with bail set for three; they face up to 15 years in prison. 66 searches carried out and cash, devices and bank cards seized. Sources: The Record (https://therecord.media/ukraine-ransomware-arrests-cyber); Computer Weekly (https://www.computerweekly.com/news/366655193/Ransomware-What-we-know-about-the-arrests-of-Chaos-affiliates)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Energy</category>
+<category>Manufacturing</category>
+<category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
 <title>Equinor (energy company, Norway) — Confirmed Hack</title>
 <link>https://hacktracking.com/#equinor-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#equinor-2026-11</guid>
@@ -607,6 +620,17 @@
 <category>AT</category>
 </item>
 <item>
+<title>Valley Family Health Care (community health center, Idaho and Oregon) — Confirmed Hack</title>
+<link>https://hacktracking.com/#valley-family-health-care-2026-03</link>
+<guid isPermaLink="true">https://hacktracking.com/#valley-family-health-care-2026-03</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Valley Family Health Care, a Payette, Idaho-based community health center with clinics in southwestern Idaho and eastern Oregon, says it had a network disruption on or about March 13, 2026, and an investigation found that an unauthorized actor accessed and took certain files. It finished reviewing the files on Oct. 9 and began mailing notices on Nov. 18. Impact: Varies by person: names with Social Security numbers, driver's license or state ID numbers, birth dates, financial account information, medical information and health insurance information. Its Oregon Department of Justice filing lists 48,269 people affected (per Emery Reddy). The center says it has no evidence of misuse. The Insomnia ransomware gang listed the center on its leak site on March 18, a claim the center has not addressed. Status: Confirmed by Valley Family Health Care, which says it notified the FBI and is offering identity protection services. Sources: Valley Family Health Care notice (https://www.vfhc.org/notices/notice-of-data-breach); HIPAA Journal (https://www.hipaajournal.com/access-dental-valley-family-health-care-ochsner-health-data-breach/); Emery Reddy (https://www.emeryreddy.com/blog/data-breach/valley-family-health-care-data-breach)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
 <title>Paychex (ransomware gang claim) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#paychex-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#paychex-2026-11</guid>
@@ -675,6 +699,18 @@
 <category>Low</category>
 <category>Retail</category>
 <category>CA</category>
+</item>
+<item>
+<title>Atticus Administration (NYC retiree settlement claims database) — Confirmed Hack</title>
+<link>https://hacktracking.com/#atticus-administration-2026-09</link>
+<guid isPermaLink="true">https://hacktracking.com/#atticus-administration-2026-09</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>An unknown user got into an online database run by Atticus Administration, a company hired to process settlement reimbursements for retired New York City government workers, on Sept. 20 and again periodically between Oct. 5 and 8, according to an Oct. 14 letter from Atticus's co-CEO to EmblemHealth that POLITICO obtained. Reimbursement submissions received on Oct. 12 were flagged as invalid, and EmblemHealth suspects they were attempts at fraudulent payments. Impact: Retirees' names, internal ID numbers, medical provider information and co-payment amounts, and in some cases family members' or representatives' names and financial and health-related information. A person familiar with the incident told POLITICO nearly 4,000 people may be affected. Atticus says no retiree payments were created, changed or redirected; no settlement money has been paid out yet. Status: Confirmed by Atticus in its letter to EmblemHealth; EmblemHealth says the invalid claims were caught and the payment timeline is unaffected. Investigation ongoing. Sources: GovTech (Staten Island Advance) (https://www.govtech.com/security/hackers-breach-nyc-court-database-to-access-retiree-data); POLITICO (https://www.politico.com/news/2026/11/19/hackers-access-financial-and-medical-data-of-retired-nyc-government-workers-01174050)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Finance</category>
+<category>Government</category>
+<category>US</category>
 </item>
 <item>
 <title>Alagoas state government website (Brazil) — Speculated / Potential Hack</title>
@@ -1050,19 +1086,6 @@
 <category>US</category>
 </item>
 <item>
-<title>Ransomware network extorting U.S. firms (Ukraine arrests) — Confirmed Hack</title>
-<link>https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</link>
-<guid isPermaLink="true">https://hacktracking.com/#ransomware-network-extorting-u-s-firms-2026-11</guid>
-<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-<description>Ukraine's Prosecutor General's Office, working with the FBI, said police arrested four suspected key members of a ransomware group of at least 27 people, part of a wider network of more than 60 that includes former Conti members. Police say the group posed as IT support to trick employees into handing over logins or installing remote access tools, then stole data and encrypted systems. Impact: Authorities say at least 28 companies were extorted for a combined $40.5 million. Ukrainian court records name U.S. targets including Warren Oil, Maxxis International-USA, Newpark Resources and Quantum Health (The Record). Status: Confirmed by Ukrainian law enforcement. Four suspects face up to 15 years in prison; 66 searches carried out and cash, devices and bank cards seized. Ransomware strain not named. Sources: The Record (https://therecord.media/ukraine-ransomware-arrests-cyber)</description>
-<category>Confirmed Hack</category>
-<category>High</category>
-<category>Energy</category>
-<category>Manufacturing</category>
-<category>Healthcare</category>
-<category>US</category>
-</item>
-<item>
 <title>Irish credit unions (via Wellington IT) — Confirmed Hack</title>
 <link>https://hacktracking.com/#irish-credit-unions-2026-10</link>
 <guid isPermaLink="true">https://hacktracking.com/#irish-credit-unions-2026-10</guid>
@@ -1084,6 +1107,18 @@
 <category>Finance</category>
 <category>Tech</category>
 <category>IN</category>
+</item>
+<item>
+<title>Mercado Bitcoin (crypto exchange, Brazil) — Confirmed Hack</title>
+<link>https://hacktracking.com/#mercado-bitcoin-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#mercado-bitcoin-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>An attacker drained hot wallets at Mercado Bitcoin, Brazil's largest crypto exchange, in the early hours of Nov. 2, moving assets across multiple blockchains. On-chain investigators at Auditkey say the transfers were signed by the exchange's own wallets and did not involve a smart contract flaw; they call a compromise of keys or the signing system a possibility, not a conclusion. Impact: Mercado Bitcoin put losses at about $38 million; Chainalysis estimated about $49 million. About $11 million was frozen with help from Tether, Circle and Chainalysis. The exchange says no customer data leaked and it will cover the losses so customers lose nothing. The platform was suspended and is reopening in stages: Pix withdrawals and deposits on Nov. 17, crypto buying and selling from Nov. 19. Status: Confirmed by Mercado Bitcoin, which is coordinating with authorities. No attacker identified. Sources: CoinDesk (https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack); Chainalysis (https://www.chainalysis.com/blog/chainalysis-response-mercado-bitcoin/); Estadão (Portuguese) (https://www.estadao.com.br/einvestidor/cripto/mercado-bitcoin-amplia-retomada-e-libera-compra-e-venda-nesta-quinta-feira-19/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Finance</category>
+<category>Crypto</category>
+<category>BR</category>
 </item>
 <item>
 <title>Municipality of Neuried (Germany) — Confirmed Hack</title>
@@ -1187,6 +1222,18 @@
 <category>Crypto</category>
 <category>US</category>
 <category>GB</category>
+</item>
+<item>
+<title>Hospital Clínico Universidad de Chile (hospital, Santiago) — Confirmed Hack</title>
+<link>https://hacktracking.com/#hospital-cl-nico-universidad-de-chile-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#hospital-cl-nico-universidad-de-chile-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>The University of Chile's teaching hospital says it has been dealing with a cybersecurity incident since the morning of Saturday, Nov. 14 that knocked out part of its institutional computer systems. Its IT team activated containment protocols and is working with Chile's National Cybersecurity Agency (ANCI) and the university's IT office to restore systems safely. Impact: Online and call-center appointment booking out of service, and difficulties in some care processes and support services; clinical care continues. The hospital has not said whether patient data was accessed or taken. Lawmakers have filed oversight requests asking whether medical records were compromised. Status: Cybersecurity incident confirmed by the hospital. Investigation and recovery ongoing; no restoration date announced. Sources: T13 (Spanish) (https://www.t13.cl/noticia/nacional/hospital-clinico-universidad-chile-denuncia-ciberataque-presenta-dificultades-p-16-11-2026); Emol (Spanish) (https://www.emol.com/noticias/Nacional/2026/11/18/1217412/ciberataque-hospital-clinico-universidad-chile.html); Portal Red Salud (Spanish) (https://portalredsalud.cl/2026/11/18/incidente-de-ciberseguridad-afecta-sistemas-del-hospital-clinico-de-la-universidad-de-chile/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Healthcare</category>
+<category>Education</category>
+<category>CL</category>
 </item>
 <item>
 <title>Nvidia (ransomware gang claim) — Speculated / Potential Hack</title>
@@ -1575,6 +1622,17 @@
 <category>Medium</category>
 <category>Healthcare</category>
 <category>CA</category>
+</item>
+<item>
+<title>Coinigy (crypto trading platform) — Confirmed Hack</title>
+<link>https://hacktracking.com/#coinigy-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#coinigy-2026-11</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+<description>Crypto trading platform Coinigy said it confirmed that an unauthorized party accessed its systems on the morning of Nov. 12, and that exchange API keys and secrets customers had stored on the platform may have been compromised. It took the service offline for a forensic investigation. Impact: Coinigy told all users to treat every exchange API key ever connected to it as exposed and revoke it at the exchange, warning that keys with trading permissions could be used for unauthorized trades even with withdrawals disabled. It has not confirmed whether keys were copied or misused. Status: Confirmed by Coinigy. Service offline; investigation ongoing. Sources: Coinigy notice (https://insights.coinigy.com/urgent-revoke-your-exchange-api-keys-connected-to-coinigy/)</description>
+<category>Confirmed Hack</category>
+<category>Medium</category>
+<category>Finance</category>
+<category>Crypto</category>
 </item>
 <item>
 <title>Rakuten Securities (online brokerage, Japan) — Confirmed Hack</title>
