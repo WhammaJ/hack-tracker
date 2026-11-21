@@ -269,6 +269,17 @@
 <category>US</category>
 </item>
 <item>
+<title>Access Dental Management (dental service organization, Texas) — Confirmed Hack</title>
+<link>https://hacktracking.com/#access-dental-management-2026-05</link>
+<guid isPermaLink="true">https://hacktracking.com/#access-dental-management-2026-05</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+<description>Irving, Texas-based Access Dental Management (ADM), which supports dental practices in Texas, Illinois, Indiana and New Mexico, says it discovered a cyber incident on May 5 and that hackers had accessed its network and viewed or copied data between May 1 and May 4. Its review of the affected files finished on Oct. 21, and it notified the Texas and Vermont attorneys general in November. The WorldLeaks extortion group claimed the attack on June 5; ADM has not commented on that claim. Impact: 341,049 people reported to state regulators (341,039 in Texas and 10 in Vermont); SecurityWeek reports the total could pass 455,000. Data involved includes names, addresses, birth dates, Social Security numbers, medical information and health insurance information. Status: Confirmed by Access Dental Management, which is mailing notification letters. Law firms are investigating possible class actions. Sources: SecurityWeek (https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/); HIPAA Journal (https://www.hipaajournal.com/access-dental-valley-family-health-care-ochsner-health-data-breach/)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Healthcare</category>
+<category>US</category>
+</item>
+<item>
 <title>NSA classified network (NSANet) — Speculated / Potential Hack</title>
 <link>https://hacktracking.com/#nsa-classified-network-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nsa-classified-network-2026-11</guid>
@@ -1189,6 +1200,17 @@
 <category>US</category>
 </item>
 <item>
+<title>Klinik im Kurpark (hospital, Bad Rothenfelde, Germany) — Confirmed Hack</title>
+<link>https://hacktracking.com/#klinik-im-kurpark-2026-11</link>
+<guid isPermaLink="true">https://hacktracking.com/#klinik-im-kurpark-2026-11</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+<description>The Klinik im Kurpark in Bad Rothenfelde, Lower Saxony, shut down its computer systems after a data incident reported to management on Monday, Nov. 2, and staff worked with pen and paper for ten days. The clinic's managing director told NDR the malware apparently got in through an external service provider and that a hired firm attributes the attack to a relatively new hacker group from China. Impact: Clinic unreachable by phone and email while systems were down; treatments largely continued. The managing director says personal data did not reach the hackers and that no extortion took place. Status: Confirmed by the clinic. Key IT systems back online as of Nov. 18, with full normal operations expected to take several weeks; reported to Lower Saxony's data protection authority. Sources: NDR (German) (https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/bad-rothenfelde-klinik-technik-nach-cyberangriff-wieder-online,cyberangriff-164.html); NDR, Nov. 5 (German) (https://www.ndr.de/nachrichten/niedersachsen/osnabrueck_emsland/cyberangriff-datenvorfall-bei-klinik-im-kurpark-in-bad-rothenfelde,cyberangriff-162.html)</description>
+<category>Confirmed Hack</category>
+<category>Low</category>
+<category>Healthcare</category>
+<category>DE</category>
+</item>
+<item>
 <title>Nitori (furniture retailer, Japan) — Confirmed Hack</title>
 <link>https://hacktracking.com/#nitori-2026-11</link>
 <guid isPermaLink="true">https://hacktracking.com/#nitori-2026-11</guid>
@@ -1856,6 +1878,18 @@
 <category>Critical</category>
 <category>Finance</category>
 <category>Crypto</category>
+</item>
+<item>
+<title>UNM Health (University of New Mexico Health Sciences Center) — Confirmed Hack</title>
+<link>https://hacktracking.com/#unm-health-2026-10</link>
+<guid isPermaLink="true">https://hacktracking.com/#unm-health-2026-10</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+<description>A cyberattack on the University of New Mexico Health Sciences Center on Oct. 26 forced UNM Health to divert ambulances from New Mexico's only Level I trauma center for two hours, cancel outpatient surgeries and appointments for the rest of the day, and cancel classes at its health sciences schools. UNM says the attack affected some end-user devices but did not penetrate core systems or servers; critical systems were back online Oct. 27. A ransomware group called BYOD claimed the attack. Impact: Ambulance diversion from 12:30 to 2:30 p.m. and a day of canceled outpatient care. BYOD claims it compromised 36,000 systems and took student, employee and patient data, including Social Security numbers; UNM has not confirmed any data theft and says it is waiting on forensic results. Status: Cyberattack confirmed by UNM, which says it made no concessions to the attackers. FBI criminal investigation and forensic analysis ongoing; the gang's claims are unverified. Sources: UNM HSC Newsroom (https://hscnews.unm.edu/news/ambulance-traffic-diverted-clinical-appointments-cancelled-and-classes-cancelled-due-to-cybersecurity-issue-at-unm-hsc); The Record (https://therecord.media/new-mexico-cyberattack-hospital); Albuquerque Journal (https://www.abqjournal.com/news/unm-health-has-not-made-concessions-to-hackers-after-cyberattack-officials-say/3151088)</description>
+<category>Confirmed Hack</category>
+<category>High</category>
+<category>Healthcare</category>
+<category>Education</category>
+<category>US</category>
 </item>
 <item>
 <title>ARARA (email delivery service, Japan) — Confirmed Hack</title>
