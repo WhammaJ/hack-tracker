@@ -370,27 +370,6 @@
       ]
     },
     {
-      "org": "U.S. Department of Agriculture applications",
-      "date": "2026-11-16",
-      "sectors": [
-        "Government",
-        "Agriculture"
-      ],
-      "countries": [
-        "US"
-      ],
-      "severity": "High",
-      "summary": "Many USDA applications, including financial tools used for payments to farmers, have been offline over several days. Nextgov/FCW and Government Executive report an internal USDA email saying its security operations center \"uncovered a security incident\" that required resetting all database passwords and applications. Some staff have also had VPN problems.",
-      "impact": "Staff unable to reach client-facing applications for loan and aid notices and statuses; intermittent outages expected through the week. Not known who was behind it or whether any data was taken.",
-      "status": "USDA has not publicly commented. Cause and scope not officially disclosed.",
-      "sources": [
-        {
-          "name": "Nextgov/FCW",
-          "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
-        }
-      ]
-    },
-    {
       "org": "Nvidia (ransomware gang claim)",
       "date": "2026-11-18",
       "sectors": [
@@ -628,6 +607,51 @@
         {
           "name": "WHEC",
           "url": "https://www.whec.com/top-news/class-action-lawsuit-filed-against-paychex-over-alleged-data-breach/"
+        }
+      ]
+    },
+    {
+      "org": "Alagoas state government website (Brazil)",
+      "date": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "BR"
+      ],
+      "severity": "Low",
+      "summary": "The official website of Brazil's Alagoas state government went offline on the morning of Nov. 20. Before it went down, the home page displayed the name \"PERIODICCC,\" reportedly the identification of whoever was responsible.",
+      "speculation": "A defacement: that someone broke in and altered the site's home page.",
+      "official": "The state communications department (Secom) confirmed the site was down after a possible hacker attack and called in the state IT institute (Itec) to fix it.",
+      "impact": "State government site unavailable for an indefinite period.",
+      "status": "Under investigation; not officially confirmed as a hack.",
+      "sources": [
+        {
+          "name": "g1 (Portuguese)",
+          "url": "https://g1.globo.com/al/alagoas/noticia/2026/11/20/site-do-governo-de-alagoas-sofre-possivel-ataque-hacker-e-fica-fora-do-ar-secom-aciona-equipe-tecnica.ghtml"
+        }
+      ]
+    },
+    {
+      "org": "Boeing (ransomware gang claim)",
+      "date": "2026-11-20",
+      "sectors": [
+        "Manufacturing",
+        "Aviation"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "The INC Ransom gang listed Boeing on its leak site, claiming it took more than 3.6 million files from seven production servers and \"33 years of operational data,\" and posted 10 screenshots as proof. Cybernews researchers say the samples may be linked to subsidiary Boeing Sikorsky Aircraft Support, which maintains military helicopters.",
+      "speculation": "That the gang breached Boeing or one of its units and stole internal data.",
+      "official": "Boeing had not commented as of Cybernews' report.",
+      "impact": "Unknown. Screenshots show employee emails, board-meeting participant details, financial file names and a vendor list; the claimed scope cannot be independently verified.",
+      "status": "Unverified gang claim; not confirmed by Boeing.",
+      "sources": [
+        {
+          "name": "Cybernews",
+          "url": "https://cybernews.com/security/boeing-data-breach-military-helicopters/"
         }
       ]
     }
@@ -2969,15 +2993,20 @@
         "US"
       ],
       "severity": "Medium",
-      "summary": "A week-long systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Phones and other systems went down and ambulances were diverted from the ER.",
-      "impact": "Phones and other systems down since Nov. 9; ambulances diverted; some elective major surgeries canceled until Nov. 23. Whether data was taken is still under investigation.",
-      "status": "Confirmed by the hospital. Law enforcement involved. Investigation ongoing.",
+      "summary": "A systems outage at the Peterborough, N.H. hospital was caused by a cyber incident, hospital leadership said. Network disruptions were first detected on the afternoon of Nov. 8; phones and other systems went down and ambulances were diverted from the ER.",
+      "impact": "Systems disrupted for nearly two weeks; ambulances still diverted. Main campus phones restored, but other systems remain down. Major elective surgeries and outpatient lab and radiology appointments canceled through Nov. 30 (pushed back from Nov. 23). Whether patient or employee data was taken is still under investigation.",
+      "status": "Confirmed by the hospital. On Nov. 20 the CEO said federal authorities were contacted after outside specialists confirmed a cyber incident; no timeline for full restoration. Investigation ongoing.",
       "sources": [
         {
-          "name": "Monadnock Ledger-Transcript",
+          "name": "Monadnock Ledger-Transcript (Nov. 20)",
+          "url": "https://ledgertranscript.com/2026/11/20/monadnock-hospital-cyber-investigation/"
+        },
+        {
+          "name": "Monadnock Ledger-Transcript (Nov. 17)",
           "url": "https://ledgertranscript.com/2026/11/17/monadnock-community-hospital-cyber-incident/"
         }
-      ]
+      ],
+      "updated": "2026-11-20"
     },
     {
       "org": "Greiz-Ronneburg district hospital (Germany)",
@@ -4156,6 +4185,238 @@
         {
           "name": "Decrypt",
           "url": "https://decrypt.co/383522/scattered-spider-hacker-sentenced-to-6-years-over-11-6m-in-stolen-crypto"
+        }
+      ]
+    },
+    {
+      "org": "U.S. Department of Agriculture applications",
+      "date": "2026-11-16",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government",
+        "Agriculture"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "High",
+      "summary": "Many USDA applications, including Farm Service Agency loan software, the NRCS ProTracts program that releases farmer payments, and other financial tools for farmers, were knocked offline for about a week. An internal USDA email reported by Nextgov/FCW said its security operations center \"uncovered a security incident\" that required resetting all database passwords and applications. On Nov. 20, Under Secretary of Agriculture Richard Fordyce told reporters the event was a \"cyberthreat,\" not a \"software update.\"",
+      "impact": "Farmer loans, payments, crop insurance and disaster-relief tools disrupted; staff also had VPN problems. Fordyce said no personally identifiable information was involved and \"no data was lost because the systems that protect against cybersecurity threats worked.\" NBC News, citing sources, reports the agency told employees hackers accessed the system that facilitates payments to farmers. The Dec. 11 ARC/PLC sign-up deadline is not being extended.",
+      "status": "Confirmed as a cyberthreat by a USDA under secretary. Most systems expected back by close of business Nov. 20, with work continuing over the weekend. Attackers not named; USDA's press office has not released a statement.",
+      "sources": [
+        {
+          "name": "DTN (Nov. 20)",
+          "url": "https://www.dtnpf.com/agriculture/web/ag/columns/washington-insider/article/2026/11/19/usda-loan-software-systems-face-amid"
+        },
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497"
+        },
+        {
+          "name": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
+        }
+      ]
+    },
+    {
+      "org": "Eskenazi Health (Indianapolis public hospital system)",
+      "date": "2026-06-03",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Healthcare",
+        "Government"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "High",
+      "summary": "Eskenazi Health, the public hospital division of the Health and Hospital Corporation of Marion County, announced that unauthorized individuals got into the cloud-based work accounts of some employees and accessed patients' electronic health information. Investigators believe the access began June 3; Eskenazi found and cut it off on July 27, Aug. 31 and Sept. 26.",
+      "impact": "Patient information that may have been exposed includes demographic and contact details, health insurance and billing information, medical record numbers, medical and treatment information, sensitive health information and Social Security numbers. Number of affected patients not disclosed. Free credit monitoring offered.",
+      "status": "Confirmed by Eskenazi Health on Nov. 20; notification letters sent to affected patients.",
+      "sources": [
+        {
+          "name": "FOX59",
+          "url": "https://fox59.com/news/eskenazi-health-investigating-data-breach-involving-patient-information/"
+        }
+      ]
+    },
+    {
+      "org": "Ochsner Health (Louisiana health system)",
+      "date": "2026-09-18",
+      "updated": "2026-11-19",
+      "sectors": [
+        "Healthcare"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Louisiana's largest health provider said an \"unauthorized actor\" got into two employees' Microsoft accounts between Sept. 18 and Sept. 21 and downloaded files from one of them. Ochsner learned of it on Oct. 1 and hired a forensic firm.",
+      "impact": "Downloaded files may include names, demographic details, Social Security numbers and health information. Ochsner has not said how many people are affected; its data review is ongoing.",
+      "status": "Confirmed by Ochsner on Nov. 19. Letters being mailed; a year of credit monitoring offered where SSNs were involved. Attacker not identified.",
+      "sources": [
+        {
+          "name": "NOLA.com",
+          "url": "https://www.nola.com/news/ochsner-data-breach-september/article_aea78ebe-f58b-43ed-b0dc-6d4061c7e0b2.html"
+        }
+      ]
+    },
+    {
+      "org": "AIRDO (airline, Japan, via email delivery provider)",
+      "date": "2026-10-31",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Aviation",
+        "Travel"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "severity": "Medium",
+      "summary": "Hokkaido-based airline AIRDO said a third party broke into the outside email delivery system it used, and customers' email addresses leaked through emails sent via that system. It stopped using the system on Oct. 31 and has been switching to a different provider.",
+      "impact": "Up to 673,920 email addresses leaked. AIRDO says no names, addresses, phone numbers, passwords or card data have been found leaked. Booking, flight-status and My AIRDO emails were suspended; some flight-status emails have resumed, and customers are warned about suspicious emails.",
+      "status": "Confirmed by AIRDO (first announced Nov. 4; updated Nov. 20). Email services being restored in stages; investigation with the provider ongoing.",
+      "sources": [
+        {
+          "name": "AIRDO notice (Japanese)",
+          "url": "https://www.airdo.jp/news/2026/news-10708.html"
+        },
+        {
+          "name": "Aviation Wire (Japanese)",
+          "url": "https://www.aviationwire.jp/archives/353647"
+        }
+      ]
+    },
+    {
+      "org": "The Container Store (retailer)",
+      "date": "2026-11-14",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Retail"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Parent company Neighborhood Intelligence said The Container Store restored its website and systems after a cybersecurity incident the previous weekend. Online ordering had been shut down, and stores stayed open using alternative transaction-processing procedures.",
+      "impact": "Online ordering offline and in-store transactions limited for about a week. The company says it does not appear customer financial data was taken. The n0n cybercriminal group had listed the company on its leak site earlier this month (a claim the company did not address). Other Neighborhood Intelligence brands not affected.",
+      "status": "Confirmed by the company; systems restored Nov. 20 with help from outside cybersecurity experts.",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/container-store-restores-systems-cyberattack"
+        }
+      ]
+    },
+    {
+      "org": "West Virginia Legislature",
+      "date": "2026-11-19",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "West Virginia's state legislature is responding to a cybersecurity incident that began Thursday, Nov. 19, took down its website and hit its IT systems. Outside cybersecurity specialists are helping contain and investigate it.",
+      "impact": "Legislature website down; access to some legislative IT systems temporarily disabled. Officials say it appears limited to the Legislature's systems, with no evidence other state agencies are affected. Whether data was taken is not yet known.",
+      "status": "Confirmed by the House of Delegates' Ann Ali. Investigation ongoing; no group has claimed it, and officials did not say whether it was ransomware.",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/west-virginia-legislature-cyberattack"
+        },
+        {
+          "name": "West Virginia Watch",
+          "url": "https://westvirginiawatch.com/2026/11/20/cybersecurity-incident-hits-west-virginia-legislature/"
+        }
+      ]
+    },
+    {
+      "org": "Chargemap (EV charging app, France)",
+      "date": "2026-11-08",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Tech",
+        "Transportation"
+      ],
+      "countries": [
+        "FR"
+      ],
+      "severity": "Medium",
+      "summary": "Chargemap says an outside party exploited a security flaw in a legacy technical interface on Nov. 8 to extract user account data. It spotted abnormal activity on Nov. 10, fixed the flaw on Nov. 12 and notified France's data protection authority, the CNIL, on Nov. 13.",
+      "impact": "Email addresses, usernames and app language for all affected accounts, plus, where users provided them, names, phone numbers, dates of birth, city and country, profile details and hashed passwords. No bank or payment data, charging history or addresses affected. Affected users were emailed Nov. 18.",
+      "status": "Confirmed by Chargemap; it is filing a complaint and advising users to change passwords.",
+      "sources": [
+        {
+          "name": "Chargemap FAQ",
+          "url": "https://help.chargemap.com/en/articles/11583170"
+        }
+      ]
+    },
+    {
+      "org": "ui42 (web development agency, Slovakia; Dedoles)",
+      "date": "2026-11-20",
+      "sectors": [
+        "Tech",
+        "Retail"
+      ],
+      "countries": [
+        "SK"
+      ],
+      "severity": "Low",
+      "summary": "Slovak digital agency ui42 says an attacker used a colleague's compromised login credentials to get into its internal systems, reached sensitive information from some client projects, including former client Dedoles, and then tried to extort the company.",
+      "impact": "Sensitive information from some client projects accessed; ui42 has not said how much or whose. Compromised accounts and keys blocked and client servers checked.",
+      "status": "Confirmed by ui42 on Nov. 20. Reported to law enforcement; ui42 says it will not pay a ransom. Forensic investigation ongoing.",
+      "sources": [
+        {
+          "name": "ui42 statement",
+          "url": "https://www.ui42.com/blog/security-incident-at-ui42"
+        }
+      ]
+    },
+    {
+      "org": "French precious-metals brokers and crypto tax service (10 charged)",
+      "date": "2026-11-19",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Finance",
+        "Crypto"
+      ],
+      "countries": [
+        "FR"
+      ],
+      "severity": "Medium",
+      "summary": "Paris prosecutors and France's gendarmerie said ten people were charged on Nov. 19 over the hacking of three precious-metals brokers and a company that helps people declare crypto holdings to tax authorities. Prosecutors say stolen customer data was used for targeted scams: \"callers\" urged victims to move funds or metals for safekeeping, and others went to victims' homes to collect physical assets.",
+      "impact": "Customer databases stolen from four companies (not named). Prosecutors have not given the number of victims or losses.",
+      "status": "Charged with unauthorized access to data systems, fraud and money laundering as an organized gang, and criminal conspiracy; four held in custody and six under judicial supervision. Suspects are presumed innocent.",
+      "sources": [
+        {
+          "name": "franceinfo (French)",
+          "url": "https://www.franceinfo.fr/faits-divers/dix-personnes-mises-en-examen-pour-avoir-escroque-des-cryptomonnaies-et-des-metaux-precieux-apres-des-piratages-informatiques-de-societes-specialisees_8292965.html"
+        }
+      ]
+    },
+    {
+      "org": "Stolen U.S. government data seller \"DP BRUCE\" (arrest in Pakistan)",
+      "date": "2026-11-11",
+      "updated": "2026-11-20",
+      "sectors": [
+        "Government"
+      ],
+      "countries": [
+        "PK",
+        "US"
+      ],
+      "severity": "Medium",
+      "summary": "Pakistan's National Cyber Crime Investigation Agency said it arrested a suspect in Karachi on Nov. 11 who allegedly used the alias \"DP BRUCE\" to advertise and sell stolen databases on the LeakBase forum and Telegram, taking payment in cryptocurrency.",
+      "impact": "The agency says the data allegedly included information tied to the FBI, CIA, State Department, Defense Department and various U.S. police departments, plus private businesses. A seized laptop apparently held multiple such databases, according to the agency.",
+      "status": "Arrest announced Nov. 20; case registered under Pakistan's electronic crimes law, including unauthorized access to data. These are allegations; investigation continues.",
+      "sources": [
+        {
+          "name": "Dawn",
+          "url": "https://www.dawn.com/news/2045889/nccia-arrests-suspect-over-alleged-sale-of-stolen-us-government-data-in-karachi"
         }
       ]
     }
